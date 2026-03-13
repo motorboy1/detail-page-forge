@@ -11,6 +11,8 @@ from unittest.mock import AsyncMock, MagicMock
 
 import pytest
 
+from detail_forge.exceptions import TemplateNotFoundError
+
 # ---------------------------------------------------------------------------
 # Fixtures and helpers
 # ---------------------------------------------------------------------------
@@ -662,7 +664,7 @@ class TestTemplateStoreSplitSections:
         from detail_forge.templates.store import TemplateStore
 
         store = TemplateStore(base_dir=tmp_path)
-        with pytest.raises(FileNotFoundError):
+        with pytest.raises((TemplateNotFoundError, FileNotFoundError)):
             store.split_to_sections("nonexistent-id-xyz")
 
     def test_split_section_has_own_slot_mapping(self, tmp_path):

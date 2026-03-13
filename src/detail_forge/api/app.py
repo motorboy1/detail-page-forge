@@ -1,8 +1,18 @@
 """FastAPI application for detail_forge."""
 
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
+from pydantic import ValidationError as PydanticValidationError
+
+from detail_forge.api.error_handlers import (
+    detail_forge_exception_handler,
+    generic_exception_handler,
+    pydantic_validation_exception_handler,
+)
+from detail_forge.exceptions import (
+    DetailForgeError,
+)
 
 app = FastAPI(
     title="Detail Forge API",
@@ -16,6 +26,11 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+# Register exception handlers
+app.add_exception_handler(DetailForgeError, detail_forge_exception_handler)
+app.add_exception_handler(PydanticValidationError, pydantic_validation_exception_handler)
+app.add_exception_handler(Exception, generic_exception_handler)
 
 
 # Pydantic models for requests/responses
@@ -90,8 +105,10 @@ async def generate_page(request: ProductRequest) -> GenerationResponse:
             generation_time_ms=result.generation_time_ms,
             warnings=result.warnings,
         )
+    except DetailForgeError:
+        raise
     except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e)) from e
+        raise e
 
 
 @app.get("/api/v1/themes")

@@ -7,6 +7,7 @@ import shutil
 from datetime import datetime, timezone
 from pathlib import Path
 
+from detail_forge.exceptions import TemplateNotFoundError
 from detail_forge.templates.models import (
     SlotMapping,
     TemplateIndex,
@@ -92,7 +93,12 @@ class TemplateStore:
     ) -> tuple[TemplateMetadata, str, dict, SlotMapping]:
         tdir = self.base_dir / template_id
         if not tdir.exists():
-            raise FileNotFoundError(f"Template {template_id} not found")
+            available = [t.id for t in self.list_templates()]
+            raise TemplateNotFoundError(
+                f"Template '{template_id}' not found",
+                error_code="TEMPLATE_NOT_FOUND",
+                details={"template_id": template_id, "available": available},
+            )
         meta = TemplateMetadata.from_dict(
             json.loads((tdir / "metadata.json").read_text())
         )

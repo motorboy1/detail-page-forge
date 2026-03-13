@@ -8,7 +8,16 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field
 
+from detail_forge.exceptions import (
+    ProviderError,
+    ProviderInvalidResponseError,
+    ProviderRateLimitError,
+    ProviderTimeoutError,
+)
 from detail_forge.providers.base import AIProviderBase, CopyRequest, CopyResponse
+from detail_forge.utils.logging import get_logger
+
+logger = get_logger(__name__)
 
 
 @dataclass
@@ -66,9 +75,11 @@ class ProviderRouter:
         """Try primary provider, fall back on failure.
 
         Iterates through fallback_order until one succeeds.
-        Raises the last exception if all providers fail.
+        When ALL providers fail, returns _fallback_copy() with a warning log.
+
+        Returns:
+            CopyResponse from a provider or the static fallback.
         """
-        last_exc: Exception | None = None
         tried: list[str] = []
 
         # Build attempt order: primary first, then remaining fallbacks
@@ -84,17 +95,48 @@ class ProviderRouter:
             try:
                 result = await self._providers[name].generate_copy(request)
                 return result
+            except (
+                ProviderTimeoutError,
+                ProviderRateLimitError,
+                ProviderInvalidResponseError,
+                ProviderError,
+            ) as exc:
+                logger.warning(
+                    "Provider '%s' failed (%s): %s -- trying fallback",
+                    name,
+                    type(exc).__name__,
+                    exc.message,
+                )
+                tried.append(name)
+                continue
             except Exception as exc:  # noqa: BLE001
-                last_exc = exc
+                logger.warning(
+                    "Provider '%s' raised unexpected error (%s) -- trying fallback",
+                    name,
+                    type(exc).__name__,
+                )
                 tried.append(name)
                 continue
 
-        if last_exc is not None:
-            raise last_exc
-        raise RuntimeError(
-            f"No providers available for copy generation. "
-            f"Registered: {list(self._providers.keys())}, "
-            f"Tried: {tried}"
+        # All providers failed — use static fallback copy + warning
+        logger.warning(
+            "All providers failed (%s). Using static fallback copy.",
+            tried,
+        )
+        return self._fallback_copy(request)
+
+    def _fallback_copy(self, request: CopyRequest) -> CopyResponse:
+        """Return a minimal static CopyResponse when all providers fail.
+
+        Ensures the generation pipeline can still complete with placeholder copy
+        rather than raising to the user.
+        """
+        return CopyResponse(
+            headline=request.product_name,
+            subheadline="상품 상세 페이지",
+            body="상품 정보를 확인해 주세요.",
+            cta_text="지금 구매하기",
+            raw_text=f"{request.product_name}\n상품 상세 페이지",
         )
 
     # ------------------------------------------------------------------

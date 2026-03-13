@@ -18,6 +18,7 @@ from dataclasses import dataclass, field
 
 from detail_forge.copywriter.generator import ProductInfo, SectionCopy
 from detail_forge.designer.theme_generator import Theme, ThemeGenerator
+from detail_forge.exceptions import InputValidationError, TemplateNotFoundError
 from detail_forge.output.naver_renderer import NaverHTML, NaverRenderer
 from detail_forge.output.quality_gate import OutputQuality, QualityGate
 from detail_forge.output.web_renderer import WebHTML, WebRenderer
@@ -115,6 +116,14 @@ class OneClickGenerator:
         """
         start_ms = time.monotonic()
 
+        # ── Input validation ──────────────────────────────────────────────
+        if not product.name or not product.name.strip():
+            raise InputValidationError(
+                "Product name is required",
+                error_code="VALIDATION_MISSING_FIELD",
+                details={"missing_fields": ["name"]},
+            )
+
         # ── Theme resolution ──────────────────────────────────────────────
         resolved_theme = self._resolve_theme(theme, principle_ids)
 
@@ -196,7 +205,7 @@ class OneClickGenerator:
         for idx, tid in enumerate(template_ids):
             try:
                 meta, html, _slots, slot_mapping = self._store.get_template(tid)
-            except FileNotFoundError:
+            except (TemplateNotFoundError, FileNotFoundError):
                 warnings.append(f"Template '{tid}' not found, skipped")
                 continue
 

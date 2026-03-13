@@ -741,8 +741,9 @@ class TestProviderRouterFallback:
         assert result.headline == "OpenAI fallback"
 
     @pytest.mark.asyncio
-    async def test_fallback_raises_when_all_fail(self):
-        from detail_forge.providers.base import CopyRequest
+    async def test_fallback_returns_static_copy_when_all_fail(self):
+        """REQ-EH-002: When all providers fail, return static fallback copy."""
+        from detail_forge.providers.base import CopyRequest, CopyResponse
         from detail_forge.providers.router import ProviderConfig, ProviderRouter
 
         config = ProviderConfig(copy_provider="claude", fallback_order=["claude"])
@@ -757,5 +758,7 @@ class TestProviderRouterFallback:
             product_features=["특징"],
             section_type="hero",
         )
-        with pytest.raises(Exception):
-            await router.generate_copy_with_fallback(request)
+        # REQ-EH-002: All providers fail -> static fallback copy returned (no raise)
+        result = await router.generate_copy_with_fallback(request)
+        assert isinstance(result, CopyResponse)
+        assert result.headline == "제품"  # product_name used as fallback headline

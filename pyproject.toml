@@ -23,6 +23,7 @@ dependencies = [
 dev = [
     "pytest>=8.0.0",
     "pytest-asyncio>=0.24.0",
+    "pytest-benchmark>=4.0.0",
     "ruff>=0.8.0",
 ]
 
@@ -40,6 +41,7 @@ select = ["E", "F", "I", "W"]
 "scripts/*.py" = ["E501", "E402"]
 "ui/app.py" = ["E501"]
 "tests/*.py" = ["E501"]
+"tests/benchmarks/*.py" = ["E501"]
 "src/detail_forge/config.py" = ["E501"]
 "src/detail_forge/copywriter/generator.py" = ["E501"]
 "src/detail_forge/designer/image_generator.py" = ["E501"]
@@ -49,7 +51,20 @@ select = ["E", "F", "I", "W"]
 asyncio_mode = "auto"
 testpaths = ["tests"]
 
+[tool.benchmark]
+# pytest-benchmark configuration
+# Run only benchmarks: pytest --benchmark-only
+# Exclude benchmarks: pytest --benchmark-disable  (or --benchmark-skip)
+warmup = true
+warmup_iterations = 5
+min_rounds = 10
+timer = "time.perf_counter"
+sort = "name"
+disable_gc = false
+save = ".benchmarks"
+
 [dependency-groups]
 dev = [
+    "pytest-benchmark>=4.0.0",
     "pytest-cov>=7.0.0",
 ]

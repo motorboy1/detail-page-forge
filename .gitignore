@@ -10,3 +10,6 @@ build/
 .ruff_cache/
 .coverage
 data/d1000_knowledge/
+
+# pytest-benchmark saved results
+.benchmarks/

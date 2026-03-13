@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import pytest
 
+from detail_forge.exceptions import TemplateNotFoundError
 from detail_forge.templates.models import SlotMapping, TemplateIndex, TemplateMetadata
 from detail_forge.templates.search import TemplateSearcher
 from detail_forge.templates.store import TemplateStore
@@ -207,7 +208,7 @@ class TestTemplateStoreCRUD:
 
     def test_get_template_raises_for_missing_id(self, tmp_template_dir):
         store = TemplateStore(tmp_template_dir)
-        with pytest.raises(FileNotFoundError):
+        with pytest.raises((TemplateNotFoundError, FileNotFoundError)):
             store.get_template("nonexistent-template-id")
 
     def test_delete_template_removes_directory(
@@ -443,7 +444,7 @@ class TestTemplateStoreSplitToSections:
 
     def test_split_nonexistent_template_raises(self, tmp_template_dir):
         store = TemplateStore(tmp_template_dir)
-        with pytest.raises(FileNotFoundError):
+        with pytest.raises((TemplateNotFoundError, FileNotFoundError)):
             store.split_to_sections("does-not-exist")
 
     def test_split_html_without_sections_returns_single(
