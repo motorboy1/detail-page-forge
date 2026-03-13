@@ -1,0 +1,7001 @@
+{
+  "total": 999,
+  "text": 683,
+  "image": 18,
+  "link": 298,
+  "slots": [
+    {
+      "name": "text_0",
+      "type": "text",
+      "defaultValue": "Apple (대한민국)",
+      "tag": "h1",
+      "index": 0
+    },
+    {
+      "name": "text_1",
+      "type": "text",
+      "defaultValue": "Apple",
+      "tag": "li",
+      "index": 1
+    },
+    {
+      "name": "text_2",
+      "type": "text",
+      "defaultValue": "Apple",
+      "tag": "a",
+      "index": 2
+    },
+    {
+      "name": "text_3",
+      "type": "text",
+      "defaultValue": "Apple",
+      "tag": "span",
+      "index": 3
+    },
+    {
+      "name": "text_4",
+      "type": "text",
+      "defaultValue": "스토어",
+      "tag": "li",
+      "index": 4
+    },
+    {
+      "name": "text_5",
+      "type": "text",
+      "defaultValue": "스토어",
+      "tag": "a",
+      "index": 5
+    },
+    {
+      "name": "text_6",
+      "type": "text",
+      "defaultValue": "스토어",
+      "tag": "span",
+      "index": 6
+    },
+    {
+      "name": "text_7",
+      "type": "text",
+      "defaultValue": "스토어",
+      "tag": "span",
+      "index": 7
+    },
+    {
+      "name": "text_8",
+      "type": "text",
+      "defaultValue": "쇼핑하기",
+      "tag": "h2",
+      "index": 8
+    },
+    {
+      "name": "text_9",
+      "type": "text",
+      "defaultValue": "최신 제품 쇼핑하기",
+      "tag": "li",
+      "index": 9
+    },
+    {
+      "name": "text_10",
+      "type": "text",
+      "defaultValue": "최신 제품 쇼핑하기",
+      "tag": "a",
+      "index": 10
+    },
+    {
+      "name": "text_11",
+      "type": "text",
+      "defaultValue": "Mac",
+      "tag": "li",
+      "index": 11
+    },
+    {
+      "name": "text_12",
+      "type": "text",
+      "defaultValue": "Mac",
+      "tag": "a",
+      "index": 12
+    },
+    {
+      "name": "text_13",
+      "type": "text",
+      "defaultValue": "iPad",
+      "tag": "li",
+      "index": 13
+    },
+    {
+      "name": "text_14",
+      "type": "text",
+      "defaultValue": "iPad",
+      "tag": "a",
+      "index": 14
+    },
+    {
+      "name": "text_15",
+      "type": "text",
+      "defaultValue": "iPhone",
+      "tag": "li",
+      "index": 15
+    },
+    {
+      "name": "text_16",
+      "type": "text",
+      "defaultValue": "iPhone",
+      "tag": "a",
+      "index": 16
+    },
+    {
+      "name": "text_17",
+      "type": "text",
+      "defaultValue": "Apple Watch",
+      "tag": "li",
+      "index": 17
+    },
+    {
+      "name": "text_18",
+      "type": "text",
+      "defaultValue": "Apple Watch",
+      "tag": "a",
+      "index": 18
+    },
+    {
+      "name": "text_19",
+      "type": "text",
+      "defaultValue": "Apple Vision Pro",
+      "tag": "li",
+      "index": 19
+    },
+    {
+      "name": "text_20",
+      "type": "text",
+      "defaultValue": "Apple Vision Pro",
+      "tag": "a",
+      "index": 20
+    },
+    {
+      "name": "text_21",
+      "type": "text",
+      "defaultValue": "AirPods",
+      "tag": "li",
+      "index": 21
+    },
+    {
+      "name": "text_22",
+      "type": "text",
+      "defaultValue": "AirPods",
+      "tag": "a",
+      "index": 22
+    },
+    {
+      "name": "text_23",
+      "type": "text",
+      "defaultValue": "액세서리",
+      "tag": "li",
+      "index": 23
+    },
+    {
+      "name": "text_24",
+      "type": "text",
+      "defaultValue": "액세서리",
+      "tag": "a",
+      "index": 24
+    },
+    {
+      "name": "text_25",
+      "type": "text",
+      "defaultValue": "빠른 링크",
+      "tag": "h2",
+      "index": 25
+    },
+    {
+      "name": "text_26",
+      "type": "text",
+      "defaultValue": "매장 찾기",
+      "tag": "li",
+      "index": 26
+    },
+    {
+      "name": "text_27",
+      "type": "text",
+      "defaultValue": "매장 찾기",
+      "tag": "a",
+      "index": 27
+    },
+    {
+      "name": "text_28",
+      "type": "text",
+      "defaultValue": "주문 상태",
+      "tag": "li",
+      "index": 28
+    },
+    {
+      "name": "text_29",
+      "type": "text",
+      "defaultValue": "주문 상태",
+      "tag": "a",
+      "index": 29
+    },
+    {
+      "name": "text_30",
+      "type": "text",
+      "defaultValue": "Apple Trade In",
+      "tag": "li",
+      "index": 30
+    },
+    {
+      "name": "text_31",
+      "type": "text",
+      "defaultValue": "Apple Trade In",
+      "tag": "a",
+      "index": 31
+    },
+    {
+      "name": "text_32",
+      "type": "text",
+      "defaultValue": "할부 방식",
+      "tag": "li",
+      "index": 32
+    },
+    {
+      "name": "text_33",
+      "type": "text",
+      "defaultValue": "할부 방식",
+      "tag": "a",
+      "index": 33
+    },
+    {
+      "name": "text_34",
+      "type": "text",
+      "defaultValue": "개인 맞춤 설정",
+      "tag": "li",
+      "index": 34
+    },
+    {
+      "name": "text_35",
+      "type": "text",
+      "defaultValue": "개인 맞춤 설정",
+      "tag": "a",
+      "index": 35
+    },
+    {
+      "name": "text_36",
+      "type": "text",
+      "defaultValue": "특별 할인 쇼핑하기",
+      "tag": "h2",
+      "index": 36
+    },
+    {
+      "name": "text_37",
+      "type": "text",
+      "defaultValue": "인증 리퍼비쉬 제품",
+      "tag": "li",
+      "index": 37
+    },
+    {
+      "name": "text_38",
+      "type": "text",
+      "defaultValue": "인증 리퍼비쉬 제품",
+      "tag": "a",
+      "index": 38
+    },
+    {
+      "name": "text_39",
+      "type": "text",
+      "defaultValue": "교육",
+      "tag": "li",
+      "index": 39
+    },
+    {
+      "name": "text_40",
+      "type": "text",
+      "defaultValue": "교육",
+      "tag": "a",
+      "index": 40
+    },
+    {
+      "name": "text_41",
+      "type": "text",
+      "defaultValue": "비즈니스",
+      "tag": "li",
+      "index": 41
+    },
+    {
+      "name": "text_42",
+      "type": "text",
+      "defaultValue": "비즈니스",
+      "tag": "a",
+      "index": 42
+    },
+    {
+      "name": "text_43",
+      "type": "text",
+      "defaultValue": "Mac",
+      "tag": "li",
+      "index": 43
+    },
+    {
+      "name": "text_44",
+      "type": "text",
+      "defaultValue": "Mac",
+      "tag": "a",
+      "index": 44
+    },
+    {
+      "name": "text_45",
+      "type": "text",
+      "defaultValue": "Mac",
+      "tag": "span",
+      "index": 45
+    },
+    {
+      "name": "text_46",
+      "type": "text",
+      "defaultValue": "Mac",
+      "tag": "span",
+      "index": 46
+    },
+    {
+      "name": "text_47",
+      "type": "text",
+      "defaultValue": "Mac 살펴보기",
+      "tag": "h2",
+      "index": 47
+    },
+    {
+      "name": "text_48",
+      "type": "text",
+      "defaultValue": "Mac 모두 살펴보기",
+      "tag": "li",
+      "index": 48
+    },
+    {
+      "name": "text_49",
+      "type": "text",
+      "defaultValue": "Mac 모두 살펴보기",
+      "tag": "a",
+      "index": 49
+    },
+    {
+      "name": "text_50",
+      "type": "text",
+      "defaultValue": "MacBook Neo",
+      "tag": "li",
+      "index": 50
+    },
+    {
+      "name": "text_51",
+      "type": "text",
+      "defaultValue": "MacBook Neo",
+      "tag": "a",
+      "index": 51
+    },
+    {
+      "name": "text_52",
+      "type": "text",
+      "defaultValue": "MacBook Air",
+      "tag": "li",
+      "index": 52
+    },
+    {
+      "name": "text_53",
+      "type": "text",
+      "defaultValue": "MacBook Air",
+      "tag": "a",
+      "index": 53
+    },
+    {
+      "name": "text_54",
+      "type": "text",
+      "defaultValue": "MacBook Pro",
+      "tag": "li",
+      "index": 54
+    },
+    {
+      "name": "text_55",
+      "type": "text",
+      "defaultValue": "MacBook Pro",
+      "tag": "a",
+      "index": 55
+    },
+    {
+      "name": "text_56",
+      "type": "text",
+      "defaultValue": "iMac",
+      "tag": "li",
+      "index": 56
+    },
+    {
+      "name": "text_57",
+      "type": "text",
+      "defaultValue": "iMac",
+      "tag": "a",
+      "index": 57
+    },
+    {
+      "name": "text_58",
+      "type": "text",
+      "defaultValue": "Mac mini",
+      "tag": "li",
+      "index": 58
+    },
+    {
+      "name": "text_59",
+      "type": "text",
+      "defaultValue": "Mac mini",
+      "tag": "a",
+      "index": 59
+    },
+    {
+      "name": "text_60",
+      "type": "text",
+      "defaultValue": "Mac Studio",
+      "tag": "li",
+      "index": 60
+    },
+    {
+      "name": "text_61",
+      "type": "text",
+      "defaultValue": "Mac Studio",
+      "tag": "a",
+      "index": 61
+    },
+    {
+      "name": "text_62",
+      "type": "text",
+      "defaultValue": "Mac Pro",
+      "tag": "li",
+      "index": 62
+    },
+    {
+      "name": "text_63",
+      "type": "text",
+      "defaultValue": "Mac Pro",
+      "tag": "a",
+      "index": 63
+    },
+    {
+      "name": "text_64",
+      "type": "text",
+      "defaultValue": "디스플레이",
+      "tag": "li",
+      "index": 64
+    },
+    {
+      "name": "text_65",
+      "type": "text",
+      "defaultValue": "디스플레이",
+      "tag": "a",
+      "index": 65
+    },
+    {
+      "name": "text_66",
+      "type": "text",
+      "defaultValue": "Mac 비교하기",
+      "tag": "li",
+      "index": 66
+    },
+    {
+      "name": "text_67",
+      "type": "text",
+      "defaultValue": "Mac 비교하기",
+      "tag": "a",
+      "index": 67
+    },
+    {
+      "name": "text_68",
+      "type": "text",
+      "defaultValue": "PC에서 Mac으로 갈아타기",
+      "tag": "li",
+      "index": 68
+    },
+    {
+      "name": "text_69",
+      "type": "text",
+      "defaultValue": "PC에서 Mac으로 갈아타기",
+      "tag": "a",
+      "index": 69
+    },
+    {
+      "name": "text_70",
+      "type": "text",
+      "defaultValue": "Mac 쇼핑하기",
+      "tag": "h2",
+      "index": 70
+    },
+    {
+      "name": "text_71",
+      "type": "text",
+      "defaultValue": "Mac 쇼핑하기",
+      "tag": "li",
+      "index": 71
+    },
+    {
+      "name": "text_72",
+      "type": "text",
+      "defaultValue": "Mac 쇼핑하기",
+      "tag": "a",
+      "index": 72
+    },
+    {
+      "name": "text_73",
+      "type": "text",
+      "defaultValue": "Mac 액세서리",
+      "tag": "li",
+      "index": 73
+    },
+    {
+      "name": "text_74",
+      "type": "text",
+      "defaultValue": "Mac 액세서리",
+      "tag": "a",
+      "index": 74
+    },
+    {
+      "name": "text_75",
+      "type": "text",
+      "defaultValue": "Apple Trade In",
+      "tag": "li",
+      "index": 75
+    },
+    {
+      "name": "text_76",
+      "type": "text",
+      "defaultValue": "Apple Trade In",
+      "tag": "a",
+      "index": 76
+    },
+    {
+      "name": "text_77",
+      "type": "text",
+      "defaultValue": "할부 방식",
+      "tag": "li",
+      "index": 77
+    },
+    {
+      "name": "text_78",
+      "type": "text",
+      "defaultValue": "할부 방식",
+      "tag": "a",
+      "index": 78
+    },
+    {
+      "name": "text_79",
+      "type": "text",
+      "defaultValue": "개인 맞춤 설정",
+      "tag": "li",
+      "index": 79
+    },
+    {
+      "name": "text_80",
+      "type": "text",
+      "defaultValue": "개인 맞춤 설정",
+      "tag": "a",
+      "index": 80
+    },
+    {
+      "name": "text_81",
+      "type": "text",
+      "defaultValue": "그 외 Mac 관련 항목",
+      "tag": "h2",
+      "index": 81
+    },
+    {
+      "name": "text_82",
+      "type": "text",
+      "defaultValue": "Mac 지원",
+      "tag": "li",
+      "index": 82
+    },
+    {
+      "name": "text_83",
+      "type": "text",
+      "defaultValue": "Mac 지원",
+      "tag": "a",
+      "index": 83
+    },
+    {
+      "name": "text_84",
+      "type": "text",
+      "defaultValue": "AppleCare+",
+      "tag": "li",
+      "index": 84
+    },
+    {
+      "name": "text_85",
+      "type": "text",
+      "defaultValue": "AppleCare+",
+      "tag": "a",
+      "index": 85
+    },
+    {
+      "name": "text_86",
+      "type": "text",
+      "defaultValue": "macOS Tahoe",
+      "tag": "li",
+      "index": 86
+    },
+    {
+      "name": "text_87",
+      "type": "text",
+      "defaultValue": "macOS Tahoe",
+      "tag": "a",
+      "index": 87
+    },
+    {
+      "name": "text_88",
+      "type": "text",
+      "defaultValue": "Apple Intelligence",
+      "tag": "li",
+      "index": 88
+    },
+    {
+      "name": "text_89",
+      "type": "text",
+      "defaultValue": "Apple Intelligence",
+      "tag": "a",
+      "index": 89
+    },
+    {
+      "name": "text_90",
+      "type": "text",
+      "defaultValue": "Apple이 만든 앱",
+      "tag": "li",
+      "index": 90
+    },
+    {
+      "name": "text_91",
+      "type": "text",
+      "defaultValue": "Apple이 만든 앱",
+      "tag": "a",
+      "index": 91
+    },
+    {
+      "name": "text_92",
+      "type": "text",
+      "defaultValue": "Apple Creator Studio",
+      "tag": "li",
+      "index": 92
+    },
+    {
+      "name": "text_93",
+      "type": "text",
+      "defaultValue": "Apple Creator Studio",
+      "tag": "a",
+      "index": 93
+    },
+    {
+      "name": "text_94",
+      "type": "text",
+      "defaultValue": "iPhone으로 탁월하게",
+      "tag": "li",
+      "index": 94
+    },
+    {
+      "name": "text_95",
+      "type": "text",
+      "defaultValue": "iPhone으로 탁월하게",
+      "tag": "a",
+      "index": 95
+    },
+    {
+      "name": "text_96",
+      "type": "text",
+      "defaultValue": "iCloud+",
+      "tag": "li",
+      "index": 96
+    },
+    {
+      "name": "text_97",
+      "type": "text",
+      "defaultValue": "iCloud+",
+      "tag": "a",
+      "index": 97
+    },
+    {
+      "name": "text_98",
+      "type": "text",
+      "defaultValue": "Mac과 비즈니스",
+      "tag": "li",
+      "index": 98
+    },
+    {
+      "name": "text_99",
+      "type": "text",
+      "defaultValue": "Mac과 비즈니스",
+      "tag": "a",
+      "index": 99
+    },
+    {
+      "name": "text_100",
+      "type": "text",
+      "defaultValue": "교육",
+      "tag": "li",
+      "index": 100
+    },
+    {
+      "name": "text_101",
+      "type": "text",
+      "defaultValue": "교육",
+      "tag": "a",
+      "index": 101
+    },
+    {
+      "name": "text_102",
+      "type": "text",
+      "defaultValue": "iPad",
+      "tag": "li",
+      "index": 102
+    },
+    {
+      "name": "text_103",
+      "type": "text",
+      "defaultValue": "iPad",
+      "tag": "a",
+      "index": 103
+    },
+    {
+      "name": "text_104",
+      "type": "text",
+      "defaultValue": "iPad",
+      "tag": "span",
+      "index": 104
+    },
+    {
+      "name": "text_105",
+      "type": "text",
+      "defaultValue": "iPad",
+      "tag": "span",
+      "index": 105
+    },
+    {
+      "name": "text_106",
+      "type": "text",
+      "defaultValue": "iPad 살펴보기",
+      "tag": "h2",
+      "index": 106
+    },
+    {
+      "name": "text_107",
+      "type": "text",
+      "defaultValue": "iPad 모두 살펴보기",
+      "tag": "li",
+      "index": 107
+    },
+    {
+      "name": "text_108",
+      "type": "text",
+      "defaultValue": "iPad 모두 살펴보기",
+      "tag": "a",
+      "index": 108
+    },
+    {
+      "name": "text_109",
+      "type": "text",
+      "defaultValue": "iPad Pro",
+      "tag": "li",
+      "index": 109
+    },
+    {
+      "name": "text_110",
+      "type": "text",
+      "defaultValue": "iPad Pro",
+      "tag": "a",
+      "index": 110
+    },
+    {
+      "name": "text_111",
+      "type": "text",
+      "defaultValue": "iPad Air",
+      "tag": "li",
+      "index": 111
+    },
+    {
+      "name": "text_112",
+      "type": "text",
+      "defaultValue": "iPad Air",
+      "tag": "a",
+      "index": 112
+    },
+    {
+      "name": "text_113",
+      "type": "text",
+      "defaultValue": "iPad",
+      "tag": "li",
+      "index": 113
+    },
+    {
+      "name": "text_114",
+      "type": "text",
+      "defaultValue": "iPad",
+      "tag": "a",
+      "index": 114
+    },
+    {
+      "name": "text_115",
+      "type": "text",
+      "defaultValue": "iPad mini",
+      "tag": "li",
+      "index": 115
+    },
+    {
+      "name": "text_116",
+      "type": "text",
+      "defaultValue": "iPad mini",
+      "tag": "a",
+      "index": 116
+    },
+    {
+      "name": "text_117",
+      "type": "text",
+      "defaultValue": "Apple Pencil",
+      "tag": "li",
+      "index": 117
+    },
+    {
+      "name": "text_118",
+      "type": "text",
+      "defaultValue": "Apple Pencil",
+      "tag": "a",
+      "index": 118
+    },
+    {
+      "name": "text_119",
+      "type": "text",
+      "defaultValue": "키보드",
+      "tag": "li",
+      "index": 119
+    },
+    {
+      "name": "text_120",
+      "type": "text",
+      "defaultValue": "키보드",
+      "tag": "a",
+      "index": 120
+    },
+    {
+      "name": "text_121",
+      "type": "text",
+      "defaultValue": "iPad 비교하기",
+      "tag": "li",
+      "index": 121
+    },
+    {
+      "name": "text_122",
+      "type": "text",
+      "defaultValue": "iPad 비교하기",
+      "tag": "a",
+      "index": 122
+    },
+    {
+      "name": "text_123",
+      "type": "text",
+      "defaultValue": "iPad 쇼핑하기",
+      "tag": "h2",
+      "index": 123
+    },
+    {
+      "name": "text_124",
+      "type": "text",
+      "defaultValue": "iPad 쇼핑하기",
+      "tag": "li",
+      "index": 124
+    },
+    {
+      "name": "text_125",
+      "type": "text",
+      "defaultValue": "iPad 쇼핑하기",
+      "tag": "a",
+      "index": 125
+    },
+    {
+      "name": "text_126",
+      "type": "text",
+      "defaultValue": "iPad 액세서리",
+      "tag": "li",
+      "index": 126
+    },
+    {
+      "name": "text_127",
+      "type": "text",
+      "defaultValue": "iPad 액세서리",
+      "tag": "a",
+      "index": 127
+    },
+    {
+      "name": "text_128",
+      "type": "text",
+      "defaultValue": "Apple Trade In",
+      "tag": "li",
+      "index": 128
+    },
+    {
+      "name": "text_129",
+      "type": "text",
+      "defaultValue": "Apple Trade In",
+      "tag": "a",
+      "index": 129
+    },
+    {
+      "name": "text_130",
+      "type": "text",
+      "defaultValue": "할부 방식",
+      "tag": "li",
+      "index": 130
+    },
+    {
+      "name": "text_131",
+      "type": "text",
+      "defaultValue": "할부 방식",
+      "tag": "a",
+      "index": 131
+    },
+    {
+      "name": "text_132",
+      "type": "text",
+      "defaultValue": "개인 맞춤 설정",
+      "tag": "li",
+      "index": 132
+    },
+    {
+      "name": "text_133",
+      "type": "text",
+      "defaultValue": "개인 맞춤 설정",
+      "tag": "a",
+      "index": 133
+    },
+    {
+      "name": "text_134",
+      "type": "text",
+      "defaultValue": "그 외 iPad 관련 항목",
+      "tag": "h2",
+      "index": 134
+    },
+    {
+      "name": "text_135",
+      "type": "text",
+      "defaultValue": "iPad 지원",
+      "tag": "li",
+      "index": 135
+    },
+    {
+      "name": "text_136",
+      "type": "text",
+      "defaultValue": "iPad 지원",
+      "tag": "a",
+      "index": 136
+    },
+    {
+      "name": "text_137",
+      "type": "text",
+      "defaultValue": "AppleCare+",
+      "tag": "li",
+      "index": 137
+    },
+    {
+      "name": "text_138",
+      "type": "text",
+      "defaultValue": "AppleCare+",
+      "tag": "a",
+      "index": 138
+    },
+    {
+      "name": "text_139",
+      "type": "text",
+      "defaultValue": "iPadOS 26",
+      "tag": "li",
+      "index": 139
+    },
+    {
+      "name": "text_140",
+      "type": "text",
+      "defaultValue": "iPadOS 26",
+      "tag": "a",
+      "index": 140
+    },
+    {
+      "name": "text_141",
+      "type": "text",
+      "defaultValue": "Apple Intelligence",
+      "tag": "li",
+      "index": 141
+    },
+    {
+      "name": "text_142",
+      "type": "text",
+      "defaultValue": "Apple Intelligence",
+      "tag": "a",
+      "index": 142
+    },
+    {
+      "name": "text_143",
+      "type": "text",
+      "defaultValue": "Apple이 만든 앱",
+      "tag": "li",
+      "index": 143
+    },
+    {
+      "name": "text_144",
+      "type": "text",
+      "defaultValue": "Apple이 만든 앱",
+      "tag": "a",
+      "index": 144
+    },
+    {
+      "name": "text_145",
+      "type": "text",
+      "defaultValue": "Apple Creator Studio",
+      "tag": "li",
+      "index": 145
+    },
+    {
+      "name": "text_146",
+      "type": "text",
+      "defaultValue": "Apple Creator Studio",
+      "tag": "a",
+      "index": 146
+    },
+    {
+      "name": "text_147",
+      "type": "text",
+      "defaultValue": "iCloud+",
+      "tag": "li",
+      "index": 147
+    },
+    {
+      "name": "text_148",
+      "type": "text",
+      "defaultValue": "iCloud+",
+      "tag": "a",
+      "index": 148
+    },
+    {
+      "name": "text_149",
+      "type": "text",
+      "defaultValue": "교육",
+      "tag": "li",
+      "index": 149
+    },
+    {
+      "name": "text_150",
+      "type": "text",
+      "defaultValue": "교육",
+      "tag": "a",
+      "index": 150
+    },
+    {
+      "name": "text_151",
+      "type": "text",
+      "defaultValue": "iPhone",
+      "tag": "li",
+      "index": 151
+    },
+    {
+      "name": "text_152",
+      "type": "text",
+      "defaultValue": "iPhone",
+      "tag": "a",
+      "index": 152
+    },
+    {
+      "name": "text_153",
+      "type": "text",
+      "defaultValue": "iPhone",
+      "tag": "span",
+      "index": 153
+    },
+    {
+      "name": "text_154",
+      "type": "text",
+      "defaultValue": "iPhone",
+      "tag": "span",
+      "index": 154
+    },
+    {
+      "name": "text_155",
+      "type": "text",
+      "defaultValue": "iPhone 살펴보기",
+      "tag": "h2",
+      "index": 155
+    },
+    {
+      "name": "text_156",
+      "type": "text",
+      "defaultValue": "iPhone 모두 살펴보기",
+      "tag": "li",
+      "index": 156
+    },
+    {
+      "name": "text_157",
+      "type": "text",
+      "defaultValue": "iPhone 모두 살펴보기",
+      "tag": "a",
+      "index": 157
+    },
+    {
+      "name": "text_158",
+      "type": "text",
+      "defaultValue": "iPhone 17 Pro",
+      "tag": "li",
+      "index": 158
+    },
+    {
+      "name": "text_159",
+      "type": "text",
+      "defaultValue": "iPhone 17 Pro",
+      "tag": "a",
+      "index": 159
+    },
+    {
+      "name": "text_160",
+      "type": "text",
+      "defaultValue": "iPhone Air",
+      "tag": "li",
+      "index": 160
+    },
+    {
+      "name": "text_161",
+      "type": "text",
+      "defaultValue": "iPhone Air",
+      "tag": "a",
+      "index": 161
+    },
+    {
+      "name": "text_162",
+      "type": "text",
+      "defaultValue": "iPhone 17",
+      "tag": "li",
+      "index": 162
+    },
+    {
+      "name": "text_163",
+      "type": "text",
+      "defaultValue": "iPhone 17",
+      "tag": "a",
+      "index": 163
+    },
+    {
+      "name": "text_164",
+      "type": "text",
+      "defaultValue": "iPhone 17e",
+      "tag": "li",
+      "index": 164
+    },
+    {
+      "name": "text_165",
+      "type": "text",
+      "defaultValue": "iPhone 17e",
+      "tag": "a",
+      "index": 165
+    },
+    {
+      "name": "text_166",
+      "type": "text",
+      "defaultValue": "iPhone 16",
+      "tag": "li",
+      "index": 166
+    },
+    {
+      "name": "text_167",
+      "type": "text",
+      "defaultValue": "iPhone 16",
+      "tag": "a",
+      "index": 167
+    },
+    {
+      "name": "text_168",
+      "type": "text",
+      "defaultValue": "iPhone 비교하기",
+      "tag": "li",
+      "index": 168
+    },
+    {
+      "name": "text_169",
+      "type": "text",
+      "defaultValue": "iPhone 비교하기",
+      "tag": "a",
+      "index": 169
+    },
+    {
+      "name": "text_170",
+      "type": "text",
+      "defaultValue": "안드로이드에서 갈아타기",
+      "tag": "li",
+      "index": 170
+    },
+    {
+      "name": "text_171",
+      "type": "text",
+      "defaultValue": "안드로이드에서 갈아타기",
+      "tag": "a",
+      "index": 171
+    },
+    {
+      "name": "text_172",
+      "type": "text",
+      "defaultValue": "iPhone 쇼핑하기",
+      "tag": "h2",
+      "index": 172
+    },
+    {
+      "name": "text_173",
+      "type": "text",
+      "defaultValue": "iPhone 쇼핑하기",
+      "tag": "li",
+      "index": 173
+    },
+    {
+      "name": "text_174",
+      "type": "text",
+      "defaultValue": "iPhone 쇼핑하기",
+      "tag": "a",
+      "index": 174
+    },
+    {
+      "name": "text_175",
+      "type": "text",
+      "defaultValue": "iPhone 액세서리",
+      "tag": "li",
+      "index": 175
+    },
+    {
+      "name": "text_176",
+      "type": "text",
+      "defaultValue": "iPhone 액세서리",
+      "tag": "a",
+      "index": 176
+    },
+    {
+      "name": "text_177",
+      "type": "text",
+      "defaultValue": "Apple Trade In",
+      "tag": "li",
+      "index": 177
+    },
+    {
+      "name": "text_178",
+      "type": "text",
+      "defaultValue": "Apple Trade In",
+      "tag": "a",
+      "index": 178
+    },
+    {
+      "name": "text_179",
+      "type": "text",
+      "defaultValue": "할부 방식",
+      "tag": "li",
+      "index": 179
+    },
+    {
+      "name": "text_180",
+      "type": "text",
+      "defaultValue": "할부 방식",
+      "tag": "a",
+      "index": 180
+    },
+    {
+      "name": "text_181",
+      "type": "text",
+      "defaultValue": "개인 맞춤 설정",
+      "tag": "li",
+      "index": 181
+    },
+    {
+      "name": "text_182",
+      "type": "text",
+      "defaultValue": "개인 맞춤 설정",
+      "tag": "a",
+      "index": 182
+    },
+    {
+      "name": "text_183",
+      "type": "text",
+      "defaultValue": "그 외 iPhone 관련 항목",
+      "tag": "h2",
+      "index": 183
+    },
+    {
+      "name": "text_184",
+      "type": "text",
+      "defaultValue": "iPhone 지원",
+      "tag": "li",
+      "index": 184
+    },
+    {
+      "name": "text_185",
+      "type": "text",
+      "defaultValue": "iPhone 지원",
+      "tag": "a",
+      "index": 185
+    },
+    {
+      "name": "text_186",
+      "type": "text",
+      "defaultValue": "AppleCare+",
+      "tag": "li",
+      "index": 186
+    },
+    {
+      "name": "text_187",
+      "type": "text",
+      "defaultValue": "AppleCare+",
+      "tag": "a",
+      "index": 187
+    },
+    {
+      "name": "text_188",
+      "type": "text",
+      "defaultValue": "iOS 26",
+      "tag": "li",
+      "index": 188
+    },
+    {
+      "name": "text_189",
+      "type": "text",
+      "defaultValue": "iOS 26",
+      "tag": "a",
+      "index": 189
+    },
+    {
+      "name": "text_190",
+      "type": "text",
+      "defaultValue": "Apple Intelligence",
+      "tag": "li",
+      "index": 190
+    },
+    {
+      "name": "text_191",
+      "type": "text",
+      "defaultValue": "Apple Intelligence",
+      "tag": "a",
+      "index": 191
+    },
+    {
+      "name": "text_192",
+      "type": "text",
+      "defaultValue": "Apple이 만든 앱",
+      "tag": "li",
+      "index": 192
+    },
+    {
+      "name": "text_193",
+      "type": "text",
+      "defaultValue": "Apple이 만든 앱",
+      "tag": "a",
+      "index": 193
+    },
+    {
+      "name": "text_194",
+      "type": "text",
+      "defaultValue": "iPhone의 개인정보 보호",
+      "tag": "li",
+      "index": 194
+    },
+    {
+      "name": "text_195",
+      "type": "text",
+      "defaultValue": "iPhone의 개인정보 보호",
+      "tag": "a",
+      "index": 195
+    },
+    {
+      "name": "text_196",
+      "type": "text",
+      "defaultValue": "Mac으로 탁월하게",
+      "tag": "li",
+      "index": 196
+    },
+    {
+      "name": "text_197",
+      "type": "text",
+      "defaultValue": "Mac으로 탁월하게",
+      "tag": "a",
+      "index": 197
+    },
+    {
+      "name": "text_198",
+      "type": "text",
+      "defaultValue": "iCloud+",
+      "tag": "li",
+      "index": 198
+    },
+    {
+      "name": "text_199",
+      "type": "text",
+      "defaultValue": "iCloud+",
+      "tag": "a",
+      "index": 199
+    },
+    {
+      "name": "text_200",
+      "type": "text",
+      "defaultValue": "Apple 지갑, Apple Pay",
+      "tag": "li",
+      "index": 200
+    },
+    {
+      "name": "text_201",
+      "type": "text",
+      "defaultValue": "Apple 지갑, Apple Pay",
+      "tag": "a",
+      "index": 201
+    },
+    {
+      "name": "text_202",
+      "type": "text",
+      "defaultValue": "Siri",
+      "tag": "li",
+      "index": 202
+    },
+    {
+      "name": "text_203",
+      "type": "text",
+      "defaultValue": "Siri",
+      "tag": "a",
+      "index": 203
+    },
+    {
+      "name": "text_204",
+      "type": "text",
+      "defaultValue": "Watch",
+      "tag": "li",
+      "index": 204
+    },
+    {
+      "name": "text_205",
+      "type": "text",
+      "defaultValue": "Watch",
+      "tag": "a",
+      "index": 205
+    },
+    {
+      "name": "text_206",
+      "type": "text",
+      "defaultValue": "Watch",
+      "tag": "span",
+      "index": 206
+    },
+    {
+      "name": "text_207",
+      "type": "text",
+      "defaultValue": "Watch",
+      "tag": "span",
+      "index": 207
+    },
+    {
+      "name": "text_208",
+      "type": "text",
+      "defaultValue": "Watch 살펴보기",
+      "tag": "h2",
+      "index": 208
+    },
+    {
+      "name": "text_209",
+      "type": "text",
+      "defaultValue": "Apple Watch 모두 살펴보기",
+      "tag": "li",
+      "index": 209
+    },
+    {
+      "name": "text_210",
+      "type": "text",
+      "defaultValue": "Apple Watch 모두 살펴보기",
+      "tag": "a",
+      "index": 210
+    },
+    {
+      "name": "text_211",
+      "type": "text",
+      "defaultValue": "Apple Watch Series 11",
+      "tag": "li",
+      "index": 211
+    },
+    {
+      "name": "text_212",
+      "type": "text",
+      "defaultValue": "Apple Watch Series 11",
+      "tag": "a",
+      "index": 212
+    },
+    {
+      "name": "text_213",
+      "type": "text",
+      "defaultValue": "Apple Watch SE 3",
+      "tag": "li",
+      "index": 213
+    },
+    {
+      "name": "text_214",
+      "type": "text",
+      "defaultValue": "Apple Watch SE 3",
+      "tag": "a",
+      "index": 214
+    },
+    {
+      "name": "text_215",
+      "type": "text",
+      "defaultValue": "Apple Watch Ultra 3",
+      "tag": "li",
+      "index": 215
+    },
+    {
+      "name": "text_216",
+      "type": "text",
+      "defaultValue": "Apple Watch Ultra 3",
+      "tag": "a",
+      "index": 216
+    },
+    {
+      "name": "text_217",
+      "type": "text",
+      "defaultValue": "Apple Watch Nike",
+      "tag": "li",
+      "index": 217
+    },
+    {
+      "name": "text_218",
+      "type": "text",
+      "defaultValue": "Apple Watch Nike",
+      "tag": "a",
+      "index": 218
+    },
+    {
+      "name": "text_219",
+      "type": "text",
+      "defaultValue": "Apple Watch Hermès",
+      "tag": "li",
+      "index": 219
+    },
+    {
+      "name": "text_220",
+      "type": "text",
+      "defaultValue": "Apple Watch Hermès",
+      "tag": "a",
+      "index": 220
+    },
+    {
+      "name": "text_221",
+      "type": "text",
+      "defaultValue": "Watch 비교하기",
+      "tag": "li",
+      "index": 221
+    },
+    {
+      "name": "text_222",
+      "type": "text",
+      "defaultValue": "Watch 비교하기",
+      "tag": "a",
+      "index": 222
+    },
+    {
+      "name": "text_223",
+      "type": "text",
+      "defaultValue": "Apple Watch를 선택하는 이유",
+      "tag": "li",
+      "index": 223
+    },
+    {
+      "name": "text_224",
+      "type": "text",
+      "defaultValue": "Apple Watch를 선택하는 이유",
+      "tag": "a",
+      "index": 224
+    },
+    {
+      "name": "text_225",
+      "type": "text",
+      "defaultValue": "Watch 쇼핑하기",
+      "tag": "h2",
+      "index": 225
+    },
+    {
+      "name": "text_226",
+      "type": "text",
+      "defaultValue": "Apple Watch 쇼핑하기",
+      "tag": "li",
+      "index": 226
+    },
+    {
+      "name": "text_227",
+      "type": "text",
+      "defaultValue": "Apple Watch 쇼핑하기",
+      "tag": "a",
+      "index": 227
+    },
+    {
+      "name": "text_228",
+      "type": "text",
+      "defaultValue": "Apple Watch 밴드",
+      "tag": "li",
+      "index": 228
+    },
+    {
+      "name": "text_229",
+      "type": "text",
+      "defaultValue": "Apple Watch 밴드",
+      "tag": "a",
+      "index": 229
+    },
+    {
+      "name": "text_230",
+      "type": "text",
+      "defaultValue": "Apple Watch 액세서리",
+      "tag": "li",
+      "index": 230
+    },
+    {
+      "name": "text_231",
+      "type": "text",
+      "defaultValue": "Apple Watch 액세서리",
+      "tag": "a",
+      "index": 231
+    },
+    {
+      "name": "text_232",
+      "type": "text",
+      "defaultValue": "Apple Trade In",
+      "tag": "li",
+      "index": 232
+    },
+    {
+      "name": "text_233",
+      "type": "text",
+      "defaultValue": "Apple Trade In",
+      "tag": "a",
+      "index": 233
+    },
+    {
+      "name": "text_234",
+      "type": "text",
+      "defaultValue": "할부 방식",
+      "tag": "li",
+      "index": 234
+    },
+    {
+      "name": "text_235",
+      "type": "text",
+      "defaultValue": "할부 방식",
+      "tag": "a",
+      "index": 235
+    },
+    {
+      "name": "text_236",
+      "type": "text",
+      "defaultValue": "개인 맞춤 설정",
+      "tag": "li",
+      "index": 236
+    },
+    {
+      "name": "text_237",
+      "type": "text",
+      "defaultValue": "개인 맞춤 설정",
+      "tag": "a",
+      "index": 237
+    },
+    {
+      "name": "text_238",
+      "type": "text",
+      "defaultValue": "그 외 Watch 관련 항목",
+      "tag": "h2",
+      "index": 238
+    },
+    {
+      "name": "text_239",
+      "type": "text",
+      "defaultValue": "Apple Watch 지원",
+      "tag": "li",
+      "index": 239
+    },
+    {
+      "name": "text_240",
+      "type": "text",
+      "defaultValue": "Apple Watch 지원",
+      "tag": "a",
+      "index": 240
+    },
+    {
+      "name": "text_241",
+      "type": "text",
+      "defaultValue": "AppleCare+",
+      "tag": "li",
+      "index": 241
+    },
+    {
+      "name": "text_242",
+      "type": "text",
+      "defaultValue": "AppleCare+",
+      "tag": "a",
+      "index": 242
+    },
+    {
+      "name": "text_243",
+      "type": "text",
+      "defaultValue": "watchOS 26",
+      "tag": "li",
+      "index": 243
+    },
+    {
+      "name": "text_244",
+      "type": "text",
+      "defaultValue": "watchOS 26",
+      "tag": "a",
+      "index": 244
+    },
+    {
+      "name": "text_245",
+      "type": "text",
+      "defaultValue": "Apple이 만든 앱",
+      "tag": "li",
+      "index": 245
+    },
+    {
+      "name": "text_246",
+      "type": "text",
+      "defaultValue": "Apple이 만든 앱",
+      "tag": "a",
+      "index": 246
+    },
+    {
+      "name": "text_247",
+      "type": "text",
+      "defaultValue": "Vision",
+      "tag": "li",
+      "index": 247
+    },
+    {
+      "name": "text_248",
+      "type": "text",
+      "defaultValue": "Vision",
+      "tag": "a",
+      "index": 248
+    },
+    {
+      "name": "text_249",
+      "type": "text",
+      "defaultValue": "Vision",
+      "tag": "span",
+      "index": 249
+    },
+    {
+      "name": "text_250",
+      "type": "text",
+      "defaultValue": "Vision",
+      "tag": "span",
+      "index": 250
+    },
+    {
+      "name": "text_251",
+      "type": "text",
+      "defaultValue": "Vision 살펴보기",
+      "tag": "h2",
+      "index": 251
+    },
+    {
+      "name": "text_252",
+      "type": "text",
+      "defaultValue": "Apple Vision Pro 살펴보기",
+      "tag": "li",
+      "index": 252
+    },
+    {
+      "name": "text_253",
+      "type": "text",
+      "defaultValue": "Apple Vision Pro 살펴보기",
+      "tag": "a",
+      "index": 253
+    },
+    {
+      "name": "text_254",
+      "type": "text",
+      "defaultValue": "제품 사양",
+      "tag": "li",
+      "index": 254
+    },
+    {
+      "name": "text_255",
+      "type": "text",
+      "defaultValue": "제품 사양",
+      "tag": "a",
+      "index": 255
+    },
+    {
+      "name": "text_256",
+      "type": "text",
+      "defaultValue": "Vision 쇼핑하기",
+      "tag": "h2",
+      "index": 256
+    },
+    {
+      "name": "text_257",
+      "type": "text",
+      "defaultValue": "Apple Vision Pro 쇼핑하기",
+      "tag": "li",
+      "index": 257
+    },
+    {
+      "name": "text_258",
+      "type": "text",
+      "defaultValue": "Apple Vision Pro 쇼핑하기",
+      "tag": "a",
+      "index": 258
+    },
+    {
+      "name": "text_259",
+      "type": "text",
+      "defaultValue": "Apple Vision Pro 액세서리",
+      "tag": "li",
+      "index": 259
+    },
+    {
+      "name": "text_260",
+      "type": "text",
+      "defaultValue": "Apple Vision Pro 액세서리",
+      "tag": "a",
+      "index": 260
+    },
+    {
+      "name": "text_261",
+      "type": "text",
+      "defaultValue": "체험 예약하기",
+      "tag": "li",
+      "index": 261
+    },
+    {
+      "name": "text_262",
+      "type": "text",
+      "defaultValue": "체험 예약하기",
+      "tag": "a",
+      "index": 262
+    },
+    {
+      "name": "text_263",
+      "type": "text",
+      "defaultValue": "할부 방식",
+      "tag": "li",
+      "index": 263
+    },
+    {
+      "name": "text_264",
+      "type": "text",
+      "defaultValue": "할부 방식",
+      "tag": "a",
+      "index": 264
+    },
+    {
+      "name": "text_265",
+      "type": "text",
+      "defaultValue": "개인 맞춤 설정",
+      "tag": "li",
+      "index": 265
+    },
+    {
+      "name": "text_266",
+      "type": "text",
+      "defaultValue": "개인 맞춤 설정",
+      "tag": "a",
+      "index": 266
+    },
+    {
+      "name": "text_267",
+      "type": "text",
+      "defaultValue": "그 외 Vision 관련 항목",
+      "tag": "h2",
+      "index": 267
+    },
+    {
+      "name": "text_268",
+      "type": "text",
+      "defaultValue": "Apple Vision Pro 지원",
+      "tag": "li",
+      "index": 268
+    },
+    {
+      "name": "text_269",
+      "type": "text",
+      "defaultValue": "Apple Vision Pro 지원",
+      "tag": "a",
+      "index": 269
+    },
+    {
+      "name": "text_270",
+      "type": "text",
+      "defaultValue": "AppleCare+",
+      "tag": "li",
+      "index": 270
+    },
+    {
+      "name": "text_271",
+      "type": "text",
+      "defaultValue": "AppleCare+",
+      "tag": "a",
+      "index": 271
+    },
+    {
+      "name": "text_272",
+      "type": "text",
+      "defaultValue": "visionOS 26",
+      "tag": "li",
+      "index": 272
+    },
+    {
+      "name": "text_273",
+      "type": "text",
+      "defaultValue": "visionOS 26",
+      "tag": "a",
+      "index": 273
+    },
+    {
+      "name": "text_274",
+      "type": "text",
+      "defaultValue": "AirPods",
+      "tag": "li",
+      "index": 274
+    },
+    {
+      "name": "text_275",
+      "type": "text",
+      "defaultValue": "AirPods",
+      "tag": "a",
+      "index": 275
+    },
+    {
+      "name": "text_276",
+      "type": "text",
+      "defaultValue": "AirPods",
+      "tag": "span",
+      "index": 276
+    },
+    {
+      "name": "text_277",
+      "type": "text",
+      "defaultValue": "AirPods",
+      "tag": "span",
+      "index": 277
+    },
+    {
+      "name": "text_278",
+      "type": "text",
+      "defaultValue": "AirPods 살펴보기",
+      "tag": "h2",
+      "index": 278
+    },
+    {
+      "name": "text_279",
+      "type": "text",
+      "defaultValue": "AirPods 모두 살펴보기",
+      "tag": "li",
+      "index": 279
+    },
+    {
+      "name": "text_280",
+      "type": "text",
+      "defaultValue": "AirPods 모두 살펴보기",
+      "tag": "a",
+      "index": 280
+    },
+    {
+      "name": "text_281",
+      "type": "text",
+      "defaultValue": "AirPods 4",
+      "tag": "li",
+      "index": 281
+    },
+    {
+      "name": "text_282",
+      "type": "text",
+      "defaultValue": "AirPods 4",
+      "tag": "a",
+      "index": 282
+    },
+    {
+      "name": "text_283",
+      "type": "text",
+      "defaultValue": "AirPods Pro 3",
+      "tag": "li",
+      "index": 283
+    },
+    {
+      "name": "text_284",
+      "type": "text",
+      "defaultValue": "AirPods Pro 3",
+      "tag": "a",
+      "index": 284
+    },
+    {
+      "name": "text_285",
+      "type": "text",
+      "defaultValue": "AirPods Max",
+      "tag": "li",
+      "index": 285
+    },
+    {
+      "name": "text_286",
+      "type": "text",
+      "defaultValue": "AirPods Max",
+      "tag": "a",
+      "index": 286
+    },
+    {
+      "name": "text_287",
+      "type": "text",
+      "defaultValue": "AirPods 비교하기",
+      "tag": "li",
+      "index": 287
+    },
+    {
+      "name": "text_288",
+      "type": "text",
+      "defaultValue": "AirPods 비교하기",
+      "tag": "a",
+      "index": 288
+    },
+    {
+      "name": "text_289",
+      "type": "text",
+      "defaultValue": "AirPods 쇼핑하기",
+      "tag": "h2",
+      "index": 289
+    },
+    {
+      "name": "text_290",
+      "type": "text",
+      "defaultValue": "AirPods 쇼핑하기",
+      "tag": "li",
+      "index": 290
+    },
+    {
+      "name": "text_291",
+      "type": "text",
+      "defaultValue": "AirPods 쇼핑하기",
+      "tag": "a",
+      "index": 291
+    },
+    {
+      "name": "text_292",
+      "type": "text",
+      "defaultValue": "AirPods 액세서리",
+      "tag": "li",
+      "index": 292
+    },
+    {
+      "name": "text_293",
+      "type": "text",
+      "defaultValue": "AirPods 액세서리",
+      "tag": "a",
+      "index": 293
+    },
+    {
+      "name": "text_294",
+      "type": "text",
+      "defaultValue": "그 외 AirPods 관련 항목",
+      "tag": "h2",
+      "index": 294
+    },
+    {
+      "name": "text_295",
+      "type": "text",
+      "defaultValue": "AirPods 지원",
+      "tag": "li",
+      "index": 295
+    },
+    {
+      "name": "text_296",
+      "type": "text",
+      "defaultValue": "AirPods 지원",
+      "tag": "a",
+      "index": 296
+    },
+    {
+      "name": "text_297",
+      "type": "text",
+      "defaultValue": "AppleCare+",
+      "tag": "li",
+      "index": 297
+    },
+    {
+      "name": "text_298",
+      "type": "text",
+      "defaultValue": "AppleCare+",
+      "tag": "a",
+      "index": 298
+    },
+    {
+      "name": "text_299",
+      "type": "text",
+      "defaultValue": "Apple Music",
+      "tag": "li",
+      "index": 299
+    },
+    {
+      "name": "text_300",
+      "type": "text",
+      "defaultValue": "Apple Music",
+      "tag": "a",
+      "index": 300
+    },
+    {
+      "name": "text_301",
+      "type": "text",
+      "defaultValue": "TV 및 홈",
+      "tag": "li",
+      "index": 301
+    },
+    {
+      "name": "text_302",
+      "type": "text",
+      "defaultValue": "TV 및 홈",
+      "tag": "a",
+      "index": 302
+    },
+    {
+      "name": "text_303",
+      "type": "text",
+      "defaultValue": "TV 및 홈",
+      "tag": "span",
+      "index": 303
+    },
+    {
+      "name": "text_304",
+      "type": "text",
+      "defaultValue": "TV 및 홈",
+      "tag": "span",
+      "index": 304
+    },
+    {
+      "name": "text_305",
+      "type": "text",
+      "defaultValue": "TV 및 홈 살펴보기",
+      "tag": "h2",
+      "index": 305
+    },
+    {
+      "name": "text_306",
+      "type": "text",
+      "defaultValue": "TV 및 홈 살펴보기",
+      "tag": "li",
+      "index": 306
+    },
+    {
+      "name": "text_307",
+      "type": "text",
+      "defaultValue": "TV 및 홈 살펴보기",
+      "tag": "a",
+      "index": 307
+    },
+    {
+      "name": "text_308",
+      "type": "text",
+      "defaultValue": "Apple TV 4K",
+      "tag": "li",
+      "index": 308
+    },
+    {
+      "name": "text_309",
+      "type": "text",
+      "defaultValue": "Apple TV 4K",
+      "tag": "a",
+      "index": 309
+    },
+    {
+      "name": "text_310",
+      "type": "text",
+      "defaultValue": "TV 및 홈 쇼핑하기",
+      "tag": "h2",
+      "index": 310
+    },
+    {
+      "name": "text_311",
+      "type": "text",
+      "defaultValue": "Apple TV 4K 쇼핑하기",
+      "tag": "li",
+      "index": 311
+    },
+    {
+      "name": "text_312",
+      "type": "text",
+      "defaultValue": "Apple TV 4K 쇼핑하기",
+      "tag": "a",
+      "index": 312
+    },
+    {
+      "name": "text_313",
+      "type": "text",
+      "defaultValue": "Siri Remote 쇼핑하기",
+      "tag": "li",
+      "index": 313
+    },
+    {
+      "name": "text_314",
+      "type": "text",
+      "defaultValue": "Siri Remote 쇼핑하기",
+      "tag": "a",
+      "index": 314
+    },
+    {
+      "name": "text_315",
+      "type": "text",
+      "defaultValue": "TV 및 홈 액세서리",
+      "tag": "li",
+      "index": 315
+    },
+    {
+      "name": "text_316",
+      "type": "text",
+      "defaultValue": "TV 및 홈 액세서리",
+      "tag": "a",
+      "index": 316
+    },
+    {
+      "name": "text_317",
+      "type": "text",
+      "defaultValue": "그 외 TV 및 홈 관련 항목",
+      "tag": "h2",
+      "index": 317
+    },
+    {
+      "name": "text_318",
+      "type": "text",
+      "defaultValue": "Apple TV 지원",
+      "tag": "li",
+      "index": 318
+    },
+    {
+      "name": "text_319",
+      "type": "text",
+      "defaultValue": "Apple TV 지원",
+      "tag": "a",
+      "index": 319
+    },
+    {
+      "name": "text_320",
+      "type": "text",
+      "defaultValue": "Apple TV를 위한 AppleCare+",
+      "tag": "li",
+      "index": 320
+    },
+    {
+      "name": "text_321",
+      "type": "text",
+      "defaultValue": "Apple TV를 위한 AppleCare+",
+      "tag": "a",
+      "index": 321
+    },
+    {
+      "name": "text_322",
+      "type": "text",
+      "defaultValue": "Apple TV 앱",
+      "tag": "li",
+      "index": 322
+    },
+    {
+      "name": "text_323",
+      "type": "text",
+      "defaultValue": "Apple TV 앱",
+      "tag": "a",
+      "index": 323
+    },
+    {
+      "name": "text_324",
+      "type": "text",
+      "defaultValue": "Apple TV",
+      "tag": "li",
+      "index": 324
+    },
+    {
+      "name": "text_325",
+      "type": "text",
+      "defaultValue": "Apple TV",
+      "tag": "a",
+      "index": 325
+    },
+    {
+      "name": "text_326",
+      "type": "text",
+      "defaultValue": "홈 앱",
+      "tag": "li",
+      "index": 326
+    },
+    {
+      "name": "text_327",
+      "type": "text",
+      "defaultValue": "홈 앱",
+      "tag": "a",
+      "index": 327
+    },
+    {
+      "name": "text_328",
+      "type": "text",
+      "defaultValue": "Apple Music",
+      "tag": "li",
+      "index": 328
+    },
+    {
+      "name": "text_329",
+      "type": "text",
+      "defaultValue": "Apple Music",
+      "tag": "a",
+      "index": 329
+    },
+    {
+      "name": "text_330",
+      "type": "text",
+      "defaultValue": "Siri",
+      "tag": "li",
+      "index": 330
+    },
+    {
+      "name": "text_331",
+      "type": "text",
+      "defaultValue": "Siri",
+      "tag": "a",
+      "index": 331
+    },
+    {
+      "name": "text_332",
+      "type": "text",
+      "defaultValue": "AirPlay",
+      "tag": "li",
+      "index": 332
+    },
+    {
+      "name": "text_333",
+      "type": "text",
+      "defaultValue": "AirPlay",
+      "tag": "a",
+      "index": 333
+    },
+    {
+      "name": "text_334",
+      "type": "text",
+      "defaultValue": "엔터테인먼트",
+      "tag": "li",
+      "index": 334
+    },
+    {
+      "name": "text_335",
+      "type": "text",
+      "defaultValue": "엔터테인먼트",
+      "tag": "a",
+      "index": 335
+    },
+    {
+      "name": "text_336",
+      "type": "text",
+      "defaultValue": "엔터테인먼트",
+      "tag": "span",
+      "index": 336
+    },
+    {
+      "name": "text_337",
+      "type": "text",
+      "defaultValue": "엔터테인먼트",
+      "tag": "span",
+      "index": 337
+    },
+    {
+      "name": "text_338",
+      "type": "text",
+      "defaultValue": "엔터테인먼트 살펴보기",
+      "tag": "h2",
+      "index": 338
+    },
+    {
+      "name": "text_339",
+      "type": "text",
+      "defaultValue": "엔터테인먼트 살펴보기",
+      "tag": "li",
+      "index": 339
+    },
+    {
+      "name": "text_340",
+      "type": "text",
+      "defaultValue": "엔터테인먼트 살펴보기",
+      "tag": "a",
+      "index": 340
+    },
+    {
+      "name": "text_341",
+      "type": "text",
+      "defaultValue": "Apple One",
+      "tag": "li",
+      "index": 341
+    },
+    {
+      "name": "text_342",
+      "type": "text",
+      "defaultValue": "Apple One",
+      "tag": "a",
+      "index": 342
+    },
+    {
+      "name": "text_343",
+      "type": "text",
+      "defaultValue": "Apple TV",
+      "tag": "li",
+      "index": 343
+    },
+    {
+      "name": "text_344",
+      "type": "text",
+      "defaultValue": "Apple TV",
+      "tag": "a",
+      "index": 344
+    },
+    {
+      "name": "text_345",
+      "type": "text",
+      "defaultValue": "Apple Music",
+      "tag": "li",
+      "index": 345
+    },
+    {
+      "name": "text_346",
+      "type": "text",
+      "defaultValue": "Apple Music",
+      "tag": "a",
+      "index": 346
+    },
+    {
+      "name": "text_347",
+      "type": "text",
+      "defaultValue": "Apple Arcade",
+      "tag": "li",
+      "index": 347
+    },
+    {
+      "name": "text_348",
+      "type": "text",
+      "defaultValue": "Apple Arcade",
+      "tag": "a",
+      "index": 348
+    },
+    {
+      "name": "text_349",
+      "type": "text",
+      "defaultValue": "Apple 팟캐스트",
+      "tag": "li",
+      "index": 349
+    },
+    {
+      "name": "text_350",
+      "type": "text",
+      "defaultValue": "Apple 팟캐스트",
+      "tag": "a",
+      "index": 350
+    },
+    {
+      "name": "text_351",
+      "type": "text",
+      "defaultValue": "Apple Books",
+      "tag": "li",
+      "index": 351
+    },
+    {
+      "name": "text_352",
+      "type": "text",
+      "defaultValue": "Apple Books",
+      "tag": "a",
+      "index": 352
+    },
+    {
+      "name": "text_353",
+      "type": "text",
+      "defaultValue": "App Store",
+      "tag": "li",
+      "index": 353
+    },
+    {
+      "name": "text_354",
+      "type": "text",
+      "defaultValue": "App Store",
+      "tag": "a",
+      "index": 354
+    },
+    {
+      "name": "text_355",
+      "type": "text",
+      "defaultValue": "지원",
+      "tag": "h2",
+      "index": 355
+    },
+    {
+      "name": "text_356",
+      "type": "text",
+      "defaultValue": "Apple TV 지원",
+      "tag": "li",
+      "index": 356
+    },
+    {
+      "name": "text_357",
+      "type": "text",
+      "defaultValue": "Apple TV 지원",
+      "tag": "a",
+      "index": 357
+    },
+    {
+      "name": "text_358",
+      "type": "text",
+      "defaultValue": "Apple Music 지원",
+      "tag": "li",
+      "index": 358
+    },
+    {
+      "name": "text_359",
+      "type": "text",
+      "defaultValue": "Apple Music 지원",
+      "tag": "a",
+      "index": 359
+    },
+    {
+      "name": "text_360",
+      "type": "text",
+      "defaultValue": "액세서리",
+      "tag": "li",
+      "index": 360
+    },
+    {
+      "name": "text_361",
+      "type": "text",
+      "defaultValue": "액세서리",
+      "tag": "a",
+      "index": 361
+    },
+    {
+      "name": "text_362",
+      "type": "text",
+      "defaultValue": "액세서리",
+      "tag": "span",
+      "index": 362
+    },
+    {
+      "name": "text_363",
+      "type": "text",
+      "defaultValue": "액세서리",
+      "tag": "span",
+      "index": 363
+    },
+    {
+      "name": "text_364",
+      "type": "text",
+      "defaultValue": "액세서리 쇼핑하기",
+      "tag": "h2",
+      "index": 364
+    },
+    {
+      "name": "text_365",
+      "type": "text",
+      "defaultValue": "액세서리 모두 쇼핑하기",
+      "tag": "li",
+      "index": 365
+    },
+    {
+      "name": "text_366",
+      "type": "text",
+      "defaultValue": "액세서리 모두 쇼핑하기",
+      "tag": "a",
+      "index": 366
+    },
+    {
+      "name": "text_367",
+      "type": "text",
+      "defaultValue": "Mac",
+      "tag": "li",
+      "index": 367
+    },
+    {
+      "name": "text_368",
+      "type": "text",
+      "defaultValue": "Mac",
+      "tag": "a",
+      "index": 368
+    },
+    {
+      "name": "text_369",
+      "type": "text",
+      "defaultValue": "iPad",
+      "tag": "li",
+      "index": 369
+    },
+    {
+      "name": "text_370",
+      "type": "text",
+      "defaultValue": "iPad",
+      "tag": "a",
+      "index": 370
+    },
+    {
+      "name": "text_371",
+      "type": "text",
+      "defaultValue": "iPhone",
+      "tag": "li",
+      "index": 371
+    },
+    {
+      "name": "text_372",
+      "type": "text",
+      "defaultValue": "iPhone",
+      "tag": "a",
+      "index": 372
+    },
+    {
+      "name": "text_373",
+      "type": "text",
+      "defaultValue": "Apple Watch",
+      "tag": "li",
+      "index": 373
+    },
+    {
+      "name": "text_374",
+      "type": "text",
+      "defaultValue": "Apple Watch",
+      "tag": "a",
+      "index": 374
+    },
+    {
+      "name": "text_375",
+      "type": "text",
+      "defaultValue": "Apple Vision Pro",
+      "tag": "li",
+      "index": 375
+    },
+    {
+      "name": "text_376",
+      "type": "text",
+      "defaultValue": "Apple Vision Pro",
+      "tag": "a",
+      "index": 376
+    },
+    {
+      "name": "text_377",
+      "type": "text",
+      "defaultValue": "AirPods",
+      "tag": "li",
+      "index": 377
+    },
+    {
+      "name": "text_378",
+      "type": "text",
+      "defaultValue": "AirPods",
+      "tag": "a",
+      "index": 378
+    },
+    {
+      "name": "text_379",
+      "type": "text",
+      "defaultValue": "TV 및 홈",
+      "tag": "li",
+      "index": 379
+    },
+    {
+      "name": "text_380",
+      "type": "text",
+      "defaultValue": "TV 및 홈",
+      "tag": "a",
+      "index": 380
+    },
+    {
+      "name": "text_381",
+      "type": "text",
+      "defaultValue": "액세서리 살펴보기",
+      "tag": "h2",
+      "index": 381
+    },
+    {
+      "name": "text_382",
+      "type": "text",
+      "defaultValue": "Apple 제작 정품",
+      "tag": "li",
+      "index": 382
+    },
+    {
+      "name": "text_383",
+      "type": "text",
+      "defaultValue": "Apple 제작 정품",
+      "tag": "a",
+      "index": 383
+    },
+    {
+      "name": "text_384",
+      "type": "text",
+      "defaultValue": "Beats",
+      "tag": "li",
+      "index": 384
+    },
+    {
+      "name": "text_385",
+      "type": "text",
+      "defaultValue": "Beats",
+      "tag": "a",
+      "index": 385
+    },
+    {
+      "name": "text_386",
+      "type": "text",
+      "defaultValue": "AirTag",
+      "tag": "li",
+      "index": 386
+    },
+    {
+      "name": "text_387",
+      "type": "text",
+      "defaultValue": "AirTag",
+      "tag": "a",
+      "index": 387
+    },
+    {
+      "name": "text_388",
+      "type": "text",
+      "defaultValue": "고객지원",
+      "tag": "li",
+      "index": 388
+    },
+    {
+      "name": "text_389",
+      "type": "text",
+      "defaultValue": "고객지원",
+      "tag": "a",
+      "index": 389
+    },
+    {
+      "name": "text_390",
+      "type": "text",
+      "defaultValue": "고객지원",
+      "tag": "span",
+      "index": 390
+    },
+    {
+      "name": "text_391",
+      "type": "text",
+      "defaultValue": "고객지원",
+      "tag": "span",
+      "index": 391
+    },
+    {
+      "name": "text_392",
+      "type": "text",
+      "defaultValue": "지원 상황 살펴보기",
+      "tag": "h2",
+      "index": 392
+    },
+    {
+      "name": "text_393",
+      "type": "text",
+      "defaultValue": "iPhone",
+      "tag": "li",
+      "index": 393
+    },
+    {
+      "name": "text_394",
+      "type": "text",
+      "defaultValue": "iPhone",
+      "tag": "a",
+      "index": 394
+    },
+    {
+      "name": "text_395",
+      "type": "text",
+      "defaultValue": "Mac",
+      "tag": "li",
+      "index": 395
+    },
+    {
+      "name": "text_396",
+      "type": "text",
+      "defaultValue": "Mac",
+      "tag": "a",
+      "index": 396
+    },
+    {
+      "name": "text_397",
+      "type": "text",
+      "defaultValue": "iPad",
+      "tag": "li",
+      "index": 397
+    },
+    {
+      "name": "text_398",
+      "type": "text",
+      "defaultValue": "iPad",
+      "tag": "a",
+      "index": 398
+    },
+    {
+      "name": "text_399",
+      "type": "text",
+      "defaultValue": "Watch",
+      "tag": "li",
+      "index": 399
+    },
+    {
+      "name": "text_400",
+      "type": "text",
+      "defaultValue": "Watch",
+      "tag": "a",
+      "index": 400
+    },
+    {
+      "name": "text_401",
+      "type": "text",
+      "defaultValue": "Apple Vision Pro",
+      "tag": "li",
+      "index": 401
+    },
+    {
+      "name": "text_402",
+      "type": "text",
+      "defaultValue": "Apple Vision Pro",
+      "tag": "a",
+      "index": 402
+    },
+    {
+      "name": "text_403",
+      "type": "text",
+      "defaultValue": "AirPods",
+      "tag": "li",
+      "index": 403
+    },
+    {
+      "name": "text_404",
+      "type": "text",
+      "defaultValue": "AirPods",
+      "tag": "a",
+      "index": 404
+    },
+    {
+      "name": "text_405",
+      "type": "text",
+      "defaultValue": "Music",
+      "tag": "li",
+      "index": 405
+    },
+    {
+      "name": "text_406",
+      "type": "text",
+      "defaultValue": "Music",
+      "tag": "a",
+      "index": 406
+    },
+    {
+      "name": "text_407",
+      "type": "text",
+      "defaultValue": "TV",
+      "tag": "li",
+      "index": 407
+    },
+    {
+      "name": "text_408",
+      "type": "text",
+      "defaultValue": "TV",
+      "tag": "a",
+      "index": 408
+    },
+    {
+      "name": "text_409",
+      "type": "text",
+      "defaultValue": "지원 상황 살펴보기",
+      "tag": "li",
+      "index": 409
+    },
+    {
+      "name": "text_410",
+      "type": "text",
+      "defaultValue": "지원 상황 살펴보기",
+      "tag": "a",
+      "index": 410
+    },
+    {
+      "name": "text_411",
+      "type": "text",
+      "defaultValue": "도움 받기",
+      "tag": "h2",
+      "index": 411
+    },
+    {
+      "name": "text_412",
+      "type": "text",
+      "defaultValue": "커뮤니티",
+      "tag": "li",
+      "index": 412
+    },
+    {
+      "name": "text_413",
+      "type": "text",
+      "defaultValue": "커뮤니티",
+      "tag": "a",
+      "index": 413
+    },
+    {
+      "name": "text_414",
+      "type": "text",
+      "defaultValue": "보장 상태 확인하기",
+      "tag": "li",
+      "index": 414
+    },
+    {
+      "name": "text_415",
+      "type": "text",
+      "defaultValue": "보장 상태 확인하기",
+      "tag": "a",
+      "index": 415
+    },
+    {
+      "name": "text_416",
+      "type": "text",
+      "defaultValue": "Genius Bar",
+      "tag": "li",
+      "index": 416
+    },
+    {
+      "name": "text_417",
+      "type": "text",
+      "defaultValue": "Genius Bar",
+      "tag": "a",
+      "index": 417
+    },
+    {
+      "name": "text_418",
+      "type": "text",
+      "defaultValue": "수리",
+      "tag": "li",
+      "index": 418
+    },
+    {
+      "name": "text_419",
+      "type": "text",
+      "defaultValue": "수리",
+      "tag": "a",
+      "index": 419
+    },
+    {
+      "name": "text_420",
+      "type": "text",
+      "defaultValue": "유용한 주제",
+      "tag": "h2",
+      "index": 420
+    },
+    {
+      "name": "text_421",
+      "type": "text",
+      "defaultValue": "AppleCare+ 구입하기",
+      "tag": "li",
+      "index": 421
+    },
+    {
+      "name": "text_422",
+      "type": "text",
+      "defaultValue": "AppleCare+ 구입하기",
+      "tag": "a",
+      "index": 422
+    },
+    {
+      "name": "text_423",
+      "type": "text",
+      "defaultValue": "Apple 계정 및 암호",
+      "tag": "li",
+      "index": 423
+    },
+    {
+      "name": "text_424",
+      "type": "text",
+      "defaultValue": "Apple 계정 및 암호",
+      "tag": "a",
+      "index": 424
+    },
+    {
+      "name": "text_425",
+      "type": "text",
+      "defaultValue": "청구 및 구독",
+      "tag": "li",
+      "index": 425
+    },
+    {
+      "name": "text_426",
+      "type": "text",
+      "defaultValue": "청구 및 구독",
+      "tag": "a",
+      "index": 426
+    },
+    {
+      "name": "text_427",
+      "type": "text",
+      "defaultValue": "손쉬운 사용",
+      "tag": "li",
+      "index": 427
+    },
+    {
+      "name": "text_428",
+      "type": "text",
+      "defaultValue": "손쉬운 사용",
+      "tag": "a",
+      "index": 428
+    },
+    {
+      "name": "text_429",
+      "type": "text",
+      "defaultValue": "빠른 링크",
+      "tag": "h2",
+      "index": 429
+    },
+    {
+      "name": "text_430",
+      "type": "text",
+      "defaultValue": "매장 찾기",
+      "tag": "li",
+      "index": 430
+    },
+    {
+      "name": "text_431",
+      "type": "text",
+      "defaultValue": "매장 찾기",
+      "tag": "a",
+      "index": 431
+    },
+    {
+      "name": "text_432",
+      "type": "text",
+      "defaultValue": "매장 찾기",
+      "tag": "span",
+      "index": 432
+    },
+    {
+      "name": "text_433",
+      "type": "text",
+      "defaultValue": "Apple Vision Pro",
+      "tag": "li",
+      "index": 433
+    },
+    {
+      "name": "text_434",
+      "type": "text",
+      "defaultValue": "Apple Vision Pro",
+      "tag": "a",
+      "index": 434
+    },
+    {
+      "name": "text_435",
+      "type": "text",
+      "defaultValue": "Apple Vision Pro",
+      "tag": "span",
+      "index": 435
+    },
+    {
+      "name": "text_436",
+      "type": "text",
+      "defaultValue": "AirPods",
+      "tag": "li",
+      "index": 436
+    },
+    {
+      "name": "text_437",
+      "type": "text",
+      "defaultValue": "AirPods",
+      "tag": "a",
+      "index": 437
+    },
+    {
+      "name": "text_438",
+      "type": "text",
+      "defaultValue": "AirPods",
+      "tag": "span",
+      "index": 438
+    },
+    {
+      "name": "text_439",
+      "type": "text",
+      "defaultValue": "Apple Intelligence",
+      "tag": "li",
+      "index": 439
+    },
+    {
+      "name": "text_440",
+      "type": "text",
+      "defaultValue": "Apple Intelligence",
+      "tag": "a",
+      "index": 440
+    },
+    {
+      "name": "text_441",
+      "type": "text",
+      "defaultValue": "Apple Intelligence",
+      "tag": "span",
+      "index": 441
+    },
+    {
+      "name": "text_442",
+      "type": "text",
+      "defaultValue": "Apple Trade In",
+      "tag": "li",
+      "index": 442
+    },
+    {
+      "name": "text_443",
+      "type": "text",
+      "defaultValue": "Apple Trade In",
+      "tag": "a",
+      "index": 443
+    },
+    {
+      "name": "text_444",
+      "type": "text",
+      "defaultValue": "Apple Trade In",
+      "tag": "span",
+      "index": 444
+    },
+    {
+      "name": "text_445",
+      "type": "text",
+      "defaultValue": "0+",
+      "tag": "span",
+      "index": 445
+    },
+    {
+      "name": "text_446",
+      "type": "text",
+      "defaultValue": "Tim Cook의 편지 읽어보기",
+      "tag": "a",
+      "index": 446
+    },
+    {
+      "name": "text_447",
+      "type": "text",
+      "defaultValue": "MacBook Neo",
+      "tag": "h2",
+      "index": 447
+    },
+    {
+      "name": "text_448",
+      "type": "text",
+      "defaultValue": "놀라운 Mac. 놀라운 실속.",
+      "tag": "p",
+      "index": 448
+    },
+    {
+      "name": "text_449",
+      "type": "text",
+      "defaultValue": "더 알아보기",
+      "tag": "a",
+      "index": 449
+    },
+    {
+      "name": "text_450",
+      "type": "text",
+      "defaultValue": "구입하기",
+      "tag": "a",
+      "index": 450
+    },
+    {
+      "name": "text_451",
+      "type": "text",
+      "defaultValue": "iPhone 17e",
+      "tag": "h2",
+      "index": 451
+    },
+    {
+      "name": "text_452",
+      "type": "text",
+      "defaultValue": "기능 가득. 실속 가득.",
+      "tag": "p",
+      "index": 452
+    },
+    {
+      "name": "text_453",
+      "type": "text",
+      "defaultValue": "더 알아보기",
+      "tag": "a",
+      "index": 453
+    },
+    {
+      "name": "text_454",
+      "type": "text",
+      "defaultValue": "구입하기",
+      "tag": "a",
+      "index": 454
+    },
+    {
+      "name": "text_455",
+      "type": "text",
+      "defaultValue": "MacBook Pro",
+      "tag": "h3",
+      "index": 455
+    },
+    {
+      "name": "text_456",
+      "type": "text",
+      "defaultValue": "이제 M5, M5 Pro 또는 M5 Max 탑재.",
+      "tag": "p",
+      "index": 456
+    },
+    {
+      "name": "text_457",
+      "type": "text",
+      "defaultValue": "더 알아보기",
+      "tag": "a",
+      "index": 457
+    },
+    {
+      "name": "text_458",
+      "type": "text",
+      "defaultValue": "구입하기",
+      "tag": "a",
+      "index": 458
+    },
+    {
+      "name": "text_459",
+      "type": "text",
+      "defaultValue": "MacBook Air",
+      "tag": "h3",
+      "index": 459
+    },
+    {
+      "name": "text_460",
+      "type": "text",
+      "defaultValue": "이제 막강한 성능의 M5 탑재.",
+      "tag": "p",
+      "index": 460
+    },
+    {
+      "name": "text_461",
+      "type": "text",
+      "defaultValue": "더 알아보기",
+      "tag": "a",
+      "index": 461
+    },
+    {
+      "name": "text_462",
+      "type": "text",
+      "defaultValue": "구입하기",
+      "tag": "a",
+      "index": 462
+    },
+    {
+      "name": "text_463",
+      "type": "text",
+      "defaultValue": "iPad Air",
+      "tag": "h3",
+      "index": 463
+    },
+    {
+      "name": "text_464",
+      "type": "text",
+      "defaultValue": "iPad Air",
+      "tag": "span",
+      "index": 464
+    },
+    {
+      "name": "text_465",
+      "type": "text",
+      "defaultValue": "이제 막강한 성능의 M4 탑재.",
+      "tag": "p",
+      "index": 465
+    },
+    {
+      "name": "text_466",
+      "type": "text",
+      "defaultValue": "더 알아보기",
+      "tag": "a",
+      "index": 466
+    },
+    {
+      "name": "text_467",
+      "type": "text",
+      "defaultValue": "구입하기",
+      "tag": "a",
+      "index": 467
+    },
+    {
+      "name": "text_468",
+      "type": "text",
+      "defaultValue": "Studio Display XDR",
+      "tag": "h3",
+      "index": 468
+    },
+    {
+      "name": "text_469",
+      "type": "text",
+      "defaultValue": "픽셀 하나하나, 샤프하게.",
+      "tag": "p",
+      "index": 469
+    },
+    {
+      "name": "text_470",
+      "type": "text",
+      "defaultValue": "더 알아보기",
+      "tag": "a",
+      "index": 470
+    },
+    {
+      "name": "text_471",
+      "type": "text",
+      "defaultValue": "구입하기",
+      "tag": "a",
+      "index": 471
+    },
+    {
+      "name": "text_472",
+      "type": "text",
+      "defaultValue": "Studio Display",
+      "tag": "h3",
+      "index": 472
+    },
+    {
+      "name": "text_473",
+      "type": "text",
+      "defaultValue": "대담한 비전을 위한 캔버스.",
+      "tag": "p",
+      "index": 473
+    },
+    {
+      "name": "text_474",
+      "type": "text",
+      "defaultValue": "더 알아보기",
+      "tag": "a",
+      "index": 474
+    },
+    {
+      "name": "text_475",
+      "type": "text",
+      "defaultValue": "구입하기",
+      "tag": "a",
+      "index": 475
+    },
+    {
+      "name": "text_476",
+      "type": "text",
+      "defaultValue": "Apple Trade In",
+      "tag": "h3",
+      "index": 476
+    },
+    {
+      "name": "text_477",
+      "type": "text",
+      "defaultValue": "Apple Trade In",
+      "tag": "span",
+      "index": 477
+    },
+    {
+      "name": "text_478",
+      "type": "text",
+      "defaultValue": "견적 확인하기",
+      "tag": "a",
+      "index": 478
+    },
+    {
+      "name": "text_479",
+      "type": "text",
+      "defaultValue": "Apple TV",
+      "tag": "h3",
+      "index": 479
+    },
+    {
+      "name": "text_480",
+      "type": "text",
+      "defaultValue": "스릴러 · 두 요원 사이에 놓인 세상에서 가장 위험한 비밀.",
+      "tag": "p",
+      "index": 480
+    },
+    {
+      "name": "text_481",
+      "type": "text",
+      "defaultValue": "스릴러",
+      "tag": "span",
+      "index": 481
+    },
+    {
+      "name": "text_482",
+      "type": "text",
+      "defaultValue": "코미디 · 그가 돌아온다.",
+      "tag": "p",
+      "index": 482
+    },
+    {
+      "name": "text_483",
+      "type": "text",
+      "defaultValue": "코미디",
+      "tag": "span",
+      "index": 483
+    },
+    {
+      "name": "text_484",
+      "type": "text",
+      "defaultValue": "드라마 · 우리 안에는 운명을 스스로 바꿀 용기가 있다",
+      "tag": "p",
+      "index": 484
+    },
+    {
+      "name": "text_485",
+      "type": "text",
+      "defaultValue": "드라마",
+      "tag": "span",
+      "index": 485
+    },
+    {
+      "name": "text_486",
+      "type": "text",
+      "defaultValue": "스릴러 · 일보다 중요한 것은 없다",
+      "tag": "p",
+      "index": 486
+    },
+    {
+      "name": "text_487",
+      "type": "text",
+      "defaultValue": "스릴러",
+      "tag": "span",
+      "index": 487
+    },
+    {
+      "name": "text_488",
+      "type": "text",
+      "defaultValue": "액션 · Only in theaters June 27.",
+      "tag": "p",
+      "index": 488
+    },
+    {
+      "name": "text_489",
+      "type": "text",
+      "defaultValue": "액션",
+      "tag": "span",
+      "index": 489
+    },
+    {
+      "name": "text_490",
+      "type": "text",
+      "defaultValue": "다큐멘터리 · MLB 최고의 라이벌전이 펼쳐지는 월드시리즈의 짜릿한 현장을 들여다본다.",
+      "tag": "p",
+      "index": 490
+    },
+    {
+      "name": "text_491",
+      "type": "text",
+      "defaultValue": "다큐멘터리",
+      "tag": "span",
+      "index": 491
+    },
+    {
+      "name": "text_492",
+      "type": "text",
+      "defaultValue": "SF · 살아남으려면, 목숨 걸고 지켜야 한다.",
+      "tag": "p",
+      "index": 492
+    },
+    {
+      "name": "text_493",
+      "type": "text",
+      "defaultValue": "SF",
+      "tag": "span",
+      "index": 493
+    },
+    {
+      "name": "text_494",
+      "type": "text",
+      "defaultValue": "드라마 · 스티븐 스필버그, 톰 행크스, 게리 고츠만 제작",
+      "tag": "p",
+      "index": 494
+    },
+    {
+      "name": "text_495",
+      "type": "text",
+      "defaultValue": "드라마",
+      "tag": "span",
+      "index": 495
+    },
+    {
+      "name": "text_496",
+      "type": "text",
+      "defaultValue": "어드벤처 · 새로운 위협",
+      "tag": "p",
+      "index": 496
+    },
+    {
+      "name": "text_497",
+      "type": "text",
+      "defaultValue": "어드벤처",
+      "tag": "span",
+      "index": 497
+    },
+    {
+      "name": "text_498",
+      "type": "text",
+      "defaultValue": "Item 1",
+      "tag": "li",
+      "index": 498
+    },
+    {
+      "name": "text_499",
+      "type": "text",
+      "defaultValue": "Item 1",
+      "tag": "a",
+      "index": 499
+    },
+    {
+      "name": "text_500",
+      "type": "text",
+      "defaultValue": "Item 1",
+      "tag": "span",
+      "index": 500
+    },
+    {
+      "name": "text_501",
+      "type": "text",
+      "defaultValue": "Item 2",
+      "tag": "li",
+      "index": 501
+    },
+    {
+      "name": "text_502",
+      "type": "text",
+      "defaultValue": "Item 2",
+      "tag": "a",
+      "index": 502
+    },
+    {
+      "name": "text_503",
+      "type": "text",
+      "defaultValue": "Item 2",
+      "tag": "span",
+      "index": 503
+    },
+    {
+      "name": "text_504",
+      "type": "text",
+      "defaultValue": "Item 3",
+      "tag": "li",
+      "index": 504
+    },
+    {
+      "name": "text_505",
+      "type": "text",
+      "defaultValue": "Item 3",
+      "tag": "a",
+      "index": 505
+    },
+    {
+      "name": "text_506",
+      "type": "text",
+      "defaultValue": "Item 3",
+      "tag": "span",
+      "index": 506
+    },
+    {
+      "name": "text_507",
+      "type": "text",
+      "defaultValue": "Item 4",
+      "tag": "li",
+      "index": 507
+    },
+    {
+      "name": "text_508",
+      "type": "text",
+      "defaultValue": "Item 4",
+      "tag": "a",
+      "index": 508
+    },
+    {
+      "name": "text_509",
+      "type": "text",
+      "defaultValue": "Item 4",
+      "tag": "span",
+      "index": 509
+    },
+    {
+      "name": "text_510",
+      "type": "text",
+      "defaultValue": "Item 5",
+      "tag": "li",
+      "index": 510
+    },
+    {
+      "name": "text_511",
+      "type": "text",
+      "defaultValue": "Item 5",
+      "tag": "a",
+      "index": 511
+    },
+    {
+      "name": "text_512",
+      "type": "text",
+      "defaultValue": "Item 5",
+      "tag": "span",
+      "index": 512
+    },
+    {
+      "name": "text_513",
+      "type": "text",
+      "defaultValue": "Item 6",
+      "tag": "li",
+      "index": 513
+    },
+    {
+      "name": "text_514",
+      "type": "text",
+      "defaultValue": "Item 6",
+      "tag": "a",
+      "index": 514
+    },
+    {
+      "name": "text_515",
+      "type": "text",
+      "defaultValue": "Item 6",
+      "tag": "span",
+      "index": 515
+    },
+    {
+      "name": "text_516",
+      "type": "text",
+      "defaultValue": "Item 7",
+      "tag": "li",
+      "index": 516
+    },
+    {
+      "name": "text_517",
+      "type": "text",
+      "defaultValue": "Item 7",
+      "tag": "a",
+      "index": 517
+    },
+    {
+      "name": "text_518",
+      "type": "text",
+      "defaultValue": "Item 7",
+      "tag": "span",
+      "index": 518
+    },
+    {
+      "name": "text_519",
+      "type": "text",
+      "defaultValue": "Item 8",
+      "tag": "li",
+      "index": 519
+    },
+    {
+      "name": "text_520",
+      "type": "text",
+      "defaultValue": "Item 8",
+      "tag": "a",
+      "index": 520
+    },
+    {
+      "name": "text_521",
+      "type": "text",
+      "defaultValue": "Item 8",
+      "tag": "span",
+      "index": 521
+    },
+    {
+      "name": "text_522",
+      "type": "text",
+      "defaultValue": "Item 9",
+      "tag": "li",
+      "index": 522
+    },
+    {
+      "name": "text_523",
+      "type": "text",
+      "defaultValue": "Item 9",
+      "tag": "a",
+      "index": 523
+    },
+    {
+      "name": "text_524",
+      "type": "text",
+      "defaultValue": "Item 9",
+      "tag": "span",
+      "index": 524
+    },
+    {
+      "name": "text_525",
+      "type": "text",
+      "defaultValue": "Apple Footer",
+      "tag": "h2",
+      "index": 525
+    },
+    {
+      "name": "text_526",
+      "type": "text",
+      "defaultValue": "1. 최대 보상 판매 금액은 양호한 상태의 iPhone 16 Pro Max 1TB 모델을 대상으로 산정한 금액입니다. 보상 판매 서비스는 Apple의 보상 판매 파트너사를 통해 제공됩니다. Apple 및 Apple의 계열사는 고객과 파트너 간 계약의 당사자가 아닙니다. 보상 판매 견적액은 예상 금액일 뿐이며, 실제 보상 판매 금액이 예상 금액보다 낮을 수도 있습니다. 보상 판매 금액은 보상 판매 대상이 되는 제품의 상태, 연도, 모델, 그리고 보상 판매 대상이 되는 제품이 최초 판매된 국가/지역에 따라 달라집니다. 일부 기기는 보상 판매 대상이 아닙니다. 기기를 보상 판매하기 위해서는 민법상 성년이어야 합니다. 보상 판매 금액은 적용 가능한 새 기기 구입 시 적용하거나 Apple Store Gift Card로 받을 수 있습니다. 새 Apple 기기 구매 시, 현재 소유한 기기의 가치만큼 할인을 받을 수도 있습니다. 최종 확정 금액은 보상 판매 대상 기기를 수령한 후, 예상 금액 산정 시 제시한 기기의 설명과 일치하는지 비교 검수 후 정해집니다. 부가세는 새로 구입한 기기의 총액을 바탕으로 부과됩니다. 일부 매장에서는 보상 판매를 제공하지 않으며, 매장 내 보상 판매와 온라인 보상 판매 프로그램 간 내용에 차이가 있을 수 있습니다. 일부 매장은 추가 요구 사항이 있을 수 있습니다. Apple의 보상 판매 파트너는 보상 판매 거래를 거부, 취소하거나 보상 판매 수량을 제한할 권리를 보유합니다. 적용 대상 기기의 보상 판매 및 재활용에 대한 자세한 내용은 Apple의 보상 판매 파트너사에서 확인할 수 있습니다. 규제 및 제한이 적용될 수 있습니다.",
+      "tag": "li",
+      "index": 526
+    },
+    {
+      "name": "text_527",
+      "type": "text",
+      "defaultValue": "Apple TV 이용을 위해서는 구독이 필요합니다.",
+      "tag": "li",
+      "index": 527
+    },
+    {
+      "name": "text_528",
+      "type": "text",
+      "defaultValue": "Apple TV 이용을 위해서는 구독이 필요합니다.",
+      "tag": "span",
+      "index": 528
+    },
+    {
+      "name": "text_529",
+      "type": "text",
+      "defaultValue": "기능은 변경될 수 있습니다. 일부 기능, 애플리케이션 및 서비스를 이용할 수 없는 국가나 언어도 있습니다.",
+      "tag": "li",
+      "index": 529
+    },
+    {
+      "name": "text_530",
+      "type": "text",
+      "defaultValue": "쇼핑 및 알아보기",
+      "tag": "span",
+      "index": 530
+    },
+    {
+      "name": "text_531",
+      "type": "text",
+      "defaultValue": "쇼핑 및 알아보기",
+      "tag": "button",
+      "index": 531
+    },
+    {
+      "name": "text_532",
+      "type": "text",
+      "defaultValue": "쇼핑 및 알아보기",
+      "tag": "span",
+      "index": 532
+    },
+    {
+      "name": "text_533",
+      "type": "text",
+      "defaultValue": "스토어",
+      "tag": "li",
+      "index": 533
+    },
+    {
+      "name": "text_534",
+      "type": "text",
+      "defaultValue": "스토어",
+      "tag": "a",
+      "index": 534
+    },
+    {
+      "name": "text_535",
+      "type": "text",
+      "defaultValue": "Mac",
+      "tag": "li",
+      "index": 535
+    },
+    {
+      "name": "text_536",
+      "type": "text",
+      "defaultValue": "Mac",
+      "tag": "a",
+      "index": 536
+    },
+    {
+      "name": "text_537",
+      "type": "text",
+      "defaultValue": "iPad",
+      "tag": "li",
+      "index": 537
+    },
+    {
+      "name": "text_538",
+      "type": "text",
+      "defaultValue": "iPad",
+      "tag": "a",
+      "index": 538
+    },
+    {
+      "name": "text_539",
+      "type": "text",
+      "defaultValue": "iPhone",
+      "tag": "li",
+      "index": 539
+    },
+    {
+      "name": "text_540",
+      "type": "text",
+      "defaultValue": "iPhone",
+      "tag": "a",
+      "index": 540
+    },
+    {
+      "name": "text_541",
+      "type": "text",
+      "defaultValue": "Watch",
+      "tag": "li",
+      "index": 541
+    },
+    {
+      "name": "text_542",
+      "type": "text",
+      "defaultValue": "Watch",
+      "tag": "a",
+      "index": 542
+    },
+    {
+      "name": "text_543",
+      "type": "text",
+      "defaultValue": "Vision",
+      "tag": "li",
+      "index": 543
+    },
+    {
+      "name": "text_544",
+      "type": "text",
+      "defaultValue": "Vision",
+      "tag": "a",
+      "index": 544
+    },
+    {
+      "name": "text_545",
+      "type": "text",
+      "defaultValue": "AirPods",
+      "tag": "li",
+      "index": 545
+    },
+    {
+      "name": "text_546",
+      "type": "text",
+      "defaultValue": "AirPods",
+      "tag": "a",
+      "index": 546
+    },
+    {
+      "name": "text_547",
+      "type": "text",
+      "defaultValue": "TV 및 홈",
+      "tag": "li",
+      "index": 547
+    },
+    {
+      "name": "text_548",
+      "type": "text",
+      "defaultValue": "TV 및 홈",
+      "tag": "a",
+      "index": 548
+    },
+    {
+      "name": "text_549",
+      "type": "text",
+      "defaultValue": "AirTag",
+      "tag": "li",
+      "index": 549
+    },
+    {
+      "name": "text_550",
+      "type": "text",
+      "defaultValue": "AirTag",
+      "tag": "a",
+      "index": 550
+    },
+    {
+      "name": "text_551",
+      "type": "text",
+      "defaultValue": "액세서리",
+      "tag": "li",
+      "index": 551
+    },
+    {
+      "name": "text_552",
+      "type": "text",
+      "defaultValue": "액세서리",
+      "tag": "a",
+      "index": 552
+    },
+    {
+      "name": "text_553",
+      "type": "text",
+      "defaultValue": "Apple 지갑",
+      "tag": "span",
+      "index": 553
+    },
+    {
+      "name": "text_554",
+      "type": "text",
+      "defaultValue": "Apple 지갑",
+      "tag": "button",
+      "index": 554
+    },
+    {
+      "name": "text_555",
+      "type": "text",
+      "defaultValue": "Apple 지갑",
+      "tag": "span",
+      "index": 555
+    },
+    {
+      "name": "text_556",
+      "type": "text",
+      "defaultValue": "지갑",
+      "tag": "li",
+      "index": 556
+    },
+    {
+      "name": "text_557",
+      "type": "text",
+      "defaultValue": "지갑",
+      "tag": "a",
+      "index": 557
+    },
+    {
+      "name": "text_558",
+      "type": "text",
+      "defaultValue": "Apple Pay",
+      "tag": "li",
+      "index": 558
+    },
+    {
+      "name": "text_559",
+      "type": "text",
+      "defaultValue": "Apple Pay",
+      "tag": "a",
+      "index": 559
+    },
+    {
+      "name": "text_560",
+      "type": "text",
+      "defaultValue": "계정",
+      "tag": "span",
+      "index": 560
+    },
+    {
+      "name": "text_561",
+      "type": "text",
+      "defaultValue": "계정",
+      "tag": "button",
+      "index": 561
+    },
+    {
+      "name": "text_562",
+      "type": "text",
+      "defaultValue": "계정",
+      "tag": "span",
+      "index": 562
+    },
+    {
+      "name": "text_563",
+      "type": "text",
+      "defaultValue": "Apple 계정 관리",
+      "tag": "li",
+      "index": 563
+    },
+    {
+      "name": "text_564",
+      "type": "text",
+      "defaultValue": "Apple 계정 관리",
+      "tag": "a",
+      "index": 564
+    },
+    {
+      "name": "text_565",
+      "type": "text",
+      "defaultValue": "Apple Store 계정",
+      "tag": "li",
+      "index": 565
+    },
+    {
+      "name": "text_566",
+      "type": "text",
+      "defaultValue": "Apple Store 계정",
+      "tag": "a",
+      "index": 566
+    },
+    {
+      "name": "text_567",
+      "type": "text",
+      "defaultValue": "iCloud.com",
+      "tag": "li",
+      "index": 567
+    },
+    {
+      "name": "text_568",
+      "type": "text",
+      "defaultValue": "iCloud.com",
+      "tag": "a",
+      "index": 568
+    },
+    {
+      "name": "text_569",
+      "type": "text",
+      "defaultValue": "엔터테인먼트",
+      "tag": "span",
+      "index": 569
+    },
+    {
+      "name": "text_570",
+      "type": "text",
+      "defaultValue": "엔터테인먼트",
+      "tag": "button",
+      "index": 570
+    },
+    {
+      "name": "text_571",
+      "type": "text",
+      "defaultValue": "엔터테인먼트",
+      "tag": "span",
+      "index": 571
+    },
+    {
+      "name": "text_572",
+      "type": "text",
+      "defaultValue": "Apple One",
+      "tag": "li",
+      "index": 572
+    },
+    {
+      "name": "text_573",
+      "type": "text",
+      "defaultValue": "Apple One",
+      "tag": "a",
+      "index": 573
+    },
+    {
+      "name": "text_574",
+      "type": "text",
+      "defaultValue": "Apple TV",
+      "tag": "li",
+      "index": 574
+    },
+    {
+      "name": "text_575",
+      "type": "text",
+      "defaultValue": "Apple TV",
+      "tag": "a",
+      "index": 575
+    },
+    {
+      "name": "text_576",
+      "type": "text",
+      "defaultValue": "Apple Music",
+      "tag": "li",
+      "index": 576
+    },
+    {
+      "name": "text_577",
+      "type": "text",
+      "defaultValue": "Apple Music",
+      "tag": "a",
+      "index": 577
+    },
+    {
+      "name": "text_578",
+      "type": "text",
+      "defaultValue": "Apple Arcade",
+      "tag": "li",
+      "index": 578
+    },
+    {
+      "name": "text_579",
+      "type": "text",
+      "defaultValue": "Apple Arcade",
+      "tag": "a",
+      "index": 579
+    },
+    {
+      "name": "text_580",
+      "type": "text",
+      "defaultValue": "Apple 팟캐스트",
+      "tag": "li",
+      "index": 580
+    },
+    {
+      "name": "text_581",
+      "type": "text",
+      "defaultValue": "Apple 팟캐스트",
+      "tag": "a",
+      "index": 581
+    },
+    {
+      "name": "text_582",
+      "type": "text",
+      "defaultValue": "Apple Books",
+      "tag": "li",
+      "index": 582
+    },
+    {
+      "name": "text_583",
+      "type": "text",
+      "defaultValue": "Apple Books",
+      "tag": "a",
+      "index": 583
+    },
+    {
+      "name": "text_584",
+      "type": "text",
+      "defaultValue": "App Store",
+      "tag": "li",
+      "index": 584
+    },
+    {
+      "name": "text_585",
+      "type": "text",
+      "defaultValue": "App Store",
+      "tag": "a",
+      "index": 585
+    },
+    {
+      "name": "text_586",
+      "type": "text",
+      "defaultValue": "Apple Store",
+      "tag": "span",
+      "index": 586
+    },
+    {
+      "name": "text_587",
+      "type": "text",
+      "defaultValue": "Apple Store",
+      "tag": "button",
+      "index": 587
+    },
+    {
+      "name": "text_588",
+      "type": "text",
+      "defaultValue": "Apple Store",
+      "tag": "span",
+      "index": 588
+    },
+    {
+      "name": "text_589",
+      "type": "text",
+      "defaultValue": "매장 찾기",
+      "tag": "li",
+      "index": 589
+    },
+    {
+      "name": "text_590",
+      "type": "text",
+      "defaultValue": "매장 찾기",
+      "tag": "a",
+      "index": 590
+    },
+    {
+      "name": "text_591",
+      "type": "text",
+      "defaultValue": "Genius Bar",
+      "tag": "li",
+      "index": 591
+    },
+    {
+      "name": "text_592",
+      "type": "text",
+      "defaultValue": "Genius Bar",
+      "tag": "a",
+      "index": 592
+    },
+    {
+      "name": "text_593",
+      "type": "text",
+      "defaultValue": "Today at Apple",
+      "tag": "li",
+      "index": 593
+    },
+    {
+      "name": "text_594",
+      "type": "text",
+      "defaultValue": "Today at Apple",
+      "tag": "a",
+      "index": 594
+    },
+    {
+      "name": "text_595",
+      "type": "text",
+      "defaultValue": "그룹 예약",
+      "tag": "li",
+      "index": 595
+    },
+    {
+      "name": "text_596",
+      "type": "text",
+      "defaultValue": "그룹 예약",
+      "tag": "a",
+      "index": 596
+    },
+    {
+      "name": "text_597",
+      "type": "text",
+      "defaultValue": "Apple 캠프",
+      "tag": "li",
+      "index": 597
+    },
+    {
+      "name": "text_598",
+      "type": "text",
+      "defaultValue": "Apple 캠프",
+      "tag": "a",
+      "index": 598
+    },
+    {
+      "name": "text_599",
+      "type": "text",
+      "defaultValue": "Apple Store 앱",
+      "tag": "li",
+      "index": 599
+    },
+    {
+      "name": "text_600",
+      "type": "text",
+      "defaultValue": "Apple Store 앱",
+      "tag": "a",
+      "index": 600
+    },
+    {
+      "name": "text_601",
+      "type": "text",
+      "defaultValue": "인증 리퍼비쉬 제품",
+      "tag": "li",
+      "index": 601
+    },
+    {
+      "name": "text_602",
+      "type": "text",
+      "defaultValue": "인증 리퍼비쉬 제품",
+      "tag": "a",
+      "index": 602
+    },
+    {
+      "name": "text_603",
+      "type": "text",
+      "defaultValue": "Apple Trade In",
+      "tag": "li",
+      "index": 603
+    },
+    {
+      "name": "text_604",
+      "type": "text",
+      "defaultValue": "Apple Trade In",
+      "tag": "a",
+      "index": 604
+    },
+    {
+      "name": "text_605",
+      "type": "text",
+      "defaultValue": "할부 방식",
+      "tag": "li",
+      "index": 605
+    },
+    {
+      "name": "text_606",
+      "type": "text",
+      "defaultValue": "할부 방식",
+      "tag": "a",
+      "index": 606
+    },
+    {
+      "name": "text_607",
+      "type": "text",
+      "defaultValue": "주문 상태",
+      "tag": "li",
+      "index": 607
+    },
+    {
+      "name": "text_608",
+      "type": "text",
+      "defaultValue": "주문 상태",
+      "tag": "a",
+      "index": 608
+    },
+    {
+      "name": "text_609",
+      "type": "text",
+      "defaultValue": "쇼핑 도움말",
+      "tag": "li",
+      "index": 609
+    },
+    {
+      "name": "text_610",
+      "type": "text",
+      "defaultValue": "쇼핑 도움말",
+      "tag": "a",
+      "index": 610
+    },
+    {
+      "name": "text_611",
+      "type": "text",
+      "defaultValue": "비즈니스",
+      "tag": "span",
+      "index": 611
+    },
+    {
+      "name": "text_612",
+      "type": "text",
+      "defaultValue": "비즈니스",
+      "tag": "button",
+      "index": 612
+    },
+    {
+      "name": "text_613",
+      "type": "text",
+      "defaultValue": "비즈니스",
+      "tag": "span",
+      "index": 613
+    },
+    {
+      "name": "text_614",
+      "type": "text",
+      "defaultValue": "Apple과 비즈니스",
+      "tag": "li",
+      "index": 614
+    },
+    {
+      "name": "text_615",
+      "type": "text",
+      "defaultValue": "Apple과 비즈니스",
+      "tag": "a",
+      "index": 615
+    },
+    {
+      "name": "text_616",
+      "type": "text",
+      "defaultValue": "비즈니스를 위한 제품 쇼핑하기",
+      "tag": "li",
+      "index": 616
+    },
+    {
+      "name": "text_617",
+      "type": "text",
+      "defaultValue": "비즈니스를 위한 제품 쇼핑하기",
+      "tag": "a",
+      "index": 617
+    },
+    {
+      "name": "text_618",
+      "type": "text",
+      "defaultValue": "교육",
+      "tag": "span",
+      "index": 618
+    },
+    {
+      "name": "text_619",
+      "type": "text",
+      "defaultValue": "교육",
+      "tag": "button",
+      "index": 619
+    },
+    {
+      "name": "text_620",
+      "type": "text",
+      "defaultValue": "교육",
+      "tag": "span",
+      "index": 620
+    },
+    {
+      "name": "text_621",
+      "type": "text",
+      "defaultValue": "Apple과 교육",
+      "tag": "li",
+      "index": 621
+    },
+    {
+      "name": "text_622",
+      "type": "text",
+      "defaultValue": "Apple과 교육",
+      "tag": "a",
+      "index": 622
+    },
+    {
+      "name": "text_623",
+      "type": "text",
+      "defaultValue": "초중고용 제품 쇼핑하기",
+      "tag": "li",
+      "index": 623
+    },
+    {
+      "name": "text_624",
+      "type": "text",
+      "defaultValue": "초중고용 제품 쇼핑하기",
+      "tag": "a",
+      "index": 624
+    },
+    {
+      "name": "text_625",
+      "type": "text",
+      "defaultValue": "대학 생활을 위한 제품 쇼핑하기",
+      "tag": "li",
+      "index": 625
+    },
+    {
+      "name": "text_626",
+      "type": "text",
+      "defaultValue": "대학 생활을 위한 제품 쇼핑하기",
+      "tag": "a",
+      "index": 626
+    },
+    {
+      "name": "text_627",
+      "type": "text",
+      "defaultValue": "Apple의 가치관",
+      "tag": "span",
+      "index": 627
+    },
+    {
+      "name": "text_628",
+      "type": "text",
+      "defaultValue": "Apple의 가치관",
+      "tag": "button",
+      "index": 628
+    },
+    {
+      "name": "text_629",
+      "type": "text",
+      "defaultValue": "Apple의 가치관",
+      "tag": "span",
+      "index": 629
+    },
+    {
+      "name": "text_630",
+      "type": "text",
+      "defaultValue": "손쉬운 사용",
+      "tag": "li",
+      "index": 630
+    },
+    {
+      "name": "text_631",
+      "type": "text",
+      "defaultValue": "손쉬운 사용",
+      "tag": "a",
+      "index": 631
+    },
+    {
+      "name": "text_632",
+      "type": "text",
+      "defaultValue": "교육",
+      "tag": "li",
+      "index": 632
+    },
+    {
+      "name": "text_633",
+      "type": "text",
+      "defaultValue": "교육",
+      "tag": "a",
+      "index": 633
+    },
+    {
+      "name": "text_634",
+      "type": "text",
+      "defaultValue": "환경",
+      "tag": "li",
+      "index": 634
+    },
+    {
+      "name": "text_635",
+      "type": "text",
+      "defaultValue": "환경",
+      "tag": "a",
+      "index": 635
+    },
+    {
+      "name": "text_636",
+      "type": "text",
+      "defaultValue": "개인정보 보호",
+      "tag": "li",
+      "index": 636
+    },
+    {
+      "name": "text_637",
+      "type": "text",
+      "defaultValue": "개인정보 보호",
+      "tag": "a",
+      "index": 637
+    },
+    {
+      "name": "text_638",
+      "type": "text",
+      "defaultValue": "공급망 혁신",
+      "tag": "li",
+      "index": 638
+    },
+    {
+      "name": "text_639",
+      "type": "text",
+      "defaultValue": "공급망 혁신",
+      "tag": "a",
+      "index": 639
+    },
+    {
+      "name": "text_640",
+      "type": "text",
+      "defaultValue": "Apple 정보",
+      "tag": "span",
+      "index": 640
+    },
+    {
+      "name": "text_641",
+      "type": "text",
+      "defaultValue": "Apple 정보",
+      "tag": "button",
+      "index": 641
+    },
+    {
+      "name": "text_642",
+      "type": "text",
+      "defaultValue": "Apple 정보",
+      "tag": "span",
+      "index": 642
+    },
+    {
+      "name": "text_643",
+      "type": "text",
+      "defaultValue": "Newsroom",
+      "tag": "li",
+      "index": 643
+    },
+    {
+      "name": "text_644",
+      "type": "text",
+      "defaultValue": "Newsroom",
+      "tag": "a",
+      "index": 644
+    },
+    {
+      "name": "text_645",
+      "type": "text",
+      "defaultValue": "Apple 리더십",
+      "tag": "li",
+      "index": 645
+    },
+    {
+      "name": "text_646",
+      "type": "text",
+      "defaultValue": "Apple 리더십",
+      "tag": "a",
+      "index": 646
+    },
+    {
+      "name": "text_647",
+      "type": "text",
+      "defaultValue": "채용 안내",
+      "tag": "li",
+      "index": 647
+    },
+    {
+      "name": "text_648",
+      "type": "text",
+      "defaultValue": "채용 안내",
+      "tag": "a",
+      "index": 648
+    },
+    {
+      "name": "text_649",
+      "type": "text",
+      "defaultValue": "윤리 및 규정 준수",
+      "tag": "li",
+      "index": 649
+    },
+    {
+      "name": "text_650",
+      "type": "text",
+      "defaultValue": "윤리 및 규정 준수",
+      "tag": "a",
+      "index": 650
+    },
+    {
+      "name": "text_651",
+      "type": "text",
+      "defaultValue": "이벤트",
+      "tag": "li",
+      "index": 651
+    },
+    {
+      "name": "text_652",
+      "type": "text",
+      "defaultValue": "이벤트",
+      "tag": "a",
+      "index": 652
+    },
+    {
+      "name": "text_653",
+      "type": "text",
+      "defaultValue": "일자리 창출",
+      "tag": "li",
+      "index": 653
+    },
+    {
+      "name": "text_654",
+      "type": "text",
+      "defaultValue": "일자리 창출",
+      "tag": "a",
+      "index": 654
+    },
+    {
+      "name": "text_655",
+      "type": "text",
+      "defaultValue": "Apple 연락처",
+      "tag": "li",
+      "index": 655
+    },
+    {
+      "name": "text_656",
+      "type": "text",
+      "defaultValue": "Apple 연락처",
+      "tag": "a",
+      "index": 656
+    },
+    {
+      "name": "text_657",
+      "type": "text",
+      "defaultValue": "Apple Store를 방문",
+      "tag": "a",
+      "index": 657
+    },
+    {
+      "name": "text_658",
+      "type": "text",
+      "defaultValue": "리셀러",
+      "tag": "a",
+      "index": 658
+    },
+    {
+      "name": "text_659",
+      "type": "text",
+      "defaultValue": "080-330-8877",
+      "tag": "a",
+      "index": 659
+    },
+    {
+      "name": "text_660",
+      "type": "text",
+      "defaultValue": "대한민국",
+      "tag": "a",
+      "index": 660
+    },
+    {
+      "name": "text_661",
+      "type": "text",
+      "defaultValue": "개인정보 처리방침",
+      "tag": "li",
+      "index": 661
+    },
+    {
+      "name": "text_662",
+      "type": "text",
+      "defaultValue": "개인정보 처리방침",
+      "tag": "a",
+      "index": 662
+    },
+    {
+      "name": "text_663",
+      "type": "text",
+      "defaultValue": "웹 사이트 이용 약관",
+      "tag": "li",
+      "index": 663
+    },
+    {
+      "name": "text_664",
+      "type": "text",
+      "defaultValue": "웹 사이트 이용 약관",
+      "tag": "a",
+      "index": 664
+    },
+    {
+      "name": "text_665",
+      "type": "text",
+      "defaultValue": "판매 및 환불",
+      "tag": "li",
+      "index": 665
+    },
+    {
+      "name": "text_666",
+      "type": "text",
+      "defaultValue": "판매 및 환불",
+      "tag": "a",
+      "index": 666
+    },
+    {
+      "name": "text_667",
+      "type": "text",
+      "defaultValue": "법적 고지",
+      "tag": "li",
+      "index": 667
+    },
+    {
+      "name": "text_668",
+      "type": "text",
+      "defaultValue": "법적 고지",
+      "tag": "a",
+      "index": 668
+    },
+    {
+      "name": "text_669",
+      "type": "text",
+      "defaultValue": "사이트 맵",
+      "tag": "li",
+      "index": 669
+    },
+    {
+      "name": "text_670",
+      "type": "text",
+      "defaultValue": "사이트 맵",
+      "tag": "a",
+      "index": 670
+    },
+    {
+      "name": "text_671",
+      "type": "text",
+      "defaultValue": "애플코리아 유한회사 |\n            대표이사: Mark Lee(마크리) | 주소: 서울특별시 강남구 영동대로 517 |\n            전화: 080-333-4000 | https://support.apple.com/ko-kr | 사업자등록번호: 120-81-84429 | 통신판매업신고번호: 제2011-서울강남-00810호 |\n            호스팅 서비스 제공: Apple Inc. | 사업자정보",
+      "tag": "p",
+      "index": 671
+    },
+    {
+      "name": "text_672",
+      "type": "text",
+      "defaultValue": "애플코리아 유한회사 |",
+      "tag": "span",
+      "index": 672
+    },
+    {
+      "name": "text_673",
+      "type": "text",
+      "defaultValue": "대표이사: Mark Lee(마크리) |",
+      "tag": "span",
+      "index": 673
+    },
+    {
+      "name": "text_674",
+      "type": "text",
+      "defaultValue": "주소: 서울특별시 강남구 영동대로 517 |",
+      "tag": "span",
+      "index": 674
+    },
+    {
+      "name": "text_675",
+      "type": "text",
+      "defaultValue": "전화: 080-333-4000 |",
+      "tag": "span",
+      "index": 675
+    },
+    {
+      "name": "text_676",
+      "type": "text",
+      "defaultValue": "https://support.apple.com/ko-kr |",
+      "tag": "span",
+      "index": 676
+    },
+    {
+      "name": "text_677",
+      "type": "text",
+      "defaultValue": "https://support.apple.com/ko-kr",
+      "tag": "a",
+      "index": 677
+    },
+    {
+      "name": "text_678",
+      "type": "text",
+      "defaultValue": "사업자등록번호: 120-81-84429 |",
+      "tag": "span",
+      "index": 678
+    },
+    {
+      "name": "text_679",
+      "type": "text",
+      "defaultValue": "통신판매업신고번호: 제2011-서울강남-00810호 |",
+      "tag": "span",
+      "index": 679
+    },
+    {
+      "name": "text_680",
+      "type": "text",
+      "defaultValue": "호스팅 서비스 제공: Apple Inc. |",
+      "tag": "span",
+      "index": 680
+    },
+    {
+      "name": "text_681",
+      "type": "text",
+      "defaultValue": "사업자정보",
+      "tag": "span",
+      "index": 681
+    },
+    {
+      "name": "text_682",
+      "type": "text",
+      "defaultValue": "사업자정보",
+      "tag": "a",
+      "index": 682
+    },
+    {
+      "name": "link_683",
+      "type": "link",
+      "defaultValue": "/kr/",
+      "text": "Apple",
+      "index": 683
+    },
+    {
+      "name": "link_684",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/store",
+      "text": "스토어",
+      "index": 684
+    },
+    {
+      "name": "link_685",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/store",
+      "text": "최신 제품 쇼핑하기",
+      "index": 685
+    },
+    {
+      "name": "link_686",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/buy_mac",
+      "text": "Mac",
+      "index": 686
+    },
+    {
+      "name": "link_687",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/buy_ipad",
+      "text": "iPad",
+      "index": 687
+    },
+    {
+      "name": "link_688",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/buy_iphone",
+      "text": "iPhone",
+      "index": 688
+    },
+    {
+      "name": "link_689",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/buy_watch",
+      "text": "Apple Watch",
+      "index": 689
+    },
+    {
+      "name": "link_690",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/buy_vision",
+      "text": "Apple Vision Pro",
+      "index": 690
+    },
+    {
+      "name": "link_691",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/airpods/accessories",
+      "text": "AirPods",
+      "index": 691
+    },
+    {
+      "name": "link_692",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/buy_accessories",
+      "text": "액세서리",
+      "index": 692
+    },
+    {
+      "name": "link_693",
+      "type": "link",
+      "defaultValue": "/kr/retail/",
+      "text": "매장 찾기",
+      "index": 693
+    },
+    {
+      "name": "link_694",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/order/list",
+      "text": "주문 상태",
+      "index": 694
+    },
+    {
+      "name": "link_695",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/trade_in",
+      "text": "Apple Trade In",
+      "index": 695
+    },
+    {
+      "name": "link_696",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/financing",
+      "text": "할부 방식",
+      "index": 696
+    },
+    {
+      "name": "link_697",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/personal_setup",
+      "text": "개인 맞춤 설정",
+      "index": 697
+    },
+    {
+      "name": "link_698",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/special_deals",
+      "text": "인증 리퍼비쉬 제품",
+      "index": 698
+    },
+    {
+      "name": "link_699",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/educationrouting",
+      "text": "교육",
+      "index": 699
+    },
+    {
+      "name": "link_700",
+      "type": "link",
+      "defaultValue": "/kr/retail/business/",
+      "text": "비즈니스",
+      "index": 700
+    },
+    {
+      "name": "link_701",
+      "type": "link",
+      "defaultValue": "/kr/mac/",
+      "text": "Mac",
+      "index": 701
+    },
+    {
+      "name": "link_702",
+      "type": "link",
+      "defaultValue": "/kr/mac/",
+      "text": "Mac 모두 살펴보기",
+      "index": 702
+    },
+    {
+      "name": "link_703",
+      "type": "link",
+      "defaultValue": "/kr/macbook-neo/",
+      "text": "MacBook Neo",
+      "index": 703
+    },
+    {
+      "name": "link_704",
+      "type": "link",
+      "defaultValue": "/kr/macbook-air/",
+      "text": "MacBook Air",
+      "index": 704
+    },
+    {
+      "name": "link_705",
+      "type": "link",
+      "defaultValue": "/kr/macbook-pro/",
+      "text": "MacBook Pro",
+      "index": 705
+    },
+    {
+      "name": "link_706",
+      "type": "link",
+      "defaultValue": "/kr/imac/",
+      "text": "iMac",
+      "index": 706
+    },
+    {
+      "name": "link_707",
+      "type": "link",
+      "defaultValue": "/kr/mac-mini/",
+      "text": "Mac mini",
+      "index": 707
+    },
+    {
+      "name": "link_708",
+      "type": "link",
+      "defaultValue": "/kr/mac-studio/",
+      "text": "Mac Studio",
+      "index": 708
+    },
+    {
+      "name": "link_709",
+      "type": "link",
+      "defaultValue": "/kr/mac-pro/",
+      "text": "Mac Pro",
+      "index": 709
+    },
+    {
+      "name": "link_710",
+      "type": "link",
+      "defaultValue": "/kr/displays/",
+      "text": "디스플레이",
+      "index": 710
+    },
+    {
+      "name": "link_711",
+      "type": "link",
+      "defaultValue": "/kr/mac/compare/",
+      "text": "Mac 비교하기",
+      "index": 711
+    },
+    {
+      "name": "link_712",
+      "type": "link",
+      "defaultValue": "/kr/mac/mac-does-that/",
+      "text": "PC에서 Mac으로 갈아타기",
+      "index": 712
+    },
+    {
+      "name": "link_713",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/buy_mac",
+      "text": "Mac 쇼핑하기",
+      "index": 713
+    },
+    {
+      "name": "link_714",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/mac/accessories",
+      "text": "Mac 액세서리",
+      "index": 714
+    },
+    {
+      "name": "link_715",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/trade_in#mac",
+      "text": "Apple Trade In",
+      "index": 715
+    },
+    {
+      "name": "link_716",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/financing",
+      "text": "할부 방식",
+      "index": 716
+    },
+    {
+      "name": "link_717",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/personal_setup",
+      "text": "개인 맞춤 설정",
+      "index": 717
+    },
+    {
+      "name": "link_718",
+      "type": "link",
+      "defaultValue": "https://support.apple.com/ko-kr/mac?cid=gn-ols-mac-psp-prodfly",
+      "text": "Mac 지원",
+      "index": 718
+    },
+    {
+      "name": "link_719",
+      "type": "link",
+      "defaultValue": "/kr/applecare/?filter=mac",
+      "text": "AppleCare+",
+      "index": 719
+    },
+    {
+      "name": "link_720",
+      "type": "link",
+      "defaultValue": "/kr/os/macos/",
+      "text": "macOS Tahoe",
+      "index": 720
+    },
+    {
+      "name": "link_721",
+      "type": "link",
+      "defaultValue": "/kr/apple-intelligence/",
+      "text": "Apple Intelligence",
+      "index": 721
+    },
+    {
+      "name": "link_722",
+      "type": "link",
+      "defaultValue": "/kr/apps/",
+      "text": "Apple이 만든 앱",
+      "index": 722
+    },
+    {
+      "name": "link_723",
+      "type": "link",
+      "defaultValue": "/kr/apple-creator-studio/",
+      "text": "Apple Creator Studio",
+      "index": 723
+    },
+    {
+      "name": "link_724",
+      "type": "link",
+      "defaultValue": "/kr/macos/continuity/",
+      "text": "iPhone으로 탁월하게",
+      "index": 724
+    },
+    {
+      "name": "link_725",
+      "type": "link",
+      "defaultValue": "/kr/icloud/",
+      "text": "iCloud+",
+      "index": 725
+    },
+    {
+      "name": "link_726",
+      "type": "link",
+      "defaultValue": "/kr/business/mac/",
+      "text": "Mac과 비즈니스",
+      "index": 726
+    },
+    {
+      "name": "link_727",
+      "type": "link",
+      "defaultValue": "/kr/education/",
+      "text": "교육",
+      "index": 727
+    },
+    {
+      "name": "link_728",
+      "type": "link",
+      "defaultValue": "/kr/ipad/",
+      "text": "iPad",
+      "index": 728
+    },
+    {
+      "name": "link_729",
+      "type": "link",
+      "defaultValue": "/kr/ipad/",
+      "text": "iPad 모두 살펴보기",
+      "index": 729
+    },
+    {
+      "name": "link_730",
+      "type": "link",
+      "defaultValue": "/kr/ipad-pro/",
+      "text": "iPad Pro",
+      "index": 730
+    },
+    {
+      "name": "link_731",
+      "type": "link",
+      "defaultValue": "/kr/ipad-air/",
+      "text": "iPad Air",
+      "index": 731
+    },
+    {
+      "name": "link_732",
+      "type": "link",
+      "defaultValue": "/kr/ipad-11/",
+      "text": "iPad",
+      "index": 732
+    },
+    {
+      "name": "link_733",
+      "type": "link",
+      "defaultValue": "/kr/ipad-mini/",
+      "text": "iPad mini",
+      "index": 733
+    },
+    {
+      "name": "link_734",
+      "type": "link",
+      "defaultValue": "/kr/apple-pencil/",
+      "text": "Apple Pencil",
+      "index": 734
+    },
+    {
+      "name": "link_735",
+      "type": "link",
+      "defaultValue": "/kr/ipad-keyboards/",
+      "text": "키보드",
+      "index": 735
+    },
+    {
+      "name": "link_736",
+      "type": "link",
+      "defaultValue": "/kr/ipad/compare/",
+      "text": "iPad 비교하기",
+      "index": 736
+    },
+    {
+      "name": "link_737",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/buy_ipad",
+      "text": "iPad 쇼핑하기",
+      "index": 737
+    },
+    {
+      "name": "link_738",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/ipad/accessories",
+      "text": "iPad 액세서리",
+      "index": 738
+    },
+    {
+      "name": "link_739",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/trade_in#ipad",
+      "text": "Apple Trade In",
+      "index": 739
+    },
+    {
+      "name": "link_740",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/financing",
+      "text": "할부 방식",
+      "index": 740
+    },
+    {
+      "name": "link_741",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/personal_setup",
+      "text": "개인 맞춤 설정",
+      "index": 741
+    },
+    {
+      "name": "link_742",
+      "type": "link",
+      "defaultValue": "https://support.apple.com/ko-kr/ipad?cid=gn-ols-ipad-psp-prodfly",
+      "text": "iPad 지원",
+      "index": 742
+    },
+    {
+      "name": "link_743",
+      "type": "link",
+      "defaultValue": "/kr/applecare/?filter=ipad",
+      "text": "AppleCare+",
+      "index": 743
+    },
+    {
+      "name": "link_744",
+      "type": "link",
+      "defaultValue": "/kr/os/ipados/",
+      "text": "iPadOS 26",
+      "index": 744
+    },
+    {
+      "name": "link_745",
+      "type": "link",
+      "defaultValue": "/kr/apple-intelligence/",
+      "text": "Apple Intelligence",
+      "index": 745
+    },
+    {
+      "name": "link_746",
+      "type": "link",
+      "defaultValue": "/kr/apps/",
+      "text": "Apple이 만든 앱",
+      "index": 746
+    },
+    {
+      "name": "link_747",
+      "type": "link",
+      "defaultValue": "/kr/apple-creator-studio/",
+      "text": "Apple Creator Studio",
+      "index": 747
+    },
+    {
+      "name": "link_748",
+      "type": "link",
+      "defaultValue": "/kr/icloud/",
+      "text": "iCloud+",
+      "index": 748
+    },
+    {
+      "name": "link_749",
+      "type": "link",
+      "defaultValue": "/kr/education/",
+      "text": "교육",
+      "index": 749
+    },
+    {
+      "name": "link_750",
+      "type": "link",
+      "defaultValue": "/kr/iphone/",
+      "text": "iPhone",
+      "index": 750
+    },
+    {
+      "name": "link_751",
+      "type": "link",
+      "defaultValue": "/kr/iphone/",
+      "text": "iPhone 모두 살펴보기",
+      "index": 751
+    },
+    {
+      "name": "link_752",
+      "type": "link",
+      "defaultValue": "/kr/iphone-17-pro/",
+      "text": "iPhone 17 Pro",
+      "index": 752
+    },
+    {
+      "name": "link_753",
+      "type": "link",
+      "defaultValue": "/kr/iphone-air/",
+      "text": "iPhone Air",
+      "index": 753
+    },
+    {
+      "name": "link_754",
+      "type": "link",
+      "defaultValue": "/kr/iphone-17/",
+      "text": "iPhone 17",
+      "index": 754
+    },
+    {
+      "name": "link_755",
+      "type": "link",
+      "defaultValue": "/kr/iphone-17e/",
+      "text": "iPhone 17e",
+      "index": 755
+    },
+    {
+      "name": "link_756",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/buy_iphone/iphone_16",
+      "text": "iPhone 16",
+      "index": 756
+    },
+    {
+      "name": "link_757",
+      "type": "link",
+      "defaultValue": "/kr/iphone/compare/",
+      "text": "iPhone 비교하기",
+      "index": 757
+    },
+    {
+      "name": "link_758",
+      "type": "link",
+      "defaultValue": "/kr/iphone/switch/",
+      "text": "안드로이드에서 갈아타기",
+      "index": 758
+    },
+    {
+      "name": "link_759",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/buy_iphone",
+      "text": "iPhone 쇼핑하기",
+      "index": 759
+    },
+    {
+      "name": "link_760",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/iphone/accessories",
+      "text": "iPhone 액세서리",
+      "index": 760
+    },
+    {
+      "name": "link_761",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/trade_in#iphone",
+      "text": "Apple Trade In",
+      "index": 761
+    },
+    {
+      "name": "link_762",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/financing",
+      "text": "할부 방식",
+      "index": 762
+    },
+    {
+      "name": "link_763",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/personal_setup",
+      "text": "개인 맞춤 설정",
+      "index": 763
+    },
+    {
+      "name": "link_764",
+      "type": "link",
+      "defaultValue": "https://support.apple.com/ko-kr/iphone?cid=gn-ols-iphone-psp-prodfly",
+      "text": "iPhone 지원",
+      "index": 764
+    },
+    {
+      "name": "link_765",
+      "type": "link",
+      "defaultValue": "/kr/applecare/?filter=iphone",
+      "text": "AppleCare+",
+      "index": 765
+    },
+    {
+      "name": "link_766",
+      "type": "link",
+      "defaultValue": "/kr/os/ios/",
+      "text": "iOS 26",
+      "index": 766
+    },
+    {
+      "name": "link_767",
+      "type": "link",
+      "defaultValue": "/kr/apple-intelligence/",
+      "text": "Apple Intelligence",
+      "index": 767
+    },
+    {
+      "name": "link_768",
+      "type": "link",
+      "defaultValue": "/kr/apps/",
+      "text": "Apple이 만든 앱",
+      "index": 768
+    },
+    {
+      "name": "link_769",
+      "type": "link",
+      "defaultValue": "/kr/privacy/",
+      "text": "iPhone의 개인정보 보호",
+      "index": 769
+    },
+    {
+      "name": "link_770",
+      "type": "link",
+      "defaultValue": "/kr/macos/continuity/",
+      "text": "Mac으로 탁월하게",
+      "index": 770
+    },
+    {
+      "name": "link_771",
+      "type": "link",
+      "defaultValue": "/kr/icloud/",
+      "text": "iCloud+",
+      "index": 771
+    },
+    {
+      "name": "link_772",
+      "type": "link",
+      "defaultValue": "/kr/apple-pay/",
+      "text": "Apple 지갑, Apple Pay",
+      "index": 772
+    },
+    {
+      "name": "link_773",
+      "type": "link",
+      "defaultValue": "/kr/siri/",
+      "text": "Siri",
+      "index": 773
+    },
+    {
+      "name": "link_774",
+      "type": "link",
+      "defaultValue": "/kr/watch/",
+      "text": "Watch",
+      "index": 774
+    },
+    {
+      "name": "link_775",
+      "type": "link",
+      "defaultValue": "/kr/watch/",
+      "text": "Apple Watch 모두 살펴보기",
+      "index": 775
+    },
+    {
+      "name": "link_776",
+      "type": "link",
+      "defaultValue": "/kr/apple-watch-series-11/",
+      "text": "Apple Watch Series 11",
+      "index": 776
+    },
+    {
+      "name": "link_777",
+      "type": "link",
+      "defaultValue": "/kr/apple-watch-se-3/",
+      "text": "Apple Watch SE 3",
+      "index": 777
+    },
+    {
+      "name": "link_778",
+      "type": "link",
+      "defaultValue": "/kr/apple-watch-ultra-3/",
+      "text": "Apple Watch Ultra 3",
+      "index": 778
+    },
+    {
+      "name": "link_779",
+      "type": "link",
+      "defaultValue": "/kr/apple-watch-nike/",
+      "text": "Apple Watch Nike",
+      "index": 779
+    },
+    {
+      "name": "link_780",
+      "type": "link",
+      "defaultValue": "/kr/apple-watch-hermes/",
+      "text": "Apple Watch Hermès",
+      "index": 780
+    },
+    {
+      "name": "link_781",
+      "type": "link",
+      "defaultValue": "/kr/watch/compare/",
+      "text": "Watch 비교하기",
+      "index": 781
+    },
+    {
+      "name": "link_782",
+      "type": "link",
+      "defaultValue": "/kr/watch/why-apple-watch/",
+      "text": "Apple Watch를 선택하는 이유",
+      "index": 782
+    },
+    {
+      "name": "link_783",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/buy_watch",
+      "text": "Apple Watch 쇼핑하기",
+      "index": 783
+    },
+    {
+      "name": "link_784",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/watch/bands",
+      "text": "Apple Watch 밴드",
+      "index": 784
+    },
+    {
+      "name": "link_785",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/watch/accessories",
+      "text": "Apple Watch 액세서리",
+      "index": 785
+    },
+    {
+      "name": "link_786",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/trade_in#watch",
+      "text": "Apple Trade In",
+      "index": 786
+    },
+    {
+      "name": "link_787",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/financing",
+      "text": "할부 방식",
+      "index": 787
+    },
+    {
+      "name": "link_788",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/personal_setup",
+      "text": "개인 맞춤 설정",
+      "index": 788
+    },
+    {
+      "name": "link_789",
+      "type": "link",
+      "defaultValue": "https://support.apple.com/ko-kr/watch?cid=gn-ols-watch-psp-prodfly",
+      "text": "Apple Watch 지원",
+      "index": 789
+    },
+    {
+      "name": "link_790",
+      "type": "link",
+      "defaultValue": "/kr/applecare/?filter=watch",
+      "text": "AppleCare+",
+      "index": 790
+    },
+    {
+      "name": "link_791",
+      "type": "link",
+      "defaultValue": "/kr/os/watchos/",
+      "text": "watchOS 26",
+      "index": 791
+    },
+    {
+      "name": "link_792",
+      "type": "link",
+      "defaultValue": "/kr/apps/",
+      "text": "Apple이 만든 앱",
+      "index": 792
+    },
+    {
+      "name": "link_793",
+      "type": "link",
+      "defaultValue": "/kr/apple-vision-pro/",
+      "text": "Vision",
+      "index": 793
+    },
+    {
+      "name": "link_794",
+      "type": "link",
+      "defaultValue": "/kr/apple-vision-pro/",
+      "text": "Apple Vision Pro 살펴보기",
+      "index": 794
+    },
+    {
+      "name": "link_795",
+      "type": "link",
+      "defaultValue": "/kr/apple-vision-pro/specs/",
+      "text": "제품 사양",
+      "index": 795
+    },
+    {
+      "name": "link_796",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/buy_vision",
+      "text": "Apple Vision Pro 쇼핑하기",
+      "index": 796
+    },
+    {
+      "name": "link_797",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/vision/accessories",
+      "text": "Apple Vision Pro 액세서리",
+      "index": 797
+    },
+    {
+      "name": "link_798",
+      "type": "link",
+      "defaultValue": "/kr/retail/instore-shopping-session/session-selection/?topic=visionpro",
+      "text": "체험 예약하기",
+      "index": 798
+    },
+    {
+      "name": "link_799",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/financing",
+      "text": "할부 방식",
+      "index": 799
+    },
+    {
+      "name": "link_800",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/personal_setup",
+      "text": "개인 맞춤 설정",
+      "index": 800
+    },
+    {
+      "name": "link_801",
+      "type": "link",
+      "defaultValue": "https://support.apple.com/ko-kr/apple-vision-pro?cid=gn-nav-vision-psp-prodfly",
+      "text": "Apple Vision Pro 지원",
+      "index": 801
+    },
+    {
+      "name": "link_802",
+      "type": "link",
+      "defaultValue": "/kr/applecare/?filter=apple-vision-pro",
+      "text": "AppleCare+",
+      "index": 802
+    },
+    {
+      "name": "link_803",
+      "type": "link",
+      "defaultValue": "/kr/os/visionos/",
+      "text": "visionOS 26",
+      "index": 803
+    },
+    {
+      "name": "link_804",
+      "type": "link",
+      "defaultValue": "/kr/airpods/",
+      "text": "AirPods",
+      "index": 804
+    },
+    {
+      "name": "link_805",
+      "type": "link",
+      "defaultValue": "/kr/airpods/",
+      "text": "AirPods 모두 살펴보기",
+      "index": 805
+    },
+    {
+      "name": "link_806",
+      "type": "link",
+      "defaultValue": "/kr/airpods-4/",
+      "text": "AirPods 4",
+      "index": 806
+    },
+    {
+      "name": "link_807",
+      "type": "link",
+      "defaultValue": "/kr/airpods-pro/",
+      "text": "AirPods Pro 3",
+      "index": 807
+    },
+    {
+      "name": "link_808",
+      "type": "link",
+      "defaultValue": "/kr/airpods-max/",
+      "text": "AirPods Max",
+      "index": 808
+    },
+    {
+      "name": "link_809",
+      "type": "link",
+      "defaultValue": "/kr/airpods/compare/",
+      "text": "AirPods 비교하기",
+      "index": 809
+    },
+    {
+      "name": "link_810",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/accessories/all_accessories/headphones_speakers?fh=47d1%2B3214%2B45aa%2B45ab&f=apple-overear-sport&page=1",
+      "text": "AirPods 쇼핑하기",
+      "index": 810
+    },
+    {
+      "name": "link_811",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/airpods/accessories",
+      "text": "AirPods 액세서리",
+      "index": 811
+    },
+    {
+      "name": "link_812",
+      "type": "link",
+      "defaultValue": "https://support.apple.com/ko-kr/airpods?cid=gn-ols-airpods-psp-prodfly",
+      "text": "AirPods 지원",
+      "index": 812
+    },
+    {
+      "name": "link_813",
+      "type": "link",
+      "defaultValue": "/kr/applecare/?filter=headphones",
+      "text": "AppleCare+",
+      "index": 813
+    },
+    {
+      "name": "link_814",
+      "type": "link",
+      "defaultValue": "/kr/apple-music/",
+      "text": "Apple Music",
+      "index": 814
+    },
+    {
+      "name": "link_815",
+      "type": "link",
+      "defaultValue": "/kr/tv-home/",
+      "text": "TV 및 홈",
+      "index": 815
+    },
+    {
+      "name": "link_816",
+      "type": "link",
+      "defaultValue": "/kr/tv-home/",
+      "text": "TV 및 홈 살펴보기",
+      "index": 816
+    },
+    {
+      "name": "link_817",
+      "type": "link",
+      "defaultValue": "/kr/apple-tv-4k/",
+      "text": "Apple TV 4K",
+      "index": 817
+    },
+    {
+      "name": "link_818",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/buy_tv/apple_tv_4k",
+      "text": "Apple TV 4K 쇼핑하기",
+      "index": 818
+    },
+    {
+      "name": "link_819",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/product/MW5G3",
+      "text": "Siri Remote 쇼핑하기",
+      "index": 819
+    },
+    {
+      "name": "link_820",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/smart_home/accessories",
+      "text": "TV 및 홈 액세서리",
+      "index": 820
+    },
+    {
+      "name": "link_821",
+      "type": "link",
+      "defaultValue": "https://support.apple.com/ko-kr/apple-tv?cid=gn-ols-appletv-psp-prodfly",
+      "text": "Apple TV 지원",
+      "index": 821
+    },
+    {
+      "name": "link_822",
+      "type": "link",
+      "defaultValue": "/kr/applecare/?filter=tv",
+      "text": "Apple TV를 위한 AppleCare+",
+      "index": 822
+    },
+    {
+      "name": "link_823",
+      "type": "link",
+      "defaultValue": "/kr/apple-tv-app/",
+      "text": "Apple TV 앱",
+      "index": 823
+    },
+    {
+      "name": "link_824",
+      "type": "link",
+      "defaultValue": "/kr/apple-tv/",
+      "text": "Apple TV",
+      "index": 824
+    },
+    {
+      "name": "link_825",
+      "type": "link",
+      "defaultValue": "/kr/home-app/",
+      "text": "홈 앱",
+      "index": 825
+    },
+    {
+      "name": "link_826",
+      "type": "link",
+      "defaultValue": "/kr/apple-music/",
+      "text": "Apple Music",
+      "index": 826
+    },
+    {
+      "name": "link_827",
+      "type": "link",
+      "defaultValue": "/kr/siri/",
+      "text": "Siri",
+      "index": 827
+    },
+    {
+      "name": "link_828",
+      "type": "link",
+      "defaultValue": "/kr/airplay/",
+      "text": "AirPlay",
+      "index": 828
+    },
+    {
+      "name": "link_829",
+      "type": "link",
+      "defaultValue": "/kr/entertainment/",
+      "text": "엔터테인먼트",
+      "index": 829
+    },
+    {
+      "name": "link_830",
+      "type": "link",
+      "defaultValue": "/kr/services/",
+      "text": "엔터테인먼트 살펴보기",
+      "index": 830
+    },
+    {
+      "name": "link_831",
+      "type": "link",
+      "defaultValue": "/kr/apple-one/",
+      "text": "Apple One",
+      "index": 831
+    },
+    {
+      "name": "link_832",
+      "type": "link",
+      "defaultValue": "/kr/apple-tv/",
+      "text": "Apple TV",
+      "index": 832
+    },
+    {
+      "name": "link_833",
+      "type": "link",
+      "defaultValue": "/kr/apple-music/",
+      "text": "Apple Music",
+      "index": 833
+    },
+    {
+      "name": "link_834",
+      "type": "link",
+      "defaultValue": "/kr/apple-arcade/",
+      "text": "Apple Arcade",
+      "index": 834
+    },
+    {
+      "name": "link_835",
+      "type": "link",
+      "defaultValue": "/kr/apple-podcasts/",
+      "text": "Apple 팟캐스트",
+      "index": 835
+    },
+    {
+      "name": "link_836",
+      "type": "link",
+      "defaultValue": "/kr/apple-books/",
+      "text": "Apple Books",
+      "index": 836
+    },
+    {
+      "name": "link_837",
+      "type": "link",
+      "defaultValue": "/kr/app-store/",
+      "text": "App Store",
+      "index": 837
+    },
+    {
+      "name": "link_838",
+      "type": "link",
+      "defaultValue": "https://support.apple.com/ko-kr/tv?cid=gn-ols-tv-psp-prodfly",
+      "text": "Apple TV 지원",
+      "index": 838
+    },
+    {
+      "name": "link_839",
+      "type": "link",
+      "defaultValue": "https://support.apple.com/ko-kr/music?cid=gn-ols-music-psp-prodfly",
+      "text": "Apple Music 지원",
+      "index": 839
+    },
+    {
+      "name": "link_840",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/buy_accessories",
+      "text": "액세서리",
+      "index": 840
+    },
+    {
+      "name": "link_841",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/buy_accessories",
+      "text": "액세서리 모두 쇼핑하기",
+      "index": 841
+    },
+    {
+      "name": "link_842",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/mac/accessories",
+      "text": "Mac",
+      "index": 842
+    },
+    {
+      "name": "link_843",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/ipad/accessories",
+      "text": "iPad",
+      "index": 843
+    },
+    {
+      "name": "link_844",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/iphone/accessories",
+      "text": "iPhone",
+      "index": 844
+    },
+    {
+      "name": "link_845",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/watch/accessories",
+      "text": "Apple Watch",
+      "index": 845
+    },
+    {
+      "name": "link_846",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/vision/accessories",
+      "text": "Apple Vision Pro",
+      "index": 846
+    },
+    {
+      "name": "link_847",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/airpods/accessories",
+      "text": "AirPods",
+      "index": 847
+    },
+    {
+      "name": "link_848",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/smart_home/accessories",
+      "text": "TV 및 홈",
+      "index": 848
+    },
+    {
+      "name": "link_849",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/accessories/all_accessories/made_by_apple",
+      "text": "Apple 제작 정품",
+      "index": 849
+    },
+    {
+      "name": "link_850",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/accessories/all_accessories/beats_featured",
+      "text": "Beats",
+      "index": 850
+    },
+    {
+      "name": "link_851",
+      "type": "link",
+      "defaultValue": "/kr/airtag/",
+      "text": "AirTag",
+      "index": 851
+    },
+    {
+      "name": "link_852",
+      "type": "link",
+      "defaultValue": "https://support.apple.com/ko-kr/?cid=gn-ols-home-hp-tab",
+      "text": "고객지원",
+      "index": 852
+    },
+    {
+      "name": "link_853",
+      "type": "link",
+      "defaultValue": "https://support.apple.com/ko-kr/iphone?cid=gn-ols-iphone-psp-explore",
+      "text": "iPhone",
+      "index": 853
+    },
+    {
+      "name": "link_854",
+      "type": "link",
+      "defaultValue": "https://support.apple.com/ko-kr/mac?cid=gn-ols-mac-psp-explore",
+      "text": "Mac",
+      "index": 854
+    },
+    {
+      "name": "link_855",
+      "type": "link",
+      "defaultValue": "https://support.apple.com/ko-kr/ipad?cid=gn-ols-ipad-psp-explore",
+      "text": "iPad",
+      "index": 855
+    },
+    {
+      "name": "link_856",
+      "type": "link",
+      "defaultValue": "https://support.apple.com/ko-kr/watch?cid=gn-ols-watch-psp-explore",
+      "text": "Watch",
+      "index": 856
+    },
+    {
+      "name": "link_857",
+      "type": "link",
+      "defaultValue": "https://support.apple.com/ko-kr/apple-vision-pro?cid=gn-nav-vision-psp-explore",
+      "text": "Apple Vision Pro",
+      "index": 857
+    },
+    {
+      "name": "link_858",
+      "type": "link",
+      "defaultValue": "https://support.apple.com/ko-kr/airpods?cid=gn-ols-airpods-psp-explore",
+      "text": "AirPods",
+      "index": 858
+    },
+    {
+      "name": "link_859",
+      "type": "link",
+      "defaultValue": "https://support.apple.com/ko-kr/music?cid=gn-ols-music-psp-explore",
+      "text": "Music",
+      "index": 859
+    },
+    {
+      "name": "link_860",
+      "type": "link",
+      "defaultValue": "https://support.apple.com/ko-kr/tv?cid=gn-ols-tv-psp-explore",
+      "text": "TV",
+      "index": 860
+    },
+    {
+      "name": "link_861",
+      "type": "link",
+      "defaultValue": "https://support.apple.com/ko-kr/?cid=gn-ols-home-hp-explore",
+      "text": "지원 상황 살펴보기",
+      "index": 861
+    },
+    {
+      "name": "link_862",
+      "type": "link",
+      "defaultValue": "https://discussionskorea.apple.com/welcome?cid=gn-com-community-lp-get_help",
+      "text": "커뮤니티",
+      "index": 862
+    },
+    {
+      "name": "link_863",
+      "type": "link",
+      "defaultValue": "https://checkcoverage.apple.com/kr/ko?cid=gn-ols-checkcoverage-lp-get_help",
+      "text": "보장 상태 확인하기",
+      "index": 863
+    },
+    {
+      "name": "link_864",
+      "type": "link",
+      "defaultValue": "/kr/retail/geniusbar/",
+      "text": "Genius Bar",
+      "index": 864
+    },
+    {
+      "name": "link_865",
+      "type": "link",
+      "defaultValue": "https://support.apple.com/ko-kr/repair?cid=gn-ols-repair-lp-get_help",
+      "text": "수리",
+      "index": 865
+    },
+    {
+      "name": "link_866",
+      "type": "link",
+      "defaultValue": "/kr/applecare/",
+      "text": "AppleCare+ 구입하기",
+      "index": 866
+    },
+    {
+      "name": "link_867",
+      "type": "link",
+      "defaultValue": "https://support.apple.com/ko-kr/apple-account?cid=gn-ols-appleaccount-psp-helpful_topics",
+      "text": "Apple 계정 및 암호",
+      "index": 867
+    },
+    {
+      "name": "link_868",
+      "type": "link",
+      "defaultValue": "https://support.apple.com/ko-kr/billing?cid=gn-ols-billing-collection-helpful_topics",
+      "text": "청구 및 구독",
+      "index": 868
+    },
+    {
+      "name": "link_869",
+      "type": "link",
+      "defaultValue": "https://support.apple.com/ko-kr/accessibility?cid=gn-ols-accessibility-psp-helpful_topics",
+      "text": "손쉬운 사용",
+      "index": 869
+    },
+    {
+      "name": "link_870",
+      "type": "link",
+      "defaultValue": "/kr/search",
+      "text": "",
+      "index": 870
+    },
+    {
+      "name": "link_871",
+      "type": "link",
+      "defaultValue": "https://www.apple.com/kr/retail/",
+      "text": "매장 찾기",
+      "index": 871
+    },
+    {
+      "name": "link_872",
+      "type": "link",
+      "defaultValue": "https://www.apple.com/kr/apple-vision-pro/",
+      "text": "Apple Vision Pro",
+      "index": 872
+    },
+    {
+      "name": "link_873",
+      "type": "link",
+      "defaultValue": "https://www.apple.com/kr/airpods/",
+      "text": "AirPods",
+      "index": 873
+    },
+    {
+      "name": "link_874",
+      "type": "link",
+      "defaultValue": "https://www.apple.com/kr/apple-intelligence/",
+      "text": "Apple Intelligence",
+      "index": 874
+    },
+    {
+      "name": "link_875",
+      "type": "link",
+      "defaultValue": "https://www.apple.com/kr/shop/goto/trade_in",
+      "text": "Apple Trade In",
+      "index": 875
+    },
+    {
+      "name": "link_876",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/bag",
+      "text": "",
+      "index": 876
+    },
+    {
+      "name": "link_877",
+      "type": "link",
+      "defaultValue": "/kr/50-years-of-thinking-different/",
+      "text": "",
+      "index": 877
+    },
+    {
+      "name": "link_878",
+      "type": "link",
+      "defaultValue": "/kr/50-years-of-thinking-different/",
+      "text": "Tim Cook의 편지 읽어보기",
+      "index": 878
+    },
+    {
+      "name": "link_879",
+      "type": "link",
+      "defaultValue": "/kr/macbook-neo/",
+      "text": "",
+      "index": 879
+    },
+    {
+      "name": "link_880",
+      "type": "link",
+      "defaultValue": "/kr/macbook-neo/",
+      "text": "더 알아보기",
+      "index": 880
+    },
+    {
+      "name": "link_881",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/buy_mac/macbook_neo",
+      "text": "구입하기",
+      "index": 881
+    },
+    {
+      "name": "link_882",
+      "type": "link",
+      "defaultValue": "/kr/iphone-17e/",
+      "text": "",
+      "index": 882
+    },
+    {
+      "name": "link_883",
+      "type": "link",
+      "defaultValue": "/kr/iphone-17e/",
+      "text": "더 알아보기",
+      "index": 883
+    },
+    {
+      "name": "link_884",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/buy_iphone/iphone_17e",
+      "text": "구입하기",
+      "index": 884
+    },
+    {
+      "name": "link_885",
+      "type": "link",
+      "defaultValue": "/kr/macbook-pro/",
+      "text": "",
+      "index": 885
+    },
+    {
+      "name": "link_886",
+      "type": "link",
+      "defaultValue": "/kr/macbook-pro/",
+      "text": "더 알아보기",
+      "index": 886
+    },
+    {
+      "name": "link_887",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/buy_mac/macbook_pro",
+      "text": "구입하기",
+      "index": 887
+    },
+    {
+      "name": "link_888",
+      "type": "link",
+      "defaultValue": "/kr/macbook-air/",
+      "text": "",
+      "index": 888
+    },
+    {
+      "name": "link_889",
+      "type": "link",
+      "defaultValue": "/kr/macbook-air/",
+      "text": "더 알아보기",
+      "index": 889
+    },
+    {
+      "name": "link_890",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/buy_mac/macbook_air",
+      "text": "구입하기",
+      "index": 890
+    },
+    {
+      "name": "link_891",
+      "type": "link",
+      "defaultValue": "/kr/ipad-air/",
+      "text": "",
+      "index": 891
+    },
+    {
+      "name": "link_892",
+      "type": "link",
+      "defaultValue": "/kr/ipad-air/",
+      "text": "더 알아보기",
+      "index": 892
+    },
+    {
+      "name": "link_893",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/buy_ipad/ipad_air",
+      "text": "구입하기",
+      "index": 893
+    },
+    {
+      "name": "link_894",
+      "type": "link",
+      "defaultValue": "/kr/studio-display-xdr/",
+      "text": "",
+      "index": 894
+    },
+    {
+      "name": "link_895",
+      "type": "link",
+      "defaultValue": "/kr/studio-display-xdr/",
+      "text": "더 알아보기",
+      "index": 895
+    },
+    {
+      "name": "link_896",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/buy_mac/studio_display_xdr",
+      "text": "구입하기",
+      "index": 896
+    },
+    {
+      "name": "link_897",
+      "type": "link",
+      "defaultValue": "/kr/studio-display/",
+      "text": "",
+      "index": 897
+    },
+    {
+      "name": "link_898",
+      "type": "link",
+      "defaultValue": "/kr/studio-display/",
+      "text": "더 알아보기",
+      "index": 898
+    },
+    {
+      "name": "link_899",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/buy_mac/mac_studio_display",
+      "text": "구입하기",
+      "index": 899
+    },
+    {
+      "name": "link_900",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/trade_in",
+      "text": "",
+      "index": 900
+    },
+    {
+      "name": "link_901",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/trade_in",
+      "text": "견적 확인하기",
+      "index": 901
+    },
+    {
+      "name": "link_902",
+      "type": "link",
+      "defaultValue": "https://tv.apple.com/kr/movie/%E1%84%83%E1%85%A5-%E1%84%8F%E1%85%A2%E1%84%82%E1%85%B5%E1%84%8B%E1%85%A5%E1%86%AB---the-gorge/umc.cmc.26o403koqo2klixc0jtqy6tmc?l=ko-KR?itscg=10000&itsct=atv-apl_hp-stream_now--220622",
+      "text": "지금 시청하기\n\t\t\t\t\t\t스릴러 · 두 요원 사이에 놓인 세상에서 가장 위험한 비밀.",
+      "index": 902
+    },
+    {
+      "name": "link_903",
+      "type": "link",
+      "defaultValue": "https://tv.apple.com/kr/show/%E1%84%90%E1%85%A6%E1%84%83%E1%85%B3-%E1%84%85%E1%85%A2%E1%84%89%E1%85%A9---ted-lasso/umc.cmc.vtoh0mn0xn7t3c643xqonfzy?l=ko-KR?itscg=10000&itsct=atv-apl_hp-stream_now--220622",
+      "text": "지금 시청하기\n\t\t\t\t\t\t코미디 · 그가 돌아온다.",
+      "index": 903
+    },
+    {
+      "name": "link_904",
+      "type": "link",
+      "defaultValue": "https://tv.apple.com/kr/show/%E1%84%91%E1%85%A1%E1%84%8E%E1%85%B5%E1%86%AB%E1%84%8F%E1%85%A9---pachinko/umc.cmc.17vf6g68dy89kk1l1nnb6min4?l=ko-KR?itscg=10000&itsct=atv-apl_hp-stream_now--220622",
+      "text": "지금 시청하기\n\t\t\t\t\t\t드라마 · 우리 안에는 운명을 스스로 바꿀 용기가 있다",
+      "index": 904
+    },
+    {
+      "name": "link_905",
+      "type": "link",
+      "defaultValue": "https://tv.apple.com/kr/show/%E1%84%89%E1%85%A6%E1%84%87%E1%85%B3%E1%84%85%E1%85%A1%E1%86%AB%E1%84%89%E1%85%B3-%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%A5%E1%86%AF---severance/umc.cmc.1srk2goyh2q2zdxcx605w8vtx?l=ko-KR?itscg=10000&itsct=atv-apl_hp-stream_now--220622",
+      "text": "지금 시청하기\n\t\t\t\t\t\t스릴러 · 일보다 중요한 것은 없다",
+      "index": 905
+    },
+    {
+      "name": "link_906",
+      "type": "link",
+      "defaultValue": "https://tv.apple.com/kr/movie/f1-%E1%84%83%E1%85%A5-%E1%84%86%E1%85%AE%E1%84%87%E1%85%B5/umc.cmc.3t6dvnnr87zwd4wmvpdx5came?l=ko-KR?itscg=10000&itsct=atv-apl_hp-stream_now--220622",
+      "text": "지금 시청하기\n\t\t\t\t\t\t액션 · Only in theaters June 27.",
+      "index": 906
+    },
+    {
+      "name": "link_907",
+      "type": "link",
+      "defaultValue": "https://tv.apple.com/kr/show/%E1%84%8B%E1%85%A7%E1%86%BC%E1%84%80%E1%85%AA%E1%86%BC%E1%84%8B%E1%85%B3%E1%86%AF-%E1%84%92%E1%85%A3%E1%86%BC%E1%84%92%E1%85%A1%E1%84%8B%E1%85%A7-2024-%E1%84%8B%E1%85%AF%E1%86%AF%E1%84%83%E1%85%B3-%E1%84%89%E1%85%B5%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3---fight-for-glory-2024-world-series/umc.cmc.6x620ggn8n2yamemiuk7ys8yt?l=ko-KR?itscg=10000&itsct=atv-apl_hp-stream_now--220622",
+      "text": "지금 시청하기\n\t\t\t\t\t\t다큐멘터리 · MLB 최고의 라이벌전이 펼쳐지는 월드시리즈의 짜릿",
+      "index": 907
+    },
+    {
+      "name": "link_908",
+      "type": "link",
+      "defaultValue": "https://tv.apple.com/kr/show/%E1%84%8C%E1%85%B5%E1%84%92%E1%85%A1%E1%84%8E%E1%85%A1%E1%86%BC%E1%84%80%E1%85%A9-%E1%84%89%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%85%E1%85%A9%E1%84%8B%E1%85%B4-%E1%84%87%E1%85%B5%E1%84%86%E1%85%B5%E1%86%AF---silo/umc.cmc.3yksgc857px0k0rqe5zd4jice?l=ko-KR?itscg=10000&itsct=atv-apl_hp-stream_now--220622",
+      "text": "지금 시청하기\n\t\t\t\t\t\tSF · 살아남으려면, 목숨 걸고 지켜야 한다.",
+      "index": 908
+    },
+    {
+      "name": "link_909",
+      "type": "link",
+      "defaultValue": "https://tv.apple.com/kr/show/%E1%84%86%E1%85%A1%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%E1%84%89%E1%85%B3-%E1%84%8B%E1%85%A9%E1%84%87%E1%85%B3-%E1%84%83%E1%85%B5-%E1%84%8B%E1%85%A6%E1%84%8B%E1%85%A5---masters-of-the-air/umc.cmc.7bxcni0vwgll9kmicq738k5q2?l=ko-KR?itscg=10000&itsct=atv-apl_hp-stream_now--220622",
+      "text": "지금 시청하기\n\t\t\t\t\t\t드라마 · 스티븐 스필버그, 톰 행크스, 게리 고츠만 제작",
+      "index": 909
+    },
+    {
+      "name": "link_910",
+      "type": "link",
+      "defaultValue": "https://tv.apple.com/kr/show/%E1%84%86%E1%85%A9%E1%84%82%E1%85%A1%E1%84%8F%E1%85%B3-%E1%84%85%E1%85%A6%E1%84%80%E1%85%A5%E1%84%89%E1%85%B5-%E1%84%8B%E1%85%A9%E1%84%87%E1%85%B3-%E1%84%86%E1%85%A9%E1%86%AB%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%E1%84%8C%E1%85%B3---monarch-legacy-of-monsters/umc.cmc.62l8x0ixrhyq3yaqa5y8yo7ew?l=ko-KR?itscg=10000&itsct=atv-apl_hp-stream_now--220622",
+      "text": "지금 시청하기\n\t\t\t\t\t\t어드벤처 · 새로운 위협",
+      "index": 910
+    },
+    {
+      "name": "link_911",
+      "type": "link",
+      "defaultValue": "#tv-plus-gallery-item-1",
+      "text": "Item 1",
+      "index": 911
+    },
+    {
+      "name": "link_912",
+      "type": "link",
+      "defaultValue": "#tv-plus-gallery-item-2",
+      "text": "Item 2",
+      "index": 912
+    },
+    {
+      "name": "link_913",
+      "type": "link",
+      "defaultValue": "#tv-plus-gallery-item-3",
+      "text": "Item 3",
+      "index": 913
+    },
+    {
+      "name": "link_914",
+      "type": "link",
+      "defaultValue": "#tv-plus-gallery-item-4",
+      "text": "Item 4",
+      "index": 914
+    },
+    {
+      "name": "link_915",
+      "type": "link",
+      "defaultValue": "#tv-plus-gallery-item-5",
+      "text": "Item 5",
+      "index": 915
+    },
+    {
+      "name": "link_916",
+      "type": "link",
+      "defaultValue": "#tv-plus-gallery-item-6",
+      "text": "Item 6",
+      "index": 916
+    },
+    {
+      "name": "link_917",
+      "type": "link",
+      "defaultValue": "#tv-plus-gallery-item-7",
+      "text": "Item 7",
+      "index": 917
+    },
+    {
+      "name": "link_918",
+      "type": "link",
+      "defaultValue": "#tv-plus-gallery-item-8",
+      "text": "Item 8",
+      "index": 918
+    },
+    {
+      "name": "link_919",
+      "type": "link",
+      "defaultValue": "#tv-plus-gallery-item-9",
+      "text": "Item 9",
+      "index": 919
+    },
+    {
+      "name": "link_920",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/store",
+      "text": "스토어",
+      "index": 920
+    },
+    {
+      "name": "link_921",
+      "type": "link",
+      "defaultValue": "/kr/mac/",
+      "text": "Mac",
+      "index": 921
+    },
+    {
+      "name": "link_922",
+      "type": "link",
+      "defaultValue": "/kr/ipad/",
+      "text": "iPad",
+      "index": 922
+    },
+    {
+      "name": "link_923",
+      "type": "link",
+      "defaultValue": "/kr/iphone/",
+      "text": "iPhone",
+      "index": 923
+    },
+    {
+      "name": "link_924",
+      "type": "link",
+      "defaultValue": "/kr/watch/",
+      "text": "Watch",
+      "index": 924
+    },
+    {
+      "name": "link_925",
+      "type": "link",
+      "defaultValue": "/kr/apple-vision-pro/",
+      "text": "Vision",
+      "index": 925
+    },
+    {
+      "name": "link_926",
+      "type": "link",
+      "defaultValue": "/kr/airpods/",
+      "text": "AirPods",
+      "index": 926
+    },
+    {
+      "name": "link_927",
+      "type": "link",
+      "defaultValue": "/kr/tv-home/",
+      "text": "TV 및 홈",
+      "index": 927
+    },
+    {
+      "name": "link_928",
+      "type": "link",
+      "defaultValue": "/kr/airtag/",
+      "text": "AirTag",
+      "index": 928
+    },
+    {
+      "name": "link_929",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/buy_accessories",
+      "text": "액세서리",
+      "index": 929
+    },
+    {
+      "name": "link_930",
+      "type": "link",
+      "defaultValue": "/kr/wallet/",
+      "text": "지갑",
+      "index": 930
+    },
+    {
+      "name": "link_931",
+      "type": "link",
+      "defaultValue": "/kr/apple-pay/",
+      "text": "Apple Pay",
+      "index": 931
+    },
+    {
+      "name": "link_932",
+      "type": "link",
+      "defaultValue": "https://account.apple.com/kr/",
+      "text": "Apple 계정 관리",
+      "index": 932
+    },
+    {
+      "name": "link_933",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/account",
+      "text": "Apple Store 계정",
+      "index": 933
+    },
+    {
+      "name": "link_934",
+      "type": "link",
+      "defaultValue": "https://www.icloud.com",
+      "text": "iCloud.com",
+      "index": 934
+    },
+    {
+      "name": "link_935",
+      "type": "link",
+      "defaultValue": "/kr/apple-one/",
+      "text": "Apple One",
+      "index": 935
+    },
+    {
+      "name": "link_936",
+      "type": "link",
+      "defaultValue": "/kr/apple-tv/",
+      "text": "Apple TV",
+      "index": 936
+    },
+    {
+      "name": "link_937",
+      "type": "link",
+      "defaultValue": "/kr/apple-music/",
+      "text": "Apple Music",
+      "index": 937
+    },
+    {
+      "name": "link_938",
+      "type": "link",
+      "defaultValue": "/kr/apple-arcade/",
+      "text": "Apple Arcade",
+      "index": 938
+    },
+    {
+      "name": "link_939",
+      "type": "link",
+      "defaultValue": "/kr/apple-podcasts/",
+      "text": "Apple 팟캐스트",
+      "index": 939
+    },
+    {
+      "name": "link_940",
+      "type": "link",
+      "defaultValue": "/kr/apple-books/",
+      "text": "Apple Books",
+      "index": 940
+    },
+    {
+      "name": "link_941",
+      "type": "link",
+      "defaultValue": "/kr/app-store/",
+      "text": "App Store",
+      "index": 941
+    },
+    {
+      "name": "link_942",
+      "type": "link",
+      "defaultValue": "/kr/retail/",
+      "text": "매장 찾기",
+      "index": 942
+    },
+    {
+      "name": "link_943",
+      "type": "link",
+      "defaultValue": "/kr/retail/geniusbar/",
+      "text": "Genius Bar",
+      "index": 943
+    },
+    {
+      "name": "link_944",
+      "type": "link",
+      "defaultValue": "/kr/today/",
+      "text": "Today at Apple",
+      "index": 944
+    },
+    {
+      "name": "link_945",
+      "type": "link",
+      "defaultValue": "/kr/today/groups/",
+      "text": "그룹 예약",
+      "index": 945
+    },
+    {
+      "name": "link_946",
+      "type": "link",
+      "defaultValue": "/kr/today/camp/",
+      "text": "Apple 캠프",
+      "index": 946
+    },
+    {
+      "name": "link_947",
+      "type": "link",
+      "defaultValue": "https://apps.apple.com/kr/app/apple-store/id375380948",
+      "text": "Apple Store 앱",
+      "index": 947
+    },
+    {
+      "name": "link_948",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/special_deals",
+      "text": "인증 리퍼비쉬 제품",
+      "index": 948
+    },
+    {
+      "name": "link_949",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/trade_in",
+      "text": "Apple Trade In",
+      "index": 949
+    },
+    {
+      "name": "link_950",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/financing",
+      "text": "할부 방식",
+      "index": 950
+    },
+    {
+      "name": "link_951",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/order/list",
+      "text": "주문 상태",
+      "index": 951
+    },
+    {
+      "name": "link_952",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/help",
+      "text": "쇼핑 도움말",
+      "index": 952
+    },
+    {
+      "name": "link_953",
+      "type": "link",
+      "defaultValue": "/kr/business/",
+      "text": "Apple과 비즈니스",
+      "index": 953
+    },
+    {
+      "name": "link_954",
+      "type": "link",
+      "defaultValue": "/kr/retail/business/",
+      "text": "비즈니스를 위한 제품 쇼핑하기",
+      "index": 954
+    },
+    {
+      "name": "link_955",
+      "type": "link",
+      "defaultValue": "/kr/education/",
+      "text": "Apple과 교육",
+      "index": 955
+    },
+    {
+      "name": "link_956",
+      "type": "link",
+      "defaultValue": "/kr/education/k12/how-to-buy/",
+      "text": "초중고용 제품 쇼핑하기",
+      "index": 956
+    },
+    {
+      "name": "link_957",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/educationrouting",
+      "text": "대학 생활을 위한 제품 쇼핑하기",
+      "index": 957
+    },
+    {
+      "name": "link_958",
+      "type": "link",
+      "defaultValue": "/kr/accessibility/",
+      "text": "손쉬운 사용",
+      "index": 958
+    },
+    {
+      "name": "link_959",
+      "type": "link",
+      "defaultValue": "/kr/education-initiative/",
+      "text": "교육",
+      "index": 959
+    },
+    {
+      "name": "link_960",
+      "type": "link",
+      "defaultValue": "/kr/environment/",
+      "text": "환경",
+      "index": 960
+    },
+    {
+      "name": "link_961",
+      "type": "link",
+      "defaultValue": "/kr/privacy/",
+      "text": "개인정보 보호",
+      "index": 961
+    },
+    {
+      "name": "link_962",
+      "type": "link",
+      "defaultValue": "/kr/supply-chain/",
+      "text": "공급망 혁신",
+      "index": 962
+    },
+    {
+      "name": "link_963",
+      "type": "link",
+      "defaultValue": "/kr/newsroom/",
+      "text": "Newsroom",
+      "index": 963
+    },
+    {
+      "name": "link_964",
+      "type": "link",
+      "defaultValue": "/kr/leadership/",
+      "text": "Apple 리더십",
+      "index": 964
+    },
+    {
+      "name": "link_965",
+      "type": "link",
+      "defaultValue": "/careers/kr/",
+      "text": "채용 안내",
+      "index": 965
+    },
+    {
+      "name": "link_966",
+      "type": "link",
+      "defaultValue": "/compliance/",
+      "text": "윤리 및 규정 준수",
+      "index": 966
+    },
+    {
+      "name": "link_967",
+      "type": "link",
+      "defaultValue": "/kr/apple-events/",
+      "text": "이벤트",
+      "index": 967
+    },
+    {
+      "name": "link_968",
+      "type": "link",
+      "defaultValue": "/kr/job-creation/",
+      "text": "일자리 창출",
+      "index": 968
+    },
+    {
+      "name": "link_969",
+      "type": "link",
+      "defaultValue": "/kr/contact/",
+      "text": "Apple 연락처",
+      "index": 969
+    },
+    {
+      "name": "link_970",
+      "type": "link",
+      "defaultValue": "/kr/retail/",
+      "text": "Apple Store를 방문",
+      "index": 970
+    },
+    {
+      "name": "link_971",
+      "type": "link",
+      "defaultValue": "https://locate.apple.com/kr/ko/",
+      "text": "리셀러",
+      "index": 971
+    },
+    {
+      "name": "link_972",
+      "type": "link",
+      "defaultValue": "tel:080-330-8877",
+      "text": "080-330-8877",
+      "index": 972
+    },
+    {
+      "name": "link_973",
+      "type": "link",
+      "defaultValue": "/choose-country-region/",
+      "text": "대한민국",
+      "index": 973
+    },
+    {
+      "name": "link_974",
+      "type": "link",
+      "defaultValue": "/kr/legal/privacy/",
+      "text": "개인정보 처리방침",
+      "index": 974
+    },
+    {
+      "name": "link_975",
+      "type": "link",
+      "defaultValue": "/kr/legal/internet-services/terms/site.html",
+      "text": "웹 사이트 이용 약관",
+      "index": 975
+    },
+    {
+      "name": "link_976",
+      "type": "link",
+      "defaultValue": "/kr/shop/goto/help/sales_refunds",
+      "text": "판매 및 환불",
+      "index": 976
+    },
+    {
+      "name": "link_977",
+      "type": "link",
+      "defaultValue": "/kr/legal/",
+      "text": "법적 고지",
+      "index": 977
+    },
+    {
+      "name": "link_978",
+      "type": "link",
+      "defaultValue": "/kr/sitemap/",
+      "text": "사이트 맵",
+      "index": 978
+    },
+    {
+      "name": "link_979",
+      "type": "link",
+      "defaultValue": "https://support.apple.com/ko-kr",
+      "text": "https://support.apple.com/ko-kr",
+      "index": 979
+    },
+    {
+      "name": "link_980",
+      "type": "link",
+      "defaultValue": "http://www.ftc.go.kr/bizCommPop.do?wrkr_no=1208184429",
+      "text": "사업자정보",
+      "index": 980
+    },
+    {
+      "name": "bg_981",
+      "type": "image",
+      "subtype": "background",
+      "defaultValue": "https://is1-ssl.mzstatic.com/image/thumb/7NSXJMLGAnLzdEvqSPUjBQ/1250x703.jpg",
+      "index": 981
+    },
+    {
+      "name": "bg_982",
+      "type": "image",
+      "subtype": "background",
+      "defaultValue": "https://is1-ssl.mzstatic.com/image/thumb/HXe_iANR3GLFR18wtYAeAw/548x409.png",
+      "index": 982
+    },
+    {
+      "name": "bg_983",
+      "type": "image",
+      "subtype": "background",
+      "defaultValue": "https://is1-ssl.mzstatic.com/image/thumb/ocgWbtEbnXC5iBloMlNFFg/1250x703.jpg",
+      "index": 983
+    },
+    {
+      "name": "bg_984",
+      "type": "image",
+      "subtype": "background",
+      "defaultValue": "https://is1-ssl.mzstatic.com/image/thumb/Sqqtf1w9s9r7F0K6qY2TnQ/548x198.png",
+      "index": 984
+    },
+    {
+      "name": "bg_985",
+      "type": "image",
+      "subtype": "background",
+      "defaultValue": "https://is1-ssl.mzstatic.com/image/thumb/T-djFKQbfL5tbCGhz2KyeQ/1250x703.jpg",
+      "index": 985
+    },
+    {
+      "name": "bg_986",
+      "type": "image",
+      "subtype": "background",
+      "defaultValue": "https://is1-ssl.mzstatic.com/image/thumb/QjRiAXt4hA0ChHEKP2oO1A/548x304.png",
+      "index": 986
+    },
+    {
+      "name": "bg_987",
+      "type": "image",
+      "subtype": "background",
+      "defaultValue": "https://is1-ssl.mzstatic.com/image/thumb/_LWChsLxuaPE72FcNYFmtg/1250x703.jpg",
+      "index": 987
+    },
+    {
+      "name": "bg_988",
+      "type": "image",
+      "subtype": "background",
+      "defaultValue": "https://is1-ssl.mzstatic.com/image/thumb/qQABRfPGT9OUKq10_ag_-g/548x165.png",
+      "index": 988
+    },
+    {
+      "name": "bg_989",
+      "type": "image",
+      "subtype": "background",
+      "defaultValue": "https://is1-ssl.mzstatic.com/image/thumb/ybrpyN5Jn8Du1ZNaERuvDg/1250x703.jpg",
+      "index": 989
+    },
+    {
+      "name": "bg_990",
+      "type": "image",
+      "subtype": "background",
+      "defaultValue": "https://is1-ssl.mzstatic.com/image/thumb/q_HH5XEcMgP6VCeBZnliqA/548x315.png",
+      "index": 990
+    },
+    {
+      "name": "bg_991",
+      "type": "image",
+      "subtype": "background",
+      "defaultValue": "https://is1-ssl.mzstatic.com/image/thumb/Infx6p2_ciO8nJR9hJiasw/1250x703.jpg",
+      "index": 991
+    },
+    {
+      "name": "bg_992",
+      "type": "image",
+      "subtype": "background",
+      "defaultValue": "https://is1-ssl.mzstatic.com/image/thumb/iqyal3-yzGZlPwiK4VzPRw/548x145.png",
+      "index": 992
+    },
+    {
+      "name": "bg_993",
+      "type": "image",
+      "subtype": "background",
+      "defaultValue": "https://is1-ssl.mzstatic.com/image/thumb/X4szsf2DfDXTdYRIsrBihQ/1250x703.jpg",
+      "index": 993
+    },
+    {
+      "name": "bg_994",
+      "type": "image",
+      "subtype": "background",
+      "defaultValue": "https://is1-ssl.mzstatic.com/image/thumb/NINCsnzasAelNaL2pfa1iw/548x205.png",
+      "index": 994
+    },
+    {
+      "name": "bg_995",
+      "type": "image",
+      "subtype": "background",
+      "defaultValue": "https://is1-ssl.mzstatic.com/image/thumb/Y__Mbd6Zp46Mj6xlweeq2A/1250x703.jpg",
+      "index": 995
+    },
+    {
+      "name": "bg_996",
+      "type": "image",
+      "subtype": "background",
+      "defaultValue": "https://is1-ssl.mzstatic.com/image/thumb/imsrhtWw0__R0NLI9szOGQ/548x145.png",
+      "index": 996
+    },
+    {
+      "name": "bg_997",
+      "type": "image",
+      "subtype": "background",
+      "defaultValue": "https://is1-ssl.mzstatic.com/image/thumb/xhyFe_VI1hMMK75UN_vgTQ/1250x703.jpg",
+      "index": 997
+    },
+    {
+      "name": "bg_998",
+      "type": "image",
+      "subtype": "background",
+      "defaultValue": "https://is1-ssl.mzstatic.com/image/thumb/xvoJuwJ-OQh2uF0Tlz_2vg/548x354.png",
+      "index": 998
+    }
+  ]
+}

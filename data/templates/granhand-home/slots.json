@@ -1,0 +1,1499 @@
+{
+  "total": 213,
+  "text": 128,
+  "image": 21,
+  "link": 64,
+  "slots": [
+    {
+      "name": "text_0",
+      "type": "text",
+      "defaultValue": "전체상품목록 바로가기",
+      "tag": "p",
+      "index": 0
+    },
+    {
+      "name": "text_1",
+      "type": "text",
+      "defaultValue": "전체상품목록 바로가기",
+      "tag": "a",
+      "index": 1
+    },
+    {
+      "name": "text_2",
+      "type": "text",
+      "defaultValue": "본문 바로가기",
+      "tag": "p",
+      "index": 2
+    },
+    {
+      "name": "text_3",
+      "type": "text",
+      "defaultValue": "본문 바로가기",
+      "tag": "a",
+      "index": 3
+    },
+    {
+      "name": "text_4",
+      "type": "text",
+      "defaultValue": "신규 회원 적립금 5,000원 ㅣ 그랑핸드 회원은 무료배송",
+      "tag": "a",
+      "index": 4
+    },
+    {
+      "name": "text_5",
+      "type": "text",
+      "defaultValue": "오늘 하루 보지 않기",
+      "tag": "label",
+      "index": 5
+    },
+    {
+      "name": "text_6",
+      "type": "text",
+      "defaultValue": "한국어",
+      "tag": "li",
+      "index": 6
+    },
+    {
+      "name": "text_7",
+      "type": "text",
+      "defaultValue": "한국어",
+      "tag": "a",
+      "index": 7
+    },
+    {
+      "name": "text_8",
+      "type": "text",
+      "defaultValue": "English",
+      "tag": "li",
+      "index": 8
+    },
+    {
+      "name": "text_9",
+      "type": "text",
+      "defaultValue": "English",
+      "tag": "a",
+      "index": 9
+    },
+    {
+      "name": "text_10",
+      "type": "text",
+      "defaultValue": "로그인",
+      "tag": "a",
+      "index": 10
+    },
+    {
+      "name": "text_11",
+      "type": "text",
+      "defaultValue": "SHOP",
+      "tag": "li",
+      "index": 11
+    },
+    {
+      "name": "text_12",
+      "type": "text",
+      "defaultValue": "SHOP",
+      "tag": "a",
+      "index": 12
+    },
+    {
+      "name": "text_13",
+      "type": "text",
+      "defaultValue": "JOURNAL",
+      "tag": "li",
+      "index": 13
+    },
+    {
+      "name": "text_14",
+      "type": "text",
+      "defaultValue": "JOURNAL",
+      "tag": "a",
+      "index": 14
+    },
+    {
+      "name": "text_15",
+      "type": "text",
+      "defaultValue": "EVENT",
+      "tag": "li",
+      "index": 15
+    },
+    {
+      "name": "text_16",
+      "type": "text",
+      "defaultValue": "EVENT",
+      "tag": "a",
+      "index": 16
+    },
+    {
+      "name": "text_17",
+      "type": "text",
+      "defaultValue": "AWARDS",
+      "tag": "li",
+      "index": 17
+    },
+    {
+      "name": "text_18",
+      "type": "text",
+      "defaultValue": "AWARDS",
+      "tag": "a",
+      "index": 18
+    },
+    {
+      "name": "text_19",
+      "type": "text",
+      "defaultValue": "STORE",
+      "tag": "li",
+      "index": 19
+    },
+    {
+      "name": "text_20",
+      "type": "text",
+      "defaultValue": "STORE",
+      "tag": "a",
+      "index": 20
+    },
+    {
+      "name": "text_21",
+      "type": "text",
+      "defaultValue": "GRANHAND.",
+      "tag": "a",
+      "index": 21
+    },
+    {
+      "name": "text_22",
+      "type": "text",
+      "defaultValue": "회원가입",
+      "tag": "a",
+      "index": 22
+    },
+    {
+      "name": "text_23",
+      "type": "text",
+      "defaultValue": "로그인",
+      "tag": "a",
+      "index": 23
+    },
+    {
+      "name": "text_24",
+      "type": "text",
+      "defaultValue": "주문조회",
+      "tag": "a",
+      "index": 24
+    },
+    {
+      "name": "text_25",
+      "type": "text",
+      "defaultValue": "최근본상품",
+      "tag": "a",
+      "index": 25
+    },
+    {
+      "name": "text_26",
+      "type": "text",
+      "defaultValue": "SHOP",
+      "tag": "li",
+      "index": 26
+    },
+    {
+      "name": "text_27",
+      "type": "text",
+      "defaultValue": "SHOP",
+      "tag": "a",
+      "index": 27
+    },
+    {
+      "name": "text_28",
+      "type": "text",
+      "defaultValue": "JOURNAL",
+      "tag": "li",
+      "index": 28
+    },
+    {
+      "name": "text_29",
+      "type": "text",
+      "defaultValue": "JOURNAL",
+      "tag": "a",
+      "index": 29
+    },
+    {
+      "name": "text_30",
+      "type": "text",
+      "defaultValue": "EVENT",
+      "tag": "li",
+      "index": 30
+    },
+    {
+      "name": "text_31",
+      "type": "text",
+      "defaultValue": "EVENT",
+      "tag": "a",
+      "index": 31
+    },
+    {
+      "name": "text_32",
+      "type": "text",
+      "defaultValue": "AWARDS",
+      "tag": "li",
+      "index": 32
+    },
+    {
+      "name": "text_33",
+      "type": "text",
+      "defaultValue": "AWARDS",
+      "tag": "a",
+      "index": 33
+    },
+    {
+      "name": "text_34",
+      "type": "text",
+      "defaultValue": "STORE",
+      "tag": "li",
+      "index": 34
+    },
+    {
+      "name": "text_35",
+      "type": "text",
+      "defaultValue": "STORE",
+      "tag": "a",
+      "index": 35
+    },
+    {
+      "name": "text_36",
+      "type": "text",
+      "defaultValue": "펼침",
+      "tag": "button",
+      "index": 36
+    },
+    {
+      "name": "text_37",
+      "type": "text",
+      "defaultValue": "JOURNAL",
+      "tag": "li",
+      "index": 37
+    },
+    {
+      "name": "text_38",
+      "type": "text",
+      "defaultValue": "JOURNAL",
+      "tag": "a",
+      "index": 38
+    },
+    {
+      "name": "text_39",
+      "type": "text",
+      "defaultValue": "EVENT",
+      "tag": "li",
+      "index": 39
+    },
+    {
+      "name": "text_40",
+      "type": "text",
+      "defaultValue": "EVENT",
+      "tag": "a",
+      "index": 40
+    },
+    {
+      "name": "text_41",
+      "type": "text",
+      "defaultValue": "자주 묻는 질문",
+      "tag": "li",
+      "index": 41
+    },
+    {
+      "name": "text_42",
+      "type": "text",
+      "defaultValue": "자주 묻는 질문",
+      "tag": "a",
+      "index": 42
+    },
+    {
+      "name": "text_43",
+      "type": "text",
+      "defaultValue": "제휴 문의",
+      "tag": "li",
+      "index": 43
+    },
+    {
+      "name": "text_44",
+      "type": "text",
+      "defaultValue": "제휴 문의",
+      "tag": "a",
+      "index": 44
+    },
+    {
+      "name": "text_45",
+      "type": "text",
+      "defaultValue": "한국어",
+      "tag": "button",
+      "index": 45
+    },
+    {
+      "name": "text_46",
+      "type": "text",
+      "defaultValue": "한국어",
+      "tag": "li",
+      "index": 46
+    },
+    {
+      "name": "text_47",
+      "type": "text",
+      "defaultValue": "한국어",
+      "tag": "a",
+      "index": 47
+    },
+    {
+      "name": "text_48",
+      "type": "text",
+      "defaultValue": "English",
+      "tag": "li",
+      "index": 48
+    },
+    {
+      "name": "text_49",
+      "type": "text",
+      "defaultValue": "English",
+      "tag": "a",
+      "index": 49
+    },
+    {
+      "name": "text_50",
+      "type": "text",
+      "defaultValue": "닫기",
+      "tag": "button",
+      "index": 50
+    },
+    {
+      "name": "text_51",
+      "type": "text",
+      "defaultValue": "뒤로가기",
+      "tag": "span",
+      "index": 51
+    },
+    {
+      "name": "text_52",
+      "type": "text",
+      "defaultValue": "확인",
+      "tag": "button",
+      "index": 52
+    },
+    {
+      "name": "text_53",
+      "type": "text",
+      "defaultValue": "상품명 : Marine Orchid Hand Cream",
+      "tag": "a",
+      "index": 53
+    },
+    {
+      "name": "text_54",
+      "type": "text",
+      "defaultValue": "상품명 :",
+      "tag": "span",
+      "index": 54
+    },
+    {
+      "name": "text_55",
+      "type": "text",
+      "defaultValue": "상품명",
+      "tag": "span",
+      "index": 55
+    },
+    {
+      "name": "text_56",
+      "type": "text",
+      "defaultValue": "Marine Orchid Hand Cream",
+      "tag": "span",
+      "index": 56
+    },
+    {
+      "name": "text_57",
+      "type": "text",
+      "defaultValue": "단독구매상품",
+      "tag": "p",
+      "index": 57
+    },
+    {
+      "name": "text_58",
+      "type": "text",
+      "defaultValue": "판매가 : 25,000 KRW",
+      "tag": "li",
+      "index": 58
+    },
+    {
+      "name": "text_59",
+      "type": "text",
+      "defaultValue": "판매가",
+      "tag": "span",
+      "index": 59
+    },
+    {
+      "name": "text_60",
+      "type": "text",
+      "defaultValue": "25,000 KRW",
+      "tag": "span",
+      "index": 60
+    },
+    {
+      "name": "text_61",
+      "type": "text",
+      "defaultValue": "상품명 : Susie Salmon Multi Perfume",
+      "tag": "a",
+      "index": 61
+    },
+    {
+      "name": "text_62",
+      "type": "text",
+      "defaultValue": "상품명 :",
+      "tag": "span",
+      "index": 62
+    },
+    {
+      "name": "text_63",
+      "type": "text",
+      "defaultValue": "상품명",
+      "tag": "span",
+      "index": 63
+    },
+    {
+      "name": "text_64",
+      "type": "text",
+      "defaultValue": "Susie Salmon Multi Perfume",
+      "tag": "span",
+      "index": 64
+    },
+    {
+      "name": "text_65",
+      "type": "text",
+      "defaultValue": "단독구매상품",
+      "tag": "p",
+      "index": 65
+    },
+    {
+      "name": "text_66",
+      "type": "text",
+      "defaultValue": "판매가 : 35,000 KRW",
+      "tag": "li",
+      "index": 66
+    },
+    {
+      "name": "text_67",
+      "type": "text",
+      "defaultValue": "판매가",
+      "tag": "span",
+      "index": 67
+    },
+    {
+      "name": "text_68",
+      "type": "text",
+      "defaultValue": "35,000 KRW",
+      "tag": "span",
+      "index": 68
+    },
+    {
+      "name": "text_69",
+      "type": "text",
+      "defaultValue": "상품명 : Hand Wash & Sachet Set",
+      "tag": "a",
+      "index": 69
+    },
+    {
+      "name": "text_70",
+      "type": "text",
+      "defaultValue": "상품명 :",
+      "tag": "span",
+      "index": 70
+    },
+    {
+      "name": "text_71",
+      "type": "text",
+      "defaultValue": "상품명",
+      "tag": "span",
+      "index": 71
+    },
+    {
+      "name": "text_72",
+      "type": "text",
+      "defaultValue": "Hand Wash & Sachet Set",
+      "tag": "span",
+      "index": 72
+    },
+    {
+      "name": "text_73",
+      "type": "text",
+      "defaultValue": "단독구매상품",
+      "tag": "p",
+      "index": 73
+    },
+    {
+      "name": "text_74",
+      "type": "text",
+      "defaultValue": "판매가 : 43,000 KRW",
+      "tag": "li",
+      "index": 74
+    },
+    {
+      "name": "text_75",
+      "type": "text",
+      "defaultValue": "판매가",
+      "tag": "span",
+      "index": 75
+    },
+    {
+      "name": "text_76",
+      "type": "text",
+      "defaultValue": "43,000 KRW",
+      "tag": "span",
+      "index": 76
+    },
+    {
+      "name": "text_77",
+      "type": "text",
+      "defaultValue": "상품명 : 뱀부 타월 - 베이지",
+      "tag": "a",
+      "index": 77
+    },
+    {
+      "name": "text_78",
+      "type": "text",
+      "defaultValue": "상품명 :",
+      "tag": "span",
+      "index": 78
+    },
+    {
+      "name": "text_79",
+      "type": "text",
+      "defaultValue": "상품명",
+      "tag": "span",
+      "index": 79
+    },
+    {
+      "name": "text_80",
+      "type": "text",
+      "defaultValue": "뱀부 타월 - 베이지",
+      "tag": "span",
+      "index": 80
+    },
+    {
+      "name": "text_81",
+      "type": "text",
+      "defaultValue": "단독구매상품",
+      "tag": "p",
+      "index": 81
+    },
+    {
+      "name": "text_82",
+      "type": "text",
+      "defaultValue": "판매가 : 11,000 KRW",
+      "tag": "li",
+      "index": 82
+    },
+    {
+      "name": "text_83",
+      "type": "text",
+      "defaultValue": "판매가",
+      "tag": "span",
+      "index": 83
+    },
+    {
+      "name": "text_84",
+      "type": "text",
+      "defaultValue": "11,000 KRW",
+      "tag": "span",
+      "index": 84
+    },
+    {
+      "name": "text_85",
+      "type": "text",
+      "defaultValue": "#Life\n                    수건 한 장이라도, 좋은 걸 쓰고 싶어서\n                    2026-02-19 조회 694",
+      "tag": "li",
+      "index": 85
+    },
+    {
+      "name": "text_86",
+      "type": "text",
+      "defaultValue": "#Essay\n                    출근길 단상\n                    2026-02-19 조회 577",
+      "tag": "li",
+      "index": 86
+    },
+    {
+      "name": "text_87",
+      "type": "text",
+      "defaultValue": "#Life\n                    냄새의 산업화: 지하철 냄새는 왜 전 세계가 다 비슷할까?\n                    2026-02-19 조회 377",
+      "tag": "li",
+      "index": 87
+    },
+    {
+      "name": "text_88",
+      "type": "text",
+      "defaultValue": "#Life\n                    완벽한 평온을 만드는 도서관의 건축적 비밀\n                    2026-02-19 조회 440",
+      "tag": "li",
+      "index": 88
+    },
+    {
+      "name": "text_89",
+      "type": "text",
+      "defaultValue": "#News\n                    제2회 그랑핸드 문예 공모전\n                    2026-02-04 조회 2603",
+      "tag": "li",
+      "index": 89
+    },
+    {
+      "name": "text_90",
+      "type": "text",
+      "defaultValue": "#News\n                    그랑핸드의 네번째 브랜드, 헤이온 heiion\n                    2026-01-30 조회 783",
+      "tag": "li",
+      "index": 90
+    },
+    {
+      "name": "text_91",
+      "type": "text",
+      "defaultValue": "뉴스레터 구독",
+      "tag": "a",
+      "index": 91
+    },
+    {
+      "name": "text_92",
+      "type": "text",
+      "defaultValue": "자주 묻는 질문",
+      "tag": "a",
+      "index": 92
+    },
+    {
+      "name": "text_93",
+      "type": "text",
+      "defaultValue": "회사 소개",
+      "tag": "a",
+      "index": 93
+    },
+    {
+      "name": "text_94",
+      "type": "text",
+      "defaultValue": "채용 안내",
+      "tag": "a",
+      "index": 94
+    },
+    {
+      "name": "text_95",
+      "type": "text",
+      "defaultValue": "공지사항",
+      "tag": "a",
+      "index": 95
+    },
+    {
+      "name": "text_96",
+      "type": "text",
+      "defaultValue": "제휴 문의",
+      "tag": "a",
+      "index": 96
+    },
+    {
+      "name": "text_97",
+      "type": "text",
+      "defaultValue": "온라인 응대페이지",
+      "tag": "a",
+      "index": 97
+    },
+    {
+      "name": "text_98",
+      "type": "text",
+      "defaultValue": "Sometimes you win,",
+      "tag": "p",
+      "index": 98
+    },
+    {
+      "name": "text_99",
+      "type": "text",
+      "defaultValue": "Sometimes you learn.",
+      "tag": "p",
+      "index": 99
+    },
+    {
+      "name": "text_100",
+      "type": "text",
+      "defaultValue": "이용약관",
+      "tag": "a",
+      "index": 100
+    },
+    {
+      "name": "text_101",
+      "type": "text",
+      "defaultValue": "개인정보처리방침",
+      "tag": "a",
+      "index": 101
+    },
+    {
+      "name": "text_102",
+      "type": "text",
+      "defaultValue": "개인정보관리책임 정지호",
+      "tag": "span",
+      "index": 102
+    },
+    {
+      "name": "text_103",
+      "type": "text",
+      "defaultValue": "상호명",
+      "tag": "span",
+      "index": 103
+    },
+    {
+      "name": "text_104",
+      "type": "text",
+      "defaultValue": "(유)제이에이치",
+      "tag": "span",
+      "index": 104
+    },
+    {
+      "name": "text_105",
+      "type": "text",
+      "defaultValue": "대표자명",
+      "tag": "span",
+      "index": 105
+    },
+    {
+      "name": "text_106",
+      "type": "text",
+      "defaultValue": "정준혁",
+      "tag": "span",
+      "index": 106
+    },
+    {
+      "name": "text_107",
+      "type": "text",
+      "defaultValue": "사업장 주소",
+      "tag": "span",
+      "index": 107
+    },
+    {
+      "name": "text_108",
+      "type": "text",
+      "defaultValue": "03055 서울 종로구 북촌로11길 25",
+      "tag": "span",
+      "index": 108
+    },
+    {
+      "name": "text_109",
+      "type": "text",
+      "defaultValue": "대표 전화",
+      "tag": "span",
+      "index": 109
+    },
+    {
+      "name": "text_110",
+      "type": "text",
+      "defaultValue": "02-333-6525",
+      "tag": "span",
+      "index": 110
+    },
+    {
+      "name": "text_111",
+      "type": "text",
+      "defaultValue": "사업자 등록번호",
+      "tag": "span",
+      "index": 111
+    },
+    {
+      "name": "text_112",
+      "type": "text",
+      "defaultValue": "1278801898",
+      "tag": "span",
+      "index": 112
+    },
+    {
+      "name": "text_113",
+      "type": "text",
+      "defaultValue": "통신판매업 신고번호",
+      "tag": "span",
+      "index": 113
+    },
+    {
+      "name": "text_114",
+      "type": "text",
+      "defaultValue": "2020-서울종로-0623 [사업자정보확인]",
+      "tag": "span",
+      "index": 114
+    },
+    {
+      "name": "text_115",
+      "type": "text",
+      "defaultValue": "[사업자정보확인]",
+      "tag": "a",
+      "index": 115
+    },
+    {
+      "name": "text_116",
+      "type": "text",
+      "defaultValue": "개인정보보호책임자",
+      "tag": "span",
+      "index": 116
+    },
+    {
+      "name": "text_117",
+      "type": "text",
+      "defaultValue": "정지호",
+      "tag": "span",
+      "index": 117
+    },
+    {
+      "name": "text_118",
+      "type": "text",
+      "defaultValue": "02-333-6525",
+      "tag": "span",
+      "index": 118
+    },
+    {
+      "name": "text_119",
+      "type": "text",
+      "defaultValue": "hello@granhand.com",
+      "tag": "span",
+      "index": 119
+    },
+    {
+      "name": "text_120",
+      "type": "text",
+      "defaultValue": "은행 \n\t\t\t\t\t\t\t0000-000-00000\n\t\t\t\t\t\t\t예금주",
+      "tag": "li",
+      "index": 120
+    },
+    {
+      "name": "text_121",
+      "type": "text",
+      "defaultValue": "은행",
+      "tag": "span",
+      "index": 121
+    },
+    {
+      "name": "text_122",
+      "type": "text",
+      "defaultValue": "0000-000-00000",
+      "tag": "span",
+      "index": 122
+    },
+    {
+      "name": "text_123",
+      "type": "text",
+      "defaultValue": "예금주",
+      "tag": "span",
+      "index": 123
+    },
+    {
+      "name": "text_124",
+      "type": "text",
+      "defaultValue": "삭제",
+      "tag": "button",
+      "index": 124
+    },
+    {
+      "name": "text_125",
+      "type": "text",
+      "defaultValue": "닫기",
+      "tag": "button",
+      "index": 125
+    },
+    {
+      "name": "text_126",
+      "type": "text",
+      "defaultValue": "안녕하세요?",
+      "tag": "h2",
+      "index": 126
+    },
+    {
+      "name": "text_127",
+      "type": "text",
+      "defaultValue": "{#item}",
+      "tag": "a",
+      "index": 127
+    },
+    {
+      "name": "img_128",
+      "type": "image",
+      "defaultValue": "https://www.granhand.com/SkinImg/granhand_logo.png",
+      "alt": "",
+      "index": 128
+    },
+    {
+      "name": "img_129",
+      "type": "image",
+      "defaultValue": "https://granhand9.cafe24.com/main/%EB%A9%94%EC%9D%B8%20%EC%9D%B4%EB%AF%B8%EC%A7%80_%EA%B8%B0%EB%B3%B8.jpg",
+      "alt": "",
+      "index": 129
+    },
+    {
+      "name": "img_130",
+      "type": "image",
+      "defaultValue": "//www.granhand.com/web/product/medium/202510/1b3550f90d32277c4d0ea52ac942a7bb.png",
+      "alt": "Marine Orchid Hand Cream",
+      "index": 130
+    },
+    {
+      "name": "img_131",
+      "type": "image",
+      "defaultValue": "https://www.granhand.com/web/upload/icon_202511101738190000.png",
+      "alt": "관심상품 등록 전",
+      "index": 131
+    },
+    {
+      "name": "img_132",
+      "type": "image",
+      "defaultValue": "//img.echosting.cafe24.com/design/skin/admin/ko_KR/btn_list_cart.gif",
+      "alt": "장바구니 담기",
+      "index": 132
+    },
+    {
+      "name": "img_133",
+      "type": "image",
+      "defaultValue": "//www.granhand.com/web/product/medium/202510/6cfc473a06a2aa2a730ed61a7290deb3.jpg",
+      "alt": "Susie Salmon Multi Perfume",
+      "index": 133
+    },
+    {
+      "name": "img_134",
+      "type": "image",
+      "defaultValue": "https://www.granhand.com/web/upload/icon_202511101738190000.png",
+      "alt": "관심상품 등록 전",
+      "index": 134
+    },
+    {
+      "name": "img_135",
+      "type": "image",
+      "defaultValue": "//img.echosting.cafe24.com/design/skin/admin/ko_KR/btn_list_cart.gif",
+      "alt": "장바구니 담기",
+      "index": 135
+    },
+    {
+      "name": "img_136",
+      "type": "image",
+      "defaultValue": "//www.granhand.com/web/product/medium/202602/28264dc77044967b912d6d9f4a261151.jpg",
+      "alt": "Hand Wash &amp; Sachet Set",
+      "index": 136
+    },
+    {
+      "name": "img_137",
+      "type": "image",
+      "defaultValue": "https://www.granhand.com/web/upload/icon_202511101738190000.png",
+      "alt": "관심상품 등록 전",
+      "index": 137
+    },
+    {
+      "name": "img_138",
+      "type": "image",
+      "defaultValue": "//img.echosting.cafe24.com/design/skin/admin/ko_KR/btn_list_cart.gif",
+      "alt": "장바구니 담기",
+      "index": 138
+    },
+    {
+      "name": "img_139",
+      "type": "image",
+      "defaultValue": "//www.granhand.com/web/product/medium/202601/347a08f0bc99a80ea6774c2248c5d54b.jpg",
+      "alt": "뱀부 타월 - 베이지",
+      "index": 139
+    },
+    {
+      "name": "img_140",
+      "type": "image",
+      "defaultValue": "https://www.granhand.com/web/upload/icon_202511101738190000.png",
+      "alt": "관심상품 등록 전",
+      "index": 140
+    },
+    {
+      "name": "img_141",
+      "type": "image",
+      "defaultValue": "//img.echosting.cafe24.com/design/skin/admin/ko_KR/btn_list_cart.gif",
+      "alt": "장바구니 담기",
+      "index": 141
+    },
+    {
+      "name": "img_142",
+      "type": "image",
+      "defaultValue": "//www.granhand.com/file_data/granhand9/gallery/2026/02/19/c6bc68fa4d5ff2e729605912fb5b6311.jpg",
+      "alt": "",
+      "index": 142
+    },
+    {
+      "name": "img_143",
+      "type": "image",
+      "defaultValue": "//www.granhand.com/file_data/granhand9/gallery/2026/02/19/11dfbe6b129f899d96aecb828a143906.jpg",
+      "alt": "",
+      "index": 143
+    },
+    {
+      "name": "img_144",
+      "type": "image",
+      "defaultValue": "//www.granhand.com/file_data/granhand9/gallery/2026/02/19/62ea8ead25a962ed469c30d8fac158e6.jpg",
+      "alt": "",
+      "index": 144
+    },
+    {
+      "name": "img_145",
+      "type": "image",
+      "defaultValue": "//www.granhand.com/file_data/granhand9/gallery/2026/02/19/4cd92dfdffa3ec9b18882c388b069f50.jpg",
+      "alt": "",
+      "index": 145
+    },
+    {
+      "name": "img_146",
+      "type": "image",
+      "defaultValue": "//www.granhand.com/file_data/granhand9/gallery/2026/02/04/97a03cac07bc043e079d01889a0662cf.png",
+      "alt": "",
+      "index": 146
+    },
+    {
+      "name": "img_147",
+      "type": "image",
+      "defaultValue": "//www.granhand.com/file_data/granhand9/gallery/2026/01/30/c38d60ec9ef6d5b3805934982a225907.jpg",
+      "alt": "",
+      "index": 147
+    },
+    {
+      "name": "img_148",
+      "type": "image",
+      "defaultValue": "https://www.granhand.com/svg/up-arrow.svg",
+      "alt": "",
+      "index": 148
+    },
+    {
+      "name": "link_149",
+      "type": "link",
+      "defaultValue": "#category",
+      "text": "전체상품목록 바로가기",
+      "index": 149
+    },
+    {
+      "name": "link_150",
+      "type": "link",
+      "defaultValue": "#contents",
+      "text": "본문 바로가기",
+      "index": 150
+    },
+    {
+      "name": "link_151",
+      "type": "link",
+      "defaultValue": "/",
+      "text": "",
+      "index": 151
+    },
+    {
+      "name": "link_152",
+      "type": "link",
+      "defaultValue": "//www.granhand.com/",
+      "text": "한국어",
+      "index": 152
+    },
+    {
+      "name": "link_153",
+      "type": "link",
+      "defaultValue": "//en.granhand.com/",
+      "text": "English",
+      "index": 153
+    },
+    {
+      "name": "link_154",
+      "type": "link",
+      "defaultValue": "/order/basket.html",
+      "text": "0",
+      "index": 154
+    },
+    {
+      "name": "link_155",
+      "type": "link",
+      "defaultValue": "/category/%EC%A0%84%EC%B2%B4/70/",
+      "text": "SHOP",
+      "index": 155
+    },
+    {
+      "name": "link_156",
+      "type": "link",
+      "defaultValue": "/board/journal/list.html?board_no=8",
+      "text": "JOURNAL",
+      "index": 156
+    },
+    {
+      "name": "link_157",
+      "type": "link",
+      "defaultValue": "/board/event/list.html?board_no=1002",
+      "text": "EVENT",
+      "index": 157
+    },
+    {
+      "name": "link_158",
+      "type": "link",
+      "defaultValue": "/board/awards/list.html?board_no=3001&category_no=1",
+      "text": "AWARDS",
+      "index": 158
+    },
+    {
+      "name": "link_159",
+      "type": "link",
+      "defaultValue": "/store/store.html",
+      "text": "STORE",
+      "index": 159
+    },
+    {
+      "name": "link_160",
+      "type": "link",
+      "defaultValue": "/",
+      "text": "GRANHAND.",
+      "index": 160
+    },
+    {
+      "name": "link_161",
+      "type": "link",
+      "defaultValue": "/member/agreement.html",
+      "text": "회원가입",
+      "index": 161
+    },
+    {
+      "name": "link_162",
+      "type": "link",
+      "defaultValue": "/member/login.html",
+      "text": "로그인",
+      "index": 162
+    },
+    {
+      "name": "link_163",
+      "type": "link",
+      "defaultValue": "/myshop/order/list.html",
+      "text": "주문조회",
+      "index": 163
+    },
+    {
+      "name": "link_164",
+      "type": "link",
+      "defaultValue": "/product/recent_view_product.html",
+      "text": "최근본상품",
+      "index": 164
+    },
+    {
+      "name": "link_165",
+      "type": "link",
+      "defaultValue": "/category/%EC%A0%84%EC%B2%B4/70/",
+      "text": "SHOP",
+      "index": 165
+    },
+    {
+      "name": "link_166",
+      "type": "link",
+      "defaultValue": "/board/journal/list.html?board_no=8",
+      "text": "JOURNAL",
+      "index": 166
+    },
+    {
+      "name": "link_167",
+      "type": "link",
+      "defaultValue": "/board/event/list.html?board_no=1002",
+      "text": "EVENT",
+      "index": 167
+    },
+    {
+      "name": "link_168",
+      "type": "link",
+      "defaultValue": "/board/awards/list.html?board_no=3001&category_no=1",
+      "text": "AWARDS",
+      "index": 168
+    },
+    {
+      "name": "link_169",
+      "type": "link",
+      "defaultValue": "/store/store.html",
+      "text": "STORE",
+      "index": 169
+    },
+    {
+      "name": "link_170",
+      "type": "link",
+      "defaultValue": "/board/journal/8/",
+      "text": "JOURNAL",
+      "index": 170
+    },
+    {
+      "name": "link_171",
+      "type": "link",
+      "defaultValue": "/board/event/1002/",
+      "text": "EVENT",
+      "index": 171
+    },
+    {
+      "name": "link_172",
+      "type": "link",
+      "defaultValue": "/board/자주-묻는-질문/3/",
+      "text": "자주 묻는 질문",
+      "index": 172
+    },
+    {
+      "name": "link_173",
+      "type": "link",
+      "defaultValue": "/board/제휴-문의/5/",
+      "text": "제휴 문의",
+      "index": 173
+    },
+    {
+      "name": "link_174",
+      "type": "link",
+      "defaultValue": "//www.granhand.com/",
+      "text": "한국어",
+      "index": 174
+    },
+    {
+      "name": "link_175",
+      "type": "link",
+      "defaultValue": "//en.granhand.com/",
+      "text": "English",
+      "index": 175
+    },
+    {
+      "name": "link_176",
+      "type": "link",
+      "defaultValue": "#none",
+      "text": "뒤로가기",
+      "index": 176
+    },
+    {
+      "name": "link_177",
+      "type": "link",
+      "defaultValue": "https://granhand.com/category/%EA%B8%B0%ED%94%84%ED%8A%B8%EC%84%B8%ED%8A%B8/45/",
+      "text": "",
+      "index": 177
+    },
+    {
+      "name": "link_178",
+      "type": "link",
+      "defaultValue": "/product/marine-orchid-hand-cream/41/category/1/display/4/?icid=MAIN.product_listmain_3",
+      "text": "",
+      "index": 178
+    },
+    {
+      "name": "link_179",
+      "type": "link",
+      "defaultValue": "/product/marine-orchid-hand-cream/41/category/1/display/4/?icid=MAIN.product_listmain_3",
+      "text": "상품명 : Marine Orchid Hand Cream",
+      "index": 179
+    },
+    {
+      "name": "link_180",
+      "type": "link",
+      "defaultValue": "/product/susie-salmon-multi-perfume/22/category/1/display/4/?icid=MAIN.product_listmain_3",
+      "text": "",
+      "index": 180
+    },
+    {
+      "name": "link_181",
+      "type": "link",
+      "defaultValue": "/product/susie-salmon-multi-perfume/22/category/1/display/4/?icid=MAIN.product_listmain_3",
+      "text": "상품명 : Susie Salmon Multi Perfume",
+      "index": 181
+    },
+    {
+      "name": "link_182",
+      "type": "link",
+      "defaultValue": "/product/hand-wash-sachet-set/428/category/1/display/4/?icid=MAIN.product_listmain_3",
+      "text": "",
+      "index": 182
+    },
+    {
+      "name": "link_183",
+      "type": "link",
+      "defaultValue": "/product/hand-wash-sachet-set/428/category/1/display/4/?icid=MAIN.product_listmain_3",
+      "text": "상품명 : Hand Wash & Sachet Set",
+      "index": 183
+    },
+    {
+      "name": "link_184",
+      "type": "link",
+      "defaultValue": "/product/뱀부-타월-베이지/559/category/1/display/4/?icid=MAIN.product_listmain_3",
+      "text": "",
+      "index": 184
+    },
+    {
+      "name": "link_185",
+      "type": "link",
+      "defaultValue": "/product/뱀부-타월-베이지/559/category/1/display/4/?icid=MAIN.product_listmain_3",
+      "text": "상품명 : 뱀부 타월 - 베이지",
+      "index": 185
+    },
+    {
+      "name": "link_186",
+      "type": "link",
+      "defaultValue": "/board/journal/read.html?no=1781&board_no=8&cate_name=Life",
+      "text": "#Life\n                    수건 한 장이라도, 좋은 걸 쓰고 싶어서\n ",
+      "index": 186
+    },
+    {
+      "name": "link_187",
+      "type": "link",
+      "defaultValue": "/board/journal/read.html?no=1780&board_no=8&cate_name=Essay",
+      "text": "#Essay\n                    출근길 단상\n                ",
+      "index": 187
+    },
+    {
+      "name": "link_188",
+      "type": "link",
+      "defaultValue": "/board/journal/read.html?no=1779&board_no=8&cate_name=Life",
+      "text": "#Life\n                    냄새의 산업화: 지하철 냄새는 왜 전 세계가",
+      "index": 188
+    },
+    {
+      "name": "link_189",
+      "type": "link",
+      "defaultValue": "/board/journal/read.html?no=1778&board_no=8&cate_name=Life",
+      "text": "#Life\n                    완벽한 평온을 만드는 도서관의 건축적 비밀\n",
+      "index": 189
+    },
+    {
+      "name": "link_190",
+      "type": "link",
+      "defaultValue": "/board/journal/read.html?no=1622&board_no=8&cate_name=News",
+      "text": "#News\n                    제2회 그랑핸드 문예 공모전\n        ",
+      "index": 190
+    },
+    {
+      "name": "link_191",
+      "type": "link",
+      "defaultValue": "/board/journal/read.html?no=1550&board_no=8&cate_name=News",
+      "text": "#News\n                    그랑핸드의 네번째 브랜드, 헤이온 heiio",
+      "index": 191
+    },
+    {
+      "name": "link_192",
+      "type": "link",
+      "defaultValue": "/store/store.html",
+      "text": "STORE\n        \n            오프라인 스토어 안내\n           ",
+      "index": 192
+    },
+    {
+      "name": "link_193",
+      "type": "link",
+      "defaultValue": "#wrap",
+      "text": "",
+      "index": 193
+    },
+    {
+      "name": "link_194",
+      "type": "link",
+      "defaultValue": "https://www.instagram.com/granhand_official/",
+      "text": "",
+      "index": 194
+    },
+    {
+      "name": "link_195",
+      "type": "link",
+      "defaultValue": "https://page.stibee.com/subscriptions/100559?groupIds=460222",
+      "text": "뉴스레터 구독",
+      "index": 195
+    },
+    {
+      "name": "link_196",
+      "type": "link",
+      "defaultValue": "/board/faq/list.html?board_no=3&category_no=4",
+      "text": "자주 묻는 질문",
+      "index": 196
+    },
+    {
+      "name": "link_197",
+      "type": "link",
+      "defaultValue": "/shopinfo/company.html",
+      "text": "회사 소개",
+      "index": 197
+    },
+    {
+      "name": "link_198",
+      "type": "link",
+      "defaultValue": "https://granhand.notion.site/GRANHAND-d7d7113729134692893652c6a0884b77",
+      "text": "채용 안내",
+      "index": 198
+    },
+    {
+      "name": "link_199",
+      "type": "link",
+      "defaultValue": "/board/notice/list.html?board_no=1",
+      "text": "공지사항",
+      "index": 199
+    },
+    {
+      "name": "link_200",
+      "type": "link",
+      "defaultValue": "/board/request/write.html?board_no=5",
+      "text": "제휴 문의",
+      "index": 200
+    },
+    {
+      "name": "link_201",
+      "type": "link",
+      "defaultValue": "https://granhand.com/onlinemain.html",
+      "text": "온라인 응대페이지",
+      "index": 201
+    },
+    {
+      "name": "link_202",
+      "type": "link",
+      "defaultValue": "/member/mall_agreement.html",
+      "text": "이용약관",
+      "index": 202
+    },
+    {
+      "name": "link_203",
+      "type": "link",
+      "defaultValue": "/member/privacy.html",
+      "text": "개인정보처리방침",
+      "index": 203
+    },
+    {
+      "name": "link_204",
+      "type": "link",
+      "defaultValue": "#none",
+      "text": "[사업자정보확인]",
+      "index": 204
+    },
+    {
+      "name": "link_205",
+      "type": "link",
+      "defaultValue": "https://www.instagram.com/granhand_official/",
+      "text": "instagram",
+      "index": 205
+    },
+    {
+      "name": "link_206",
+      "type": "link",
+      "defaultValue": "https://youtube.com/",
+      "text": "youtube",
+      "index": 206
+    },
+    {
+      "name": "link_207",
+      "type": "link",
+      "defaultValue": "https://facebook.com/",
+      "text": "facebook",
+      "index": 207
+    },
+    {
+      "name": "link_208",
+      "type": "link",
+      "defaultValue": "https://pf.kakao.com/",
+      "text": "kakao",
+      "index": 208
+    },
+    {
+      "name": "link_209",
+      "type": "link",
+      "defaultValue": "https://twitter.com/",
+      "text": "twitter",
+      "index": 209
+    },
+    {
+      "name": "link_210",
+      "type": "link",
+      "defaultValue": "https://blog.naver.com/",
+      "text": "blog",
+      "index": 210
+    },
+    {
+      "name": "link_211",
+      "type": "link",
+      "defaultValue": "%7B#href%7D",
+      "text": "{#item}",
+      "index": 211
+    },
+    {
+      "name": "link_212",
+      "type": "link",
+      "defaultValue": "https://www.instagram.com/granhand_official/",
+      "text": "",
+      "index": 212
+    }
+  ]
+}

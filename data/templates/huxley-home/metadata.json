@@ -1,0 +1,24 @@
+{
+  "id": "huxley-home",
+  "name": "Huxley Modern Skincare",
+  "section_type": "full_page",
+  "d1000_principles": [
+    3,
+    11,
+    1,
+    15,
+    36
+  ],
+  "category": "beauty",
+  "source_url": "https://www.huxley.co.kr",
+  "ssim_score": 0.8824297402447961,
+  "slot_count": 439,
+  "thumbnail_path": "huxley-home/thumbnail.jpg",
+  "tags": [
+    "modern",
+    "minimal",
+    "clean",
+    "trendy"
+  ],
+  "created_at": "2026-03-13T11:28:53.525608+00:00"
+}

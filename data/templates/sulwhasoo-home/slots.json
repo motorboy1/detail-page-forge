@@ -1,0 +1,3984 @@
+{
+  "total": 568,
+  "text": 398,
+  "image": 31,
+  "link": 139,
+  "slots": [
+    {
+      "name": "text_0",
+      "type": "text",
+      "defaultValue": "본문 바로가기",
+      "tag": "a",
+      "index": 0
+    },
+    {
+      "name": "text_1",
+      "type": "text",
+      "defaultValue": "Sulwhasoo",
+      "tag": "a",
+      "index": 1
+    },
+    {
+      "name": "text_2",
+      "type": "text",
+      "defaultValue": "Sulwhasoo",
+      "tag": "span",
+      "index": 2
+    },
+    {
+      "name": "text_3",
+      "type": "text",
+      "defaultValue": "메뉴 열기",
+      "tag": "button",
+      "index": 3
+    },
+    {
+      "name": "text_4",
+      "type": "text",
+      "defaultValue": "메뉴 열기",
+      "tag": "span",
+      "index": 4
+    },
+    {
+      "name": "text_5",
+      "type": "text",
+      "defaultValue": "한국/한국어",
+      "tag": "a",
+      "index": 5
+    },
+    {
+      "name": "text_6",
+      "type": "text",
+      "defaultValue": "한국/한국어",
+      "tag": "li",
+      "index": 6
+    },
+    {
+      "name": "text_7",
+      "type": "text",
+      "defaultValue": "한국/한국어",
+      "tag": "a",
+      "index": 7
+    },
+    {
+      "name": "text_8",
+      "type": "text",
+      "defaultValue": "International/English",
+      "tag": "li",
+      "index": 8
+    },
+    {
+      "name": "text_9",
+      "type": "text",
+      "defaultValue": "International/English",
+      "tag": "a",
+      "index": 9
+    },
+    {
+      "name": "text_10",
+      "type": "text",
+      "defaultValue": "中文",
+      "tag": "li",
+      "index": 10
+    },
+    {
+      "name": "text_11",
+      "type": "text",
+      "defaultValue": "中文",
+      "tag": "a",
+      "index": 11
+    },
+    {
+      "name": "text_12",
+      "type": "text",
+      "defaultValue": "繁體中文",
+      "tag": "li",
+      "index": 12
+    },
+    {
+      "name": "text_13",
+      "type": "text",
+      "defaultValue": "繁體中文",
+      "tag": "a",
+      "index": 13
+    },
+    {
+      "name": "text_14",
+      "type": "text",
+      "defaultValue": "Singapore/English",
+      "tag": "li",
+      "index": 14
+    },
+    {
+      "name": "text_15",
+      "type": "text",
+      "defaultValue": "Singapore/English",
+      "tag": "a",
+      "index": 15
+    },
+    {
+      "name": "text_16",
+      "type": "text",
+      "defaultValue": "Malaysia/English",
+      "tag": "li",
+      "index": 16
+    },
+    {
+      "name": "text_17",
+      "type": "text",
+      "defaultValue": "Malaysia/English",
+      "tag": "a",
+      "index": 17
+    },
+    {
+      "name": "text_18",
+      "type": "text",
+      "defaultValue": "Việt Nam/Tiếng Việt",
+      "tag": "li",
+      "index": 18
+    },
+    {
+      "name": "text_19",
+      "type": "text",
+      "defaultValue": "Việt Nam/Tiếng Việt",
+      "tag": "a",
+      "index": 19
+    },
+    {
+      "name": "text_20",
+      "type": "text",
+      "defaultValue": "Indonesia/Bahasa Indonesia",
+      "tag": "li",
+      "index": 20
+    },
+    {
+      "name": "text_21",
+      "type": "text",
+      "defaultValue": "Indonesia/Bahasa Indonesia",
+      "tag": "a",
+      "index": 21
+    },
+    {
+      "name": "text_22",
+      "type": "text",
+      "defaultValue": "ประเทศไทย/ไทย",
+      "tag": "li",
+      "index": 22
+    },
+    {
+      "name": "text_23",
+      "type": "text",
+      "defaultValue": "ประเทศไทย/ไทย",
+      "tag": "a",
+      "index": 23
+    },
+    {
+      "name": "text_24",
+      "type": "text",
+      "defaultValue": "USA/English",
+      "tag": "li",
+      "index": 24
+    },
+    {
+      "name": "text_25",
+      "type": "text",
+      "defaultValue": "USA/English",
+      "tag": "a",
+      "index": 25
+    },
+    {
+      "name": "text_26",
+      "type": "text",
+      "defaultValue": "매장찾기",
+      "tag": "a",
+      "index": 26
+    },
+    {
+      "name": "text_27",
+      "type": "text",
+      "defaultValue": "구매하기",
+      "tag": "a",
+      "index": 27
+    },
+    {
+      "name": "text_28",
+      "type": "text",
+      "defaultValue": "search",
+      "tag": "a",
+      "index": 28
+    },
+    {
+      "name": "text_29",
+      "type": "text",
+      "defaultValue": "search",
+      "tag": "span",
+      "index": 29
+    },
+    {
+      "name": "text_30",
+      "type": "text",
+      "defaultValue": "검색",
+      "tag": "label",
+      "index": 30
+    },
+    {
+      "name": "text_31",
+      "type": "text",
+      "defaultValue": "검색어 삭제",
+      "tag": "button",
+      "index": 31
+    },
+    {
+      "name": "text_32",
+      "type": "text",
+      "defaultValue": "검색어 삭제",
+      "tag": "span",
+      "index": 32
+    },
+    {
+      "name": "text_33",
+      "type": "text",
+      "defaultValue": "검색",
+      "tag": "button",
+      "index": 33
+    },
+    {
+      "name": "text_34",
+      "type": "text",
+      "defaultValue": "검색",
+      "tag": "span",
+      "index": 34
+    },
+    {
+      "name": "text_35",
+      "type": "text",
+      "defaultValue": "닫기",
+      "tag": "a",
+      "index": 35
+    },
+    {
+      "name": "text_36",
+      "type": "text",
+      "defaultValue": "닫기",
+      "tag": "span",
+      "index": 36
+    },
+    {
+      "name": "text_37",
+      "type": "text",
+      "defaultValue": "윤조",
+      "tag": "li",
+      "index": 37
+    },
+    {
+      "name": "text_38",
+      "type": "text",
+      "defaultValue": "윤조",
+      "tag": "a",
+      "index": 38
+    },
+    {
+      "name": "text_39",
+      "type": "text",
+      "defaultValue": "윤조",
+      "tag": "span",
+      "index": 39
+    },
+    {
+      "name": "text_40",
+      "type": "text",
+      "defaultValue": "자음생",
+      "tag": "li",
+      "index": 40
+    },
+    {
+      "name": "text_41",
+      "type": "text",
+      "defaultValue": "자음생",
+      "tag": "a",
+      "index": 41
+    },
+    {
+      "name": "text_42",
+      "type": "text",
+      "defaultValue": "자음생",
+      "tag": "span",
+      "index": 42
+    },
+    {
+      "name": "text_43",
+      "type": "text",
+      "defaultValue": "기프트",
+      "tag": "li",
+      "index": 43
+    },
+    {
+      "name": "text_44",
+      "type": "text",
+      "defaultValue": "기프트",
+      "tag": "a",
+      "index": 44
+    },
+    {
+      "name": "text_45",
+      "type": "text",
+      "defaultValue": "기프트",
+      "tag": "span",
+      "index": 45
+    },
+    {
+      "name": "text_46",
+      "type": "text",
+      "defaultValue": "베스트 셀러",
+      "tag": "li",
+      "index": 46
+    },
+    {
+      "name": "text_47",
+      "type": "text",
+      "defaultValue": "베스트 셀러",
+      "tag": "a",
+      "index": 47
+    },
+    {
+      "name": "text_48",
+      "type": "text",
+      "defaultValue": "베스트 셀러",
+      "tag": "span",
+      "index": 48
+    },
+    {
+      "name": "text_49",
+      "type": "text",
+      "defaultValue": "제품",
+      "tag": "a",
+      "index": 49
+    },
+    {
+      "name": "text_50",
+      "type": "text",
+      "defaultValue": "제품",
+      "tag": "span",
+      "index": 50
+    },
+    {
+      "name": "text_51",
+      "type": "text",
+      "defaultValue": "스킨케어",
+      "tag": "li",
+      "index": 51
+    },
+    {
+      "name": "text_52",
+      "type": "text",
+      "defaultValue": "스킨케어",
+      "tag": "a",
+      "index": 52
+    },
+    {
+      "name": "text_53",
+      "type": "text",
+      "defaultValue": "스킨케어",
+      "tag": "span",
+      "index": 53
+    },
+    {
+      "name": "text_54",
+      "type": "text",
+      "defaultValue": "메이크업",
+      "tag": "li",
+      "index": 54
+    },
+    {
+      "name": "text_55",
+      "type": "text",
+      "defaultValue": "메이크업",
+      "tag": "a",
+      "index": 55
+    },
+    {
+      "name": "text_56",
+      "type": "text",
+      "defaultValue": "메이크업",
+      "tag": "span",
+      "index": 56
+    },
+    {
+      "name": "text_57",
+      "type": "text",
+      "defaultValue": "남성",
+      "tag": "li",
+      "index": 57
+    },
+    {
+      "name": "text_58",
+      "type": "text",
+      "defaultValue": "남성",
+      "tag": "a",
+      "index": 58
+    },
+    {
+      "name": "text_59",
+      "type": "text",
+      "defaultValue": "남성",
+      "tag": "span",
+      "index": 59
+    },
+    {
+      "name": "text_60",
+      "type": "text",
+      "defaultValue": "스파",
+      "tag": "a",
+      "index": 60
+    },
+    {
+      "name": "text_61",
+      "type": "text",
+      "defaultValue": "스파",
+      "tag": "span",
+      "index": 61
+    },
+    {
+      "name": "text_62",
+      "type": "text",
+      "defaultValue": "소개",
+      "tag": "li",
+      "index": 62
+    },
+    {
+      "name": "text_63",
+      "type": "text",
+      "defaultValue": "소개",
+      "tag": "a",
+      "index": 63
+    },
+    {
+      "name": "text_64",
+      "type": "text",
+      "defaultValue": "소개",
+      "tag": "span",
+      "index": 64
+    },
+    {
+      "name": "text_65",
+      "type": "text",
+      "defaultValue": "스파 프로그램",
+      "tag": "li",
+      "index": 65
+    },
+    {
+      "name": "text_66",
+      "type": "text",
+      "defaultValue": "스파 프로그램",
+      "tag": "a",
+      "index": 66
+    },
+    {
+      "name": "text_67",
+      "type": "text",
+      "defaultValue": "스파 프로그램",
+      "tag": "span",
+      "index": 67
+    },
+    {
+      "name": "text_68",
+      "type": "text",
+      "defaultValue": "예약",
+      "tag": "li",
+      "index": 68
+    },
+    {
+      "name": "text_69",
+      "type": "text",
+      "defaultValue": "예약",
+      "tag": "a",
+      "index": 69
+    },
+    {
+      "name": "text_70",
+      "type": "text",
+      "defaultValue": "예약",
+      "tag": "span",
+      "index": 70
+    },
+    {
+      "name": "text_71",
+      "type": "text",
+      "defaultValue": "매장 찾기",
+      "tag": "li",
+      "index": 71
+    },
+    {
+      "name": "text_72",
+      "type": "text",
+      "defaultValue": "매장 찾기",
+      "tag": "a",
+      "index": 72
+    },
+    {
+      "name": "text_73",
+      "type": "text",
+      "defaultValue": "매장 찾기",
+      "tag": "span",
+      "index": 73
+    },
+    {
+      "name": "text_74",
+      "type": "text",
+      "defaultValue": "플래그십 스토어",
+      "tag": "a",
+      "index": 74
+    },
+    {
+      "name": "text_75",
+      "type": "text",
+      "defaultValue": "플래그십 스토어",
+      "tag": "span",
+      "index": 75
+    },
+    {
+      "name": "text_76",
+      "type": "text",
+      "defaultValue": "플래그십 스토어",
+      "tag": "li",
+      "index": 76
+    },
+    {
+      "name": "text_77",
+      "type": "text",
+      "defaultValue": "플래그십 스토어",
+      "tag": "a",
+      "index": 77
+    },
+    {
+      "name": "text_78",
+      "type": "text",
+      "defaultValue": "플래그십 스토어",
+      "tag": "span",
+      "index": 78
+    },
+    {
+      "name": "text_79",
+      "type": "text",
+      "defaultValue": "설화수 북촌",
+      "tag": "li",
+      "index": 79
+    },
+    {
+      "name": "text_80",
+      "type": "text",
+      "defaultValue": "설화수 북촌",
+      "tag": "a",
+      "index": 80
+    },
+    {
+      "name": "text_81",
+      "type": "text",
+      "defaultValue": "설화수 북촌",
+      "tag": "span",
+      "index": 81
+    },
+    {
+      "name": "text_82",
+      "type": "text",
+      "defaultValue": "설화수 도산",
+      "tag": "li",
+      "index": 82
+    },
+    {
+      "name": "text_83",
+      "type": "text",
+      "defaultValue": "설화수 도산",
+      "tag": "a",
+      "index": 83
+    },
+    {
+      "name": "text_84",
+      "type": "text",
+      "defaultValue": "설화수 도산",
+      "tag": "span",
+      "index": 84
+    },
+    {
+      "name": "text_85",
+      "type": "text",
+      "defaultValue": "ABOUT 설화수",
+      "tag": "a",
+      "index": 85
+    },
+    {
+      "name": "text_86",
+      "type": "text",
+      "defaultValue": "ABOUT 설화수",
+      "tag": "span",
+      "index": 86
+    },
+    {
+      "name": "text_87",
+      "type": "text",
+      "defaultValue": "브랜드 스토리",
+      "tag": "li",
+      "index": 87
+    },
+    {
+      "name": "text_88",
+      "type": "text",
+      "defaultValue": "브랜드 스토리",
+      "tag": "a",
+      "index": 88
+    },
+    {
+      "name": "text_89",
+      "type": "text",
+      "defaultValue": "브랜드 스토리",
+      "tag": "span",
+      "index": 89
+    },
+    {
+      "name": "text_90",
+      "type": "text",
+      "defaultValue": "브랜드 지속가능성",
+      "tag": "a",
+      "index": 90
+    },
+    {
+      "name": "text_91",
+      "type": "text",
+      "defaultValue": "브랜드 지속가능성",
+      "tag": "span",
+      "index": 91
+    },
+    {
+      "name": "text_92",
+      "type": "text",
+      "defaultValue": "지속가능성",
+      "tag": "li",
+      "index": 92
+    },
+    {
+      "name": "text_93",
+      "type": "text",
+      "defaultValue": "지속가능성",
+      "tag": "a",
+      "index": 93
+    },
+    {
+      "name": "text_94",
+      "type": "text",
+      "defaultValue": "지속가능성",
+      "tag": "span",
+      "index": 94
+    },
+    {
+      "name": "text_95",
+      "type": "text",
+      "defaultValue": "위조품방지",
+      "tag": "li",
+      "index": 95
+    },
+    {
+      "name": "text_96",
+      "type": "text",
+      "defaultValue": "위조품방지",
+      "tag": "a",
+      "index": 96
+    },
+    {
+      "name": "text_97",
+      "type": "text",
+      "defaultValue": "위조품방지",
+      "tag": "span",
+      "index": 97
+    },
+    {
+      "name": "text_98",
+      "type": "text",
+      "defaultValue": "설화문화전",
+      "tag": "li",
+      "index": 98
+    },
+    {
+      "name": "text_99",
+      "type": "text",
+      "defaultValue": "설화문화전",
+      "tag": "a",
+      "index": 99
+    },
+    {
+      "name": "text_100",
+      "type": "text",
+      "defaultValue": "설화문화전",
+      "tag": "span",
+      "index": 100
+    },
+    {
+      "name": "text_101",
+      "type": "text",
+      "defaultValue": "살롱 설화수",
+      "tag": "li",
+      "index": 101
+    },
+    {
+      "name": "text_102",
+      "type": "text",
+      "defaultValue": "살롱 설화수",
+      "tag": "a",
+      "index": 102
+    },
+    {
+      "name": "text_103",
+      "type": "text",
+      "defaultValue": "살롱 설화수",
+      "tag": "span",
+      "index": 103
+    },
+    {
+      "name": "text_104",
+      "type": "text",
+      "defaultValue": "컬처프로젝트",
+      "tag": "li",
+      "index": 104
+    },
+    {
+      "name": "text_105",
+      "type": "text",
+      "defaultValue": "컬처프로젝트",
+      "tag": "a",
+      "index": 105
+    },
+    {
+      "name": "text_106",
+      "type": "text",
+      "defaultValue": "컬처프로젝트",
+      "tag": "span",
+      "index": 106
+    },
+    {
+      "name": "text_107",
+      "type": "text",
+      "defaultValue": "브랜드 뉴스",
+      "tag": "li",
+      "index": 107
+    },
+    {
+      "name": "text_108",
+      "type": "text",
+      "defaultValue": "브랜드 뉴스",
+      "tag": "a",
+      "index": 108
+    },
+    {
+      "name": "text_109",
+      "type": "text",
+      "defaultValue": "브랜드 뉴스",
+      "tag": "span",
+      "index": 109
+    },
+    {
+      "name": "text_110",
+      "type": "text",
+      "defaultValue": "명작컬렉션",
+      "tag": "li",
+      "index": 110
+    },
+    {
+      "name": "text_111",
+      "type": "text",
+      "defaultValue": "명작컬렉션",
+      "tag": "a",
+      "index": 111
+    },
+    {
+      "name": "text_112",
+      "type": "text",
+      "defaultValue": "명작컬렉션",
+      "tag": "span",
+      "index": 112
+    },
+    {
+      "name": "text_113",
+      "type": "text",
+      "defaultValue": "설화수 메인",
+      "tag": "h1",
+      "index": 113
+    },
+    {
+      "name": "text_114",
+      "type": "text",
+      "defaultValue": "AMORE MALL (3/9~ 3/15)\n                      AMORE MALL (3/9~ 3/15)\n                      설화수 New 자정앰플세럼\n                      설화수 New 자정앰플세럼",
+      "tag": "li",
+      "index": 114
+    },
+    {
+      "name": "text_115",
+      "type": "text",
+      "defaultValue": "AMORE MALL (3/9~ 3/15)",
+      "tag": "p",
+      "index": 115
+    },
+    {
+      "name": "text_116",
+      "type": "text",
+      "defaultValue": "AMORE MALL (3/9~ 3/15)",
+      "tag": "p",
+      "index": 116
+    },
+    {
+      "name": "text_117",
+      "type": "text",
+      "defaultValue": "설화수 New 자정앰플세럼",
+      "tag": "p",
+      "index": 117
+    },
+    {
+      "name": "text_118",
+      "type": "text",
+      "defaultValue": "설화수 New 자정앰플세럼",
+      "tag": "p",
+      "index": 118
+    },
+    {
+      "name": "text_119",
+      "type": "text",
+      "defaultValue": "다시 짙어지지 않고* 맑게 이어지는 피부\n                      다시 짙어지지 않고* 맑게 이어지는 피부\n                      설화수 자정앰플세럼\n                      설화수 자정앰플세럼",
+      "tag": "li",
+      "index": 119
+    },
+    {
+      "name": "text_120",
+      "type": "text",
+      "defaultValue": "다시 짙어지지 않고* 맑게 이어지는 피부",
+      "tag": "p",
+      "index": 120
+    },
+    {
+      "name": "text_121",
+      "type": "text",
+      "defaultValue": "다시 짙어지지 않고* 맑게 이어지는 피부",
+      "tag": "p",
+      "index": 121
+    },
+    {
+      "name": "text_122",
+      "type": "text",
+      "defaultValue": "설화수 자정앰플세럼",
+      "tag": "p",
+      "index": 122
+    },
+    {
+      "name": "text_123",
+      "type": "text",
+      "defaultValue": "설화수 자정앰플세럼",
+      "tag": "p",
+      "index": 123
+    },
+    {
+      "name": "text_124",
+      "type": "text",
+      "defaultValue": "리버스에이징의 궁극적 테크놀로지\n                      리버스에이징의 궁극적 테크놀로지\n                      NEW 진설 인퓨전 트리트먼트\n                      NEW 진설 인퓨전 트리트먼트",
+      "tag": "li",
+      "index": 124
+    },
+    {
+      "name": "text_125",
+      "type": "text",
+      "defaultValue": "리버스에이징의 궁극적 테크놀로지",
+      "tag": "p",
+      "index": 125
+    },
+    {
+      "name": "text_126",
+      "type": "text",
+      "defaultValue": "리버스에이징의 궁극적 테크놀로지",
+      "tag": "p",
+      "index": 126
+    },
+    {
+      "name": "text_127",
+      "type": "text",
+      "defaultValue": "NEW 진설 인퓨전 트리트먼트",
+      "tag": "p",
+      "index": 127
+    },
+    {
+      "name": "text_128",
+      "type": "text",
+      "defaultValue": "NEW 진설 인퓨전 트리트먼트",
+      "tag": "p",
+      "index": 128
+    },
+    {
+      "name": "text_129",
+      "type": "text",
+      "defaultValue": "스스로 탄력을 채워 모든 시간을 밀도 있게\n                      스스로 탄력을 채워 모든 시간을 밀도 있게\n                      자음생크림\n                      자음생크림",
+      "tag": "li",
+      "index": 129
+    },
+    {
+      "name": "text_130",
+      "type": "text",
+      "defaultValue": "스스로 탄력을 채워 모든 시간을 밀도 있게",
+      "tag": "p",
+      "index": 130
+    },
+    {
+      "name": "text_131",
+      "type": "text",
+      "defaultValue": "스스로 탄력을 채워 모든 시간을 밀도 있게",
+      "tag": "p",
+      "index": 131
+    },
+    {
+      "name": "text_132",
+      "type": "text",
+      "defaultValue": "자음생크림",
+      "tag": "p",
+      "index": 132
+    },
+    {
+      "name": "text_133",
+      "type": "text",
+      "defaultValue": "자음생크림",
+      "tag": "p",
+      "index": 133
+    },
+    {
+      "name": "text_134",
+      "type": "text",
+      "defaultValue": "AMORE MALL (3/9~ 3/15)\n                      AMORE MALL (3/9~ 3/15)\n                      설화수 New 자정앰플세럼\n                      설화수 New 자정앰플세럼",
+      "tag": "li",
+      "index": 134
+    },
+    {
+      "name": "text_135",
+      "type": "text",
+      "defaultValue": "AMORE MALL (3/9~ 3/15)",
+      "tag": "p",
+      "index": 135
+    },
+    {
+      "name": "text_136",
+      "type": "text",
+      "defaultValue": "AMORE MALL (3/9~ 3/15)",
+      "tag": "p",
+      "index": 136
+    },
+    {
+      "name": "text_137",
+      "type": "text",
+      "defaultValue": "설화수 New 자정앰플세럼",
+      "tag": "p",
+      "index": 137
+    },
+    {
+      "name": "text_138",
+      "type": "text",
+      "defaultValue": "설화수 New 자정앰플세럼",
+      "tag": "p",
+      "index": 138
+    },
+    {
+      "name": "text_139",
+      "type": "text",
+      "defaultValue": "다시 짙어지지 않고* 맑게 이어지는 피부\n                      다시 짙어지지 않고* 맑게 이어지는 피부\n                      설화수 자정앰플세럼\n                      설화수 자정앰플세럼",
+      "tag": "li",
+      "index": 139
+    },
+    {
+      "name": "text_140",
+      "type": "text",
+      "defaultValue": "다시 짙어지지 않고* 맑게 이어지는 피부",
+      "tag": "p",
+      "index": 140
+    },
+    {
+      "name": "text_141",
+      "type": "text",
+      "defaultValue": "다시 짙어지지 않고* 맑게 이어지는 피부",
+      "tag": "p",
+      "index": 141
+    },
+    {
+      "name": "text_142",
+      "type": "text",
+      "defaultValue": "설화수 자정앰플세럼",
+      "tag": "p",
+      "index": 142
+    },
+    {
+      "name": "text_143",
+      "type": "text",
+      "defaultValue": "설화수 자정앰플세럼",
+      "tag": "p",
+      "index": 143
+    },
+    {
+      "name": "text_144",
+      "type": "text",
+      "defaultValue": "슬라이드 정지",
+      "tag": "button",
+      "index": 144
+    },
+    {
+      "name": "text_145",
+      "type": "text",
+      "defaultValue": "슬라이드 정지",
+      "tag": "span",
+      "index": 145
+    },
+    {
+      "name": "text_146",
+      "type": "text",
+      "defaultValue": "정지",
+      "tag": "span",
+      "index": 146
+    },
+    {
+      "name": "text_147",
+      "type": "text",
+      "defaultValue": "설화수 추천",
+      "tag": "h2",
+      "index": 147
+    },
+    {
+      "name": "text_148",
+      "type": "text",
+      "defaultValue": "퍼펙팅 립컬러",
+      "tag": "p",
+      "index": 148
+    },
+    {
+      "name": "text_149",
+      "type": "text",
+      "defaultValue": "퍼펙팅 립컬러",
+      "tag": "p",
+      "index": 149
+    },
+    {
+      "name": "text_150",
+      "type": "text",
+      "defaultValue": "Perfecting Lip Color",
+      "tag": "p",
+      "index": 150
+    },
+    {
+      "name": "text_151",
+      "type": "text",
+      "defaultValue": "Perfecting Lip Color",
+      "tag": "p",
+      "index": 151
+    },
+    {
+      "name": "text_152",
+      "type": "text",
+      "defaultValue": "45,000원",
+      "tag": "p",
+      "index": 152
+    },
+    {
+      "name": "text_153",
+      "type": "text",
+      "defaultValue": "퍼펙팅 립컬러 자세히 보기",
+      "tag": "a",
+      "index": 153
+    },
+    {
+      "name": "text_154",
+      "type": "text",
+      "defaultValue": "퍼펙팅 립컬러 자세히 보기",
+      "tag": "span",
+      "index": 154
+    },
+    {
+      "name": "text_155",
+      "type": "text",
+      "defaultValue": "퍼펙팅 립컬러 자세히 보기",
+      "tag": "a",
+      "index": 155
+    },
+    {
+      "name": "text_156",
+      "type": "text",
+      "defaultValue": "퍼펙팅 립컬러 자세히 보기",
+      "tag": "span",
+      "index": 156
+    },
+    {
+      "name": "text_157",
+      "type": "text",
+      "defaultValue": "퍼펙팅 트윈케이크",
+      "tag": "p",
+      "index": 157
+    },
+    {
+      "name": "text_158",
+      "type": "text",
+      "defaultValue": "퍼펙팅 트윈케이크",
+      "tag": "p",
+      "index": 158
+    },
+    {
+      "name": "text_159",
+      "type": "text",
+      "defaultValue": "Perfecting Powder Foundation",
+      "tag": "p",
+      "index": 159
+    },
+    {
+      "name": "text_160",
+      "type": "text",
+      "defaultValue": "Perfecting Powder Foundation",
+      "tag": "p",
+      "index": 160
+    },
+    {
+      "name": "text_161",
+      "type": "text",
+      "defaultValue": "75,000원",
+      "tag": "p",
+      "index": 161
+    },
+    {
+      "name": "text_162",
+      "type": "text",
+      "defaultValue": "퍼펙팅 트윈케이크 자세히 보기",
+      "tag": "a",
+      "index": 162
+    },
+    {
+      "name": "text_163",
+      "type": "text",
+      "defaultValue": "퍼펙팅 트윈케이크 자세히 보기",
+      "tag": "span",
+      "index": 163
+    },
+    {
+      "name": "text_164",
+      "type": "text",
+      "defaultValue": "퍼펙팅 트윈케이크 자세히 보기",
+      "tag": "a",
+      "index": 164
+    },
+    {
+      "name": "text_165",
+      "type": "text",
+      "defaultValue": "퍼펙팅 트윈케이크 자세히 보기",
+      "tag": "span",
+      "index": 165
+    },
+    {
+      "name": "text_166",
+      "type": "text",
+      "defaultValue": "순행클렌징오일",
+      "tag": "p",
+      "index": 166
+    },
+    {
+      "name": "text_167",
+      "type": "text",
+      "defaultValue": "순행클렌징오일",
+      "tag": "p",
+      "index": 167
+    },
+    {
+      "name": "text_168",
+      "type": "text",
+      "defaultValue": "Gentle Cleansing Oil",
+      "tag": "p",
+      "index": 168
+    },
+    {
+      "name": "text_169",
+      "type": "text",
+      "defaultValue": "Gentle Cleansing Oil",
+      "tag": "p",
+      "index": 169
+    },
+    {
+      "name": "text_170",
+      "type": "text",
+      "defaultValue": "47,000원",
+      "tag": "p",
+      "index": 170
+    },
+    {
+      "name": "text_171",
+      "type": "text",
+      "defaultValue": "순행클렌징오일 자세히 보기",
+      "tag": "a",
+      "index": 171
+    },
+    {
+      "name": "text_172",
+      "type": "text",
+      "defaultValue": "순행클렌징오일 자세히 보기",
+      "tag": "span",
+      "index": 172
+    },
+    {
+      "name": "text_173",
+      "type": "text",
+      "defaultValue": "순행클렌징오일 자세히 보기",
+      "tag": "a",
+      "index": 173
+    },
+    {
+      "name": "text_174",
+      "type": "text",
+      "defaultValue": "순행클렌징오일 자세히 보기",
+      "tag": "span",
+      "index": 174
+    },
+    {
+      "name": "text_175",
+      "type": "text",
+      "defaultValue": "진설크림 리치",
+      "tag": "p",
+      "index": 175
+    },
+    {
+      "name": "text_176",
+      "type": "text",
+      "defaultValue": "진설크림 리치",
+      "tag": "p",
+      "index": 176
+    },
+    {
+      "name": "text_177",
+      "type": "text",
+      "defaultValue": "The Ultimate S Cream Rich",
+      "tag": "p",
+      "index": 177
+    },
+    {
+      "name": "text_178",
+      "type": "text",
+      "defaultValue": "The Ultimate S Cream Rich",
+      "tag": "p",
+      "index": 178
+    },
+    {
+      "name": "text_179",
+      "type": "text",
+      "defaultValue": "520,000원",
+      "tag": "p",
+      "index": 179
+    },
+    {
+      "name": "text_180",
+      "type": "text",
+      "defaultValue": "진설크림 리치 자세히 보기",
+      "tag": "a",
+      "index": 180
+    },
+    {
+      "name": "text_181",
+      "type": "text",
+      "defaultValue": "진설크림 리치 자세히 보기",
+      "tag": "span",
+      "index": 181
+    },
+    {
+      "name": "text_182",
+      "type": "text",
+      "defaultValue": "진설크림 리치 자세히 보기",
+      "tag": "a",
+      "index": 182
+    },
+    {
+      "name": "text_183",
+      "type": "text",
+      "defaultValue": "진설크림 리치 자세히 보기",
+      "tag": "span",
+      "index": 183
+    },
+    {
+      "name": "text_184",
+      "type": "text",
+      "defaultValue": "자음생앰플",
+      "tag": "p",
+      "index": 184
+    },
+    {
+      "name": "text_185",
+      "type": "text",
+      "defaultValue": "자음생앰플",
+      "tag": "p",
+      "index": 185
+    },
+    {
+      "name": "text_186",
+      "type": "text",
+      "defaultValue": "Concentrated Ginseng Rejuvenating Ampoule",
+      "tag": "p",
+      "index": 186
+    },
+    {
+      "name": "text_187",
+      "type": "text",
+      "defaultValue": "Concentrated Ginseng Rejuvenating Ampoule",
+      "tag": "p",
+      "index": 187
+    },
+    {
+      "name": "text_188",
+      "type": "text",
+      "defaultValue": "150,000원",
+      "tag": "p",
+      "index": 188
+    },
+    {
+      "name": "text_189",
+      "type": "text",
+      "defaultValue": "자음생앰플 자세히 보기",
+      "tag": "a",
+      "index": 189
+    },
+    {
+      "name": "text_190",
+      "type": "text",
+      "defaultValue": "자음생앰플 자세히 보기",
+      "tag": "span",
+      "index": 190
+    },
+    {
+      "name": "text_191",
+      "type": "text",
+      "defaultValue": "자음생앰플 자세히 보기",
+      "tag": "a",
+      "index": 191
+    },
+    {
+      "name": "text_192",
+      "type": "text",
+      "defaultValue": "자음생앰플 자세히 보기",
+      "tag": "span",
+      "index": 192
+    },
+    {
+      "name": "text_193",
+      "type": "text",
+      "defaultValue": "백삼팩",
+      "tag": "p",
+      "index": 193
+    },
+    {
+      "name": "text_194",
+      "type": "text",
+      "defaultValue": "백삼팩",
+      "tag": "p",
+      "index": 194
+    },
+    {
+      "name": "text_195",
+      "type": "text",
+      "defaultValue": "White Ginseng Radiance Refining Mask",
+      "tag": "p",
+      "index": 195
+    },
+    {
+      "name": "text_196",
+      "type": "text",
+      "defaultValue": "White Ginseng Radiance Refining Mask",
+      "tag": "p",
+      "index": 196
+    },
+    {
+      "name": "text_197",
+      "type": "text",
+      "defaultValue": "72,000원",
+      "tag": "p",
+      "index": 197
+    },
+    {
+      "name": "text_198",
+      "type": "text",
+      "defaultValue": "백삼팩 자세히 보기",
+      "tag": "a",
+      "index": 198
+    },
+    {
+      "name": "text_199",
+      "type": "text",
+      "defaultValue": "백삼팩 자세히 보기",
+      "tag": "span",
+      "index": 199
+    },
+    {
+      "name": "text_200",
+      "type": "text",
+      "defaultValue": "백삼팩 자세히 보기",
+      "tag": "a",
+      "index": 200
+    },
+    {
+      "name": "text_201",
+      "type": "text",
+      "defaultValue": "백삼팩 자세히 보기",
+      "tag": "span",
+      "index": 201
+    },
+    {
+      "name": "text_202",
+      "type": "text",
+      "defaultValue": "퍼펙팅 립컬러",
+      "tag": "p",
+      "index": 202
+    },
+    {
+      "name": "text_203",
+      "type": "text",
+      "defaultValue": "퍼펙팅 립컬러",
+      "tag": "p",
+      "index": 203
+    },
+    {
+      "name": "text_204",
+      "type": "text",
+      "defaultValue": "Perfecting Lip Color",
+      "tag": "p",
+      "index": 204
+    },
+    {
+      "name": "text_205",
+      "type": "text",
+      "defaultValue": "Perfecting Lip Color",
+      "tag": "p",
+      "index": 205
+    },
+    {
+      "name": "text_206",
+      "type": "text",
+      "defaultValue": "45,000원",
+      "tag": "p",
+      "index": 206
+    },
+    {
+      "name": "text_207",
+      "type": "text",
+      "defaultValue": "퍼펙팅 립컬러 자세히 보기",
+      "tag": "a",
+      "index": 207
+    },
+    {
+      "name": "text_208",
+      "type": "text",
+      "defaultValue": "퍼펙팅 립컬러 자세히 보기",
+      "tag": "span",
+      "index": 208
+    },
+    {
+      "name": "text_209",
+      "type": "text",
+      "defaultValue": "퍼펙팅 립컬러 자세히 보기",
+      "tag": "a",
+      "index": 209
+    },
+    {
+      "name": "text_210",
+      "type": "text",
+      "defaultValue": "퍼펙팅 립컬러 자세히 보기",
+      "tag": "span",
+      "index": 210
+    },
+    {
+      "name": "text_211",
+      "type": "text",
+      "defaultValue": "퍼펙팅 트윈케이크",
+      "tag": "p",
+      "index": 211
+    },
+    {
+      "name": "text_212",
+      "type": "text",
+      "defaultValue": "퍼펙팅 트윈케이크",
+      "tag": "p",
+      "index": 212
+    },
+    {
+      "name": "text_213",
+      "type": "text",
+      "defaultValue": "Perfecting Powder Foundation",
+      "tag": "p",
+      "index": 213
+    },
+    {
+      "name": "text_214",
+      "type": "text",
+      "defaultValue": "Perfecting Powder Foundation",
+      "tag": "p",
+      "index": 214
+    },
+    {
+      "name": "text_215",
+      "type": "text",
+      "defaultValue": "75,000원",
+      "tag": "p",
+      "index": 215
+    },
+    {
+      "name": "text_216",
+      "type": "text",
+      "defaultValue": "퍼펙팅 트윈케이크 자세히 보기",
+      "tag": "a",
+      "index": 216
+    },
+    {
+      "name": "text_217",
+      "type": "text",
+      "defaultValue": "퍼펙팅 트윈케이크 자세히 보기",
+      "tag": "span",
+      "index": 217
+    },
+    {
+      "name": "text_218",
+      "type": "text",
+      "defaultValue": "퍼펙팅 트윈케이크 자세히 보기",
+      "tag": "a",
+      "index": 218
+    },
+    {
+      "name": "text_219",
+      "type": "text",
+      "defaultValue": "퍼펙팅 트윈케이크 자세히 보기",
+      "tag": "span",
+      "index": 219
+    },
+    {
+      "name": "text_220",
+      "type": "text",
+      "defaultValue": "순행클렌징오일",
+      "tag": "p",
+      "index": 220
+    },
+    {
+      "name": "text_221",
+      "type": "text",
+      "defaultValue": "순행클렌징오일",
+      "tag": "p",
+      "index": 221
+    },
+    {
+      "name": "text_222",
+      "type": "text",
+      "defaultValue": "Gentle Cleansing Oil",
+      "tag": "p",
+      "index": 222
+    },
+    {
+      "name": "text_223",
+      "type": "text",
+      "defaultValue": "Gentle Cleansing Oil",
+      "tag": "p",
+      "index": 223
+    },
+    {
+      "name": "text_224",
+      "type": "text",
+      "defaultValue": "47,000원",
+      "tag": "p",
+      "index": 224
+    },
+    {
+      "name": "text_225",
+      "type": "text",
+      "defaultValue": "순행클렌징오일 자세히 보기",
+      "tag": "a",
+      "index": 225
+    },
+    {
+      "name": "text_226",
+      "type": "text",
+      "defaultValue": "순행클렌징오일 자세히 보기",
+      "tag": "span",
+      "index": 226
+    },
+    {
+      "name": "text_227",
+      "type": "text",
+      "defaultValue": "순행클렌징오일 자세히 보기",
+      "tag": "a",
+      "index": 227
+    },
+    {
+      "name": "text_228",
+      "type": "text",
+      "defaultValue": "순행클렌징오일 자세히 보기",
+      "tag": "span",
+      "index": 228
+    },
+    {
+      "name": "text_229",
+      "type": "text",
+      "defaultValue": "진설크림 리치",
+      "tag": "p",
+      "index": 229
+    },
+    {
+      "name": "text_230",
+      "type": "text",
+      "defaultValue": "진설크림 리치",
+      "tag": "p",
+      "index": 230
+    },
+    {
+      "name": "text_231",
+      "type": "text",
+      "defaultValue": "The Ultimate S Cream Rich",
+      "tag": "p",
+      "index": 231
+    },
+    {
+      "name": "text_232",
+      "type": "text",
+      "defaultValue": "The Ultimate S Cream Rich",
+      "tag": "p",
+      "index": 232
+    },
+    {
+      "name": "text_233",
+      "type": "text",
+      "defaultValue": "520,000원",
+      "tag": "p",
+      "index": 233
+    },
+    {
+      "name": "text_234",
+      "type": "text",
+      "defaultValue": "진설크림 리치 자세히 보기",
+      "tag": "a",
+      "index": 234
+    },
+    {
+      "name": "text_235",
+      "type": "text",
+      "defaultValue": "진설크림 리치 자세히 보기",
+      "tag": "span",
+      "index": 235
+    },
+    {
+      "name": "text_236",
+      "type": "text",
+      "defaultValue": "진설크림 리치 자세히 보기",
+      "tag": "a",
+      "index": 236
+    },
+    {
+      "name": "text_237",
+      "type": "text",
+      "defaultValue": "진설크림 리치 자세히 보기",
+      "tag": "span",
+      "index": 237
+    },
+    {
+      "name": "text_238",
+      "type": "text",
+      "defaultValue": "자음생앰플",
+      "tag": "p",
+      "index": 238
+    },
+    {
+      "name": "text_239",
+      "type": "text",
+      "defaultValue": "자음생앰플",
+      "tag": "p",
+      "index": 239
+    },
+    {
+      "name": "text_240",
+      "type": "text",
+      "defaultValue": "Concentrated Ginseng Rejuvenating Ampoule",
+      "tag": "p",
+      "index": 240
+    },
+    {
+      "name": "text_241",
+      "type": "text",
+      "defaultValue": "Concentrated Ginseng Rejuvenating Ampoule",
+      "tag": "p",
+      "index": 241
+    },
+    {
+      "name": "text_242",
+      "type": "text",
+      "defaultValue": "150,000원",
+      "tag": "p",
+      "index": 242
+    },
+    {
+      "name": "text_243",
+      "type": "text",
+      "defaultValue": "자음생앰플 자세히 보기",
+      "tag": "a",
+      "index": 243
+    },
+    {
+      "name": "text_244",
+      "type": "text",
+      "defaultValue": "자음생앰플 자세히 보기",
+      "tag": "span",
+      "index": 244
+    },
+    {
+      "name": "text_245",
+      "type": "text",
+      "defaultValue": "자음생앰플 자세히 보기",
+      "tag": "a",
+      "index": 245
+    },
+    {
+      "name": "text_246",
+      "type": "text",
+      "defaultValue": "자음생앰플 자세히 보기",
+      "tag": "span",
+      "index": 246
+    },
+    {
+      "name": "text_247",
+      "type": "text",
+      "defaultValue": "백삼팩",
+      "tag": "p",
+      "index": 247
+    },
+    {
+      "name": "text_248",
+      "type": "text",
+      "defaultValue": "백삼팩",
+      "tag": "p",
+      "index": 248
+    },
+    {
+      "name": "text_249",
+      "type": "text",
+      "defaultValue": "White Ginseng Radiance Refining Mask",
+      "tag": "p",
+      "index": 249
+    },
+    {
+      "name": "text_250",
+      "type": "text",
+      "defaultValue": "White Ginseng Radiance Refining Mask",
+      "tag": "p",
+      "index": 250
+    },
+    {
+      "name": "text_251",
+      "type": "text",
+      "defaultValue": "72,000원",
+      "tag": "p",
+      "index": 251
+    },
+    {
+      "name": "text_252",
+      "type": "text",
+      "defaultValue": "백삼팩 자세히 보기",
+      "tag": "a",
+      "index": 252
+    },
+    {
+      "name": "text_253",
+      "type": "text",
+      "defaultValue": "백삼팩 자세히 보기",
+      "tag": "span",
+      "index": 253
+    },
+    {
+      "name": "text_254",
+      "type": "text",
+      "defaultValue": "백삼팩 자세히 보기",
+      "tag": "a",
+      "index": 254
+    },
+    {
+      "name": "text_255",
+      "type": "text",
+      "defaultValue": "백삼팩 자세히 보기",
+      "tag": "span",
+      "index": 255
+    },
+    {
+      "name": "text_256",
+      "type": "text",
+      "defaultValue": "슬라이드 정지",
+      "tag": "button",
+      "index": 256
+    },
+    {
+      "name": "text_257",
+      "type": "text",
+      "defaultValue": "슬라이드 정지",
+      "tag": "span",
+      "index": 257
+    },
+    {
+      "name": "text_258",
+      "type": "text",
+      "defaultValue": "정지",
+      "tag": "span",
+      "index": 258
+    },
+    {
+      "name": "text_259",
+      "type": "text",
+      "defaultValue": "베스트 셀러",
+      "tag": "h2",
+      "index": 259
+    },
+    {
+      "name": "text_260",
+      "type": "text",
+      "defaultValue": "건강하게 빛나고 힘 있게 채우는\n                설화수의 시그니처 케어",
+      "tag": "p",
+      "index": 260
+    },
+    {
+      "name": "text_261",
+      "type": "text",
+      "defaultValue": "자세히 보기",
+      "tag": "span",
+      "index": 261
+    },
+    {
+      "name": "text_262",
+      "type": "text",
+      "defaultValue": "설화수 시즌추천",
+      "tag": "h2",
+      "index": 262
+    },
+    {
+      "name": "text_263",
+      "type": "text",
+      "defaultValue": "자음생캡슐세럼",
+      "tag": "p",
+      "index": 263
+    },
+    {
+      "name": "text_264",
+      "type": "text",
+      "defaultValue": "자음생캡슐세럼",
+      "tag": "p",
+      "index": 264
+    },
+    {
+      "name": "text_265",
+      "type": "text",
+      "defaultValue": "Concentrated Ginseng  Rejuvenating Serum",
+      "tag": "p",
+      "index": 265
+    },
+    {
+      "name": "text_266",
+      "type": "text",
+      "defaultValue": "Concentrated Ginseng  Rejuvenating Serum",
+      "tag": "p",
+      "index": 266
+    },
+    {
+      "name": "text_267",
+      "type": "text",
+      "defaultValue": "155,000원",
+      "tag": "p",
+      "index": 267
+    },
+    {
+      "name": "text_268",
+      "type": "text",
+      "defaultValue": "자음생캡슐세럼 페이지 이동",
+      "tag": "a",
+      "index": 268
+    },
+    {
+      "name": "text_269",
+      "type": "text",
+      "defaultValue": "자음생캡슐세럼 페이지 이동",
+      "tag": "span",
+      "index": 269
+    },
+    {
+      "name": "text_270",
+      "type": "text",
+      "defaultValue": "고밀도 피부를 위한",
+      "tag": "p",
+      "index": 270
+    },
+    {
+      "name": "text_271",
+      "type": "text",
+      "defaultValue": "고밀도 피부를 위한",
+      "tag": "p",
+      "index": 271
+    },
+    {
+      "name": "text_272",
+      "type": "text",
+      "defaultValue": "2 STEP 자생력 케어",
+      "tag": "p",
+      "index": 272
+    },
+    {
+      "name": "text_273",
+      "type": "text",
+      "defaultValue": "자음생크림 리치",
+      "tag": "p",
+      "index": 273
+    },
+    {
+      "name": "text_274",
+      "type": "text",
+      "defaultValue": "자음생크림 리치",
+      "tag": "p",
+      "index": 274
+    },
+    {
+      "name": "text_275",
+      "type": "text",
+      "defaultValue": "Concentrated Ginseng  Rejuvenating Cream Rich",
+      "tag": "p",
+      "index": 275
+    },
+    {
+      "name": "text_276",
+      "type": "text",
+      "defaultValue": "Concentrated Ginseng  Rejuvenating Cream Rich",
+      "tag": "p",
+      "index": 276
+    },
+    {
+      "name": "text_277",
+      "type": "text",
+      "defaultValue": "270,000원",
+      "tag": "p",
+      "index": 277
+    },
+    {
+      "name": "text_278",
+      "type": "text",
+      "defaultValue": "자음생크림 리치 페이지 이동",
+      "tag": "a",
+      "index": 278
+    },
+    {
+      "name": "text_279",
+      "type": "text",
+      "defaultValue": "자음생크림 리치 페이지 이동",
+      "tag": "span",
+      "index": 279
+    },
+    {
+      "name": "text_280",
+      "type": "text",
+      "defaultValue": "설화수 북촌 플래그십 스토어",
+      "tag": "p",
+      "index": 280
+    },
+    {
+      "name": "text_281",
+      "type": "text",
+      "defaultValue": "자세히 보기",
+      "tag": "span",
+      "index": 281
+    },
+    {
+      "name": "text_282",
+      "type": "text",
+      "defaultValue": "설화수 도산 플래그십 스토어",
+      "tag": "p",
+      "index": 282
+    },
+    {
+      "name": "text_283",
+      "type": "text",
+      "defaultValue": "자세히 보기",
+      "tag": "span",
+      "index": 283
+    },
+    {
+      "name": "text_284",
+      "type": "text",
+      "defaultValue": "회사소개",
+      "tag": "a",
+      "index": 284
+    },
+    {
+      "name": "text_285",
+      "type": "text",
+      "defaultValue": "서비스이용약관",
+      "tag": "a",
+      "index": 285
+    },
+    {
+      "name": "text_286",
+      "type": "text",
+      "defaultValue": "개인정보처리방침",
+      "tag": "a",
+      "index": 286
+    },
+    {
+      "name": "text_287",
+      "type": "text",
+      "defaultValue": "영상정보처리방침",
+      "tag": "a",
+      "index": 287
+    },
+    {
+      "name": "text_288",
+      "type": "text",
+      "defaultValue": "사이트맵",
+      "tag": "a",
+      "index": 288
+    },
+    {
+      "name": "text_289",
+      "type": "text",
+      "defaultValue": "로그인",
+      "tag": "a",
+      "index": 289
+    },
+    {
+      "name": "text_290",
+      "type": "text",
+      "defaultValue": "위조품 방지",
+      "tag": "a",
+      "index": 290
+    },
+    {
+      "name": "text_291",
+      "type": "text",
+      "defaultValue": "고객서비스센터(수신자요금부담) : 080-023-5454",
+      "tag": "span",
+      "index": 291
+    },
+    {
+      "name": "text_292",
+      "type": "text",
+      "defaultValue": "(월~금: AM 09:00~PM 06:00)",
+      "tag": "span",
+      "index": 292
+    },
+    {
+      "name": "text_293",
+      "type": "text",
+      "defaultValue": "Facebook",
+      "tag": "span",
+      "index": 293
+    },
+    {
+      "name": "text_294",
+      "type": "text",
+      "defaultValue": "Instagram",
+      "tag": "span",
+      "index": 294
+    },
+    {
+      "name": "text_295",
+      "type": "text",
+      "defaultValue": "YouTube",
+      "tag": "span",
+      "index": 295
+    },
+    {
+      "name": "text_296",
+      "type": "text",
+      "defaultValue": "kakaoChannel",
+      "tag": "span",
+      "index": 296
+    },
+    {
+      "name": "text_297",
+      "type": "text",
+      "defaultValue": "© AMOREPACIFIC CORPORATION. All\n            rights reserved.",
+      "tag": "span",
+      "index": 297
+    },
+    {
+      "name": "text_298",
+      "type": "text",
+      "defaultValue": "© AMOREPACIFIC CORPORATION. All rights\n                reserved.",
+      "tag": "span",
+      "index": 298
+    },
+    {
+      "name": "text_299",
+      "type": "text",
+      "defaultValue": "회사소개",
+      "tag": "a",
+      "index": 299
+    },
+    {
+      "name": "text_300",
+      "type": "text",
+      "defaultValue": "서비스이용약관",
+      "tag": "a",
+      "index": 300
+    },
+    {
+      "name": "text_301",
+      "type": "text",
+      "defaultValue": "개인정보처리방침",
+      "tag": "a",
+      "index": 301
+    },
+    {
+      "name": "text_302",
+      "type": "text",
+      "defaultValue": "영상정보처리방침",
+      "tag": "a",
+      "index": 302
+    },
+    {
+      "name": "text_303",
+      "type": "text",
+      "defaultValue": "사이트맵",
+      "tag": "a",
+      "index": 303
+    },
+    {
+      "name": "text_304",
+      "type": "text",
+      "defaultValue": "위조품 방지",
+      "tag": "a",
+      "index": 304
+    },
+    {
+      "name": "text_305",
+      "type": "text",
+      "defaultValue": "고객서비스센터(수신자요금부담) :\n                        080-023-5454",
+      "tag": "a",
+      "index": 305
+    },
+    {
+      "name": "text_306",
+      "type": "text",
+      "defaultValue": "(월~금: AM 09:00~PM 06:00)",
+      "tag": "span",
+      "index": 306
+    },
+    {
+      "name": "text_307",
+      "type": "text",
+      "defaultValue": "Sulwhasoo Site Navigation",
+      "tag": "a",
+      "index": 307
+    },
+    {
+      "name": "text_308",
+      "type": "text",
+      "defaultValue": "Sulwhasoo Site Navigation",
+      "tag": "span",
+      "index": 308
+    },
+    {
+      "name": "text_309",
+      "type": "text",
+      "defaultValue": "Sulwhasoo Site Navigation close",
+      "tag": "button",
+      "index": 309
+    },
+    {
+      "name": "text_310",
+      "type": "text",
+      "defaultValue": "Sulwhasoo Site Navigation close",
+      "tag": "span",
+      "index": 310
+    },
+    {
+      "name": "text_311",
+      "type": "text",
+      "defaultValue": "윤조",
+      "tag": "span",
+      "index": 311
+    },
+    {
+      "name": "text_312",
+      "type": "text",
+      "defaultValue": "윤조",
+      "tag": "a",
+      "index": 312
+    },
+    {
+      "name": "text_313",
+      "type": "text",
+      "defaultValue": "자음생",
+      "tag": "span",
+      "index": 313
+    },
+    {
+      "name": "text_314",
+      "type": "text",
+      "defaultValue": "자음생",
+      "tag": "a",
+      "index": 314
+    },
+    {
+      "name": "text_315",
+      "type": "text",
+      "defaultValue": "기프트",
+      "tag": "span",
+      "index": 315
+    },
+    {
+      "name": "text_316",
+      "type": "text",
+      "defaultValue": "기프트",
+      "tag": "a",
+      "index": 316
+    },
+    {
+      "name": "text_317",
+      "type": "text",
+      "defaultValue": "베스트 셀러",
+      "tag": "span",
+      "index": 317
+    },
+    {
+      "name": "text_318",
+      "type": "text",
+      "defaultValue": "베스트 셀러",
+      "tag": "a",
+      "index": 318
+    },
+    {
+      "name": "text_319",
+      "type": "text",
+      "defaultValue": "제품",
+      "tag": "span",
+      "index": 319
+    },
+    {
+      "name": "text_320",
+      "type": "text",
+      "defaultValue": "제품",
+      "tag": "a",
+      "index": 320
+    },
+    {
+      "name": "text_321",
+      "type": "text",
+      "defaultValue": "스킨케어",
+      "tag": "li",
+      "index": 321
+    },
+    {
+      "name": "text_322",
+      "type": "text",
+      "defaultValue": "스킨케어",
+      "tag": "a",
+      "index": 322
+    },
+    {
+      "name": "text_323",
+      "type": "text",
+      "defaultValue": "메이크업",
+      "tag": "li",
+      "index": 323
+    },
+    {
+      "name": "text_324",
+      "type": "text",
+      "defaultValue": "메이크업",
+      "tag": "a",
+      "index": 324
+    },
+    {
+      "name": "text_325",
+      "type": "text",
+      "defaultValue": "남성",
+      "tag": "li",
+      "index": 325
+    },
+    {
+      "name": "text_326",
+      "type": "text",
+      "defaultValue": "남성",
+      "tag": "a",
+      "index": 326
+    },
+    {
+      "name": "text_327",
+      "type": "text",
+      "defaultValue": "스파",
+      "tag": "span",
+      "index": 327
+    },
+    {
+      "name": "text_328",
+      "type": "text",
+      "defaultValue": "스파",
+      "tag": "a",
+      "index": 328
+    },
+    {
+      "name": "text_329",
+      "type": "text",
+      "defaultValue": "소개",
+      "tag": "li",
+      "index": 329
+    },
+    {
+      "name": "text_330",
+      "type": "text",
+      "defaultValue": "소개",
+      "tag": "a",
+      "index": 330
+    },
+    {
+      "name": "text_331",
+      "type": "text",
+      "defaultValue": "스파 프로그램",
+      "tag": "li",
+      "index": 331
+    },
+    {
+      "name": "text_332",
+      "type": "text",
+      "defaultValue": "스파 프로그램",
+      "tag": "a",
+      "index": 332
+    },
+    {
+      "name": "text_333",
+      "type": "text",
+      "defaultValue": "예약",
+      "tag": "li",
+      "index": 333
+    },
+    {
+      "name": "text_334",
+      "type": "text",
+      "defaultValue": "예약",
+      "tag": "a",
+      "index": 334
+    },
+    {
+      "name": "text_335",
+      "type": "text",
+      "defaultValue": "매장 찾기",
+      "tag": "li",
+      "index": 335
+    },
+    {
+      "name": "text_336",
+      "type": "text",
+      "defaultValue": "매장 찾기",
+      "tag": "a",
+      "index": 336
+    },
+    {
+      "name": "text_337",
+      "type": "text",
+      "defaultValue": "플래그십 스토어",
+      "tag": "span",
+      "index": 337
+    },
+    {
+      "name": "text_338",
+      "type": "text",
+      "defaultValue": "플래그십 스토어",
+      "tag": "a",
+      "index": 338
+    },
+    {
+      "name": "text_339",
+      "type": "text",
+      "defaultValue": "플래그십 스토어",
+      "tag": "li",
+      "index": 339
+    },
+    {
+      "name": "text_340",
+      "type": "text",
+      "defaultValue": "플래그십 스토어",
+      "tag": "a",
+      "index": 340
+    },
+    {
+      "name": "text_341",
+      "type": "text",
+      "defaultValue": "설화수 북촌",
+      "tag": "li",
+      "index": 341
+    },
+    {
+      "name": "text_342",
+      "type": "text",
+      "defaultValue": "설화수 북촌",
+      "tag": "a",
+      "index": 342
+    },
+    {
+      "name": "text_343",
+      "type": "text",
+      "defaultValue": "설화수 도산",
+      "tag": "li",
+      "index": 343
+    },
+    {
+      "name": "text_344",
+      "type": "text",
+      "defaultValue": "설화수 도산",
+      "tag": "a",
+      "index": 344
+    },
+    {
+      "name": "text_345",
+      "type": "text",
+      "defaultValue": "ABOUT 설화수",
+      "tag": "span",
+      "index": 345
+    },
+    {
+      "name": "text_346",
+      "type": "text",
+      "defaultValue": "ABOUT 설화수",
+      "tag": "a",
+      "index": 346
+    },
+    {
+      "name": "text_347",
+      "type": "text",
+      "defaultValue": "브랜드 스토리",
+      "tag": "li",
+      "index": 347
+    },
+    {
+      "name": "text_348",
+      "type": "text",
+      "defaultValue": "브랜드 스토리",
+      "tag": "a",
+      "index": 348
+    },
+    {
+      "name": "text_349",
+      "type": "text",
+      "defaultValue": "브랜드 지속가능성",
+      "tag": "li",
+      "index": 349
+    },
+    {
+      "name": "text_350",
+      "type": "text",
+      "defaultValue": "브랜드 지속가능성",
+      "tag": "a",
+      "index": 350
+    },
+    {
+      "name": "text_351",
+      "type": "text",
+      "defaultValue": "지속가능성",
+      "tag": "li",
+      "index": 351
+    },
+    {
+      "name": "text_352",
+      "type": "text",
+      "defaultValue": "지속가능성",
+      "tag": "a",
+      "index": 352
+    },
+    {
+      "name": "text_353",
+      "type": "text",
+      "defaultValue": "위조품방지",
+      "tag": "li",
+      "index": 353
+    },
+    {
+      "name": "text_354",
+      "type": "text",
+      "defaultValue": "위조품방지",
+      "tag": "a",
+      "index": 354
+    },
+    {
+      "name": "text_355",
+      "type": "text",
+      "defaultValue": "설화문화전",
+      "tag": "li",
+      "index": 355
+    },
+    {
+      "name": "text_356",
+      "type": "text",
+      "defaultValue": "설화문화전",
+      "tag": "a",
+      "index": 356
+    },
+    {
+      "name": "text_357",
+      "type": "text",
+      "defaultValue": "살롱 설화수",
+      "tag": "li",
+      "index": 357
+    },
+    {
+      "name": "text_358",
+      "type": "text",
+      "defaultValue": "살롱 설화수",
+      "tag": "a",
+      "index": 358
+    },
+    {
+      "name": "text_359",
+      "type": "text",
+      "defaultValue": "컬처프로젝트",
+      "tag": "li",
+      "index": 359
+    },
+    {
+      "name": "text_360",
+      "type": "text",
+      "defaultValue": "컬처프로젝트",
+      "tag": "a",
+      "index": 360
+    },
+    {
+      "name": "text_361",
+      "type": "text",
+      "defaultValue": "브랜드 뉴스",
+      "tag": "li",
+      "index": 361
+    },
+    {
+      "name": "text_362",
+      "type": "text",
+      "defaultValue": "브랜드 뉴스",
+      "tag": "a",
+      "index": 362
+    },
+    {
+      "name": "text_363",
+      "type": "text",
+      "defaultValue": "명작컬렉션",
+      "tag": "li",
+      "index": 363
+    },
+    {
+      "name": "text_364",
+      "type": "text",
+      "defaultValue": "명작컬렉션",
+      "tag": "a",
+      "index": 364
+    },
+    {
+      "name": "text_365",
+      "type": "text",
+      "defaultValue": "로그인",
+      "tag": "li",
+      "index": 365
+    },
+    {
+      "name": "text_366",
+      "type": "text",
+      "defaultValue": "로그인",
+      "tag": "a",
+      "index": 366
+    },
+    {
+      "name": "text_367",
+      "type": "text",
+      "defaultValue": "로그인",
+      "tag": "span",
+      "index": 367
+    },
+    {
+      "name": "text_368",
+      "type": "text",
+      "defaultValue": "매장찾기",
+      "tag": "li",
+      "index": 368
+    },
+    {
+      "name": "text_369",
+      "type": "text",
+      "defaultValue": "매장찾기",
+      "tag": "a",
+      "index": 369
+    },
+    {
+      "name": "text_370",
+      "type": "text",
+      "defaultValue": "LANGUAGE\n        한국/한국어",
+      "tag": "button",
+      "index": 370
+    },
+    {
+      "name": "text_371",
+      "type": "text",
+      "defaultValue": "LANGUAGE",
+      "tag": "span",
+      "index": 371
+    },
+    {
+      "name": "text_372",
+      "type": "text",
+      "defaultValue": "한국/한국어",
+      "tag": "span",
+      "index": 372
+    },
+    {
+      "name": "text_373",
+      "type": "text",
+      "defaultValue": "언어 선택",
+      "tag": "h2",
+      "index": 373
+    },
+    {
+      "name": "text_374",
+      "type": "text",
+      "defaultValue": "Close",
+      "tag": "button",
+      "index": 374
+    },
+    {
+      "name": "text_375",
+      "type": "text",
+      "defaultValue": "Close",
+      "tag": "span",
+      "index": 375
+    },
+    {
+      "name": "text_376",
+      "type": "text",
+      "defaultValue": "한국/한국어",
+      "tag": "li",
+      "index": 376
+    },
+    {
+      "name": "text_377",
+      "type": "text",
+      "defaultValue": "한국/한국어",
+      "tag": "a",
+      "index": 377
+    },
+    {
+      "name": "text_378",
+      "type": "text",
+      "defaultValue": "International/English",
+      "tag": "li",
+      "index": 378
+    },
+    {
+      "name": "text_379",
+      "type": "text",
+      "defaultValue": "International/English",
+      "tag": "a",
+      "index": 379
+    },
+    {
+      "name": "text_380",
+      "type": "text",
+      "defaultValue": "中文",
+      "tag": "li",
+      "index": 380
+    },
+    {
+      "name": "text_381",
+      "type": "text",
+      "defaultValue": "中文",
+      "tag": "a",
+      "index": 381
+    },
+    {
+      "name": "text_382",
+      "type": "text",
+      "defaultValue": "繁體中文",
+      "tag": "li",
+      "index": 382
+    },
+    {
+      "name": "text_383",
+      "type": "text",
+      "defaultValue": "繁體中文",
+      "tag": "a",
+      "index": 383
+    },
+    {
+      "name": "text_384",
+      "type": "text",
+      "defaultValue": "Singapore/English",
+      "tag": "li",
+      "index": 384
+    },
+    {
+      "name": "text_385",
+      "type": "text",
+      "defaultValue": "Singapore/English",
+      "tag": "a",
+      "index": 385
+    },
+    {
+      "name": "text_386",
+      "type": "text",
+      "defaultValue": "Malaysia/English",
+      "tag": "li",
+      "index": 386
+    },
+    {
+      "name": "text_387",
+      "type": "text",
+      "defaultValue": "Malaysia/English",
+      "tag": "a",
+      "index": 387
+    },
+    {
+      "name": "text_388",
+      "type": "text",
+      "defaultValue": "Việt Nam/Tiếng Việt",
+      "tag": "li",
+      "index": 388
+    },
+    {
+      "name": "text_389",
+      "type": "text",
+      "defaultValue": "Việt Nam/Tiếng Việt",
+      "tag": "a",
+      "index": 389
+    },
+    {
+      "name": "text_390",
+      "type": "text",
+      "defaultValue": "Indonesia/Bahasa Indonesia",
+      "tag": "li",
+      "index": 390
+    },
+    {
+      "name": "text_391",
+      "type": "text",
+      "defaultValue": "Indonesia/Bahasa Indonesia",
+      "tag": "a",
+      "index": 391
+    },
+    {
+      "name": "text_392",
+      "type": "text",
+      "defaultValue": "ประเทศไทย/ไทย",
+      "tag": "li",
+      "index": 392
+    },
+    {
+      "name": "text_393",
+      "type": "text",
+      "defaultValue": "ประเทศไทย/ไทย",
+      "tag": "a",
+      "index": 393
+    },
+    {
+      "name": "text_394",
+      "type": "text",
+      "defaultValue": "USA/English",
+      "tag": "li",
+      "index": 394
+    },
+    {
+      "name": "text_395",
+      "type": "text",
+      "defaultValue": "USA/English",
+      "tag": "a",
+      "index": 395
+    },
+    {
+      "name": "text_396",
+      "type": "text",
+      "defaultValue": "Sulwhasoo Site Navigation close",
+      "tag": "a",
+      "index": 396
+    },
+    {
+      "name": "text_397",
+      "type": "text",
+      "defaultValue": "Sulwhasoo Site Navigation close",
+      "tag": "span",
+      "index": 397
+    },
+    {
+      "name": "img_398",
+      "type": "image",
+      "defaultValue": "https://www.sulwhasoo.com/kr/ko/layout/cont-main/keyvisual-new/__icsFiles/afieldfile/2026/03/06/260306_final_KR_LBAS_main_KV_PC.jpg",
+      "alt": "",
+      "index": 398
+    },
+    {
+      "name": "img_399",
+      "type": "image",
+      "defaultValue": "https://www.sulwhasoo.com/kr/ko/layout/cont-main/keyvisual-new/__icsFiles/afieldfile/2026/01/21/260121_final_KR_LumiwiseBrighteningAmpouleSerum_Coverpage_main_KV_PC.jpg",
+      "alt": "",
+      "index": 399
+    },
+    {
+      "name": "img_400",
+      "type": "image",
+      "defaultValue": "https://www.sulwhasoo.com/kr/ko/layout/cont-main/keyvisual-new/__icsFiles/afieldfile/2026/01/12/260112_final_KR_Ultimate-S-Infusion-Treatment_KV_pc.jpg",
+      "alt": "",
+      "index": 400
+    },
+    {
+      "name": "img_401",
+      "type": "image",
+      "defaultValue": "https://www.sulwhasoo.com/kr/ko/layout/cont-main/keyvisual-new/__icsFiles/afieldfile/2026/01/09/260109_final_KR_CGRC_main_KV_pc.jpg",
+      "alt": "",
+      "index": 401
+    },
+    {
+      "name": "img_402",
+      "type": "image",
+      "defaultValue": "https://www.sulwhasoo.com/kr/ko/layout/cont-main/keyvisual-new/__icsFiles/afieldfile/2026/03/06/260306_final_KR_LBAS_main_KV_PC.jpg",
+      "alt": "",
+      "index": 402
+    },
+    {
+      "name": "img_403",
+      "type": "image",
+      "defaultValue": "https://www.sulwhasoo.com/kr/ko/layout/cont-main/keyvisual-new/__icsFiles/afieldfile/2026/01/21/260121_final_KR_LumiwiseBrighteningAmpouleSerum_Coverpage_main_KV_PC.jpg",
+      "alt": "",
+      "index": 403
+    },
+    {
+      "name": "img_404",
+      "type": "image",
+      "defaultValue": "https://www.sulwhasoo.com/kr/ko/layout/cont-main/recommend-new/__icsFiles/afieldfile/2025/11/03/20240118_final_Perfecting-Lip-Color_02_999-ROSE_pdp_Thumbnail.jpg",
+      "alt": "퍼펙팅 립컬러 45,000원",
+      "index": 404
+    },
+    {
+      "name": "img_405",
+      "type": "image",
+      "defaultValue": "https://www.sulwhasoo.com/kr/ko/layout/cont-main/recommend-new/__icsFiles/afieldfile/2025/11/03/241028_final_KR_21N_Thumbnail_640x640.jpg",
+      "alt": "퍼펙팅 트윈케이크 75,000원",
+      "index": 405
+    },
+    {
+      "name": "img_406",
+      "type": "image",
+      "defaultValue": "https://www.sulwhasoo.com/kr/ko/layout/cont-main/recommend-new/__icsFiles/afieldfile/2025/11/03/230531_Gentle-Cleansing-Oil-400ml_thumb_640.jpg",
+      "alt": "순행클렌징오일 47,000원",
+      "index": 406
+    },
+    {
+      "name": "img_407",
+      "type": "image",
+      "defaultValue": "https://www.sulwhasoo.com/kr/ko/layout/cont-main/recommend-new/__icsFiles/afieldfile/2025/11/03/250212_final_KR_01_Sulwhasoo-the-ultimates-S-cream-Rich_Thmbnail_640x640.jpg",
+      "alt": "진설크림 리치 520,000원",
+      "index": 407
+    },
+    {
+      "name": "img_408",
+      "type": "image",
+      "defaultValue": "https://www.sulwhasoo.com/kr/ko/layout/cont-main/recommend-new/__icsFiles/afieldfile/2025/11/03/240628_final_SWS_KR_CGR-Ampoule_thumbnail_Product_640.jpg",
+      "alt": "자음생앰플 150,000원",
+      "index": 408
+    },
+    {
+      "name": "img_409",
+      "type": "image",
+      "defaultValue": "https://www.sulwhasoo.com/kr/ko/layout/cont-main/recommend-new/__icsFiles/afieldfile/2025/11/03/230228_final_White-Ginseng-Refining-Radiance-Mask-120ml_thumbnail(640x640)_1.jpg",
+      "alt": "백삼팩 72,000원",
+      "index": 409
+    },
+    {
+      "name": "img_410",
+      "type": "image",
+      "defaultValue": "https://www.sulwhasoo.com/kr/ko/layout/cont-main/recommend-new/__icsFiles/afieldfile/2025/11/03/20240118_final_Perfecting-Lip-Color_02_999-ROSE_pdp_Thumbnail.jpg",
+      "alt": "퍼펙팅 립컬러 45,000원",
+      "index": 410
+    },
+    {
+      "name": "img_411",
+      "type": "image",
+      "defaultValue": "https://www.sulwhasoo.com/kr/ko/layout/cont-main/recommend-new/__icsFiles/afieldfile/2025/11/03/241028_final_KR_21N_Thumbnail_640x640.jpg",
+      "alt": "퍼펙팅 트윈케이크 75,000원",
+      "index": 411
+    },
+    {
+      "name": "img_412",
+      "type": "image",
+      "defaultValue": "https://www.sulwhasoo.com/kr/ko/layout/cont-main/recommend-new/__icsFiles/afieldfile/2025/11/03/230531_Gentle-Cleansing-Oil-400ml_thumb_640.jpg",
+      "alt": "순행클렌징오일 47,000원",
+      "index": 412
+    },
+    {
+      "name": "img_413",
+      "type": "image",
+      "defaultValue": "https://www.sulwhasoo.com/kr/ko/layout/cont-main/recommend-new/__icsFiles/afieldfile/2025/11/03/250212_final_KR_01_Sulwhasoo-the-ultimates-S-cream-Rich_Thmbnail_640x640.jpg",
+      "alt": "진설크림 리치 520,000원",
+      "index": 413
+    },
+    {
+      "name": "img_414",
+      "type": "image",
+      "defaultValue": "https://www.sulwhasoo.com/kr/ko/layout/cont-main/recommend-new/__icsFiles/afieldfile/2025/11/03/240628_final_SWS_KR_CGR-Ampoule_thumbnail_Product_640.jpg",
+      "alt": "자음생앰플 150,000원",
+      "index": 414
+    },
+    {
+      "name": "img_415",
+      "type": "image",
+      "defaultValue": "https://www.sulwhasoo.com/kr/ko/layout/cont-main/recommend-new/__icsFiles/afieldfile/2025/11/03/230228_final_White-Ginseng-Refining-Radiance-Mask-120ml_thumbnail(640x640)_1.jpg",
+      "alt": "백삼팩 72,000원",
+      "index": 415
+    },
+    {
+      "name": "img_416",
+      "type": "image",
+      "defaultValue": "https://www.sulwhasoo.com/kr/ko/resource/img/mainnew/sulwhasoo_main_bestseller_pc_kr_260106.jpg",
+      "alt": "설화수 시그니처 케어",
+      "index": 416
+    },
+    {
+      "name": "img_417",
+      "type": "image",
+      "defaultValue": "https://www.sulwhasoo.com/kr/ko/layout/cont-main/suggestion/__icsFiles/afieldfile/2026/01/06/240628_final_SWS_KR_CGRS30ml_thumbnail_Product_640.jpg",
+      "alt": "자음생캡슐세럼",
+      "index": 417
+    },
+    {
+      "name": "img_418",
+      "type": "image",
+      "defaultValue": "https://www.sulwhasoo.com/kr/ko/layout/cont-main/suggestion/__icsFiles/afieldfile/2026/01/12/260112_final_KR_main_season_pc.jpg",
+      "alt": "설화수 시즌 추천",
+      "index": 418
+    },
+    {
+      "name": "img_419",
+      "type": "image",
+      "defaultValue": "https://www.sulwhasoo.com/kr/ko/layout/cont-main/suggestion/__icsFiles/afieldfile/2025/11/05/240812_final_SWS_KR_CGR-Cream-Rich-50ml_thumbnail_Product_640.jpg",
+      "alt": "자음생크림 리치",
+      "index": 419
+    },
+    {
+      "name": "img_420",
+      "type": "image",
+      "defaultValue": "https://www.sulwhasoo.com/kr/ko/layout/cont-main/collection/__icsFiles/afieldfile/2025/03/12/220901_bukchon_708x600.jpg",
+      "alt": "설화수 북촌 플래그십 스토어 전경",
+      "index": 420
+    },
+    {
+      "name": "img_421",
+      "type": "image",
+      "defaultValue": "https://www.sulwhasoo.com/kr/ko/layout/cont-main/collection/__icsFiles/afieldfile/2025/03/12/230516_final_Sulwhasoo-Dosan-Flagship-Store.jpg",
+      "alt": "설화수 도산 플래그십 스토어 전경",
+      "index": 421
+    },
+    {
+      "name": "img_422",
+      "type": "image",
+      "defaultValue": "https://www.sulwhasoo.com/kr/ko/resource/img/a/top.png",
+      "alt": "top",
+      "index": 422
+    },
+    {
+      "name": "img_423",
+      "type": "image",
+      "defaultValue": "https://www.sulwhasoo.com/kr/ko/resource/img/a/sws-wa-mark_kr_260116.png",
+      "alt": "(사)한국장애인단체총연합회 한국웹접근성인증평가원 웹 접근성 우수사이트 인증마크 (WA인증마크)",
+      "index": 423
+    },
+    {
+      "name": "img_424",
+      "type": "image",
+      "defaultValue": "https://www.sulwhasoo.com/kr/ko/resource/img/a/facebookLogo.png",
+      "alt": "페이스북",
+      "index": 424
+    },
+    {
+      "name": "img_425",
+      "type": "image",
+      "defaultValue": "https://www.sulwhasoo.com/kr/ko/resource/img/a/instaLogo.png",
+      "alt": "인스타그램",
+      "index": 425
+    },
+    {
+      "name": "img_426",
+      "type": "image",
+      "defaultValue": "https://www.sulwhasoo.com/kr/ko/resource/img/a/youtubeLogo.png",
+      "alt": "유투브",
+      "index": 426
+    },
+    {
+      "name": "img_427",
+      "type": "image",
+      "defaultValue": "https://www.sulwhasoo.com/kr/ko/resource/img/a/kakaoChannelLogo.png",
+      "alt": "카카오톡채널",
+      "index": 427
+    },
+    {
+      "name": "img_428",
+      "type": "image",
+      "defaultValue": "https://www.sulwhasoo.com/kr/ko/resource/img/a/sws-wa-mark_kr_260116.png",
+      "alt": "(사)한국장애인단체총연합회 한국웹접근성인증평가원 웹 접근성 우수사이트 인증마크 (WA인증마크)",
+      "index": 428
+    },
+    {
+      "name": "link_429",
+      "type": "link",
+      "defaultValue": "#main",
+      "text": "본문 바로가기",
+      "index": 429
+    },
+    {
+      "name": "link_430",
+      "type": "link",
+      "defaultValue": "/kr/ko/index.html",
+      "text": "Sulwhasoo",
+      "index": 430
+    },
+    {
+      "name": "link_431",
+      "type": "link",
+      "defaultValue": "#language-list",
+      "text": "한국/한국어",
+      "index": 431
+    },
+    {
+      "name": "link_432",
+      "type": "link",
+      "defaultValue": "https://www.sulwhasoo.com/kr/ko/index.html",
+      "text": "한국/한국어",
+      "index": 432
+    },
+    {
+      "name": "link_433",
+      "type": "link",
+      "defaultValue": "https://int.sulwhasoo.com/",
+      "text": "International/English",
+      "index": 433
+    },
+    {
+      "name": "link_434",
+      "type": "link",
+      "defaultValue": "https://www.sulwhasoo.com.cn/index.html",
+      "text": "中文",
+      "index": 434
+    },
+    {
+      "name": "link_435",
+      "type": "link",
+      "defaultValue": "https://hk.sulwhasoo.com/tc_s/",
+      "text": "繁體中文",
+      "index": 435
+    },
+    {
+      "name": "link_436",
+      "type": "link",
+      "defaultValue": "https://sg.sulwhasoo.com/",
+      "text": "Singapore/English",
+      "index": 436
+    },
+    {
+      "name": "link_437",
+      "type": "link",
+      "defaultValue": "https://my.sulwhasoo.com/",
+      "text": "Malaysia/English",
+      "index": 437
+    },
+    {
+      "name": "link_438",
+      "type": "link",
+      "defaultValue": "https://vn.sulwhasoo.com/",
+      "text": "Việt Nam/Tiếng Việt",
+      "index": 438
+    },
+    {
+      "name": "link_439",
+      "type": "link",
+      "defaultValue": "https://id.sulwhasoo.com/",
+      "text": "Indonesia/Bahasa Indonesia",
+      "index": 439
+    },
+    {
+      "name": "link_440",
+      "type": "link",
+      "defaultValue": "https://th.sulwhasoo.com/",
+      "text": "ประเทศไทย/ไทย",
+      "index": 440
+    },
+    {
+      "name": "link_441",
+      "type": "link",
+      "defaultValue": "https://us.sulwhasoo.com/",
+      "text": "USA/English",
+      "index": 441
+    },
+    {
+      "name": "link_442",
+      "type": "link",
+      "defaultValue": "/kr/ko/misc/store/store.html",
+      "text": "매장찾기",
+      "index": 442
+    },
+    {
+      "name": "link_443",
+      "type": "link",
+      "defaultValue": "https://www.amoremall.com/kr/ko/display/brand/detail?brandSn=18",
+      "text": "구매하기",
+      "index": 443
+    },
+    {
+      "name": "link_444",
+      "type": "link",
+      "defaultValue": "#top-search",
+      "text": "search",
+      "index": 444
+    },
+    {
+      "name": "link_445",
+      "type": "link",
+      "defaultValue": "#open-search",
+      "text": "닫기",
+      "index": 445
+    },
+    {
+      "name": "link_446",
+      "type": "link",
+      "defaultValue": "/kr/ko/first-care-activating/first-care-activating-serum-vi.html",
+      "text": "윤조",
+      "index": 446
+    },
+    {
+      "name": "link_447",
+      "type": "link",
+      "defaultValue": "/kr/ko/concentrated-ginseng-rejuvenating/introduction.html",
+      "text": "자음생",
+      "index": 447
+    },
+    {
+      "name": "link_448",
+      "type": "link",
+      "defaultValue": "/kr/ko/gift/packing-service.html",
+      "text": "기프트",
+      "index": 448
+    },
+    {
+      "name": "link_449",
+      "type": "link",
+      "defaultValue": "/kr/ko/best/best-seller.html",
+      "text": "베스트 셀러",
+      "index": 449
+    },
+    {
+      "name": "link_450",
+      "type": "link",
+      "defaultValue": "/kr/ko/products/skincare/skincare.html",
+      "text": "제품",
+      "index": 450
+    },
+    {
+      "name": "link_451",
+      "type": "link",
+      "defaultValue": "/kr/ko/products/skincare/skincare.html",
+      "text": "스킨케어",
+      "index": 451
+    },
+    {
+      "name": "link_452",
+      "type": "link",
+      "defaultValue": "/kr/ko/products/makeup/makeup.html",
+      "text": "메이크업",
+      "index": 452
+    },
+    {
+      "name": "link_453",
+      "type": "link",
+      "defaultValue": "/kr/ko/products/men/men.html",
+      "text": "남성",
+      "index": 453
+    },
+    {
+      "name": "link_454",
+      "type": "link",
+      "defaultValue": "/kr/ko/spa/introduction/introduction.html",
+      "text": "스파",
+      "index": 454
+    },
+    {
+      "name": "link_455",
+      "type": "link",
+      "defaultValue": "/kr/ko/spa/introduction/introduction.html",
+      "text": "소개",
+      "index": 455
+    },
+    {
+      "name": "link_456",
+      "type": "link",
+      "defaultValue": "/kr/ko/spa/programs/programs.html",
+      "text": "스파 프로그램",
+      "index": 456
+    },
+    {
+      "name": "link_457",
+      "type": "link",
+      "defaultValue": "/kr/ko/spa/reservation/reservation.html",
+      "text": "예약",
+      "index": 457
+    },
+    {
+      "name": "link_458",
+      "type": "link",
+      "defaultValue": "/kr/ko/spa/location/location.html",
+      "text": "매장 찾기",
+      "index": 458
+    },
+    {
+      "name": "link_459",
+      "type": "link",
+      "defaultValue": "/kr/ko/flagship/intro/index.html",
+      "text": "플래그십 스토어",
+      "index": 459
+    },
+    {
+      "name": "link_460",
+      "type": "link",
+      "defaultValue": "/kr/ko/flagship/intro/index.html",
+      "text": "플래그십 스토어",
+      "index": 460
+    },
+    {
+      "name": "link_461",
+      "type": "link",
+      "defaultValue": "/kr/ko/flagship/bukchon/index.html",
+      "text": "설화수 북촌",
+      "index": 461
+    },
+    {
+      "name": "link_462",
+      "type": "link",
+      "defaultValue": "/kr/ko/flagship/dosan/index.html",
+      "text": "설화수 도산",
+      "index": 462
+    },
+    {
+      "name": "link_463",
+      "type": "link",
+      "defaultValue": "/kr/ko/about-sulwhasoo/brand-story/brand-story.html",
+      "text": "ABOUT 설화수",
+      "index": 463
+    },
+    {
+      "name": "link_464",
+      "type": "link",
+      "defaultValue": "/kr/ko/about-sulwhasoo/brand-story/brand-story.html",
+      "text": "브랜드 스토리",
+      "index": 464
+    },
+    {
+      "name": "link_465",
+      "type": "link",
+      "defaultValue": "/kr/ko/about-sulwhasoo/brand-sustainability/index.html",
+      "text": "브랜드 지속가능성",
+      "index": 465
+    },
+    {
+      "name": "link_466",
+      "type": "link",
+      "defaultValue": "/kr/ko/about-sulwhasoo/brand-sustainability/sustainability/brand-sustainability.html",
+      "text": "지속가능성",
+      "index": 466
+    },
+    {
+      "name": "link_467",
+      "type": "link",
+      "defaultValue": "/kr/ko/about-sulwhasoo/brand-sustainability/anti-counterfeit/anti-counterfeit.html",
+      "text": "위조품방지",
+      "index": 467
+    },
+    {
+      "name": "link_468",
+      "type": "link",
+      "defaultValue": "/kr/ko/about-sulwhasoo/culture/sws-culture.html",
+      "text": "설화문화전",
+      "index": 468
+    },
+    {
+      "name": "link_469",
+      "type": "link",
+      "defaultValue": "/kr/ko/about-sulwhasoo/salon-sulwhasoo/salon-sulwhasoo.html",
+      "text": "살롱 설화수",
+      "index": 469
+    },
+    {
+      "name": "link_470",
+      "type": "link",
+      "defaultValue": "/kr/ko/about-sulwhasoo/culture-project/archive.html",
+      "text": "컬처프로젝트",
+      "index": 470
+    },
+    {
+      "name": "link_471",
+      "type": "link",
+      "defaultValue": "/kr/ko/about-sulwhasoo/brand-news/archive/archive.html",
+      "text": "브랜드 뉴스",
+      "index": 471
+    },
+    {
+      "name": "link_472",
+      "type": "link",
+      "defaultValue": "/kr/ko/about-sulwhasoo/classic-luxury-set/classic-luxury-set.html",
+      "text": "명작컬렉션",
+      "index": 472
+    },
+    {
+      "name": "link_473",
+      "type": "link",
+      "defaultValue": "https://www.amoremall.com/kr/ko/display/event_detail?planDisplaySn=14153",
+      "text": "AMORE MALL (3/9~ 3/15)\n                      AMORE",
+      "index": 473
+    },
+    {
+      "name": "link_474",
+      "type": "link",
+      "defaultValue": "/kr/ko/about-sulwhasoo/brand-news/archive/lumiwise-brightening-ampoule-serum.html",
+      "text": "다시 짙어지지 않고* 맑게 이어지는 피부\n                      다시 짙어",
+      "index": 474
+    },
+    {
+      "name": "link_475",
+      "type": "link",
+      "defaultValue": "/kr/ko/products/the-ultimate-s-infusion-treatment.html  ",
+      "text": "리버스에이징의 궁극적 테크놀로지\n                      리버스에이징의 궁극",
+      "index": 475
+    },
+    {
+      "name": "link_476",
+      "type": "link",
+      "defaultValue": "/kr/ko/concentrated-ginseng-rejuvenating/introduction.html",
+      "text": "스스로 탄력을 채워 모든 시간을 밀도 있게\n                      스스로 ",
+      "index": 476
+    },
+    {
+      "name": "link_477",
+      "type": "link",
+      "defaultValue": "https://www.amoremall.com/kr/ko/display/event_detail?planDisplaySn=14153",
+      "text": "AMORE MALL (3/9~ 3/15)\n                      AMORE",
+      "index": 477
+    },
+    {
+      "name": "link_478",
+      "type": "link",
+      "defaultValue": "/kr/ko/about-sulwhasoo/brand-news/archive/lumiwise-brightening-ampoule-serum.html",
+      "text": "다시 짙어지지 않고* 맑게 이어지는 피부\n                      다시 짙어",
+      "index": 478
+    },
+    {
+      "name": "link_479",
+      "type": "link",
+      "defaultValue": "/kr/ko/products/perfecting-lip-color.html",
+      "text": "퍼펙팅 립컬러 자세히 보기",
+      "index": 479
+    },
+    {
+      "name": "link_480",
+      "type": "link",
+      "defaultValue": "/kr/ko/products/perfecting-lip-color.html",
+      "text": "퍼펙팅 립컬러 자세히 보기",
+      "index": 480
+    },
+    {
+      "name": "link_481",
+      "type": "link",
+      "defaultValue": "/kr/ko/products/perfecting-powder-foundation.html",
+      "text": "퍼펙팅 트윈케이크 자세히 보기",
+      "index": 481
+    },
+    {
+      "name": "link_482",
+      "type": "link",
+      "defaultValue": "/kr/ko/products/perfecting-powder-foundation.html",
+      "text": "퍼펙팅 트윈케이크 자세히 보기",
+      "index": 482
+    },
+    {
+      "name": "link_483",
+      "type": "link",
+      "defaultValue": "/kr/ko/products/gentle-cleansing-oil.html",
+      "text": "순행클렌징오일 자세히 보기",
+      "index": 483
+    },
+    {
+      "name": "link_484",
+      "type": "link",
+      "defaultValue": "/kr/ko/products/gentle-cleansing-oil.html",
+      "text": "순행클렌징오일 자세히 보기",
+      "index": 484
+    },
+    {
+      "name": "link_485",
+      "type": "link",
+      "defaultValue": "/kr/ko/products/the-ultimate-s-cream-rich.html",
+      "text": "진설크림 리치 자세히 보기",
+      "index": 485
+    },
+    {
+      "name": "link_486",
+      "type": "link",
+      "defaultValue": "/kr/ko/products/the-ultimate-s-cream-rich.html",
+      "text": "진설크림 리치 자세히 보기",
+      "index": 486
+    },
+    {
+      "name": "link_487",
+      "type": "link",
+      "defaultValue": "/kr/ko/products/concentrated-ginseng-rejuvenating-ampoule.html",
+      "text": "자음생앰플 자세히 보기",
+      "index": 487
+    },
+    {
+      "name": "link_488",
+      "type": "link",
+      "defaultValue": "/kr/ko/products/concentrated-ginseng-rejuvenating-ampoule.html",
+      "text": "자음생앰플 자세히 보기",
+      "index": 488
+    },
+    {
+      "name": "link_489",
+      "type": "link",
+      "defaultValue": "/kr/ko/products/white-ginseng-radiance-refining-mask.html",
+      "text": "백삼팩 자세히 보기",
+      "index": 489
+    },
+    {
+      "name": "link_490",
+      "type": "link",
+      "defaultValue": "/kr/ko/products/white-ginseng-radiance-refining-mask.html",
+      "text": "백삼팩 자세히 보기",
+      "index": 490
+    },
+    {
+      "name": "link_491",
+      "type": "link",
+      "defaultValue": "/kr/ko/products/perfecting-lip-color.html",
+      "text": "퍼펙팅 립컬러 자세히 보기",
+      "index": 491
+    },
+    {
+      "name": "link_492",
+      "type": "link",
+      "defaultValue": "/kr/ko/products/perfecting-lip-color.html",
+      "text": "퍼펙팅 립컬러 자세히 보기",
+      "index": 492
+    },
+    {
+      "name": "link_493",
+      "type": "link",
+      "defaultValue": "/kr/ko/products/perfecting-powder-foundation.html",
+      "text": "퍼펙팅 트윈케이크 자세히 보기",
+      "index": 493
+    },
+    {
+      "name": "link_494",
+      "type": "link",
+      "defaultValue": "/kr/ko/products/perfecting-powder-foundation.html",
+      "text": "퍼펙팅 트윈케이크 자세히 보기",
+      "index": 494
+    },
+    {
+      "name": "link_495",
+      "type": "link",
+      "defaultValue": "/kr/ko/products/gentle-cleansing-oil.html",
+      "text": "순행클렌징오일 자세히 보기",
+      "index": 495
+    },
+    {
+      "name": "link_496",
+      "type": "link",
+      "defaultValue": "/kr/ko/products/gentle-cleansing-oil.html",
+      "text": "순행클렌징오일 자세히 보기",
+      "index": 496
+    },
+    {
+      "name": "link_497",
+      "type": "link",
+      "defaultValue": "/kr/ko/products/the-ultimate-s-cream-rich.html",
+      "text": "진설크림 리치 자세히 보기",
+      "index": 497
+    },
+    {
+      "name": "link_498",
+      "type": "link",
+      "defaultValue": "/kr/ko/products/the-ultimate-s-cream-rich.html",
+      "text": "진설크림 리치 자세히 보기",
+      "index": 498
+    },
+    {
+      "name": "link_499",
+      "type": "link",
+      "defaultValue": "/kr/ko/products/concentrated-ginseng-rejuvenating-ampoule.html",
+      "text": "자음생앰플 자세히 보기",
+      "index": 499
+    },
+    {
+      "name": "link_500",
+      "type": "link",
+      "defaultValue": "/kr/ko/products/concentrated-ginseng-rejuvenating-ampoule.html",
+      "text": "자음생앰플 자세히 보기",
+      "index": 500
+    },
+    {
+      "name": "link_501",
+      "type": "link",
+      "defaultValue": "/kr/ko/products/white-ginseng-radiance-refining-mask.html",
+      "text": "백삼팩 자세히 보기",
+      "index": 501
+    },
+    {
+      "name": "link_502",
+      "type": "link",
+      "defaultValue": "/kr/ko/products/white-ginseng-radiance-refining-mask.html",
+      "text": "백삼팩 자세히 보기",
+      "index": 502
+    },
+    {
+      "name": "link_503",
+      "type": "link",
+      "defaultValue": "/kr/ko/best/best-seller.html",
+      "text": "베스트 셀러\n              \n                건강하게 빛나고 힘 있",
+      "index": 503
+    },
+    {
+      "name": "link_504",
+      "type": "link",
+      "defaultValue": "/kr/ko/products/concentrated-ginseng-rejuvenating-serum.html",
+      "text": "자음생캡슐세럼 페이지 이동",
+      "index": 504
+    },
+    {
+      "name": "link_505",
+      "type": "link",
+      "defaultValue": "/kr/ko/products/concentrated-ginseng-rejuvenating-cream-rich.html",
+      "text": "자음생크림 리치 페이지 이동",
+      "index": 505
+    },
+    {
+      "name": "link_506",
+      "type": "link",
+      "defaultValue": "/kr/ko/flagship/bukchon/index.html",
+      "text": "설화수 북촌 플래그십 스토어\n                  자세히 보기",
+      "index": 506
+    },
+    {
+      "name": "link_507",
+      "type": "link",
+      "defaultValue": "/kr/ko/flagship/dosan/index.html",
+      "text": "설화수 도산 플래그십 스토어\n                  자세히 보기",
+      "index": 507
+    },
+    {
+      "name": "link_508",
+      "type": "link",
+      "defaultValue": "#main",
+      "text": "",
+      "index": 508
+    },
+    {
+      "name": "link_509",
+      "type": "link",
+      "defaultValue": "https://www.apgroup.com/int/ko/index.html",
+      "text": "회사소개",
+      "index": 509
+    },
+    {
+      "name": "link_510",
+      "type": "link",
+      "defaultValue": "https://www.beautypoint.co.kr/agreement",
+      "text": "서비스이용약관",
+      "index": 510
+    },
+    {
+      "name": "link_511",
+      "type": "link",
+      "defaultValue": "https://www.beautypoint.co.kr/privacy",
+      "text": "개인정보처리방침",
+      "index": 511
+    },
+    {
+      "name": "link_512",
+      "type": "link",
+      "defaultValue": "http://www.apgroup.com/int/ko/misc/terms/cctv-policies-and-procedures.html",
+      "text": "영상정보처리방침",
+      "index": 512
+    },
+    {
+      "name": "link_513",
+      "type": "link",
+      "defaultValue": "/kr/ko/misc/sitemap/sitemap.html",
+      "text": "사이트맵",
+      "index": 513
+    },
+    {
+      "name": "link_514",
+      "type": "link",
+      "defaultValue": "/kr/ko/about-sulwhasoo/brand-sustainability/anti-counterfeit/anti-counterfeit.html",
+      "text": "위조품 방지",
+      "index": 514
+    },
+    {
+      "name": "link_515",
+      "type": "link",
+      "defaultValue": "http://www.wa.or.kr/board/list.asp?BoardID=0006",
+      "text": "",
+      "index": 515
+    },
+    {
+      "name": "link_516",
+      "type": "link",
+      "defaultValue": "https://www.facebook.com/sulwhasoo.official",
+      "text": "Facebook",
+      "index": 516
+    },
+    {
+      "name": "link_517",
+      "type": "link",
+      "defaultValue": "https://www.instagram.com/sulwhasoo.official/",
+      "text": "Instagram",
+      "index": 517
+    },
+    {
+      "name": "link_518",
+      "type": "link",
+      "defaultValue": "https://www.youtube.com/user/sulwhasookorea",
+      "text": "YouTube",
+      "index": 518
+    },
+    {
+      "name": "link_519",
+      "type": "link",
+      "defaultValue": "https://pf.kakao.com/_mxehQxb/friend",
+      "text": "kakaoChannel",
+      "index": 519
+    },
+    {
+      "name": "link_520",
+      "type": "link",
+      "defaultValue": "https://www.apgroup.com/int/ko/index.html",
+      "text": "회사소개",
+      "index": 520
+    },
+    {
+      "name": "link_521",
+      "type": "link",
+      "defaultValue": "https://www.amoremall.com/kr/ko/beautypoint/app/footer/agreement.do",
+      "text": "서비스이용약관",
+      "index": 521
+    },
+    {
+      "name": "link_522",
+      "type": "link",
+      "defaultValue": "https://www.amoremall.com/kr/ko/beautypoint/app/footer/privacy.do",
+      "text": "개인정보처리방침",
+      "index": 522
+    },
+    {
+      "name": "link_523",
+      "type": "link",
+      "defaultValue": "http://www.apgroup.com/int/ko/misc/terms/cctv-policies-and-procedures.html",
+      "text": "영상정보처리방침",
+      "index": 523
+    },
+    {
+      "name": "link_524",
+      "type": "link",
+      "defaultValue": "/kr/ko/misc/sitemap/sitemap.html",
+      "text": "사이트맵",
+      "index": 524
+    },
+    {
+      "name": "link_525",
+      "type": "link",
+      "defaultValue": "/kr/ko/about-sulwhasoo/brand-sustainability/anti-counterfeit/anti-counterfeit.html",
+      "text": "위조품 방지",
+      "index": 525
+    },
+    {
+      "name": "link_526",
+      "type": "link",
+      "defaultValue": "tel:080-023-5454",
+      "text": "고객서비스센터(수신자요금부담) :\n                        080-023",
+      "index": 526
+    },
+    {
+      "name": "link_527",
+      "type": "link",
+      "defaultValue": "http://www.wa.or.kr/board/list.asp?BoardID=0006",
+      "text": "",
+      "index": 527
+    },
+    {
+      "name": "link_528",
+      "type": "link",
+      "defaultValue": "https://www.sulwhasoo.com/kr/ko/index.html",
+      "text": "Sulwhasoo Site Navigation",
+      "index": 528
+    },
+    {
+      "name": "link_529",
+      "type": "link",
+      "defaultValue": "/kr/ko/first-care-activating/first-care-activating-serum-vi.html",
+      "text": "윤조",
+      "index": 529
+    },
+    {
+      "name": "link_530",
+      "type": "link",
+      "defaultValue": "/kr/ko/concentrated-ginseng-rejuvenating/introduction.html",
+      "text": "자음생",
+      "index": 530
+    },
+    {
+      "name": "link_531",
+      "type": "link",
+      "defaultValue": "/kr/ko/gift/packing-service.html",
+      "text": "기프트",
+      "index": 531
+    },
+    {
+      "name": "link_532",
+      "type": "link",
+      "defaultValue": "/kr/ko/best/best-seller.html",
+      "text": "베스트 셀러",
+      "index": 532
+    },
+    {
+      "name": "link_533",
+      "type": "link",
+      "defaultValue": "/kr/ko/products/skincare/skincare.html",
+      "text": "제품",
+      "index": 533
+    },
+    {
+      "name": "link_534",
+      "type": "link",
+      "defaultValue": "/kr/ko/products/skincare/skincare.html",
+      "text": "스킨케어",
+      "index": 534
+    },
+    {
+      "name": "link_535",
+      "type": "link",
+      "defaultValue": "/kr/ko/products/makeup/makeup.html",
+      "text": "메이크업",
+      "index": 535
+    },
+    {
+      "name": "link_536",
+      "type": "link",
+      "defaultValue": "/kr/ko/products/men/men.html",
+      "text": "남성",
+      "index": 536
+    },
+    {
+      "name": "link_537",
+      "type": "link",
+      "defaultValue": "/kr/ko/spa/introduction/introduction.html",
+      "text": "스파",
+      "index": 537
+    },
+    {
+      "name": "link_538",
+      "type": "link",
+      "defaultValue": "/kr/ko/spa/introduction/introduction.html",
+      "text": "소개",
+      "index": 538
+    },
+    {
+      "name": "link_539",
+      "type": "link",
+      "defaultValue": "/kr/ko/spa/programs/programs.html",
+      "text": "스파 프로그램",
+      "index": 539
+    },
+    {
+      "name": "link_540",
+      "type": "link",
+      "defaultValue": "/kr/ko/spa/reservation/reservation.html",
+      "text": "예약",
+      "index": 540
+    },
+    {
+      "name": "link_541",
+      "type": "link",
+      "defaultValue": "/kr/ko/spa/location/location.html",
+      "text": "매장 찾기",
+      "index": 541
+    },
+    {
+      "name": "link_542",
+      "type": "link",
+      "defaultValue": "/kr/ko/flagship/intro/index.html",
+      "text": "플래그십 스토어",
+      "index": 542
+    },
+    {
+      "name": "link_543",
+      "type": "link",
+      "defaultValue": "/kr/ko/flagship/intro/index.html",
+      "text": "플래그십 스토어",
+      "index": 543
+    },
+    {
+      "name": "link_544",
+      "type": "link",
+      "defaultValue": "/kr/ko/flagship/bukchon/index.html",
+      "text": "설화수 북촌",
+      "index": 544
+    },
+    {
+      "name": "link_545",
+      "type": "link",
+      "defaultValue": "/kr/ko/flagship/dosan/index.html",
+      "text": "설화수 도산",
+      "index": 545
+    },
+    {
+      "name": "link_546",
+      "type": "link",
+      "defaultValue": "/kr/ko/about-sulwhasoo/brand-story/brand-story.html",
+      "text": "ABOUT 설화수",
+      "index": 546
+    },
+    {
+      "name": "link_547",
+      "type": "link",
+      "defaultValue": "/kr/ko/about-sulwhasoo/brand-story/brand-story.html",
+      "text": "브랜드 스토리",
+      "index": 547
+    },
+    {
+      "name": "link_548",
+      "type": "link",
+      "defaultValue": "/kr/ko/about-sulwhasoo/brand-sustainability/index.html",
+      "text": "브랜드 지속가능성",
+      "index": 548
+    },
+    {
+      "name": "link_549",
+      "type": "link",
+      "defaultValue": "/kr/ko/about-sulwhasoo/brand-sustainability/sustainability/brand-sustainability.html",
+      "text": "지속가능성",
+      "index": 549
+    },
+    {
+      "name": "link_550",
+      "type": "link",
+      "defaultValue": "/kr/ko/about-sulwhasoo/brand-sustainability/anti-counterfeit/anti-counterfeit.html",
+      "text": "위조품방지",
+      "index": 550
+    },
+    {
+      "name": "link_551",
+      "type": "link",
+      "defaultValue": "/kr/ko/about-sulwhasoo/culture/sws-culture.html",
+      "text": "설화문화전",
+      "index": 551
+    },
+    {
+      "name": "link_552",
+      "type": "link",
+      "defaultValue": "/kr/ko/about-sulwhasoo/salon-sulwhasoo/salon-sulwhasoo.html",
+      "text": "살롱 설화수",
+      "index": 552
+    },
+    {
+      "name": "link_553",
+      "type": "link",
+      "defaultValue": "/kr/ko/about-sulwhasoo/culture-project/archive.html",
+      "text": "컬처프로젝트",
+      "index": 553
+    },
+    {
+      "name": "link_554",
+      "type": "link",
+      "defaultValue": "/kr/ko/about-sulwhasoo/brand-news/archive/archive.html",
+      "text": "브랜드 뉴스",
+      "index": 554
+    },
+    {
+      "name": "link_555",
+      "type": "link",
+      "defaultValue": "/kr/ko/about-sulwhasoo/classic-luxury-set/classic-luxury-set.html",
+      "text": "명작컬렉션",
+      "index": 555
+    },
+    {
+      "name": "link_556",
+      "type": "link",
+      "defaultValue": "/kr/ko/misc/store/store.html",
+      "text": "매장찾기",
+      "index": 556
+    },
+    {
+      "name": "link_557",
+      "type": "link",
+      "defaultValue": "https://www.sulwhasoo.com/kr/ko/index.html",
+      "text": "한국/한국어",
+      "index": 557
+    },
+    {
+      "name": "link_558",
+      "type": "link",
+      "defaultValue": "https://int.sulwhasoo.com/",
+      "text": "International/English",
+      "index": 558
+    },
+    {
+      "name": "link_559",
+      "type": "link",
+      "defaultValue": "https://www.sulwhasoo.com.cn/index.html",
+      "text": "中文",
+      "index": 559
+    },
+    {
+      "name": "link_560",
+      "type": "link",
+      "defaultValue": "https://hk.sulwhasoo.com/tc_s/",
+      "text": "繁體中文",
+      "index": 560
+    },
+    {
+      "name": "link_561",
+      "type": "link",
+      "defaultValue": "https://sg.sulwhasoo.com/",
+      "text": "Singapore/English",
+      "index": 561
+    },
+    {
+      "name": "link_562",
+      "type": "link",
+      "defaultValue": "https://my.sulwhasoo.com/",
+      "text": "Malaysia/English",
+      "index": 562
+    },
+    {
+      "name": "link_563",
+      "type": "link",
+      "defaultValue": "https://vn.sulwhasoo.com/",
+      "text": "Việt Nam/Tiếng Việt",
+      "index": 563
+    },
+    {
+      "name": "link_564",
+      "type": "link",
+      "defaultValue": "https://id.sulwhasoo.com/",
+      "text": "Indonesia/Bahasa Indonesia",
+      "index": 564
+    },
+    {
+      "name": "link_565",
+      "type": "link",
+      "defaultValue": "https://th.sulwhasoo.com/",
+      "text": "ประเทศไทย/ไทย",
+      "index": 565
+    },
+    {
+      "name": "link_566",
+      "type": "link",
+      "defaultValue": "https://us.sulwhasoo.com/",
+      "text": "USA/English",
+      "index": 566
+    },
+    {
+      "name": "link_567",
+      "type": "link",
+      "defaultValue": "#sidenav-open",
+      "text": "Sulwhasoo Site Navigation close",
+      "index": 567
+    }
+  ]
+}

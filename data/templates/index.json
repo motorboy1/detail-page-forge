@@ -1,0 +1,151 @@
+{
+  "version": 1,
+  "templates": [
+    {
+      "id": "tamburins-home",
+      "name": "Tamburins Luxury Beauty",
+      "section_type": "full_page",
+      "d1000_principles": [
+        3,
+        28,
+        20,
+        15,
+        11
+      ],
+      "category": "beauty",
+      "source_url": "https://www.tamburins.com",
+      "ssim_score": 0.9900267530754245,
+      "slot_count": 174,
+      "thumbnail_path": "tamburins-home/thumbnail.jpg",
+      "tags": [
+        "luxury",
+        "minimal",
+        "dark",
+        "premium"
+      ],
+      "created_at": "2026-03-13T11:24:56.905635+00:00"
+    },
+    {
+      "id": "granhand-home",
+      "name": "Granhand Artisan Perfume",
+      "section_type": "full_page",
+      "d1000_principles": [
+        33,
+        47,
+        29,
+        42,
+        27
+      ],
+      "category": "beauty",
+      "source_url": "https://www.granhand.com",
+      "ssim_score": 0.8714997345288737,
+      "slot_count": 213,
+      "thumbnail_path": "granhand-home/thumbnail.jpg",
+      "tags": [
+        "vintage",
+        "artisan",
+        "warm",
+        "serif"
+      ],
+      "created_at": "2026-03-13T11:24:58.917027+00:00"
+    },
+    {
+      "id": "osulloc-home",
+      "name": "Osulloc Premium Tea",
+      "section_type": "full_page",
+      "d1000_principles": [
+        21,
+        27,
+        6,
+        15,
+        39
+      ],
+      "category": "food",
+      "source_url": "https://www.osulloc.com",
+      "ssim_score": 0.8550880506521675,
+      "slot_count": 586,
+      "thumbnail_path": "osulloc-home/thumbnail.jpg",
+      "tags": [
+        "natural",
+        "green",
+        "premium",
+        "clean"
+      ],
+      "created_at": "2026-03-13T11:24:58.980988+00:00"
+    },
+    {
+      "id": "huxley-home",
+      "name": "Huxley Modern Skincare",
+      "section_type": "full_page",
+      "d1000_principles": [
+        3,
+        11,
+        1,
+        15,
+        36
+      ],
+      "category": "beauty",
+      "source_url": "https://www.huxley.co.kr",
+      "ssim_score": 0.8824297402447961,
+      "slot_count": 439,
+      "thumbnail_path": "huxley-home/thumbnail.jpg",
+      "tags": [
+        "modern",
+        "minimal",
+        "clean",
+        "trendy"
+      ],
+      "created_at": "2026-03-13T11:28:53.525608+00:00"
+    },
+    {
+      "id": "sulwhasoo-home",
+      "name": "Sulwhasoo Luxury Heritage",
+      "section_type": "full_page",
+      "d1000_principles": [
+        28,
+        20,
+        47,
+        27,
+        15
+      ],
+      "category": "beauty",
+      "source_url": "https://www.sulwhasoo.com/kr/ko",
+      "ssim_score": 0.9698841890547993,
+      "slot_count": 568,
+      "thumbnail_path": "sulwhasoo-home/thumbnail.jpg",
+      "tags": [
+        "luxury",
+        "heritage",
+        "dark",
+        "gold",
+        "traditional"
+      ],
+      "created_at": "2026-03-13T11:28:53.725968+00:00"
+    },
+    {
+      "id": "apple-kr-home",
+      "name": "Apple Korea Minimal",
+      "section_type": "full_page",
+      "d1000_principles": [
+        3,
+        11,
+        1,
+        12,
+        20
+      ],
+      "category": "electronics",
+      "source_url": "https://www.apple.com/kr",
+      "ssim_score": 0.9214889741274814,
+      "slot_count": 999,
+      "thumbnail_path": "apple-kr-home/thumbnail.jpg",
+      "tags": [
+        "minimal",
+        "clean",
+        "white",
+        "product-centric",
+        "premium"
+      ],
+      "created_at": "2026-03-13T11:36:50.610768+00:00"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "granhand-home",
+  "name": "Granhand Artisan Perfume",
+  "section_type": "full_page",
+  "d1000_principles": [
+    33,
+    47,
+    29,
+    42,
+    27
+  ],
+  "category": "beauty",
+  "source_url": "https://www.granhand.com",
+  "ssim_score": 0.8714997345288737,
+  "slot_count": 213,
+  "thumbnail_path": "granhand-home/thumbnail.jpg",
+  "tags": [
+    "vintage",
+    "artisan",
+    "warm",
+    "serif"
+  ],
+  "created_at": "2026-03-13T11:24:58.917027+00:00"
+}

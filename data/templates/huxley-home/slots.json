@@ -1,0 +1,3081 @@
+{
+  "total": 439,
+  "text": 251,
+  "image": 40,
+  "link": 148,
+  "slots": [
+    {
+      "name": "text_0",
+      "type": "text",
+      "defaultValue": "좌측의 자주쓰는 화면의 customer.js에서 노출 원하시는 수량을 기입하여 관리해주세요.",
+      "tag": "span",
+      "index": 0
+    },
+    {
+      "name": "text_1",
+      "type": "text",
+      "defaultValue": "PC 메인1번이미지입니다.",
+      "tag": "li",
+      "index": 1
+    },
+    {
+      "name": "text_2",
+      "type": "text",
+      "defaultValue": "PC 메인2번이미지입니다.",
+      "tag": "li",
+      "index": 2
+    },
+    {
+      "name": "text_3",
+      "type": "text",
+      "defaultValue": "PC 메인3번이미지입니다.",
+      "tag": "li",
+      "index": 3
+    },
+    {
+      "name": "text_4",
+      "type": "text",
+      "defaultValue": "PC 메인4번이미지입니다.",
+      "tag": "li",
+      "index": 4
+    },
+    {
+      "name": "text_5",
+      "type": "text",
+      "defaultValue": "PC 메인5번이미지입니다.",
+      "tag": "li",
+      "index": 5
+    },
+    {
+      "name": "text_6",
+      "type": "text",
+      "defaultValue": "PC 메인6번이미지입니다.",
+      "tag": "li",
+      "index": 6
+    },
+    {
+      "name": "text_7",
+      "type": "text",
+      "defaultValue": "PC 메인7번이미지입니다.",
+      "tag": "li",
+      "index": 7
+    },
+    {
+      "name": "text_8",
+      "type": "text",
+      "defaultValue": "PC 메인8번이미지입니다.",
+      "tag": "li",
+      "index": 8
+    },
+    {
+      "name": "text_9",
+      "type": "text",
+      "defaultValue": "PC 메인9번이미지입니다.",
+      "tag": "li",
+      "index": 9
+    },
+    {
+      "name": "text_10",
+      "type": "text",
+      "defaultValue": "PC 메인10번이미지입니다.",
+      "tag": "li",
+      "index": 10
+    },
+    {
+      "name": "text_11",
+      "type": "text",
+      "defaultValue": "모바일 메인1번이미지입니다.",
+      "tag": "li",
+      "index": 11
+    },
+    {
+      "name": "text_12",
+      "type": "text",
+      "defaultValue": "모바일 메인2번이미지입니다.",
+      "tag": "li",
+      "index": 12
+    },
+    {
+      "name": "text_13",
+      "type": "text",
+      "defaultValue": "모바일 메인3번이미지입니다.",
+      "tag": "li",
+      "index": 13
+    },
+    {
+      "name": "text_14",
+      "type": "text",
+      "defaultValue": "모바일 메인1번이미지입니다.",
+      "tag": "li",
+      "index": 14
+    },
+    {
+      "name": "text_15",
+      "type": "text",
+      "defaultValue": "모바일 메인2번이미지입니다.",
+      "tag": "li",
+      "index": 15
+    },
+    {
+      "name": "text_16",
+      "type": "text",
+      "defaultValue": "모바일 메인3번이미지입니다.",
+      "tag": "li",
+      "index": 16
+    },
+    {
+      "name": "text_17",
+      "type": "text",
+      "defaultValue": "모바일 메인1번이미지입니다.",
+      "tag": "li",
+      "index": 17
+    },
+    {
+      "name": "text_18",
+      "type": "text",
+      "defaultValue": "모바일 메인2번이미지입니다.",
+      "tag": "li",
+      "index": 18
+    },
+    {
+      "name": "text_19",
+      "type": "text",
+      "defaultValue": "모바일 메인3번이미지입니다.",
+      "tag": "li",
+      "index": 19
+    },
+    {
+      "name": "text_20",
+      "type": "text",
+      "defaultValue": "모바일 메인3번이미지입니다.",
+      "tag": "li",
+      "index": 20
+    },
+    {
+      "name": "text_21",
+      "type": "text",
+      "defaultValue": "메인 2-1사용이미지입니다.",
+      "tag": "li",
+      "index": 21
+    },
+    {
+      "name": "text_22",
+      "type": "text",
+      "defaultValue": "메인 2-2사용이미지입니다.",
+      "tag": "li",
+      "index": 22
+    },
+    {
+      "name": "text_23",
+      "type": "text",
+      "defaultValue": "✧구매 금액별 사은품 증정✧",
+      "tag": "li",
+      "index": 23
+    },
+    {
+      "name": "text_24",
+      "type": "text",
+      "defaultValue": "✧구매 금액별 사은품 증정✧",
+      "tag": "a",
+      "index": 24
+    },
+    {
+      "name": "text_25",
+      "type": "text",
+      "defaultValue": "✧T membership 상시 프로모션✧",
+      "tag": "li",
+      "index": 25
+    },
+    {
+      "name": "text_26",
+      "type": "text",
+      "defaultValue": "✧T membership 상시 프로모션✧",
+      "tag": "a",
+      "index": 26
+    },
+    {
+      "name": "text_27",
+      "type": "text",
+      "defaultValue": "SHOP",
+      "tag": "a",
+      "index": 27
+    },
+    {
+      "name": "text_28",
+      "type": "text",
+      "defaultValue": "All",
+      "tag": "a",
+      "index": 28
+    },
+    {
+      "name": "text_29",
+      "type": "text",
+      "defaultValue": "Bestseller",
+      "tag": "li",
+      "index": 29
+    },
+    {
+      "name": "text_30",
+      "type": "text",
+      "defaultValue": "Bestseller",
+      "tag": "a",
+      "index": 30
+    },
+    {
+      "name": "text_31",
+      "type": "text",
+      "defaultValue": "New arrivals",
+      "tag": "li",
+      "index": 31
+    },
+    {
+      "name": "text_32",
+      "type": "text",
+      "defaultValue": "New arrivals",
+      "tag": "a",
+      "index": 32
+    },
+    {
+      "name": "text_33",
+      "type": "text",
+      "defaultValue": "SKINCARE",
+      "tag": "a",
+      "index": 33
+    },
+    {
+      "name": "text_34",
+      "type": "text",
+      "defaultValue": "Cleansing",
+      "tag": "li",
+      "index": 34
+    },
+    {
+      "name": "text_35",
+      "type": "text",
+      "defaultValue": "Cleansing",
+      "tag": "a",
+      "index": 35
+    },
+    {
+      "name": "text_36",
+      "type": "text",
+      "defaultValue": "Toner & Mist",
+      "tag": "li",
+      "index": 36
+    },
+    {
+      "name": "text_37",
+      "type": "text",
+      "defaultValue": "Toner & Mist",
+      "tag": "a",
+      "index": 37
+    },
+    {
+      "name": "text_38",
+      "type": "text",
+      "defaultValue": "Essence",
+      "tag": "li",
+      "index": 38
+    },
+    {
+      "name": "text_39",
+      "type": "text",
+      "defaultValue": "Essence",
+      "tag": "a",
+      "index": 39
+    },
+    {
+      "name": "text_40",
+      "type": "text",
+      "defaultValue": "Cream",
+      "tag": "li",
+      "index": 40
+    },
+    {
+      "name": "text_41",
+      "type": "text",
+      "defaultValue": "Cream",
+      "tag": "a",
+      "index": 41
+    },
+    {
+      "name": "text_42",
+      "type": "text",
+      "defaultValue": "Mask",
+      "tag": "li",
+      "index": 42
+    },
+    {
+      "name": "text_43",
+      "type": "text",
+      "defaultValue": "Mask",
+      "tag": "a",
+      "index": 43
+    },
+    {
+      "name": "text_44",
+      "type": "text",
+      "defaultValue": "Set",
+      "tag": "li",
+      "index": 44
+    },
+    {
+      "name": "text_45",
+      "type": "text",
+      "defaultValue": "Set",
+      "tag": "a",
+      "index": 45
+    },
+    {
+      "name": "text_46",
+      "type": "text",
+      "defaultValue": "HAND",
+      "tag": "a",
+      "index": 46
+    },
+    {
+      "name": "text_47",
+      "type": "text",
+      "defaultValue": "Hand wash",
+      "tag": "li",
+      "index": 47
+    },
+    {
+      "name": "text_48",
+      "type": "text",
+      "defaultValue": "Hand wash",
+      "tag": "a",
+      "index": 48
+    },
+    {
+      "name": "text_49",
+      "type": "text",
+      "defaultValue": "Hand care",
+      "tag": "li",
+      "index": 49
+    },
+    {
+      "name": "text_50",
+      "type": "text",
+      "defaultValue": "Hand care",
+      "tag": "a",
+      "index": 50
+    },
+    {
+      "name": "text_51",
+      "type": "text",
+      "defaultValue": "MAKE UP",
+      "tag": "a",
+      "index": 51
+    },
+    {
+      "name": "text_52",
+      "type": "text",
+      "defaultValue": "Base",
+      "tag": "li",
+      "index": 52
+    },
+    {
+      "name": "text_53",
+      "type": "text",
+      "defaultValue": "Base",
+      "tag": "a",
+      "index": 53
+    },
+    {
+      "name": "text_54",
+      "type": "text",
+      "defaultValue": "Sun",
+      "tag": "li",
+      "index": 54
+    },
+    {
+      "name": "text_55",
+      "type": "text",
+      "defaultValue": "Sun",
+      "tag": "a",
+      "index": 55
+    },
+    {
+      "name": "text_56",
+      "type": "text",
+      "defaultValue": "Lip",
+      "tag": "li",
+      "index": 56
+    },
+    {
+      "name": "text_57",
+      "type": "text",
+      "defaultValue": "Lip",
+      "tag": "a",
+      "index": 57
+    },
+    {
+      "name": "text_58",
+      "type": "text",
+      "defaultValue": "BODY & HAIR",
+      "tag": "a",
+      "index": 58
+    },
+    {
+      "name": "text_59",
+      "type": "text",
+      "defaultValue": "Body",
+      "tag": "li",
+      "index": 59
+    },
+    {
+      "name": "text_60",
+      "type": "text",
+      "defaultValue": "Body",
+      "tag": "a",
+      "index": 60
+    },
+    {
+      "name": "text_61",
+      "type": "text",
+      "defaultValue": "Hair",
+      "tag": "li",
+      "index": 61
+    },
+    {
+      "name": "text_62",
+      "type": "text",
+      "defaultValue": "Hair",
+      "tag": "a",
+      "index": 62
+    },
+    {
+      "name": "text_63",
+      "type": "text",
+      "defaultValue": "FRAGRANCE",
+      "tag": "a",
+      "index": 63
+    },
+    {
+      "name": "text_64",
+      "type": "text",
+      "defaultValue": "Perfume",
+      "tag": "li",
+      "index": 64
+    },
+    {
+      "name": "text_65",
+      "type": "text",
+      "defaultValue": "Perfume",
+      "tag": "a",
+      "index": 65
+    },
+    {
+      "name": "text_66",
+      "type": "text",
+      "defaultValue": "Home",
+      "tag": "li",
+      "index": 66
+    },
+    {
+      "name": "text_67",
+      "type": "text",
+      "defaultValue": "Home",
+      "tag": "a",
+      "index": 67
+    },
+    {
+      "name": "text_68",
+      "type": "text",
+      "defaultValue": "SPRING SET",
+      "tag": "li",
+      "index": 68
+    },
+    {
+      "name": "text_69",
+      "type": "text",
+      "defaultValue": "SPRING SET",
+      "tag": "a",
+      "index": 69
+    },
+    {
+      "name": "text_70",
+      "type": "text",
+      "defaultValue": "PROMOTION",
+      "tag": "a",
+      "index": 70
+    },
+    {
+      "name": "text_71",
+      "type": "text",
+      "defaultValue": "Event",
+      "tag": "li",
+      "index": 71
+    },
+    {
+      "name": "text_72",
+      "type": "text",
+      "defaultValue": "Event",
+      "tag": "a",
+      "index": 72
+    },
+    {
+      "name": "text_73",
+      "type": "text",
+      "defaultValue": "Special gift",
+      "tag": "li",
+      "index": 73
+    },
+    {
+      "name": "text_74",
+      "type": "text",
+      "defaultValue": "Special gift",
+      "tag": "a",
+      "index": 74
+    },
+    {
+      "name": "text_75",
+      "type": "text",
+      "defaultValue": "Special gift",
+      "tag": "li",
+      "index": 75
+    },
+    {
+      "name": "text_76",
+      "type": "text",
+      "defaultValue": "Special gift",
+      "tag": "a",
+      "index": 76
+    },
+    {
+      "name": "text_77",
+      "type": "text",
+      "defaultValue": "ABOUT",
+      "tag": "a",
+      "index": 77
+    },
+    {
+      "name": "text_78",
+      "type": "text",
+      "defaultValue": "Brand story",
+      "tag": "li",
+      "index": 78
+    },
+    {
+      "name": "text_79",
+      "type": "text",
+      "defaultValue": "Brand story",
+      "tag": "a",
+      "index": 79
+    },
+    {
+      "name": "text_80",
+      "type": "text",
+      "defaultValue": "Store",
+      "tag": "li",
+      "index": 80
+    },
+    {
+      "name": "text_81",
+      "type": "text",
+      "defaultValue": "Store",
+      "tag": "a",
+      "index": 81
+    },
+    {
+      "name": "text_82",
+      "type": "text",
+      "defaultValue": "Project",
+      "tag": "li",
+      "index": 82
+    },
+    {
+      "name": "text_83",
+      "type": "text",
+      "defaultValue": "Project",
+      "tag": "a",
+      "index": 83
+    },
+    {
+      "name": "text_84",
+      "type": "text",
+      "defaultValue": "COMMUNITY",
+      "tag": "a",
+      "index": 84
+    },
+    {
+      "name": "text_85",
+      "type": "text",
+      "defaultValue": "COMMUNITY",
+      "tag": "span",
+      "index": 85
+    },
+    {
+      "name": "text_86",
+      "type": "text",
+      "defaultValue": "Notice",
+      "tag": "li",
+      "index": 86
+    },
+    {
+      "name": "text_87",
+      "type": "text",
+      "defaultValue": "Notice",
+      "tag": "a",
+      "index": 87
+    },
+    {
+      "name": "text_88",
+      "type": "text",
+      "defaultValue": "Review",
+      "tag": "li",
+      "index": 88
+    },
+    {
+      "name": "text_89",
+      "type": "text",
+      "defaultValue": "Review",
+      "tag": "a",
+      "index": 89
+    },
+    {
+      "name": "text_90",
+      "type": "text",
+      "defaultValue": "Q&A",
+      "tag": "li",
+      "index": 90
+    },
+    {
+      "name": "text_91",
+      "type": "text",
+      "defaultValue": "Q&A",
+      "tag": "a",
+      "index": 91
+    },
+    {
+      "name": "text_92",
+      "type": "text",
+      "defaultValue": "Special gift",
+      "tag": "li",
+      "index": 92
+    },
+    {
+      "name": "text_93",
+      "type": "text",
+      "defaultValue": "Special gift",
+      "tag": "a",
+      "index": 93
+    },
+    {
+      "name": "text_94",
+      "type": "text",
+      "defaultValue": "5.퍼퓸",
+      "tag": "li",
+      "index": 94
+    },
+    {
+      "name": "text_95",
+      "type": "text",
+      "defaultValue": "퍼퓸",
+      "tag": "a",
+      "index": 95
+    },
+    {
+      "name": "text_96",
+      "type": "text",
+      "defaultValue": "6.핸드 크림",
+      "tag": "li",
+      "index": 96
+    },
+    {
+      "name": "text_97",
+      "type": "text",
+      "defaultValue": "핸드 크림",
+      "tag": "a",
+      "index": 97
+    },
+    {
+      "name": "text_98",
+      "type": "text",
+      "defaultValue": "1.바이오시스 앰플",
+      "tag": "li",
+      "index": 98
+    },
+    {
+      "name": "text_99",
+      "type": "text",
+      "defaultValue": "바이오시스 앰플",
+      "tag": "a",
+      "index": 99
+    },
+    {
+      "name": "text_100",
+      "type": "text",
+      "defaultValue": "2.바이오시스 크림",
+      "tag": "li",
+      "index": 100
+    },
+    {
+      "name": "text_101",
+      "type": "text",
+      "defaultValue": "바이오시스 크림",
+      "tag": "a",
+      "index": 101
+    },
+    {
+      "name": "text_102",
+      "type": "text",
+      "defaultValue": "3.바디 로션",
+      "tag": "li",
+      "index": 102
+    },
+    {
+      "name": "text_103",
+      "type": "text",
+      "defaultValue": "바디 로션",
+      "tag": "a",
+      "index": 103
+    },
+    {
+      "name": "text_104",
+      "type": "text",
+      "defaultValue": "4.바디 워시",
+      "tag": "li",
+      "index": 104
+    },
+    {
+      "name": "text_105",
+      "type": "text",
+      "defaultValue": "바디 워시",
+      "tag": "a",
+      "index": 105
+    },
+    {
+      "name": "text_106",
+      "type": "text",
+      "defaultValue": "SHOP",
+      "tag": "a",
+      "index": 106
+    },
+    {
+      "name": "text_107",
+      "type": "text",
+      "defaultValue": "All",
+      "tag": "a",
+      "index": 107
+    },
+    {
+      "name": "text_108",
+      "type": "text",
+      "defaultValue": "Bestseller",
+      "tag": "li",
+      "index": 108
+    },
+    {
+      "name": "text_109",
+      "type": "text",
+      "defaultValue": "Bestseller",
+      "tag": "a",
+      "index": 109
+    },
+    {
+      "name": "text_110",
+      "type": "text",
+      "defaultValue": "New arrivals",
+      "tag": "li",
+      "index": 110
+    },
+    {
+      "name": "text_111",
+      "type": "text",
+      "defaultValue": "New arrivals",
+      "tag": "a",
+      "index": 111
+    },
+    {
+      "name": "text_112",
+      "type": "text",
+      "defaultValue": "SKINCARE",
+      "tag": "a",
+      "index": 112
+    },
+    {
+      "name": "text_113",
+      "type": "text",
+      "defaultValue": "Cleansing",
+      "tag": "li",
+      "index": 113
+    },
+    {
+      "name": "text_114",
+      "type": "text",
+      "defaultValue": "Cleansing",
+      "tag": "a",
+      "index": 114
+    },
+    {
+      "name": "text_115",
+      "type": "text",
+      "defaultValue": "Toner & Mist",
+      "tag": "li",
+      "index": 115
+    },
+    {
+      "name": "text_116",
+      "type": "text",
+      "defaultValue": "Toner & Mist",
+      "tag": "a",
+      "index": 116
+    },
+    {
+      "name": "text_117",
+      "type": "text",
+      "defaultValue": "Essence",
+      "tag": "li",
+      "index": 117
+    },
+    {
+      "name": "text_118",
+      "type": "text",
+      "defaultValue": "Essence",
+      "tag": "a",
+      "index": 118
+    },
+    {
+      "name": "text_119",
+      "type": "text",
+      "defaultValue": "Cream",
+      "tag": "li",
+      "index": 119
+    },
+    {
+      "name": "text_120",
+      "type": "text",
+      "defaultValue": "Cream",
+      "tag": "a",
+      "index": 120
+    },
+    {
+      "name": "text_121",
+      "type": "text",
+      "defaultValue": "Mask",
+      "tag": "li",
+      "index": 121
+    },
+    {
+      "name": "text_122",
+      "type": "text",
+      "defaultValue": "Mask",
+      "tag": "a",
+      "index": 122
+    },
+    {
+      "name": "text_123",
+      "type": "text",
+      "defaultValue": "Set",
+      "tag": "li",
+      "index": 123
+    },
+    {
+      "name": "text_124",
+      "type": "text",
+      "defaultValue": "Set",
+      "tag": "a",
+      "index": 124
+    },
+    {
+      "name": "text_125",
+      "type": "text",
+      "defaultValue": "HAND",
+      "tag": "a",
+      "index": 125
+    },
+    {
+      "name": "text_126",
+      "type": "text",
+      "defaultValue": "Hand wash",
+      "tag": "li",
+      "index": 126
+    },
+    {
+      "name": "text_127",
+      "type": "text",
+      "defaultValue": "Hand wash",
+      "tag": "a",
+      "index": 127
+    },
+    {
+      "name": "text_128",
+      "type": "text",
+      "defaultValue": "Hand care",
+      "tag": "li",
+      "index": 128
+    },
+    {
+      "name": "text_129",
+      "type": "text",
+      "defaultValue": "Hand care",
+      "tag": "a",
+      "index": 129
+    },
+    {
+      "name": "text_130",
+      "type": "text",
+      "defaultValue": "MAKE UP",
+      "tag": "a",
+      "index": 130
+    },
+    {
+      "name": "text_131",
+      "type": "text",
+      "defaultValue": "Base",
+      "tag": "li",
+      "index": 131
+    },
+    {
+      "name": "text_132",
+      "type": "text",
+      "defaultValue": "Base",
+      "tag": "a",
+      "index": 132
+    },
+    {
+      "name": "text_133",
+      "type": "text",
+      "defaultValue": "Sun",
+      "tag": "li",
+      "index": 133
+    },
+    {
+      "name": "text_134",
+      "type": "text",
+      "defaultValue": "Sun",
+      "tag": "a",
+      "index": 134
+    },
+    {
+      "name": "text_135",
+      "type": "text",
+      "defaultValue": "Lip",
+      "tag": "li",
+      "index": 135
+    },
+    {
+      "name": "text_136",
+      "type": "text",
+      "defaultValue": "Lip",
+      "tag": "a",
+      "index": 136
+    },
+    {
+      "name": "text_137",
+      "type": "text",
+      "defaultValue": "BODY & HAIR",
+      "tag": "a",
+      "index": 137
+    },
+    {
+      "name": "text_138",
+      "type": "text",
+      "defaultValue": "Body",
+      "tag": "li",
+      "index": 138
+    },
+    {
+      "name": "text_139",
+      "type": "text",
+      "defaultValue": "Body",
+      "tag": "a",
+      "index": 139
+    },
+    {
+      "name": "text_140",
+      "type": "text",
+      "defaultValue": "Hair",
+      "tag": "li",
+      "index": 140
+    },
+    {
+      "name": "text_141",
+      "type": "text",
+      "defaultValue": "Hair",
+      "tag": "a",
+      "index": 141
+    },
+    {
+      "name": "text_142",
+      "type": "text",
+      "defaultValue": "FRAGRANCE",
+      "tag": "a",
+      "index": 142
+    },
+    {
+      "name": "text_143",
+      "type": "text",
+      "defaultValue": "Perfume",
+      "tag": "li",
+      "index": 143
+    },
+    {
+      "name": "text_144",
+      "type": "text",
+      "defaultValue": "Perfume",
+      "tag": "a",
+      "index": 144
+    },
+    {
+      "name": "text_145",
+      "type": "text",
+      "defaultValue": "Home",
+      "tag": "li",
+      "index": 145
+    },
+    {
+      "name": "text_146",
+      "type": "text",
+      "defaultValue": "Home",
+      "tag": "a",
+      "index": 146
+    },
+    {
+      "name": "text_147",
+      "type": "text",
+      "defaultValue": "SPRING SET",
+      "tag": "li",
+      "index": 147
+    },
+    {
+      "name": "text_148",
+      "type": "text",
+      "defaultValue": "SPRING SET",
+      "tag": "a",
+      "index": 148
+    },
+    {
+      "name": "text_149",
+      "type": "text",
+      "defaultValue": "PROMOTION",
+      "tag": "a",
+      "index": 149
+    },
+    {
+      "name": "text_150",
+      "type": "text",
+      "defaultValue": "Event",
+      "tag": "li",
+      "index": 150
+    },
+    {
+      "name": "text_151",
+      "type": "text",
+      "defaultValue": "Event",
+      "tag": "a",
+      "index": 151
+    },
+    {
+      "name": "text_152",
+      "type": "text",
+      "defaultValue": "Special gift",
+      "tag": "li",
+      "index": 152
+    },
+    {
+      "name": "text_153",
+      "type": "text",
+      "defaultValue": "Special gift",
+      "tag": "a",
+      "index": 153
+    },
+    {
+      "name": "text_154",
+      "type": "text",
+      "defaultValue": "Special gift",
+      "tag": "li",
+      "index": 154
+    },
+    {
+      "name": "text_155",
+      "type": "text",
+      "defaultValue": "Special gift",
+      "tag": "a",
+      "index": 155
+    },
+    {
+      "name": "text_156",
+      "type": "text",
+      "defaultValue": "ABOUT",
+      "tag": "a",
+      "index": 156
+    },
+    {
+      "name": "text_157",
+      "type": "text",
+      "defaultValue": "Brand story",
+      "tag": "li",
+      "index": 157
+    },
+    {
+      "name": "text_158",
+      "type": "text",
+      "defaultValue": "Brand story",
+      "tag": "a",
+      "index": 158
+    },
+    {
+      "name": "text_159",
+      "type": "text",
+      "defaultValue": "Store",
+      "tag": "li",
+      "index": 159
+    },
+    {
+      "name": "text_160",
+      "type": "text",
+      "defaultValue": "Store",
+      "tag": "a",
+      "index": 160
+    },
+    {
+      "name": "text_161",
+      "type": "text",
+      "defaultValue": "Project",
+      "tag": "li",
+      "index": 161
+    },
+    {
+      "name": "text_162",
+      "type": "text",
+      "defaultValue": "Project",
+      "tag": "a",
+      "index": 162
+    },
+    {
+      "name": "text_163",
+      "type": "text",
+      "defaultValue": "COMMUNITY",
+      "tag": "li",
+      "index": 163
+    },
+    {
+      "name": "text_164",
+      "type": "text",
+      "defaultValue": "COMMUNITY",
+      "tag": "span",
+      "index": 164
+    },
+    {
+      "name": "text_165",
+      "type": "text",
+      "defaultValue": "Order",
+      "tag": "li",
+      "index": 165
+    },
+    {
+      "name": "text_166",
+      "type": "text",
+      "defaultValue": "Order",
+      "tag": "a",
+      "index": 166
+    },
+    {
+      "name": "text_167",
+      "type": "text",
+      "defaultValue": "Q&A",
+      "tag": "li",
+      "index": 167
+    },
+    {
+      "name": "text_168",
+      "type": "text",
+      "defaultValue": "Q&A",
+      "tag": "a",
+      "index": 168
+    },
+    {
+      "name": "text_169",
+      "type": "text",
+      "defaultValue": "Membership",
+      "tag": "li",
+      "index": 169
+    },
+    {
+      "name": "text_170",
+      "type": "text",
+      "defaultValue": "Membership",
+      "tag": "a",
+      "index": 170
+    },
+    {
+      "name": "text_171",
+      "type": "text",
+      "defaultValue": "FAQ",
+      "tag": "li",
+      "index": 171
+    },
+    {
+      "name": "text_172",
+      "type": "text",
+      "defaultValue": "FAQ",
+      "tag": "a",
+      "index": 172
+    },
+    {
+      "name": "text_173",
+      "type": "text",
+      "defaultValue": "로그인",
+      "tag": "li",
+      "index": 173
+    },
+    {
+      "name": "text_174",
+      "type": "text",
+      "defaultValue": "로그인",
+      "tag": "a",
+      "index": 174
+    },
+    {
+      "name": "text_175",
+      "type": "text",
+      "defaultValue": "회원가입",
+      "tag": "li",
+      "index": 175
+    },
+    {
+      "name": "text_176",
+      "type": "text",
+      "defaultValue": "회원가입",
+      "tag": "a",
+      "index": 176
+    },
+    {
+      "name": "text_177",
+      "type": "text",
+      "defaultValue": "주문조회",
+      "tag": "li",
+      "index": 177
+    },
+    {
+      "name": "text_178",
+      "type": "text",
+      "defaultValue": "주문조회",
+      "tag": "a",
+      "index": 178
+    },
+    {
+      "name": "text_179",
+      "type": "text",
+      "defaultValue": "Promotion",
+      "tag": "span",
+      "index": 179
+    },
+    {
+      "name": "text_180",
+      "type": "text",
+      "defaultValue": "New arrivals",
+      "tag": "p",
+      "index": 180
+    },
+    {
+      "name": "text_181",
+      "type": "text",
+      "defaultValue": "New arrivals",
+      "tag": "span",
+      "index": 181
+    },
+    {
+      "name": "text_182",
+      "type": "text",
+      "defaultValue": "Best seller",
+      "tag": "p",
+      "index": 182
+    },
+    {
+      "name": "text_183",
+      "type": "text",
+      "defaultValue": "Best seller",
+      "tag": "span",
+      "index": 183
+    },
+    {
+      "name": "text_184",
+      "type": "text",
+      "defaultValue": "Select country:",
+      "tag": "h2",
+      "index": 184
+    },
+    {
+      "name": "text_185",
+      "type": "text",
+      "defaultValue": "Languge, KRW",
+      "tag": "li",
+      "index": 185
+    },
+    {
+      "name": "text_186",
+      "type": "text",
+      "defaultValue": "Languge, KRW",
+      "tag": "a",
+      "index": 186
+    },
+    {
+      "name": "text_187",
+      "type": "text",
+      "defaultValue": "Order",
+      "tag": "li",
+      "index": 187
+    },
+    {
+      "name": "text_188",
+      "type": "text",
+      "defaultValue": "Order",
+      "tag": "a",
+      "index": 188
+    },
+    {
+      "name": "text_189",
+      "type": "text",
+      "defaultValue": "Q&A",
+      "tag": "li",
+      "index": 189
+    },
+    {
+      "name": "text_190",
+      "type": "text",
+      "defaultValue": "Q&A",
+      "tag": "a",
+      "index": 190
+    },
+    {
+      "name": "text_191",
+      "type": "text",
+      "defaultValue": "Membership",
+      "tag": "li",
+      "index": 191
+    },
+    {
+      "name": "text_192",
+      "type": "text",
+      "defaultValue": "Membership",
+      "tag": "a",
+      "index": 192
+    },
+    {
+      "name": "text_193",
+      "type": "text",
+      "defaultValue": "FAQ",
+      "tag": "li",
+      "index": 193
+    },
+    {
+      "name": "text_194",
+      "type": "text",
+      "defaultValue": "FAQ",
+      "tag": "a",
+      "index": 194
+    },
+    {
+      "name": "text_195",
+      "type": "text",
+      "defaultValue": "Instagram",
+      "tag": "li",
+      "index": 195
+    },
+    {
+      "name": "text_196",
+      "type": "text",
+      "defaultValue": "Instagram",
+      "tag": "a",
+      "index": 196
+    },
+    {
+      "name": "text_197",
+      "type": "text",
+      "defaultValue": "Kakaogift",
+      "tag": "li",
+      "index": 197
+    },
+    {
+      "name": "text_198",
+      "type": "text",
+      "defaultValue": "Kakaogift",
+      "tag": "a",
+      "index": 198
+    },
+    {
+      "name": "text_199",
+      "type": "text",
+      "defaultValue": "Blog",
+      "tag": "li",
+      "index": 199
+    },
+    {
+      "name": "text_200",
+      "type": "text",
+      "defaultValue": "Blog",
+      "tag": "a",
+      "index": 200
+    },
+    {
+      "name": "text_201",
+      "type": "text",
+      "defaultValue": "Facebook",
+      "tag": "li",
+      "index": 201
+    },
+    {
+      "name": "text_202",
+      "type": "text",
+      "defaultValue": "Facebook",
+      "tag": "a",
+      "index": 202
+    },
+    {
+      "name": "text_203",
+      "type": "text",
+      "defaultValue": "Youtube",
+      "tag": "li",
+      "index": 203
+    },
+    {
+      "name": "text_204",
+      "type": "text",
+      "defaultValue": "Youtube",
+      "tag": "a",
+      "index": 204
+    },
+    {
+      "name": "text_205",
+      "type": "text",
+      "defaultValue": "Tel : 070-7123-0077",
+      "tag": "li",
+      "index": 205
+    },
+    {
+      "name": "text_206",
+      "type": "text",
+      "defaultValue": "domesticsales@nordmason.com",
+      "tag": "li",
+      "index": 206
+    },
+    {
+      "name": "text_207",
+      "type": "text",
+      "defaultValue": "domesticsales@nordmason.com",
+      "tag": "a",
+      "index": 207
+    },
+    {
+      "name": "text_208",
+      "type": "text",
+      "defaultValue": "mon-fri 10:00~17:00(Lunch 12:00 ~ 13:30)",
+      "tag": "li",
+      "index": 208
+    },
+    {
+      "name": "text_209",
+      "type": "text",
+      "defaultValue": "(주)노드메이슨대표 : 구자풍사업자 등록번호 : 105-87-91243[사업자정보확인]04075 서울 마포구 토정로 119 노드메이슨 빌딩",
+      "tag": "li",
+      "index": 209
+    },
+    {
+      "name": "text_210",
+      "type": "text",
+      "defaultValue": "[사업자정보확인]",
+      "tag": "a",
+      "index": 210
+    },
+    {
+      "name": "text_211",
+      "type": "text",
+      "defaultValue": "마케팅 문의 : mkt@nordmason.com해외 유통 문의 : foreign_sales@nordmason.com",
+      "tag": "li",
+      "index": 211
+    },
+    {
+      "name": "text_212",
+      "type": "text",
+      "defaultValue": "Copyright © Huxley",
+      "tag": "li",
+      "index": 212
+    },
+    {
+      "name": "text_213",
+      "type": "text",
+      "defaultValue": "Shop Guide",
+      "tag": "li",
+      "index": 213
+    },
+    {
+      "name": "text_214",
+      "type": "text",
+      "defaultValue": "Shop Guide",
+      "tag": "a",
+      "index": 214
+    },
+    {
+      "name": "text_215",
+      "type": "text",
+      "defaultValue": "Terms Of Use",
+      "tag": "li",
+      "index": 215
+    },
+    {
+      "name": "text_216",
+      "type": "text",
+      "defaultValue": "Terms Of Use",
+      "tag": "a",
+      "index": 216
+    },
+    {
+      "name": "text_217",
+      "type": "text",
+      "defaultValue": "Privacy Policy",
+      "tag": "li",
+      "index": 217
+    },
+    {
+      "name": "text_218",
+      "type": "text",
+      "defaultValue": "Privacy Policy",
+      "tag": "a",
+      "index": 218
+    },
+    {
+      "name": "text_219",
+      "type": "text",
+      "defaultValue": "Customer service",
+      "tag": "a",
+      "index": 219
+    },
+    {
+      "name": "text_220",
+      "type": "text",
+      "defaultValue": "TEL 070-7123-0077",
+      "tag": "li",
+      "index": 220
+    },
+    {
+      "name": "text_221",
+      "type": "text",
+      "defaultValue": "E-MAIL. domesticsales@nordmason.com",
+      "tag": "li",
+      "index": 221
+    },
+    {
+      "name": "text_222",
+      "type": "text",
+      "defaultValue": "domesticsales@nordmason.com",
+      "tag": "a",
+      "index": 222
+    },
+    {
+      "name": "text_223",
+      "type": "text",
+      "defaultValue": "mon-fri 10:00~17:00(Lunch 12:00 ~ 13:30)",
+      "tag": "li",
+      "index": 223
+    },
+    {
+      "name": "text_224",
+      "type": "text",
+      "defaultValue": "Agreement",
+      "tag": "a",
+      "index": 224
+    },
+    {
+      "name": "text_225",
+      "type": "text",
+      "defaultValue": "Guide",
+      "tag": "li",
+      "index": 225
+    },
+    {
+      "name": "text_226",
+      "type": "text",
+      "defaultValue": "Guide",
+      "tag": "a",
+      "index": 226
+    },
+    {
+      "name": "text_227",
+      "type": "text",
+      "defaultValue": "Terms of use",
+      "tag": "li",
+      "index": 227
+    },
+    {
+      "name": "text_228",
+      "type": "text",
+      "defaultValue": "Terms of use",
+      "tag": "a",
+      "index": 228
+    },
+    {
+      "name": "text_229",
+      "type": "text",
+      "defaultValue": "Privacy policy",
+      "tag": "li",
+      "index": 229
+    },
+    {
+      "name": "text_230",
+      "type": "text",
+      "defaultValue": "Privacy policy",
+      "tag": "a",
+      "index": 230
+    },
+    {
+      "name": "text_231",
+      "type": "text",
+      "defaultValue": "Company info",
+      "tag": "a",
+      "index": 231
+    },
+    {
+      "name": "text_232",
+      "type": "text",
+      "defaultValue": "Company (주)노드메이슨",
+      "tag": "li",
+      "index": 232
+    },
+    {
+      "name": "text_233",
+      "type": "text",
+      "defaultValue": "Owner 구자풍",
+      "tag": "li",
+      "index": 233
+    },
+    {
+      "name": "text_234",
+      "type": "text",
+      "defaultValue": "Business no 105-87-91243",
+      "tag": "li",
+      "index": 234
+    },
+    {
+      "name": "text_235",
+      "type": "text",
+      "defaultValue": "Online-order no 2013-서울마포-1474",
+      "tag": "li",
+      "index": 235
+    },
+    {
+      "name": "text_236",
+      "type": "text",
+      "defaultValue": "Address: 04075 서울 마포구 토정로 119 노드메이슨 빌딩",
+      "tag": "li",
+      "index": 236
+    },
+    {
+      "name": "text_237",
+      "type": "text",
+      "defaultValue": "Instagram",
+      "tag": "li",
+      "index": 237
+    },
+    {
+      "name": "text_238",
+      "type": "text",
+      "defaultValue": "Instagram",
+      "tag": "a",
+      "index": 238
+    },
+    {
+      "name": "text_239",
+      "type": "text",
+      "defaultValue": "Kakaogift",
+      "tag": "li",
+      "index": 239
+    },
+    {
+      "name": "text_240",
+      "type": "text",
+      "defaultValue": "Kakaogift",
+      "tag": "a",
+      "index": 240
+    },
+    {
+      "name": "text_241",
+      "type": "text",
+      "defaultValue": "Blog",
+      "tag": "li",
+      "index": 241
+    },
+    {
+      "name": "text_242",
+      "type": "text",
+      "defaultValue": "Blog",
+      "tag": "a",
+      "index": 242
+    },
+    {
+      "name": "text_243",
+      "type": "text",
+      "defaultValue": "Facebook",
+      "tag": "li",
+      "index": 243
+    },
+    {
+      "name": "text_244",
+      "type": "text",
+      "defaultValue": "Facebook",
+      "tag": "a",
+      "index": 244
+    },
+    {
+      "name": "text_245",
+      "type": "text",
+      "defaultValue": "Youtube",
+      "tag": "li",
+      "index": 245
+    },
+    {
+      "name": "text_246",
+      "type": "text",
+      "defaultValue": "Youtube",
+      "tag": "a",
+      "index": 246
+    },
+    {
+      "name": "text_247",
+      "type": "text",
+      "defaultValue": "Copyright ©Huxley.  All rights reserved.",
+      "tag": "li",
+      "index": 247
+    },
+    {
+      "name": "text_248",
+      "type": "text",
+      "defaultValue": "WORLD SHIPPING",
+      "tag": "h3",
+      "index": 248
+    },
+    {
+      "name": "text_249",
+      "type": "text",
+      "defaultValue": "Please select your Location",
+      "tag": "p",
+      "index": 249
+    },
+    {
+      "name": "text_250",
+      "type": "text",
+      "defaultValue": "CONFIRM",
+      "tag": "button",
+      "index": 250
+    },
+    {
+      "name": "img_251",
+      "type": "image",
+      "defaultValue": "https://www.huxley.co.kr/web/upload/category/editor/2025/03/26/8947006744e3e1a352591a14c02a46dd.png",
+      "alt": "",
+      "index": 251
+    },
+    {
+      "name": "img_252",
+      "type": "image",
+      "defaultValue": "https://www.huxley.co.kr/web/upload/category/editor/2025/03/26/8fa5a1e7caada07b6089a168182aad15.png",
+      "alt": "",
+      "index": 252
+    },
+    {
+      "name": "img_253",
+      "type": "image",
+      "defaultValue": "https://www.huxley.co.kr/web/upload/category/editor/2024/10/02/673f102250c8a8fcbc171170871baab3.png",
+      "alt": "",
+      "index": 253
+    },
+    {
+      "name": "img_254",
+      "type": "image",
+      "defaultValue": "https://www.huxley.co.kr/web/upload/category/editor/2026/03/03/00ae7596b9835c532ff1dda25a48f828.jpg",
+      "alt": "",
+      "index": 254
+    },
+    {
+      "name": "img_255",
+      "type": "image",
+      "defaultValue": "https://www.huxley.co.kr/web/upload/category/editor/2026/02/27/01dda707582eafe9aab8892aa495ef0f.jpg",
+      "alt": "",
+      "index": 255
+    },
+    {
+      "name": "img_256",
+      "type": "image",
+      "defaultValue": "https://www.huxley.co.kr/web/upload/category/editor/2026/02/09/b6f469c4deb71982c084cfec85a52ac1.jpg",
+      "alt": "",
+      "index": 256
+    },
+    {
+      "name": "img_257",
+      "type": "image",
+      "defaultValue": "https://www.huxley.co.kr/web/upload/category/22.jpg",
+      "alt": "",
+      "index": 257
+    },
+    {
+      "name": "img_258",
+      "type": "image",
+      "defaultValue": "https://www.huxley.co.kr/web/upload/category/33.jpg",
+      "alt": "",
+      "index": 258
+    },
+    {
+      "name": "img_259",
+      "type": "image",
+      "defaultValue": "https://www.huxley.co.kr/web/upload/category/44.jpg",
+      "alt": "",
+      "index": 259
+    },
+    {
+      "name": "img_260",
+      "type": "image",
+      "defaultValue": "https://www.huxley.co.kr/web/upload/category/55.jpg",
+      "alt": "",
+      "index": 260
+    },
+    {
+      "name": "img_261",
+      "type": "image",
+      "defaultValue": "https://www.huxley.co.kr/web/upload/category/66.jpg",
+      "alt": "",
+      "index": 261
+    },
+    {
+      "name": "img_262",
+      "type": "image",
+      "defaultValue": "https://www.huxley.co.kr/web/upload/category.jpg",
+      "alt": "",
+      "index": 262
+    },
+    {
+      "name": "img_263",
+      "type": "image",
+      "defaultValue": "https://www.huxley.co.kr/web/upload/category/editor/2026/03/03/15f6804d26c02dff35defc74c2c8f3ed.jpg",
+      "alt": "",
+      "index": 263
+    },
+    {
+      "name": "img_264",
+      "type": "image",
+      "defaultValue": "https://www.huxley.co.kr/web/upload/category/editor/2026/02/27/cefcfb030dfe830751135da5a2d79c40.jpg",
+      "alt": "",
+      "index": 264
+    },
+    {
+      "name": "img_265",
+      "type": "image",
+      "defaultValue": "https://www.huxley.co.kr/web/upload/category/editor/2026/02/09/ece92a83bf988b5844c8f3fe80b2400c.jpg",
+      "alt": "",
+      "index": 265
+    },
+    {
+      "name": "img_266",
+      "type": "image",
+      "defaultValue": "https://www.huxley.co.kr/web/upload/category/editor/2.jpg",
+      "alt": "",
+      "index": 266
+    },
+    {
+      "name": "img_267",
+      "type": "image",
+      "defaultValue": "https://www.huxley.co.kr/web/upload/category/editor/3.jpg",
+      "alt": "",
+      "index": 267
+    },
+    {
+      "name": "img_268",
+      "type": "image",
+      "defaultValue": "https://www.huxley.co.kr/web/upload/category/editor/4.jpg",
+      "alt": "",
+      "index": 268
+    },
+    {
+      "name": "img_269",
+      "type": "image",
+      "defaultValue": "https://www.huxley.co.kr/web/upload/category/editor/5.jpg",
+      "alt": "",
+      "index": 269
+    },
+    {
+      "name": "img_270",
+      "type": "image",
+      "defaultValue": "https://www.huxley.co.kr/web/upload/category/editor/6.jpg",
+      "alt": "",
+      "index": 270
+    },
+    {
+      "name": "img_271",
+      "type": "image",
+      "defaultValue": "https://www.huxley.co.kr/web/upload/category/editor/67.jpg",
+      "alt": "",
+      "index": 271
+    },
+    {
+      "name": "img_272",
+      "type": "image",
+      "defaultValue": "https://www.huxley.co.kr/web/upload/category/editor/2026/03/03/2d7bb1247522fc392a3b5607641675a5.jpg",
+      "alt": "",
+      "index": 272
+    },
+    {
+      "name": "img_273",
+      "type": "image",
+      "defaultValue": "https://www.huxley.co.kr/web/upload/category/editor/2026/03/03/c6262478076e34ff1d0e9d040186d037.jpg",
+      "alt": "",
+      "index": 273
+    },
+    {
+      "name": "img_274",
+      "type": "image",
+      "defaultValue": "https://www.huxley.co.kr/web/upload/addbase/addimage/insta.png",
+      "alt": "",
+      "index": 274
+    },
+    {
+      "name": "img_275",
+      "type": "image",
+      "defaultValue": "https://www.huxley.co.kr/web/upload/addbase/addimage/face.png",
+      "alt": "",
+      "index": 275
+    },
+    {
+      "name": "img_276",
+      "type": "image",
+      "defaultValue": "https://www.huxley.co.kr/web/upload/addbase/addimage/naverlogin.png",
+      "alt": "",
+      "index": 276
+    },
+    {
+      "name": "img_277",
+      "type": "image",
+      "defaultValue": "https://www.huxley.co.kr/web/upload/addbase/addimage/kakao.png",
+      "alt": "",
+      "index": 277
+    },
+    {
+      "name": "img_278",
+      "type": "image",
+      "defaultValue": "https://www.huxley.co.kr/web/upload/addbase/addimage/yout.png",
+      "alt": "",
+      "index": 278
+    },
+    {
+      "name": "img_279",
+      "type": "image",
+      "defaultValue": "https://www.huxley.co.kr/web/upload/category/editor/2025/03/26/8947006744e3e1a352591a14c02a46dd.png",
+      "alt": "",
+      "index": 279
+    },
+    {
+      "name": "img_280",
+      "type": "image",
+      "defaultValue": "https://www.huxley.co.kr/web/upload/category/editor/2025/03/26/8fa5a1e7caada07b6089a168182aad15.png",
+      "alt": "",
+      "index": 280
+    },
+    {
+      "name": "img_281",
+      "type": "image",
+      "defaultValue": "https://www.huxley.co.kr/web/upload/category/editor/2025/03/31/35809d90ff70e7e1e3bfd390f8f77029.jpg",
+      "alt": "",
+      "index": 281
+    },
+    {
+      "name": "img_282",
+      "type": "image",
+      "defaultValue": "https://www.huxley.co.kr/web/upload/category/editor/2025/03/31/4a7c974fd5a555eb7ea70fc0844c1652.jpg",
+      "alt": "",
+      "index": 282
+    },
+    {
+      "name": "img_283",
+      "type": "image",
+      "defaultValue": "https://www.huxley.co.kr/web/upload/category/editor/2025/03/31/35809d90ff70e7e1e3bfd390f8f77029.jpg",
+      "alt": "",
+      "index": 283
+    },
+    {
+      "name": "img_284",
+      "type": "image",
+      "defaultValue": "https://www.huxley.co.kr/web/upload/category/editor/2025/03/31/4a7c974fd5a555eb7ea70fc0844c1652.jpg",
+      "alt": "",
+      "index": 284
+    },
+    {
+      "name": "img_285",
+      "type": "image",
+      "defaultValue": "https://www.huxley.co.kr/web/upload/category/editor/2026/02/27/01dda707582eafe9aab8892aa495ef0f.jpg",
+      "alt": "",
+      "index": 285
+    },
+    {
+      "name": "img_286",
+      "type": "image",
+      "defaultValue": "https://www.huxley.co.kr/web/upload/category/editor/2026/03/03/00ae7596b9835c532ff1dda25a48f828.jpg",
+      "alt": "",
+      "index": 286
+    },
+    {
+      "name": "img_287",
+      "type": "image",
+      "defaultValue": "https://www.huxley.co.kr/web/upload/category/editor/2026/02/27/01dda707582eafe9aab8892aa495ef0f.jpg",
+      "alt": "",
+      "index": 287
+    },
+    {
+      "name": "img_288",
+      "type": "image",
+      "defaultValue": "https://www.huxley.co.kr/web/upload/category/editor/2026/03/03/00ae7596b9835c532ff1dda25a48f828.jpg",
+      "alt": "",
+      "index": 288
+    },
+    {
+      "name": "img_289",
+      "type": "image",
+      "defaultValue": "https://www.huxley.co.kr/web/upload/category/editor/2026/03/03/2d7bb1247522fc392a3b5607641675a5.jpg",
+      "alt": "",
+      "index": 289
+    },
+    {
+      "name": "img_290",
+      "type": "image",
+      "defaultValue": "https://www.huxley.co.kr/web/upload/category/editor/2026/03/03/c6262478076e34ff1d0e9d040186d037.jpg",
+      "alt": "",
+      "index": 290
+    },
+    {
+      "name": "link_291",
+      "type": "link",
+      "defaultValue": "https://huxley.co.kr/article/event/8/102149/",
+      "text": "",
+      "index": 291
+    },
+    {
+      "name": "link_292",
+      "type": "link",
+      "defaultValue": "https://www.huxley.co.kr/article/event/8/80099/",
+      "text": "",
+      "index": 292
+    },
+    {
+      "name": "link_293",
+      "type": "link",
+      "defaultValue": "https://huxley.co.kr/article/event/8/80159/",
+      "text": "",
+      "index": 293
+    },
+    {
+      "name": "link_294",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=29",
+      "text": "",
+      "index": 294
+    },
+    {
+      "name": "link_295",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=29",
+      "text": "",
+      "index": 295
+    },
+    {
+      "name": "link_296",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=29",
+      "text": "",
+      "index": 296
+    },
+    {
+      "name": "link_297",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=29",
+      "text": "",
+      "index": 297
+    },
+    {
+      "name": "link_298",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=29",
+      "text": "",
+      "index": 298
+    },
+    {
+      "name": "link_299",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=29",
+      "text": "",
+      "index": 299
+    },
+    {
+      "name": "link_300",
+      "type": "link",
+      "defaultValue": "https://huxley.co.kr/article/event/8/102149/",
+      "text": "",
+      "index": 300
+    },
+    {
+      "name": "link_301",
+      "type": "link",
+      "defaultValue": "https://www.huxley.co.kr/article/event/8/80099/",
+      "text": "",
+      "index": 301
+    },
+    {
+      "name": "link_302",
+      "type": "link",
+      "defaultValue": "https://huxley.co.kr/article/event/8/80159/",
+      "text": "",
+      "index": 302
+    },
+    {
+      "name": "link_303",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=29",
+      "text": "",
+      "index": 303
+    },
+    {
+      "name": "link_304",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=29",
+      "text": "",
+      "index": 304
+    },
+    {
+      "name": "link_305",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=29",
+      "text": "",
+      "index": 305
+    },
+    {
+      "name": "link_306",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=29",
+      "text": "",
+      "index": 306
+    },
+    {
+      "name": "link_307",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=29",
+      "text": "",
+      "index": 307
+    },
+    {
+      "name": "link_308",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=29",
+      "text": "",
+      "index": 308
+    },
+    {
+      "name": "link_309",
+      "type": "link",
+      "defaultValue": "https://www.huxley.co.kr/product/list.html?cate_no=81",
+      "text": "",
+      "index": 309
+    },
+    {
+      "name": "link_310",
+      "type": "link",
+      "defaultValue": "https://www.huxley.co.kr/product/list.html?cate_no=82",
+      "text": "",
+      "index": 310
+    },
+    {
+      "name": "link_311",
+      "type": "link",
+      "defaultValue": "//instagram.com/huxley_korea/",
+      "text": "",
+      "index": 311
+    },
+    {
+      "name": "link_312",
+      "type": "link",
+      "defaultValue": "//gift.kakao.com/brand/5326",
+      "text": "",
+      "index": 312
+    },
+    {
+      "name": "link_313",
+      "type": "link",
+      "defaultValue": "//www.youtube.com/@HuxleyBeauty",
+      "text": "",
+      "index": 313
+    },
+    {
+      "name": "link_314",
+      "type": "link",
+      "defaultValue": "https://huxley.co.kr/press/spegift.html?cate_no=68",
+      "text": "✧구매 금액별 사은품 증정✧",
+      "index": 314
+    },
+    {
+      "name": "link_315",
+      "type": "link",
+      "defaultValue": "https://www.huxley.co.kr/article/event/8/60208/",
+      "text": "✧T membership 상시 프로모션✧",
+      "index": 315
+    },
+    {
+      "name": "link_316",
+      "type": "link",
+      "defaultValue": "/index.html",
+      "text": "",
+      "index": 316
+    },
+    {
+      "name": "link_317",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=48",
+      "text": "SHOP",
+      "index": 317
+    },
+    {
+      "name": "link_318",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=81",
+      "text": "All",
+      "index": 318
+    },
+    {
+      "name": "link_319",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=82",
+      "text": "Bestseller",
+      "index": 319
+    },
+    {
+      "name": "link_320",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=83",
+      "text": "New arrivals",
+      "index": 320
+    },
+    {
+      "name": "link_321",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=73",
+      "text": "SKINCARE",
+      "index": 321
+    },
+    {
+      "name": "link_322",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=55",
+      "text": "Cleansing",
+      "index": 322
+    },
+    {
+      "name": "link_323",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=56",
+      "text": "Toner & Mist",
+      "index": 323
+    },
+    {
+      "name": "link_324",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=58",
+      "text": "Essence",
+      "index": 324
+    },
+    {
+      "name": "link_325",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=76",
+      "text": "Cream",
+      "index": 325
+    },
+    {
+      "name": "link_326",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=78",
+      "text": "Mask",
+      "index": 326
+    },
+    {
+      "name": "link_327",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=80",
+      "text": "Set",
+      "index": 327
+    },
+    {
+      "name": "link_328",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=74",
+      "text": "HAND",
+      "index": 328
+    },
+    {
+      "name": "link_329",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=59",
+      "text": "Hand wash",
+      "index": 329
+    },
+    {
+      "name": "link_330",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=60",
+      "text": "Hand care",
+      "index": 330
+    },
+    {
+      "name": "link_331",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=75",
+      "text": "MAKE UP",
+      "index": 331
+    },
+    {
+      "name": "link_332",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=61",
+      "text": "Base",
+      "index": 332
+    },
+    {
+      "name": "link_333",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=62",
+      "text": "Sun",
+      "index": 333
+    },
+    {
+      "name": "link_334",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=84",
+      "text": "Lip",
+      "index": 334
+    },
+    {
+      "name": "link_335",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=51",
+      "text": "BODY & HAIR",
+      "index": 335
+    },
+    {
+      "name": "link_336",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=63",
+      "text": "Body",
+      "index": 336
+    },
+    {
+      "name": "link_337",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=64",
+      "text": "Hair",
+      "index": 337
+    },
+    {
+      "name": "link_338",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=52",
+      "text": "FRAGRANCE",
+      "index": 338
+    },
+    {
+      "name": "link_339",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=65",
+      "text": "Perfume",
+      "index": 339
+    },
+    {
+      "name": "link_340",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=66",
+      "text": "Home",
+      "index": 340
+    },
+    {
+      "name": "link_341",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=93",
+      "text": "SPRING SET",
+      "index": 341
+    },
+    {
+      "name": "link_342",
+      "type": "link",
+      "defaultValue": "https://huxley1.cafe24.com/product/list.html?cate_no=81",
+      "text": "",
+      "index": 342
+    },
+    {
+      "name": "link_343",
+      "type": "link",
+      "defaultValue": "/event/list.html?cate_no=49",
+      "text": "PROMOTION",
+      "index": 343
+    },
+    {
+      "name": "link_344",
+      "type": "link",
+      "defaultValue": "/event/list.html?cate_no=67",
+      "text": "Event",
+      "index": 344
+    },
+    {
+      "name": "link_345",
+      "type": "link",
+      "defaultValue": "/press/spegift.html?cate_no=68",
+      "text": "Special gift",
+      "index": 345
+    },
+    {
+      "name": "link_346",
+      "type": "link",
+      "defaultValue": "https://huxley.co.kr/press/spegift.html?cate_no=68",
+      "text": "",
+      "index": 346
+    },
+    {
+      "name": "link_347",
+      "type": "link",
+      "defaultValue": "https://huxley1.cafe24.com/shopinfo/about.html?cate_no=69",
+      "text": "",
+      "index": 347
+    },
+    {
+      "name": "link_348",
+      "type": "link",
+      "defaultValue": "https://huxley1.cafe24.com/shopinfo/about.html?cate_no=69",
+      "text": "",
+      "index": 348
+    },
+    {
+      "name": "link_349",
+      "type": "link",
+      "defaultValue": "/press/spegift.html?cate_no=68",
+      "text": "Special gift",
+      "index": 349
+    },
+    {
+      "name": "link_350",
+      "type": "link",
+      "defaultValue": "/shopinfo/about.html?cate_no=50",
+      "text": "ABOUT",
+      "index": 350
+    },
+    {
+      "name": "link_351",
+      "type": "link",
+      "defaultValue": "/shopinfo/about.html?cate_no=69",
+      "text": "Brand story",
+      "index": 351
+    },
+    {
+      "name": "link_352",
+      "type": "link",
+      "defaultValue": "/shopinfo/stockist.html?board_no=1002&category_no=1",
+      "text": "Store",
+      "index": 352
+    },
+    {
+      "name": "link_353",
+      "type": "link",
+      "defaultValue": "/project/list.html?cate_no=71",
+      "text": "Project",
+      "index": 353
+    },
+    {
+      "name": "link_354",
+      "type": "link",
+      "defaultValue": "/board/free/list.html?board_no=1",
+      "text": "COMMUNITY",
+      "index": 354
+    },
+    {
+      "name": "link_355",
+      "type": "link",
+      "defaultValue": "/board/notice/1/",
+      "text": "Notice",
+      "index": 355
+    },
+    {
+      "name": "link_356",
+      "type": "link",
+      "defaultValue": "/board/review/4/",
+      "text": "Review",
+      "index": 356
+    },
+    {
+      "name": "link_357",
+      "type": "link",
+      "defaultValue": "/board/qa/6/",
+      "text": "Q&A",
+      "index": 357
+    },
+    {
+      "name": "link_358",
+      "type": "link",
+      "defaultValue": "/board/special-gift/2/",
+      "text": "Special gift",
+      "index": 358
+    },
+    {
+      "name": "link_359",
+      "type": "link",
+      "defaultValue": "/member/login.html",
+      "text": "",
+      "index": 359
+    },
+    {
+      "name": "link_360",
+      "type": "link",
+      "defaultValue": "/order/basket.html",
+      "text": "0",
+      "index": 360
+    },
+    {
+      "name": "link_361",
+      "type": "link",
+      "defaultValue": "/order/basket.html",
+      "text": "0",
+      "index": 361
+    },
+    {
+      "name": "link_362",
+      "type": "link",
+      "defaultValue": "/product/search.html?keyword=퍼퓸",
+      "text": "퍼퓸",
+      "index": 362
+    },
+    {
+      "name": "link_363",
+      "type": "link",
+      "defaultValue": "/product/search.html?keyword=핸드 크림",
+      "text": "핸드 크림",
+      "index": 363
+    },
+    {
+      "name": "link_364",
+      "type": "link",
+      "defaultValue": "/product/search.html?keyword=바이오시스 앰플",
+      "text": "바이오시스 앰플",
+      "index": 364
+    },
+    {
+      "name": "link_365",
+      "type": "link",
+      "defaultValue": "/product/search.html?keyword=바이오시스 크림",
+      "text": "바이오시스 크림",
+      "index": 365
+    },
+    {
+      "name": "link_366",
+      "type": "link",
+      "defaultValue": "/product/search.html?keyword=바디 로션",
+      "text": "바디 로션",
+      "index": 366
+    },
+    {
+      "name": "link_367",
+      "type": "link",
+      "defaultValue": "/product/search.html?keyword=바디 워시",
+      "text": "바디 워시",
+      "index": 367
+    },
+    {
+      "name": "link_368",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=48",
+      "text": "SHOP",
+      "index": 368
+    },
+    {
+      "name": "link_369",
+      "type": "link",
+      "defaultValue": "https://huxley1.cafe24.com/product/list.html?cate_no=81",
+      "text": "",
+      "index": 369
+    },
+    {
+      "name": "link_370",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=81",
+      "text": "All",
+      "index": 370
+    },
+    {
+      "name": "link_371",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=82",
+      "text": "Bestseller",
+      "index": 371
+    },
+    {
+      "name": "link_372",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=83",
+      "text": "New arrivals",
+      "index": 372
+    },
+    {
+      "name": "link_373",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=73",
+      "text": "SKINCARE",
+      "index": 373
+    },
+    {
+      "name": "link_374",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=55",
+      "text": "Cleansing",
+      "index": 374
+    },
+    {
+      "name": "link_375",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=56",
+      "text": "Toner & Mist",
+      "index": 375
+    },
+    {
+      "name": "link_376",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=58",
+      "text": "Essence",
+      "index": 376
+    },
+    {
+      "name": "link_377",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=76",
+      "text": "Cream",
+      "index": 377
+    },
+    {
+      "name": "link_378",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=78",
+      "text": "Mask",
+      "index": 378
+    },
+    {
+      "name": "link_379",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=80",
+      "text": "Set",
+      "index": 379
+    },
+    {
+      "name": "link_380",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=74",
+      "text": "HAND",
+      "index": 380
+    },
+    {
+      "name": "link_381",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=59",
+      "text": "Hand wash",
+      "index": 381
+    },
+    {
+      "name": "link_382",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=60",
+      "text": "Hand care",
+      "index": 382
+    },
+    {
+      "name": "link_383",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=75",
+      "text": "MAKE UP",
+      "index": 383
+    },
+    {
+      "name": "link_384",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=61",
+      "text": "Base",
+      "index": 384
+    },
+    {
+      "name": "link_385",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=62",
+      "text": "Sun",
+      "index": 385
+    },
+    {
+      "name": "link_386",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=84",
+      "text": "Lip",
+      "index": 386
+    },
+    {
+      "name": "link_387",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=51",
+      "text": "BODY & HAIR",
+      "index": 387
+    },
+    {
+      "name": "link_388",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=63",
+      "text": "Body",
+      "index": 388
+    },
+    {
+      "name": "link_389",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=64",
+      "text": "Hair",
+      "index": 389
+    },
+    {
+      "name": "link_390",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=52",
+      "text": "FRAGRANCE",
+      "index": 390
+    },
+    {
+      "name": "link_391",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=65",
+      "text": "Perfume",
+      "index": 391
+    },
+    {
+      "name": "link_392",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=66",
+      "text": "Home",
+      "index": 392
+    },
+    {
+      "name": "link_393",
+      "type": "link",
+      "defaultValue": "/product/list.html?cate_no=93",
+      "text": "SPRING SET",
+      "index": 393
+    },
+    {
+      "name": "link_394",
+      "type": "link",
+      "defaultValue": "/event/list.html?cate_no=49",
+      "text": "PROMOTION",
+      "index": 394
+    },
+    {
+      "name": "link_395",
+      "type": "link",
+      "defaultValue": "https://huxley.co.kr/press/spegift.html?cate_no=68",
+      "text": "",
+      "index": 395
+    },
+    {
+      "name": "link_396",
+      "type": "link",
+      "defaultValue": "https://huxley1.cafe24.com/shopinfo/about.html?cate_no=69",
+      "text": "",
+      "index": 396
+    },
+    {
+      "name": "link_397",
+      "type": "link",
+      "defaultValue": "https://huxley1.cafe24.com/shopinfo/about.html?cate_no=69",
+      "text": "",
+      "index": 397
+    },
+    {
+      "name": "link_398",
+      "type": "link",
+      "defaultValue": "/event/list.html?cate_no=67",
+      "text": "Event",
+      "index": 398
+    },
+    {
+      "name": "link_399",
+      "type": "link",
+      "defaultValue": "/press/spegift.html?cate_no=68",
+      "text": "Special gift",
+      "index": 399
+    },
+    {
+      "name": "link_400",
+      "type": "link",
+      "defaultValue": "/press/spegift.html?cate_no=68",
+      "text": "Special gift",
+      "index": 400
+    },
+    {
+      "name": "link_401",
+      "type": "link",
+      "defaultValue": "/shopinfo/about.html?cate_no=50",
+      "text": "ABOUT",
+      "index": 401
+    },
+    {
+      "name": "link_402",
+      "type": "link",
+      "defaultValue": "/shopinfo/about.html?cate_no=69",
+      "text": "Brand story",
+      "index": 402
+    },
+    {
+      "name": "link_403",
+      "type": "link",
+      "defaultValue": "/shopinfo/stockist.html?cate_no=70",
+      "text": "Store",
+      "index": 403
+    },
+    {
+      "name": "link_404",
+      "type": "link",
+      "defaultValue": "/project/list.html?cate_no=71",
+      "text": "Project",
+      "index": 404
+    },
+    {
+      "name": "link_405",
+      "type": "link",
+      "defaultValue": "/myshop/order/list.html",
+      "text": "Order",
+      "index": 405
+    },
+    {
+      "name": "link_406",
+      "type": "link",
+      "defaultValue": "/board/qa/6/",
+      "text": "Q&A",
+      "index": 406
+    },
+    {
+      "name": "link_407",
+      "type": "link",
+      "defaultValue": "/shopinfo/member.html",
+      "text": "Membership",
+      "index": 407
+    },
+    {
+      "name": "link_408",
+      "type": "link",
+      "defaultValue": "/shopinfo/faq.html",
+      "text": "FAQ",
+      "index": 408
+    },
+    {
+      "name": "link_409",
+      "type": "link",
+      "defaultValue": "/member/login.html",
+      "text": "로그인",
+      "index": 409
+    },
+    {
+      "name": "link_410",
+      "type": "link",
+      "defaultValue": "/member/join.html",
+      "text": "회원가입",
+      "index": 410
+    },
+    {
+      "name": "link_411",
+      "type": "link",
+      "defaultValue": "/myshop/order/list.html",
+      "text": "주문조회",
+      "index": 411
+    },
+    {
+      "name": "link_412",
+      "type": "link",
+      "defaultValue": "https://www.huxley.co.kr/article/event/8/80099/",
+      "text": "",
+      "index": 412
+    },
+    {
+      "name": "link_413",
+      "type": "link",
+      "defaultValue": "https://huxley.co.kr/article/event/8/102149/",
+      "text": "",
+      "index": 413
+    },
+    {
+      "name": "link_414",
+      "type": "link",
+      "defaultValue": "https://www.huxley.co.kr/article/event/8/80099/",
+      "text": "",
+      "index": 414
+    },
+    {
+      "name": "link_415",
+      "type": "link",
+      "defaultValue": "https://huxley.co.kr/article/event/8/102149/",
+      "text": "",
+      "index": 415
+    },
+    {
+      "name": "link_416",
+      "type": "link",
+      "defaultValue": "https://www.huxley.co.kr/product/list.html?cate_no=81",
+      "text": "",
+      "index": 416
+    },
+    {
+      "name": "link_417",
+      "type": "link",
+      "defaultValue": "https://www.huxley.co.kr/product/list.html?cate_no=82",
+      "text": "",
+      "index": 417
+    },
+    {
+      "name": "link_418",
+      "type": "link",
+      "defaultValue": "/myshop/order/list.html",
+      "text": "Order",
+      "index": 418
+    },
+    {
+      "name": "link_419",
+      "type": "link",
+      "defaultValue": "/board/qa/6/",
+      "text": "Q&A",
+      "index": 419
+    },
+    {
+      "name": "link_420",
+      "type": "link",
+      "defaultValue": "/shopinfo/member.html",
+      "text": "Membership",
+      "index": 420
+    },
+    {
+      "name": "link_421",
+      "type": "link",
+      "defaultValue": "/shopinfo/faq.html",
+      "text": "FAQ",
+      "index": 421
+    },
+    {
+      "name": "link_422",
+      "type": "link",
+      "defaultValue": "//instagram.com/huxley_korea/",
+      "text": "Instagram",
+      "index": 422
+    },
+    {
+      "name": "link_423",
+      "type": "link",
+      "defaultValue": "//gift.kakao.com/brand/5326",
+      "text": "Kakaogift",
+      "index": 423
+    },
+    {
+      "name": "link_424",
+      "type": "link",
+      "defaultValue": "//www.youtube.com/@HuxleyBeauty",
+      "text": "Youtube",
+      "index": 424
+    },
+    {
+      "name": "link_425",
+      "type": "link",
+      "defaultValue": "mailto:domesticsales@nordmason.com",
+      "text": "domesticsales@nordmason.com",
+      "index": 425
+    },
+    {
+      "name": "link_426",
+      "type": "link",
+      "defaultValue": "#none",
+      "text": "[사업자정보확인]",
+      "index": 426
+    },
+    {
+      "name": "link_427",
+      "type": "link",
+      "defaultValue": "/shopinfo/customercenter.html",
+      "text": "Shop Guide",
+      "index": 427
+    },
+    {
+      "name": "link_428",
+      "type": "link",
+      "defaultValue": "/member/agreement.html",
+      "text": "Terms Of Use",
+      "index": 428
+    },
+    {
+      "name": "link_429",
+      "type": "link",
+      "defaultValue": "/member/privacy.html",
+      "text": "Privacy Policy",
+      "index": 429
+    },
+    {
+      "name": "link_430",
+      "type": "link",
+      "defaultValue": "mailto:domesticsales@nordmason.com",
+      "text": "domesticsales@nordmason.com",
+      "index": 430
+    },
+    {
+      "name": "link_431",
+      "type": "link",
+      "defaultValue": "/shopinfo/customercenter.html",
+      "text": "Guide",
+      "index": 431
+    },
+    {
+      "name": "link_432",
+      "type": "link",
+      "defaultValue": "/member/agreement.html",
+      "text": "Terms of use",
+      "index": 432
+    },
+    {
+      "name": "link_433",
+      "type": "link",
+      "defaultValue": "/member/privacy.html",
+      "text": "Privacy policy",
+      "index": 433
+    },
+    {
+      "name": "link_434",
+      "type": "link",
+      "defaultValue": "//instagram.com/huxley_korea/",
+      "text": "Instagram",
+      "index": 434
+    },
+    {
+      "name": "link_435",
+      "type": "link",
+      "defaultValue": "//gift.kakao.com/brand/5326",
+      "text": "Kakaogift",
+      "index": 435
+    },
+    {
+      "name": "link_436",
+      "type": "link",
+      "defaultValue": "//www.youtube.com/@HuxleyBeauty",
+      "text": "Youtube",
+      "index": 436
+    },
+    {
+      "name": "link_437",
+      "type": "link",
+      "defaultValue": "https://www.instagram.com/huxley_korea/",
+      "text": "",
+      "index": 437
+    },
+    {
+      "name": "link_438",
+      "type": "link",
+      "defaultValue": "https://www.youtube.com/@HuxleyBeauty",
+      "text": "",
+      "index": 438
+    }
+  ]
+}

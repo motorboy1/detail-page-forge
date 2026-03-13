@@ -1,0 +1,4110 @@
+{
+  "total": 586,
+  "text": 378,
+  "image": 57,
+  "link": 151,
+  "slots": [
+    {
+      "name": "text_0",
+      "type": "text",
+      "defaultValue": "상단 배너 닫기",
+      "tag": "button",
+      "index": 0
+    },
+    {
+      "name": "text_1",
+      "type": "text",
+      "defaultValue": "상단 배너 닫기",
+      "tag": "span",
+      "index": 1
+    },
+    {
+      "name": "text_2",
+      "type": "text",
+      "defaultValue": "3월 봄맞이 3주간 베이커리 할인☆",
+      "tag": "a",
+      "index": 2
+    },
+    {
+      "name": "text_3",
+      "type": "text",
+      "defaultValue": "본문 바로가기",
+      "tag": "a",
+      "index": 3
+    },
+    {
+      "name": "text_4",
+      "type": "text",
+      "defaultValue": "주메뉴 바로가기",
+      "tag": "a",
+      "index": 4
+    },
+    {
+      "name": "text_5",
+      "type": "text",
+      "defaultValue": "제품",
+      "tag": "p",
+      "index": 5
+    },
+    {
+      "name": "text_6",
+      "type": "text",
+      "defaultValue": "제품",
+      "tag": "a",
+      "index": 6
+    },
+    {
+      "name": "text_7",
+      "type": "text",
+      "defaultValue": "티 제품",
+      "tag": "a",
+      "index": 7
+    },
+    {
+      "name": "text_8",
+      "type": "text",
+      "defaultValue": "베스트",
+      "tag": "li",
+      "index": 8
+    },
+    {
+      "name": "text_9",
+      "type": "text",
+      "defaultValue": "베스트",
+      "tag": "a",
+      "index": 9
+    },
+    {
+      "name": "text_10",
+      "type": "text",
+      "defaultValue": "티 세트",
+      "tag": "li",
+      "index": 10
+    },
+    {
+      "name": "text_11",
+      "type": "text",
+      "defaultValue": "티 세트",
+      "tag": "a",
+      "index": 11
+    },
+    {
+      "name": "text_12",
+      "type": "text",
+      "defaultValue": "녹차",
+      "tag": "li",
+      "index": 12
+    },
+    {
+      "name": "text_13",
+      "type": "text",
+      "defaultValue": "녹차",
+      "tag": "a",
+      "index": 13
+    },
+    {
+      "name": "text_14",
+      "type": "text",
+      "defaultValue": "발효차/홍차",
+      "tag": "li",
+      "index": 14
+    },
+    {
+      "name": "text_15",
+      "type": "text",
+      "defaultValue": "발효차/홍차",
+      "tag": "a",
+      "index": 15
+    },
+    {
+      "name": "text_16",
+      "type": "text",
+      "defaultValue": "블렌디드티",
+      "tag": "li",
+      "index": 16
+    },
+    {
+      "name": "text_17",
+      "type": "text",
+      "defaultValue": "블렌디드티",
+      "tag": "a",
+      "index": 17
+    },
+    {
+      "name": "text_18",
+      "type": "text",
+      "defaultValue": "허브티",
+      "tag": "li",
+      "index": 18
+    },
+    {
+      "name": "text_19",
+      "type": "text",
+      "defaultValue": "허브티",
+      "tag": "a",
+      "index": 19
+    },
+    {
+      "name": "text_20",
+      "type": "text",
+      "defaultValue": "말차/밀크티",
+      "tag": "li",
+      "index": 20
+    },
+    {
+      "name": "text_21",
+      "type": "text",
+      "defaultValue": "말차/밀크티",
+      "tag": "a",
+      "index": 21
+    },
+    {
+      "name": "text_22",
+      "type": "text",
+      "defaultValue": "콤부차/콜드브루 티",
+      "tag": "li",
+      "index": 22
+    },
+    {
+      "name": "text_23",
+      "type": "text",
+      "defaultValue": "콤부차/콜드브루 티",
+      "tag": "a",
+      "index": 23
+    },
+    {
+      "name": "text_24",
+      "type": "text",
+      "defaultValue": "티푸드",
+      "tag": "a",
+      "index": 24
+    },
+    {
+      "name": "text_25",
+      "type": "text",
+      "defaultValue": "과자/초콜릿",
+      "tag": "li",
+      "index": 25
+    },
+    {
+      "name": "text_26",
+      "type": "text",
+      "defaultValue": "과자/초콜릿",
+      "tag": "a",
+      "index": 26
+    },
+    {
+      "name": "text_27",
+      "type": "text",
+      "defaultValue": "베이커리",
+      "tag": "li",
+      "index": 27
+    },
+    {
+      "name": "text_28",
+      "type": "text",
+      "defaultValue": "베이커리",
+      "tag": "a",
+      "index": 28
+    },
+    {
+      "name": "text_29",
+      "type": "text",
+      "defaultValue": "라이프스타일",
+      "tag": "a",
+      "index": 29
+    },
+    {
+      "name": "text_30",
+      "type": "text",
+      "defaultValue": "티웨어",
+      "tag": "li",
+      "index": 30
+    },
+    {
+      "name": "text_31",
+      "type": "text",
+      "defaultValue": "티웨어",
+      "tag": "a",
+      "index": 31
+    },
+    {
+      "name": "text_32",
+      "type": "text",
+      "defaultValue": "스킨케어",
+      "tag": "li",
+      "index": 32
+    },
+    {
+      "name": "text_33",
+      "type": "text",
+      "defaultValue": "스킨케어",
+      "tag": "a",
+      "index": 33
+    },
+    {
+      "name": "text_34",
+      "type": "text",
+      "defaultValue": "정기배송",
+      "tag": "li",
+      "index": 34
+    },
+    {
+      "name": "text_35",
+      "type": "text",
+      "defaultValue": "정기배송",
+      "tag": "a",
+      "index": 35
+    },
+    {
+      "name": "text_36",
+      "type": "text",
+      "defaultValue": "기프트",
+      "tag": "p",
+      "index": 36
+    },
+    {
+      "name": "text_37",
+      "type": "text",
+      "defaultValue": "기프트",
+      "tag": "a",
+      "index": 37
+    },
+    {
+      "name": "text_38",
+      "type": "text",
+      "defaultValue": "티 라이프",
+      "tag": "p",
+      "index": 38
+    },
+    {
+      "name": "text_39",
+      "type": "text",
+      "defaultValue": "티 라이프",
+      "tag": "a",
+      "index": 39
+    },
+    {
+      "name": "text_40",
+      "type": "text",
+      "defaultValue": "오설록 매거진",
+      "tag": "li",
+      "index": 40
+    },
+    {
+      "name": "text_41",
+      "type": "text",
+      "defaultValue": "오설록 매거진",
+      "tag": "a",
+      "index": 41
+    },
+    {
+      "name": "text_42",
+      "type": "text",
+      "defaultValue": "오설록 헤리티지",
+      "tag": "li",
+      "index": 42
+    },
+    {
+      "name": "text_43",
+      "type": "text",
+      "defaultValue": "오설록 헤리티지",
+      "tag": "a",
+      "index": 43
+    },
+    {
+      "name": "text_44",
+      "type": "text",
+      "defaultValue": "제주 티뮤지엄",
+      "tag": "li",
+      "index": 44
+    },
+    {
+      "name": "text_45",
+      "type": "text",
+      "defaultValue": "제주 티뮤지엄",
+      "tag": "a",
+      "index": 45
+    },
+    {
+      "name": "text_46",
+      "type": "text",
+      "defaultValue": "티샵과 티하우스",
+      "tag": "li",
+      "index": 46
+    },
+    {
+      "name": "text_47",
+      "type": "text",
+      "defaultValue": "티샵과 티하우스",
+      "tag": "a",
+      "index": 47
+    },
+    {
+      "name": "text_48",
+      "type": "text",
+      "defaultValue": "단체 및 기업 구매",
+      "tag": "p",
+      "index": 48
+    },
+    {
+      "name": "text_49",
+      "type": "text",
+      "defaultValue": "단체 및 기업 구매",
+      "tag": "a",
+      "index": 49
+    },
+    {
+      "name": "text_50",
+      "type": "text",
+      "defaultValue": "검색 열기",
+      "tag": "button",
+      "index": 50
+    },
+    {
+      "name": "text_51",
+      "type": "text",
+      "defaultValue": "검색 열기",
+      "tag": "span",
+      "index": 51
+    },
+    {
+      "name": "text_52",
+      "type": "text",
+      "defaultValue": "이벤트",
+      "tag": "a",
+      "index": 52
+    },
+    {
+      "name": "text_53",
+      "type": "text",
+      "defaultValue": "로그인",
+      "tag": "a",
+      "index": 53
+    },
+    {
+      "name": "text_54",
+      "type": "text",
+      "defaultValue": "검색영역 닫기",
+      "tag": "button",
+      "index": 54
+    },
+    {
+      "name": "text_55",
+      "type": "text",
+      "defaultValue": "검색영역 닫기",
+      "tag": "span",
+      "index": 55
+    },
+    {
+      "name": "text_56",
+      "type": "text",
+      "defaultValue": "검색하기",
+      "tag": "button",
+      "index": 56
+    },
+    {
+      "name": "text_57",
+      "type": "text",
+      "defaultValue": "검색하기",
+      "tag": "span",
+      "index": 57
+    },
+    {
+      "name": "text_58",
+      "type": "text",
+      "defaultValue": "인기 검색어",
+      "tag": "button",
+      "index": 58
+    },
+    {
+      "name": "text_59",
+      "type": "text",
+      "defaultValue": "최근 검색어",
+      "tag": "button",
+      "index": 59
+    },
+    {
+      "name": "text_60",
+      "type": "text",
+      "defaultValue": "인기 검색어",
+      "tag": "h3",
+      "index": 60
+    },
+    {
+      "name": "text_61",
+      "type": "text",
+      "defaultValue": "최근 검색어",
+      "tag": "h3",
+      "index": 61
+    },
+    {
+      "name": "text_62",
+      "type": "text",
+      "defaultValue": "전체삭제",
+      "tag": "button",
+      "index": 62
+    },
+    {
+      "name": "text_63",
+      "type": "text",
+      "defaultValue": "최근 검색어가 없습니다.",
+      "tag": "li",
+      "index": 63
+    },
+    {
+      "name": "text_64",
+      "type": "text",
+      "defaultValue": "메뉴 닫기",
+      "tag": "button",
+      "index": 64
+    },
+    {
+      "name": "text_65",
+      "type": "text",
+      "defaultValue": "메뉴 닫기",
+      "tag": "span",
+      "index": 65
+    },
+    {
+      "name": "text_66",
+      "type": "text",
+      "defaultValue": "로그인",
+      "tag": "a",
+      "index": 66
+    },
+    {
+      "name": "text_67",
+      "type": "text",
+      "defaultValue": "제품",
+      "tag": "a",
+      "index": 67
+    },
+    {
+      "name": "text_68",
+      "type": "text",
+      "defaultValue": "티 제품",
+      "tag": "li",
+      "index": 68
+    },
+    {
+      "name": "text_69",
+      "type": "text",
+      "defaultValue": "티 제품",
+      "tag": "a",
+      "index": 69
+    },
+    {
+      "name": "text_70",
+      "type": "text",
+      "defaultValue": "티푸드",
+      "tag": "li",
+      "index": 70
+    },
+    {
+      "name": "text_71",
+      "type": "text",
+      "defaultValue": "티푸드",
+      "tag": "a",
+      "index": 71
+    },
+    {
+      "name": "text_72",
+      "type": "text",
+      "defaultValue": "라이프스타일",
+      "tag": "li",
+      "index": 72
+    },
+    {
+      "name": "text_73",
+      "type": "text",
+      "defaultValue": "라이프스타일",
+      "tag": "a",
+      "index": 73
+    },
+    {
+      "name": "text_74",
+      "type": "text",
+      "defaultValue": "기프트",
+      "tag": "li",
+      "index": 74
+    },
+    {
+      "name": "text_75",
+      "type": "text",
+      "defaultValue": "기프트",
+      "tag": "a",
+      "index": 75
+    },
+    {
+      "name": "text_76",
+      "type": "text",
+      "defaultValue": "티 라이프",
+      "tag": "a",
+      "index": 76
+    },
+    {
+      "name": "text_77",
+      "type": "text",
+      "defaultValue": "오설록 매거진",
+      "tag": "li",
+      "index": 77
+    },
+    {
+      "name": "text_78",
+      "type": "text",
+      "defaultValue": "오설록 매거진",
+      "tag": "a",
+      "index": 78
+    },
+    {
+      "name": "text_79",
+      "type": "text",
+      "defaultValue": "오설록 헤리티지",
+      "tag": "li",
+      "index": 79
+    },
+    {
+      "name": "text_80",
+      "type": "text",
+      "defaultValue": "오설록 헤리티지",
+      "tag": "a",
+      "index": 80
+    },
+    {
+      "name": "text_81",
+      "type": "text",
+      "defaultValue": "제주 티뮤지엄",
+      "tag": "li",
+      "index": 81
+    },
+    {
+      "name": "text_82",
+      "type": "text",
+      "defaultValue": "제주 티뮤지엄",
+      "tag": "a",
+      "index": 82
+    },
+    {
+      "name": "text_83",
+      "type": "text",
+      "defaultValue": "티샵과 티하우스",
+      "tag": "li",
+      "index": 83
+    },
+    {
+      "name": "text_84",
+      "type": "text",
+      "defaultValue": "티샵과 티하우스",
+      "tag": "a",
+      "index": 84
+    },
+    {
+      "name": "text_85",
+      "type": "text",
+      "defaultValue": "단체 및 기업 구매",
+      "tag": "li",
+      "index": 85
+    },
+    {
+      "name": "text_86",
+      "type": "text",
+      "defaultValue": "단체 및 기업 구매",
+      "tag": "a",
+      "index": 86
+    },
+    {
+      "name": "text_87",
+      "type": "text",
+      "defaultValue": "매장찾기",
+      "tag": "a",
+      "index": 87
+    },
+    {
+      "name": "text_88",
+      "type": "text",
+      "defaultValue": "공지사항",
+      "tag": "a",
+      "index": 88
+    },
+    {
+      "name": "text_89",
+      "type": "text",
+      "defaultValue": "고객센터",
+      "tag": "a",
+      "index": 89
+    },
+    {
+      "name": "text_90",
+      "type": "text",
+      "defaultValue": "뷰티포인트 추후 적립",
+      "tag": "a",
+      "index": 90
+    },
+    {
+      "name": "text_91",
+      "type": "text",
+      "defaultValue": "이전 배너 보기",
+      "tag": "button",
+      "index": 91
+    },
+    {
+      "name": "text_92",
+      "type": "text",
+      "defaultValue": "이전 배너 보기",
+      "tag": "span",
+      "index": 92
+    },
+    {
+      "name": "text_93",
+      "type": "text",
+      "defaultValue": "다음 배너 보기",
+      "tag": "button",
+      "index": 93
+    },
+    {
+      "name": "text_94",
+      "type": "text",
+      "defaultValue": "다음 배너 보기",
+      "tag": "span",
+      "index": 94
+    },
+    {
+      "name": "text_95",
+      "type": "text",
+      "defaultValue": "03.05 - 05.31",
+      "tag": "p",
+      "index": 95
+    },
+    {
+      "name": "text_96",
+      "type": "text",
+      "defaultValue": "03.05 - 05.31",
+      "tag": "span",
+      "index": 96
+    },
+    {
+      "name": "text_97",
+      "type": "text",
+      "defaultValue": "오설록X무자기 재입고순백의 티웨어를 만나보세요",
+      "tag": "p",
+      "index": 97
+    },
+    {
+      "name": "text_98",
+      "type": "text",
+      "defaultValue": "오설록X무자기 재입고",
+      "tag": "span",
+      "index": 98
+    },
+    {
+      "name": "text_99",
+      "type": "text",
+      "defaultValue": "순백의 티웨어를 만나보세요",
+      "tag": "span",
+      "index": 99
+    },
+    {
+      "name": "text_100",
+      "type": "text",
+      "defaultValue": "나에게 혹은 누군가에게 선물하기 좋은 무자기 티웨어",
+      "tag": "p",
+      "index": 100
+    },
+    {
+      "name": "text_101",
+      "type": "text",
+      "defaultValue": "나에게 혹은 누군가에게 선물하기 좋은 무자기 티웨어",
+      "tag": "span",
+      "index": 101
+    },
+    {
+      "name": "text_102",
+      "type": "text",
+      "defaultValue": "자세히 보기",
+      "tag": "p",
+      "index": 102
+    },
+    {
+      "name": "text_103",
+      "type": "text",
+      "defaultValue": "자세히 보기",
+      "tag": "span",
+      "index": 103
+    },
+    {
+      "name": "text_104",
+      "type": "text",
+      "defaultValue": "03.01 - 05.31",
+      "tag": "p",
+      "index": 104
+    },
+    {
+      "name": "text_105",
+      "type": "text",
+      "defaultValue": "03.01 - 05.31",
+      "tag": "span",
+      "index": 105
+    },
+    {
+      "name": "text_106",
+      "type": "text",
+      "defaultValue": "봄과 함께 루틴 재정비!차 입문 가이드",
+      "tag": "p",
+      "index": 106
+    },
+    {
+      "name": "text_107",
+      "type": "text",
+      "defaultValue": "봄과 함께 루틴 재정비!",
+      "tag": "span",
+      "index": 107
+    },
+    {
+      "name": "text_108",
+      "type": "text",
+      "defaultValue": "차 입문 가이드",
+      "tag": "span",
+      "index": 108
+    },
+    {
+      "name": "text_109",
+      "type": "text",
+      "defaultValue": "루틴을 재정비하기 좋은 시기,새로운 취미를 가져봐요",
+      "tag": "p",
+      "index": 109
+    },
+    {
+      "name": "text_110",
+      "type": "text",
+      "defaultValue": "루틴을 재정비하기 좋은 시기,",
+      "tag": "span",
+      "index": 110
+    },
+    {
+      "name": "text_111",
+      "type": "text",
+      "defaultValue": "새로운 취미를 가져봐요",
+      "tag": "span",
+      "index": 111
+    },
+    {
+      "name": "text_112",
+      "type": "text",
+      "defaultValue": "자세히 보기",
+      "tag": "p",
+      "index": 112
+    },
+    {
+      "name": "text_113",
+      "type": "text",
+      "defaultValue": "자세히 보기",
+      "tag": "span",
+      "index": 113
+    },
+    {
+      "name": "text_114",
+      "type": "text",
+      "defaultValue": "02.19 - 03.15",
+      "tag": "p",
+      "index": 114
+    },
+    {
+      "name": "text_115",
+      "type": "text",
+      "defaultValue": "02.19 - 03.15",
+      "tag": "span",
+      "index": 115
+    },
+    {
+      "name": "text_116",
+      "type": "text",
+      "defaultValue": "봄과 함께 새로운 시작!졸업&입학 선물 추천",
+      "tag": "p",
+      "index": 116
+    },
+    {
+      "name": "text_117",
+      "type": "text",
+      "defaultValue": "봄과 함께 새로운 시작!",
+      "tag": "span",
+      "index": 117
+    },
+    {
+      "name": "text_118",
+      "type": "text",
+      "defaultValue": "졸업&입학 선물 추천",
+      "tag": "span",
+      "index": 118
+    },
+    {
+      "name": "text_119",
+      "type": "text",
+      "defaultValue": "당신의 새로운 시작을 응원합니다",
+      "tag": "p",
+      "index": 119
+    },
+    {
+      "name": "text_120",
+      "type": "text",
+      "defaultValue": "당신의 새로운 시작을 응원합니다",
+      "tag": "span",
+      "index": 120
+    },
+    {
+      "name": "text_121",
+      "type": "text",
+      "defaultValue": "자세히 보기",
+      "tag": "p",
+      "index": 121
+    },
+    {
+      "name": "text_122",
+      "type": "text",
+      "defaultValue": "자세히 보기",
+      "tag": "span",
+      "index": 122
+    },
+    {
+      "name": "text_123",
+      "type": "text",
+      "defaultValue": "03.01 - 03.31",
+      "tag": "p",
+      "index": 123
+    },
+    {
+      "name": "text_124",
+      "type": "text",
+      "defaultValue": "03.01 - 03.31",
+      "tag": "span",
+      "index": 124
+    },
+    {
+      "name": "text_125",
+      "type": "text",
+      "defaultValue": "사랑하는 상대는 어떤 타입인가요?취향별 디저트",
+      "tag": "p",
+      "index": 125
+    },
+    {
+      "name": "text_126",
+      "type": "text",
+      "defaultValue": "사랑하는 상대는 어떤 타입인가요?",
+      "tag": "span",
+      "index": 126
+    },
+    {
+      "name": "text_127",
+      "type": "text",
+      "defaultValue": "취향별 디저트",
+      "tag": "span",
+      "index": 127
+    },
+    {
+      "name": "text_128",
+      "type": "text",
+      "defaultValue": "발렌타인&화이트데이에 특별하게 마음을 건네는 레시피",
+      "tag": "p",
+      "index": 128
+    },
+    {
+      "name": "text_129",
+      "type": "text",
+      "defaultValue": "발렌타인&화이트데이에 특별하게 마음을 건네는 레시피",
+      "tag": "span",
+      "index": 129
+    },
+    {
+      "name": "text_130",
+      "type": "text",
+      "defaultValue": "자세히 보기",
+      "tag": "p",
+      "index": 130
+    },
+    {
+      "name": "text_131",
+      "type": "text",
+      "defaultValue": "자세히 보기",
+      "tag": "span",
+      "index": 131
+    },
+    {
+      "name": "text_132",
+      "type": "text",
+      "defaultValue": "03.01 - 03.31",
+      "tag": "p",
+      "index": 132
+    },
+    {
+      "name": "text_133",
+      "type": "text",
+      "defaultValue": "03.01 - 03.31",
+      "tag": "span",
+      "index": 133
+    },
+    {
+      "name": "text_134",
+      "type": "text",
+      "defaultValue": "3월 출석체크",
+      "tag": "p",
+      "index": 134
+    },
+    {
+      "name": "text_135",
+      "type": "text",
+      "defaultValue": "3월 출석체크",
+      "tag": "span",
+      "index": 135
+    },
+    {
+      "name": "text_136",
+      "type": "text",
+      "defaultValue": "출첵만으로 얻을 수 있는 혜택!",
+      "tag": "p",
+      "index": 136
+    },
+    {
+      "name": "text_137",
+      "type": "text",
+      "defaultValue": "출첵만으로 얻을 수 있는 혜택!",
+      "tag": "span",
+      "index": 137
+    },
+    {
+      "name": "text_138",
+      "type": "text",
+      "defaultValue": "자세히 보기",
+      "tag": "p",
+      "index": 138
+    },
+    {
+      "name": "text_139",
+      "type": "text",
+      "defaultValue": "자세히 보기",
+      "tag": "span",
+      "index": 139
+    },
+    {
+      "name": "text_140",
+      "type": "text",
+      "defaultValue": "BEST & NEW",
+      "tag": "p",
+      "index": 140
+    },
+    {
+      "name": "text_141",
+      "type": "text",
+      "defaultValue": "BEST 상품 목록으로 이동전체 보기",
+      "tag": "a",
+      "index": 141
+    },
+    {
+      "name": "text_142",
+      "type": "text",
+      "defaultValue": "BEST 상품 목록으로 이동",
+      "tag": "span",
+      "index": 142
+    },
+    {
+      "name": "text_143",
+      "type": "text",
+      "defaultValue": "NEW",
+      "tag": "span",
+      "index": 143
+    },
+    {
+      "name": "text_144",
+      "type": "text",
+      "defaultValue": "프리미엄 티 컬렉션 9종 90입",
+      "tag": "p",
+      "index": 144
+    },
+    {
+      "name": "text_145",
+      "type": "text",
+      "defaultValue": "18%",
+      "tag": "span",
+      "index": 145
+    },
+    {
+      "name": "text_146",
+      "type": "text",
+      "defaultValue": "67,240원",
+      "tag": "span",
+      "index": 146
+    },
+    {
+      "name": "text_147",
+      "type": "text",
+      "defaultValue": "NEW",
+      "tag": "span",
+      "index": 147
+    },
+    {
+      "name": "text_148",
+      "type": "text",
+      "defaultValue": "[무자기] 티 컵 & 캐모마일 블렌드 기프트",
+      "tag": "p",
+      "index": 148
+    },
+    {
+      "name": "text_149",
+      "type": "text",
+      "defaultValue": "15%",
+      "tag": "span",
+      "index": 149
+    },
+    {
+      "name": "text_150",
+      "type": "text",
+      "defaultValue": "39,525원",
+      "tag": "span",
+      "index": 150
+    },
+    {
+      "name": "text_151",
+      "type": "text",
+      "defaultValue": "NEW",
+      "tag": "span",
+      "index": 151
+    },
+    {
+      "name": "text_152",
+      "type": "text",
+      "defaultValue": "[무자기] 티 컵 & 세작 기프트",
+      "tag": "p",
+      "index": 152
+    },
+    {
+      "name": "text_153",
+      "type": "text",
+      "defaultValue": "15%",
+      "tag": "span",
+      "index": 153
+    },
+    {
+      "name": "text_154",
+      "type": "text",
+      "defaultValue": "41,225원",
+      "tag": "span",
+      "index": 154
+    },
+    {
+      "name": "text_155",
+      "type": "text",
+      "defaultValue": "[한정 보자기] 티 에디션 헤리티지 9종 63입",
+      "tag": "p",
+      "index": 155
+    },
+    {
+      "name": "text_156",
+      "type": "text",
+      "defaultValue": "166,000원",
+      "tag": "span",
+      "index": 156
+    },
+    {
+      "name": "text_157",
+      "type": "text",
+      "defaultValue": "NEW",
+      "tag": "span",
+      "index": 157
+    },
+    {
+      "name": "text_158",
+      "type": "text",
+      "defaultValue": "[무자기] 동백꽃 플레이트 세트",
+      "tag": "p",
+      "index": 158
+    },
+    {
+      "name": "text_159",
+      "type": "text",
+      "defaultValue": "10%",
+      "tag": "span",
+      "index": 159
+    },
+    {
+      "name": "text_160",
+      "type": "text",
+      "defaultValue": "37,800원",
+      "tag": "span",
+      "index": 160
+    },
+    {
+      "name": "text_161",
+      "type": "text",
+      "defaultValue": "NEW",
+      "tag": "span",
+      "index": 161
+    },
+    {
+      "name": "text_162",
+      "type": "text",
+      "defaultValue": "[무자기] 제주 플레이트 & 픽 세트",
+      "tag": "p",
+      "index": 162
+    },
+    {
+      "name": "text_163",
+      "type": "text",
+      "defaultValue": "15%",
+      "tag": "span",
+      "index": 163
+    },
+    {
+      "name": "text_164",
+      "type": "text",
+      "defaultValue": "21,250원",
+      "tag": "span",
+      "index": 164
+    },
+    {
+      "name": "text_165",
+      "type": "text",
+      "defaultValue": "[보자기] 마스터 블렌드 8종 32입",
+      "tag": "p",
+      "index": 165
+    },
+    {
+      "name": "text_166",
+      "type": "text",
+      "defaultValue": "74,000원",
+      "tag": "span",
+      "index": 166
+    },
+    {
+      "name": "text_167",
+      "type": "text",
+      "defaultValue": "NEW",
+      "tag": "span",
+      "index": 167
+    },
+    {
+      "name": "text_168",
+      "type": "text",
+      "defaultValue": "말차 리추얼 기프트 (아이보리)",
+      "tag": "p",
+      "index": 168
+    },
+    {
+      "name": "text_169",
+      "type": "text",
+      "defaultValue": "20%",
+      "tag": "span",
+      "index": 169
+    },
+    {
+      "name": "text_170",
+      "type": "text",
+      "defaultValue": "37,200원",
+      "tag": "span",
+      "index": 170
+    },
+    {
+      "name": "text_171",
+      "type": "text",
+      "defaultValue": "[보자기] 랑드샤 베스트 티 4종 세트",
+      "tag": "p",
+      "index": 171
+    },
+    {
+      "name": "text_172",
+      "type": "text",
+      "defaultValue": "49,500원",
+      "tag": "span",
+      "index": 172
+    },
+    {
+      "name": "text_173",
+      "type": "text",
+      "defaultValue": "말차 티푸드 와플 기프트 셀렉션",
+      "tag": "p",
+      "index": 173
+    },
+    {
+      "name": "text_174",
+      "type": "text",
+      "defaultValue": "20%",
+      "tag": "span",
+      "index": 174
+    },
+    {
+      "name": "text_175",
+      "type": "text",
+      "defaultValue": "38,400원",
+      "tag": "span",
+      "index": 175
+    },
+    {
+      "name": "text_176",
+      "type": "text",
+      "defaultValue": "NEW",
+      "tag": "span",
+      "index": 176
+    },
+    {
+      "name": "text_177",
+      "type": "text",
+      "defaultValue": "[무자기] 티 컵 세트",
+      "tag": "p",
+      "index": 177
+    },
+    {
+      "name": "text_178",
+      "type": "text",
+      "defaultValue": "10%",
+      "tag": "span",
+      "index": 178
+    },
+    {
+      "name": "text_179",
+      "type": "text",
+      "defaultValue": "27,000원",
+      "tag": "span",
+      "index": 179
+    },
+    {
+      "name": "text_180",
+      "type": "text",
+      "defaultValue": "프리미엄 말차",
+      "tag": "p",
+      "index": 180
+    },
+    {
+      "name": "text_181",
+      "type": "text",
+      "defaultValue": "20%",
+      "tag": "span",
+      "index": 181
+    },
+    {
+      "name": "text_182",
+      "type": "text",
+      "defaultValue": "18,400원",
+      "tag": "span",
+      "index": 182
+    },
+    {
+      "name": "text_183",
+      "type": "text",
+      "defaultValue": "화이트데이에 달콤하게 마음을 전하세요💘",
+      "tag": "p",
+      "index": 183
+    },
+    {
+      "name": "text_184",
+      "type": "text",
+      "defaultValue": "베스트&신상 기프트 셀렉션",
+      "tag": "p",
+      "index": 184
+    },
+    {
+      "name": "text_185",
+      "type": "text",
+      "defaultValue": "58,500원",
+      "tag": "span",
+      "index": 185
+    },
+    {
+      "name": "text_186",
+      "type": "text",
+      "defaultValue": "장바구니 담기",
+      "tag": "button",
+      "index": 186
+    },
+    {
+      "name": "text_187",
+      "type": "text",
+      "defaultValue": "장바구니 담기",
+      "tag": "span",
+      "index": 187
+    },
+    {
+      "name": "text_188",
+      "type": "text",
+      "defaultValue": "말차 티푸드 웨하스 기프트 셀렉션",
+      "tag": "p",
+      "index": 188
+    },
+    {
+      "name": "text_189",
+      "type": "text",
+      "defaultValue": "20%",
+      "tag": "span",
+      "index": 189
+    },
+    {
+      "name": "text_190",
+      "type": "text",
+      "defaultValue": "28,800원",
+      "tag": "span",
+      "index": 190
+    },
+    {
+      "name": "text_191",
+      "type": "text",
+      "defaultValue": "장바구니 담기",
+      "tag": "button",
+      "index": 191
+    },
+    {
+      "name": "text_192",
+      "type": "text",
+      "defaultValue": "장바구니 담기",
+      "tag": "span",
+      "index": 192
+    },
+    {
+      "name": "text_193",
+      "type": "text",
+      "defaultValue": "말차 티푸드 와플 기프트 셀렉션",
+      "tag": "p",
+      "index": 193
+    },
+    {
+      "name": "text_194",
+      "type": "text",
+      "defaultValue": "20%",
+      "tag": "span",
+      "index": 194
+    },
+    {
+      "name": "text_195",
+      "type": "text",
+      "defaultValue": "38,400원",
+      "tag": "span",
+      "index": 195
+    },
+    {
+      "name": "text_196",
+      "type": "text",
+      "defaultValue": "장바구니 담기",
+      "tag": "button",
+      "index": 196
+    },
+    {
+      "name": "text_197",
+      "type": "text",
+      "defaultValue": "장바구니 담기",
+      "tag": "span",
+      "index": 197
+    },
+    {
+      "name": "text_198",
+      "type": "text",
+      "defaultValue": "그린티 랑드샤&비스킷 세트",
+      "tag": "p",
+      "index": 198
+    },
+    {
+      "name": "text_199",
+      "type": "text",
+      "defaultValue": "20%",
+      "tag": "span",
+      "index": 199
+    },
+    {
+      "name": "text_200",
+      "type": "text",
+      "defaultValue": "22,400원",
+      "tag": "span",
+      "index": 200
+    },
+    {
+      "name": "text_201",
+      "type": "text",
+      "defaultValue": "장바구니 담기",
+      "tag": "button",
+      "index": 201
+    },
+    {
+      "name": "text_202",
+      "type": "text",
+      "defaultValue": "장바구니 담기",
+      "tag": "span",
+      "index": 202
+    },
+    {
+      "name": "text_203",
+      "type": "text",
+      "defaultValue": "[무자기] 티 컵 & 달빛걷기 기프트",
+      "tag": "p",
+      "index": 203
+    },
+    {
+      "name": "text_204",
+      "type": "text",
+      "defaultValue": "15%",
+      "tag": "span",
+      "index": 204
+    },
+    {
+      "name": "text_205",
+      "type": "text",
+      "defaultValue": "39,525원",
+      "tag": "span",
+      "index": 205
+    },
+    {
+      "name": "text_206",
+      "type": "text",
+      "defaultValue": "장바구니 담기",
+      "tag": "button",
+      "index": 206
+    },
+    {
+      "name": "text_207",
+      "type": "text",
+      "defaultValue": "장바구니 담기",
+      "tag": "span",
+      "index": 207
+    },
+    {
+      "name": "text_208",
+      "type": "text",
+      "defaultValue": "[무자기] 동백꽃 플레이트 세트",
+      "tag": "p",
+      "index": 208
+    },
+    {
+      "name": "text_209",
+      "type": "text",
+      "defaultValue": "10%",
+      "tag": "span",
+      "index": 209
+    },
+    {
+      "name": "text_210",
+      "type": "text",
+      "defaultValue": "37,800원",
+      "tag": "span",
+      "index": 210
+    },
+    {
+      "name": "text_211",
+      "type": "text",
+      "defaultValue": "장바구니 담기",
+      "tag": "button",
+      "index": 211
+    },
+    {
+      "name": "text_212",
+      "type": "text",
+      "defaultValue": "장바구니 담기",
+      "tag": "span",
+      "index": 212
+    },
+    {
+      "name": "text_213",
+      "type": "text",
+      "defaultValue": "[무자기] 제주 플레이트 & 픽 세트",
+      "tag": "p",
+      "index": 213
+    },
+    {
+      "name": "text_214",
+      "type": "text",
+      "defaultValue": "15%",
+      "tag": "span",
+      "index": 214
+    },
+    {
+      "name": "text_215",
+      "type": "text",
+      "defaultValue": "21,250원",
+      "tag": "span",
+      "index": 215
+    },
+    {
+      "name": "text_216",
+      "type": "text",
+      "defaultValue": "장바구니 담기",
+      "tag": "button",
+      "index": 216
+    },
+    {
+      "name": "text_217",
+      "type": "text",
+      "defaultValue": "장바구니 담기",
+      "tag": "span",
+      "index": 217
+    },
+    {
+      "name": "text_218",
+      "type": "text",
+      "defaultValue": "[무자기] 티 컵 세트",
+      "tag": "p",
+      "index": 218
+    },
+    {
+      "name": "text_219",
+      "type": "text",
+      "defaultValue": "10%",
+      "tag": "span",
+      "index": 219
+    },
+    {
+      "name": "text_220",
+      "type": "text",
+      "defaultValue": "27,000원",
+      "tag": "span",
+      "index": 220
+    },
+    {
+      "name": "text_221",
+      "type": "text",
+      "defaultValue": "장바구니 담기",
+      "tag": "button",
+      "index": 221
+    },
+    {
+      "name": "text_222",
+      "type": "text",
+      "defaultValue": "장바구니 담기",
+      "tag": "span",
+      "index": 222
+    },
+    {
+      "name": "text_223",
+      "type": "text",
+      "defaultValue": "WEEKLY ISSUE PICK",
+      "tag": "h3",
+      "index": 223
+    },
+    {
+      "name": "text_224",
+      "type": "text",
+      "defaultValue": "화이트데이 필승템으로 달콤하게 마음을 전하세요",
+      "tag": "p",
+      "index": 224
+    },
+    {
+      "name": "text_225",
+      "type": "text",
+      "defaultValue": "화이트데이 필승템으로 달콤하게 마음을 전하세요",
+      "tag": "h3",
+      "index": 225
+    },
+    {
+      "name": "text_226",
+      "type": "text",
+      "defaultValue": "상큼 딸기&스윗 초콜릿",
+      "tag": "p",
+      "index": 226
+    },
+    {
+      "name": "text_227",
+      "type": "text",
+      "defaultValue": "20%",
+      "tag": "span",
+      "index": 227
+    },
+    {
+      "name": "text_228",
+      "type": "text",
+      "defaultValue": "28,000원",
+      "tag": "span",
+      "index": 228
+    },
+    {
+      "name": "text_229",
+      "type": "text",
+      "defaultValue": "OSULLOC NOW",
+      "tag": "h3",
+      "index": 229
+    },
+    {
+      "name": "text_230",
+      "type": "text",
+      "defaultValue": "이달의 베스트 리뷰",
+      "tag": "h3",
+      "index": 230
+    },
+    {
+      "name": "text_231",
+      "type": "text",
+      "defaultValue": "녹차 밀크 스프레드",
+      "tag": "p",
+      "index": 231
+    },
+    {
+      "name": "text_232",
+      "type": "text",
+      "defaultValue": "EXPLORE OUR STORES",
+      "tag": "p",
+      "index": 232
+    },
+    {
+      "name": "text_233",
+      "type": "text",
+      "defaultValue": "오설록 매장 소개 목록 페이지로 이동전체 보기",
+      "tag": "a",
+      "index": 233
+    },
+    {
+      "name": "text_234",
+      "type": "text",
+      "defaultValue": "오설록 매장 소개 목록 페이지로 이동",
+      "tag": "span",
+      "index": 234
+    },
+    {
+      "name": "text_235",
+      "type": "text",
+      "defaultValue": "오설록 1979",
+      "tag": "p",
+      "index": 235
+    },
+    {
+      "name": "text_236",
+      "type": "text",
+      "defaultValue": "제주 오설록 티뮤지엄",
+      "tag": "p",
+      "index": 236
+    },
+    {
+      "name": "text_237",
+      "type": "text",
+      "defaultValue": "티하우스 북촌점",
+      "tag": "p",
+      "index": 237
+    },
+    {
+      "name": "text_238",
+      "type": "text",
+      "defaultValue": "티하우스 용산파크점",
+      "tag": "p",
+      "index": 238
+    },
+    {
+      "name": "text_239",
+      "type": "text",
+      "defaultValue": "티하우스 MMCA",
+      "tag": "p",
+      "index": 239
+    },
+    {
+      "name": "text_240",
+      "type": "text",
+      "defaultValue": "티하우스 해운대점",
+      "tag": "p",
+      "index": 240
+    },
+    {
+      "name": "text_241",
+      "type": "text",
+      "defaultValue": "티하우스 김포공항점",
+      "tag": "p",
+      "index": 241
+    },
+    {
+      "name": "text_242",
+      "type": "text",
+      "defaultValue": "티하우스 인천공항점 (신세계면세점)",
+      "tag": "p",
+      "index": 242
+    },
+    {
+      "name": "text_243",
+      "type": "text",
+      "defaultValue": "BRAND STORY",
+      "tag": "p",
+      "index": 243
+    },
+    {
+      "name": "text_244",
+      "type": "text",
+      "defaultValue": "TEA FROM JEJU ISLAND",
+      "tag": "p",
+      "index": 244
+    },
+    {
+      "name": "text_245",
+      "type": "text",
+      "defaultValue": "페이지 위로 가기",
+      "tag": "button",
+      "index": 245
+    },
+    {
+      "name": "text_246",
+      "type": "text",
+      "defaultValue": "페이지 위로 가기",
+      "tag": "span",
+      "index": 246
+    },
+    {
+      "name": "text_247",
+      "type": "text",
+      "defaultValue": "고객 상담 센터/주문배송 문의",
+      "tag": "h2",
+      "index": 247
+    },
+    {
+      "name": "text_248",
+      "type": "text",
+      "defaultValue": "080-805-5555",
+      "tag": "li",
+      "index": 248
+    },
+    {
+      "name": "text_249",
+      "type": "text",
+      "defaultValue": "help@osulloc.com",
+      "tag": "li",
+      "index": 249
+    },
+    {
+      "name": "text_250",
+      "type": "text",
+      "defaultValue": "help@osulloc.com",
+      "tag": "a",
+      "index": 250
+    },
+    {
+      "name": "text_251",
+      "type": "text",
+      "defaultValue": "평일 09:00 - 18:00",
+      "tag": "li",
+      "index": 251
+    },
+    {
+      "name": "text_252",
+      "type": "text",
+      "defaultValue": "점심 (12:00 - 13:00)",
+      "tag": "li",
+      "index": 252
+    },
+    {
+      "name": "text_253",
+      "type": "text",
+      "defaultValue": "특판 및 대량구매",
+      "tag": "h2",
+      "index": 253
+    },
+    {
+      "name": "text_254",
+      "type": "text",
+      "defaultValue": "mall@osulloc.com",
+      "tag": "li",
+      "index": 254
+    },
+    {
+      "name": "text_255",
+      "type": "text",
+      "defaultValue": "mall@osulloc.com",
+      "tag": "a",
+      "index": 255
+    },
+    {
+      "name": "text_256",
+      "type": "text",
+      "defaultValue": "카카오톡 ID : osullocmall",
+      "tag": "li",
+      "index": 256
+    },
+    {
+      "name": "text_257",
+      "type": "text",
+      "defaultValue": "평일 09:30 - 17:00",
+      "tag": "li",
+      "index": 257
+    },
+    {
+      "name": "text_258",
+      "type": "text",
+      "defaultValue": "점심 (11:30 - 13:00)",
+      "tag": "li",
+      "index": 258
+    },
+    {
+      "name": "text_259",
+      "type": "text",
+      "defaultValue": "회원 혜택",
+      "tag": "h2",
+      "index": 259
+    },
+    {
+      "name": "text_260",
+      "type": "text",
+      "defaultValue": "1:1 문의",
+      "tag": "li",
+      "index": 260
+    },
+    {
+      "name": "text_261",
+      "type": "text",
+      "defaultValue": "1:1 문의",
+      "tag": "a",
+      "index": 261
+    },
+    {
+      "name": "text_262",
+      "type": "text",
+      "defaultValue": "오설록 멤버십 혜택",
+      "tag": "li",
+      "index": 262
+    },
+    {
+      "name": "text_263",
+      "type": "text",
+      "defaultValue": "오설록 멤버십 혜택",
+      "tag": "a",
+      "index": 263
+    },
+    {
+      "name": "text_264",
+      "type": "text",
+      "defaultValue": "뷰티포인트 추후적립",
+      "tag": "li",
+      "index": 264
+    },
+    {
+      "name": "text_265",
+      "type": "text",
+      "defaultValue": "뷰티포인트 추후적립",
+      "tag": "a",
+      "index": 265
+    },
+    {
+      "name": "text_266",
+      "type": "text",
+      "defaultValue": "소셜미디어",
+      "tag": "h2",
+      "index": 266
+    },
+    {
+      "name": "text_267",
+      "type": "text",
+      "defaultValue": "카카오톡 플러스친구",
+      "tag": "li",
+      "index": 267
+    },
+    {
+      "name": "text_268",
+      "type": "text",
+      "defaultValue": "카카오톡 플러스친구",
+      "tag": "a",
+      "index": 268
+    },
+    {
+      "name": "text_269",
+      "type": "text",
+      "defaultValue": "인스타그램",
+      "tag": "li",
+      "index": 269
+    },
+    {
+      "name": "text_270",
+      "type": "text",
+      "defaultValue": "인스타그램",
+      "tag": "a",
+      "index": 270
+    },
+    {
+      "name": "text_271",
+      "type": "text",
+      "defaultValue": "유튜브",
+      "tag": "li",
+      "index": 271
+    },
+    {
+      "name": "text_272",
+      "type": "text",
+      "defaultValue": "유튜브",
+      "tag": "a",
+      "index": 272
+    },
+    {
+      "name": "text_273",
+      "type": "text",
+      "defaultValue": "틱톡",
+      "tag": "li",
+      "index": 273
+    },
+    {
+      "name": "text_274",
+      "type": "text",
+      "defaultValue": "틱톡",
+      "tag": "a",
+      "index": 274
+    },
+    {
+      "name": "text_275",
+      "type": "text",
+      "defaultValue": "X(구 트위터)",
+      "tag": "li",
+      "index": 275
+    },
+    {
+      "name": "text_276",
+      "type": "text",
+      "defaultValue": "X(구 트위터)",
+      "tag": "a",
+      "index": 276
+    },
+    {
+      "name": "text_277",
+      "type": "text",
+      "defaultValue": "LANGUAGE",
+      "tag": "h2",
+      "index": 277
+    },
+    {
+      "name": "text_278",
+      "type": "text",
+      "defaultValue": "KOREAN",
+      "tag": "li",
+      "index": 278
+    },
+    {
+      "name": "text_279",
+      "type": "text",
+      "defaultValue": "KOREAN",
+      "tag": "a",
+      "index": 279
+    },
+    {
+      "name": "text_280",
+      "type": "text",
+      "defaultValue": "ENGLISH",
+      "tag": "li",
+      "index": 280
+    },
+    {
+      "name": "text_281",
+      "type": "text",
+      "defaultValue": "ENGLISH",
+      "tag": "a",
+      "index": 281
+    },
+    {
+      "name": "text_282",
+      "type": "text",
+      "defaultValue": "CHINESE(中文)",
+      "tag": "li",
+      "index": 282
+    },
+    {
+      "name": "text_283",
+      "type": "text",
+      "defaultValue": "CHINESE(中文)",
+      "tag": "a",
+      "index": 283
+    },
+    {
+      "name": "text_284",
+      "type": "text",
+      "defaultValue": "공지사항",
+      "tag": "h2",
+      "index": 284
+    },
+    {
+      "name": "text_285",
+      "type": "text",
+      "defaultValue": "오설록몰 영상정보 처리방침 변경 안내(26.02.12)",
+      "tag": "li",
+      "index": 285
+    },
+    {
+      "name": "text_286",
+      "type": "text",
+      "defaultValue": "오설록몰 영상정보 처리방침 변경 안내(26.02.12)",
+      "tag": "a",
+      "index": 286
+    },
+    {
+      "name": "text_287",
+      "type": "text",
+      "defaultValue": "[공지] 오설록 티 크리에이터 5기 최종 합격자 발표",
+      "tag": "li",
+      "index": 287
+    },
+    {
+      "name": "text_288",
+      "type": "text",
+      "defaultValue": "[공지] 오설록 티 크리에이터 5기 최종 합격자 발표",
+      "tag": "a",
+      "index": 288
+    },
+    {
+      "name": "text_289",
+      "type": "text",
+      "defaultValue": "유료 쇼핑백 가격 인상 안내",
+      "tag": "li",
+      "index": 289
+    },
+    {
+      "name": "text_290",
+      "type": "text",
+      "defaultValue": "유료 쇼핑백 가격 인상 안내",
+      "tag": "a",
+      "index": 290
+    },
+    {
+      "name": "text_291",
+      "type": "text",
+      "defaultValue": "더 보기",
+      "tag": "a",
+      "index": 291
+    },
+    {
+      "name": "text_292",
+      "type": "text",
+      "defaultValue": "회사소개",
+      "tag": "li",
+      "index": 292
+    },
+    {
+      "name": "text_293",
+      "type": "text",
+      "defaultValue": "회사소개",
+      "tag": "a",
+      "index": 293
+    },
+    {
+      "name": "text_294",
+      "type": "text",
+      "defaultValue": "서비스 이용약관",
+      "tag": "li",
+      "index": 294
+    },
+    {
+      "name": "text_295",
+      "type": "text",
+      "defaultValue": "서비스 이용약관",
+      "tag": "a",
+      "index": 295
+    },
+    {
+      "name": "text_296",
+      "type": "text",
+      "defaultValue": "개인정보 처리방침",
+      "tag": "li",
+      "index": 296
+    },
+    {
+      "name": "text_297",
+      "type": "text",
+      "defaultValue": "개인정보 처리방침",
+      "tag": "a",
+      "index": 297
+    },
+    {
+      "name": "text_298",
+      "type": "text",
+      "defaultValue": "영상정보 처리방침",
+      "tag": "li",
+      "index": 298
+    },
+    {
+      "name": "text_299",
+      "type": "text",
+      "defaultValue": "영상정보 처리방침",
+      "tag": "a",
+      "index": 299
+    },
+    {
+      "name": "text_300",
+      "type": "text",
+      "defaultValue": "전자공고",
+      "tag": "li",
+      "index": 300
+    },
+    {
+      "name": "text_301",
+      "type": "text",
+      "defaultValue": "전자공고",
+      "tag": "a",
+      "index": 301
+    },
+    {
+      "name": "text_302",
+      "type": "text",
+      "defaultValue": "AP & 제휴사 임직원 인증",
+      "tag": "li",
+      "index": 302
+    },
+    {
+      "name": "text_303",
+      "type": "text",
+      "defaultValue": "AP & 제휴사 임직원 인증",
+      "tag": "a",
+      "index": 303
+    },
+    {
+      "name": "text_304",
+      "type": "text",
+      "defaultValue": "(주)오설록",
+      "tag": "p",
+      "index": 304
+    },
+    {
+      "name": "text_305",
+      "type": "text",
+      "defaultValue": "대표이사: 서혁제",
+      "tag": "p",
+      "index": 305
+    },
+    {
+      "name": "text_306",
+      "type": "text",
+      "defaultValue": "주소: 제주특별자치도 서귀포시 안덕면 신화역사로 15 (오설록 티뮤지엄)",
+      "tag": "p",
+      "index": 306
+    },
+    {
+      "name": "text_307",
+      "type": "text",
+      "defaultValue": "사업자등록번호: 390-87-01499",
+      "tag": "p",
+      "index": 307
+    },
+    {
+      "name": "text_308",
+      "type": "text",
+      "defaultValue": "통신판매업신고번호: 2024-제주안덕-0075",
+      "tag": "p",
+      "index": 308
+    },
+    {
+      "name": "text_309",
+      "type": "text",
+      "defaultValue": "호스팅제공자: (주)오설록",
+      "tag": "p",
+      "index": 309
+    },
+    {
+      "name": "text_310",
+      "type": "text",
+      "defaultValue": "사업자 정보 확인 >",
+      "tag": "p",
+      "index": 310
+    },
+    {
+      "name": "text_311",
+      "type": "text",
+      "defaultValue": "사업자 정보 확인 >",
+      "tag": "a",
+      "index": 311
+    },
+    {
+      "name": "text_312",
+      "type": "text",
+      "defaultValue": "(주)오설록은 오설록 브랜드를 제외한 입점 브랜드에 대해서는 통신판매중개자이며 통신판매의 당사자가 아닙니다.\n\t\t\t\t\t따라서 입점판매자가 등록한 상품정보 및 거래에 대해서는 책임을 지지 않습니다.",
+      "tag": "p",
+      "index": 312
+    },
+    {
+      "name": "text_313",
+      "type": "text",
+      "defaultValue": "NHN KCP 구매안전(에스크로)서비스",
+      "tag": "h3",
+      "index": 313
+    },
+    {
+      "name": "text_314",
+      "type": "text",
+      "defaultValue": "고객님의 안전거래를 위해 현금 등으로 결제 시\n\t\t\t\t\t\t저희 쇼핑몰에 가입한 NHN KCP의 구매안전서비스를 이용하실 수 있습니다.",
+      "tag": "p",
+      "index": 314
+    },
+    {
+      "name": "text_315",
+      "type": "text",
+      "defaultValue": "공지사항",
+      "tag": "h2",
+      "index": 315
+    },
+    {
+      "name": "text_316",
+      "type": "text",
+      "defaultValue": "유료 쇼핑백 가격 인상 안내",
+      "tag": "li",
+      "index": 316
+    },
+    {
+      "name": "text_317",
+      "type": "text",
+      "defaultValue": "유료 쇼핑백 가격 인상 안내",
+      "tag": "a",
+      "index": 317
+    },
+    {
+      "name": "text_318",
+      "type": "text",
+      "defaultValue": "[공지] 오설록 티 크리에이터 5기 최종 합격자 발표",
+      "tag": "li",
+      "index": 318
+    },
+    {
+      "name": "text_319",
+      "type": "text",
+      "defaultValue": "[공지] 오설록 티 크리에이터 5기 최종 합격자 발표",
+      "tag": "a",
+      "index": 319
+    },
+    {
+      "name": "text_320",
+      "type": "text",
+      "defaultValue": "더보기 >",
+      "tag": "a",
+      "index": 320
+    },
+    {
+      "name": "text_321",
+      "type": "text",
+      "defaultValue": "로그인",
+      "tag": "a",
+      "index": 321
+    },
+    {
+      "name": "text_322",
+      "type": "text",
+      "defaultValue": "고객센터",
+      "tag": "a",
+      "index": 322
+    },
+    {
+      "name": "text_323",
+      "type": "text",
+      "defaultValue": "KOREAN",
+      "tag": "button",
+      "index": 323
+    },
+    {
+      "name": "text_324",
+      "type": "text",
+      "defaultValue": "KOREAN",
+      "tag": "li",
+      "index": 324
+    },
+    {
+      "name": "text_325",
+      "type": "text",
+      "defaultValue": "KOREAN",
+      "tag": "a",
+      "index": 325
+    },
+    {
+      "name": "text_326",
+      "type": "text",
+      "defaultValue": "ENGLISH",
+      "tag": "li",
+      "index": 326
+    },
+    {
+      "name": "text_327",
+      "type": "text",
+      "defaultValue": "ENGLISH",
+      "tag": "a",
+      "index": 327
+    },
+    {
+      "name": "text_328",
+      "type": "text",
+      "defaultValue": "CHINESE(中文)",
+      "tag": "li",
+      "index": 328
+    },
+    {
+      "name": "text_329",
+      "type": "text",
+      "defaultValue": "CHINESE(中文)",
+      "tag": "a",
+      "index": 329
+    },
+    {
+      "name": "text_330",
+      "type": "text",
+      "defaultValue": "회사소개",
+      "tag": "li",
+      "index": 330
+    },
+    {
+      "name": "text_331",
+      "type": "text",
+      "defaultValue": "회사소개",
+      "tag": "a",
+      "index": 331
+    },
+    {
+      "name": "text_332",
+      "type": "text",
+      "defaultValue": "서비스 이용약관",
+      "tag": "li",
+      "index": 332
+    },
+    {
+      "name": "text_333",
+      "type": "text",
+      "defaultValue": "서비스 이용약관",
+      "tag": "a",
+      "index": 333
+    },
+    {
+      "name": "text_334",
+      "type": "text",
+      "defaultValue": "개인정보 처리방침",
+      "tag": "li",
+      "index": 334
+    },
+    {
+      "name": "text_335",
+      "type": "text",
+      "defaultValue": "개인정보 처리방침",
+      "tag": "a",
+      "index": 335
+    },
+    {
+      "name": "text_336",
+      "type": "text",
+      "defaultValue": "전자공고",
+      "tag": "li",
+      "index": 336
+    },
+    {
+      "name": "text_337",
+      "type": "text",
+      "defaultValue": "전자공고",
+      "tag": "a",
+      "index": 337
+    },
+    {
+      "name": "text_338",
+      "type": "text",
+      "defaultValue": "영상정보 처리방침",
+      "tag": "li",
+      "index": 338
+    },
+    {
+      "name": "text_339",
+      "type": "text",
+      "defaultValue": "영상정보 처리방침",
+      "tag": "a",
+      "index": 339
+    },
+    {
+      "name": "text_340",
+      "type": "text",
+      "defaultValue": "AP & 제휴사 임직원 인증",
+      "tag": "li",
+      "index": 340
+    },
+    {
+      "name": "text_341",
+      "type": "text",
+      "defaultValue": "AP & 제휴사 임직원 인증",
+      "tag": "a",
+      "index": 341
+    },
+    {
+      "name": "text_342",
+      "type": "text",
+      "defaultValue": "오설록 사업자 정보 확인",
+      "tag": "button",
+      "index": 342
+    },
+    {
+      "name": "text_343",
+      "type": "text",
+      "defaultValue": "(주)오설록",
+      "tag": "li",
+      "index": 343
+    },
+    {
+      "name": "text_344",
+      "type": "text",
+      "defaultValue": "대표이사: 서혁제",
+      "tag": "li",
+      "index": 344
+    },
+    {
+      "name": "text_345",
+      "type": "text",
+      "defaultValue": "주소: 제주특별자치도 서귀포시 안덕면 신화역사로 15 (오설록 티뮤지엄)",
+      "tag": "li",
+      "index": 345
+    },
+    {
+      "name": "text_346",
+      "type": "text",
+      "defaultValue": "사업자등록번호: 390-87-01499",
+      "tag": "li",
+      "index": 346
+    },
+    {
+      "name": "text_347",
+      "type": "text",
+      "defaultValue": "통신판매업신고번호: 2024-제주안덕-0075",
+      "tag": "li",
+      "index": 347
+    },
+    {
+      "name": "text_348",
+      "type": "text",
+      "defaultValue": "호스팅제공자: (주)오설록",
+      "tag": "li",
+      "index": 348
+    },
+    {
+      "name": "text_349",
+      "type": "text",
+      "defaultValue": "(주)오설록은 오설록 브랜드를 제외한 입점 브랜드에 대해서는 통신판매중개자이며 통신판매의 당사자가 아닙니다.\n\t\t\t\t\t\t\t따라서 입점판매자가 등록한 상품정보 및 거래에 대해서는 책임을 지지 않습니다.",
+      "tag": "li",
+      "index": 349
+    },
+    {
+      "name": "text_350",
+      "type": "text",
+      "defaultValue": "NHN KCP 구매안전(에스크로)서비스\n\t\t\t\t\t\t\t고객님의 안전거래를 위해 현금 등으로 결제 시 저희 쇼핑몰에 가입한 NHN KCP의 구매안전서비스를 이용하실 수 있습니다.",
+      "tag": "li",
+      "index": 350
+    },
+    {
+      "name": "text_351",
+      "type": "text",
+      "defaultValue": "고객 상담 센터/주문배송 문의",
+      "tag": "h2",
+      "index": 351
+    },
+    {
+      "name": "text_352",
+      "type": "text",
+      "defaultValue": "080-805-5555",
+      "tag": "li",
+      "index": 352
+    },
+    {
+      "name": "text_353",
+      "type": "text",
+      "defaultValue": "help@osulloc.com",
+      "tag": "li",
+      "index": 353
+    },
+    {
+      "name": "text_354",
+      "type": "text",
+      "defaultValue": "help@osulloc.com",
+      "tag": "a",
+      "index": 354
+    },
+    {
+      "name": "text_355",
+      "type": "text",
+      "defaultValue": "평일 09:00 - 18:00",
+      "tag": "li",
+      "index": 355
+    },
+    {
+      "name": "text_356",
+      "type": "text",
+      "defaultValue": "(점심 12:00 - 13:00)",
+      "tag": "li",
+      "index": 356
+    },
+    {
+      "name": "text_357",
+      "type": "text",
+      "defaultValue": "특판 및 대량구매",
+      "tag": "h2",
+      "index": 357
+    },
+    {
+      "name": "text_358",
+      "type": "text",
+      "defaultValue": "mall@osulloc.com",
+      "tag": "li",
+      "index": 358
+    },
+    {
+      "name": "text_359",
+      "type": "text",
+      "defaultValue": "mall@osulloc.com",
+      "tag": "a",
+      "index": 359
+    },
+    {
+      "name": "text_360",
+      "type": "text",
+      "defaultValue": "카카오톡 ID : osullocmall",
+      "tag": "li",
+      "index": 360
+    },
+    {
+      "name": "text_361",
+      "type": "text",
+      "defaultValue": "평일 09:30 - 17:00",
+      "tag": "li",
+      "index": 361
+    },
+    {
+      "name": "text_362",
+      "type": "text",
+      "defaultValue": "(점심 11:30 - 13:00)",
+      "tag": "li",
+      "index": 362
+    },
+    {
+      "name": "text_363",
+      "type": "text",
+      "defaultValue": "카카오톡 플러스친구",
+      "tag": "li",
+      "index": 363
+    },
+    {
+      "name": "text_364",
+      "type": "text",
+      "defaultValue": "카카오톡 플러스친구",
+      "tag": "a",
+      "index": 364
+    },
+    {
+      "name": "text_365",
+      "type": "text",
+      "defaultValue": "카카오톡 플러스친구",
+      "tag": "span",
+      "index": 365
+    },
+    {
+      "name": "text_366",
+      "type": "text",
+      "defaultValue": "인스타그램",
+      "tag": "li",
+      "index": 366
+    },
+    {
+      "name": "text_367",
+      "type": "text",
+      "defaultValue": "인스타그램",
+      "tag": "a",
+      "index": 367
+    },
+    {
+      "name": "text_368",
+      "type": "text",
+      "defaultValue": "인스타그램",
+      "tag": "span",
+      "index": 368
+    },
+    {
+      "name": "text_369",
+      "type": "text",
+      "defaultValue": "유튜브",
+      "tag": "li",
+      "index": 369
+    },
+    {
+      "name": "text_370",
+      "type": "text",
+      "defaultValue": "유튜브",
+      "tag": "a",
+      "index": 370
+    },
+    {
+      "name": "text_371",
+      "type": "text",
+      "defaultValue": "유튜브",
+      "tag": "span",
+      "index": 371
+    },
+    {
+      "name": "text_372",
+      "type": "text",
+      "defaultValue": "틱톡",
+      "tag": "li",
+      "index": 372
+    },
+    {
+      "name": "text_373",
+      "type": "text",
+      "defaultValue": "틱톡",
+      "tag": "a",
+      "index": 373
+    },
+    {
+      "name": "text_374",
+      "type": "text",
+      "defaultValue": "틱톡",
+      "tag": "span",
+      "index": 374
+    },
+    {
+      "name": "text_375",
+      "type": "text",
+      "defaultValue": "X(구 트위터)",
+      "tag": "li",
+      "index": 375
+    },
+    {
+      "name": "text_376",
+      "type": "text",
+      "defaultValue": "X(구 트위터)",
+      "tag": "a",
+      "index": 376
+    },
+    {
+      "name": "text_377",
+      "type": "text",
+      "defaultValue": "X(구 트위터)",
+      "tag": "span",
+      "index": 377
+    },
+    {
+      "name": "img_378",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/kr/ko/static/v2/images/common/logo.png",
+      "alt": "오설록",
+      "index": 378
+    },
+    {
+      "name": "img_379",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/upload/kr/ko/adminImage/LY/DM/20260305133657993SW.jpg",
+      "alt": "오설록X무자기 재입고 <br>순백의 티웨어를 만나보세요",
+      "index": 379
+    },
+    {
+      "name": "img_380",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/upload/kr/ko/adminImage/TL/CW/20260305133654994CT.jpg",
+      "alt": "오설록X무자기 재입고 <br>순백의 티웨어를 만나보세요",
+      "index": 380
+    },
+    {
+      "name": "img_381",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/upload/kr/ko/adminImage/ZV/MO/20260223105223925MT.jpg",
+      "alt": "봄과 함께 루틴 재정비! <br> 차 입문 가이드",
+      "index": 381
+    },
+    {
+      "name": "img_382",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/upload/kr/ko/adminImage/VI/KN/20260223105218091LT.jpg",
+      "alt": "봄과 함께 루틴 재정비! <br> 차 입문 가이드",
+      "index": 382
+    },
+    {
+      "name": "img_383",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/upload/kr/ko/adminImage/DE/RL/20260210135244422ZT.jpg",
+      "alt": "봄과 함께 새로운 시작! <br> 졸업&입학 선물 추천",
+      "index": 383
+    },
+    {
+      "name": "img_384",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/upload/kr/ko/adminImage/VG/ZH/20260219144136594YE.jpg",
+      "alt": "봄과 함께 새로운 시작! <br> 졸업&입학 선물 추천",
+      "index": 384
+    },
+    {
+      "name": "img_385",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/upload/kr/ko/adminImage/EW/BO/20260227132702777NP.jpg",
+      "alt": "사랑하는 상대는 어떤 타입인가요? <br>취향별 디저트",
+      "index": 385
+    },
+    {
+      "name": "img_386",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/upload/kr/ko/adminImage/FY/HP/20260227132658771MQ.jpg",
+      "alt": "사랑하는 상대는 어떤 타입인가요? <br>취향별 디저트",
+      "index": 386
+    },
+    {
+      "name": "img_387",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/upload/kr/ko/adminImage/ZM/LG/20260212101930993GP.jpg",
+      "alt": "3월 출석체크",
+      "index": 387
+    },
+    {
+      "name": "img_388",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/upload/kr/ko/adminImage/ON/DZ/20260212101928234RY.jpg",
+      "alt": "3월 출석체크",
+      "index": 388
+    },
+    {
+      "name": "img_389",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/upload/kr/ko/adminImage/PM/MG/1000_20260313101039873ZG.png",
+      "alt": "프리미엄 티 컬렉션 9종 90입",
+      "index": 389
+    },
+    {
+      "name": "img_390",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/upload/kr/ko/adminImage/QC/RY/1000_20251229093805478DS.png",
+      "alt": "[무자기] 티 컵 & 캐모마일 블렌드 기프트",
+      "index": 390
+    },
+    {
+      "name": "img_391",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/upload/kr/ko/adminImage/DG/MF/1000_20251229093609461GG.png",
+      "alt": "[무자기] 티 컵 & 세작 기프트",
+      "index": 391
+    },
+    {
+      "name": "img_392",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/upload/kr/ko/adminImage/OP/RQ/1000_20260114150546074JT.png",
+      "alt": "[한정 보자기] 티 에디션 헤리티지 9종 63입",
+      "index": 392
+    },
+    {
+      "name": "img_393",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/upload/kr/ko/adminImage/TH/GJ/1000_20251229094049888RD.png",
+      "alt": "[무자기] 동백꽃 플레이트 세트",
+      "index": 393
+    },
+    {
+      "name": "img_394",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/upload/kr/ko/adminImage/ZO/UJ/1000_20251229094228627OD.png",
+      "alt": "[무자기] 제주 플레이트 & 픽 세트",
+      "index": 394
+    },
+    {
+      "name": "img_395",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/upload/kr/ko/adminImage/TK/SO/1000_20260213093756354MF.png",
+      "alt": "[보자기] 마스터 블렌드 8종 32입",
+      "index": 395
+    },
+    {
+      "name": "img_396",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/upload/kr/ko/adminImage/JA/QG/1000_20251218093421444LR.png",
+      "alt": "말차 리추얼 기프트 (아이보리)",
+      "index": 396
+    },
+    {
+      "name": "img_397",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/upload/kr/ko/adminImage/ME/UT/1000_20260211155556144OS.png",
+      "alt": "[보자기] 랑드샤 베스트 티 4종 세트",
+      "index": 397
+    },
+    {
+      "name": "img_398",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/upload/kr/ko/adminImage/XJ/WE/1000_20251226114425363SX.png",
+      "alt": "말차 티푸드 와플 기프트 셀렉션",
+      "index": 398
+    },
+    {
+      "name": "img_399",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/upload/kr/ko/adminImage/CC/KD/1000_20251229093940708YR.png",
+      "alt": "[무자기] 티 컵 세트",
+      "index": 399
+    },
+    {
+      "name": "img_400",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/upload/kr/ko/adminImage/PJ/FM/1000_20250306133707680KQ.png",
+      "alt": "프리미엄 말차",
+      "index": 400
+    },
+    {
+      "name": "img_401",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/upload/kr/ko/adminImage/LB/PO/20260227155039702IO.jpg",
+      "alt": "화이트데이에 달콤하게 마음을 전하세요💘",
+      "index": 401
+    },
+    {
+      "name": "img_402",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/upload/kr/ko/adminImage/BT/YO/20260227155038130CV.png",
+      "alt": "화이트데이에 달콤하게 마음을 전하세요💘",
+      "index": 402
+    },
+    {
+      "name": "img_403",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/upload/kr/ko/adminImage/KC/GB/1000_20251226114054252TV.png",
+      "alt": "베스트&신상 기프트 셀렉션",
+      "index": 403
+    },
+    {
+      "name": "img_404",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/upload/kr/ko/adminImage/HK/TZ/1000_20260112150857339DF.png",
+      "alt": "말차 티푸드 웨하스 기프트 셀렉션",
+      "index": 404
+    },
+    {
+      "name": "img_405",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/upload/kr/ko/adminImage/XJ/WE/1000_20251226114425363SX.png",
+      "alt": "말차 티푸드 와플 기프트 셀렉션",
+      "index": 405
+    },
+    {
+      "name": "img_406",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/upload/kr/ko/adminImage/XO/MO/1000_20241213190045138OV.png",
+      "alt": "그린티 랑드샤&비스킷 세트",
+      "index": 406
+    },
+    {
+      "name": "img_407",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/upload/kr/ko/adminImage/KH/YT/1000_20251229093733179LS.png",
+      "alt": "[무자기] 티 컵 & 달빛걷기 기프트",
+      "index": 407
+    },
+    {
+      "name": "img_408",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/upload/kr/ko/adminImage/TH/GJ/1000_20251229094049888RD.png",
+      "alt": "[무자기] 동백꽃 플레이트 세트",
+      "index": 408
+    },
+    {
+      "name": "img_409",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/upload/kr/ko/adminImage/ZO/UJ/1000_20251229094228627OD.png",
+      "alt": "[무자기] 제주 플레이트 & 픽 세트",
+      "index": 409
+    },
+    {
+      "name": "img_410",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/upload/kr/ko/adminImage/CC/KD/1000_20251229093940708YR.png",
+      "alt": "[무자기] 티 컵 세트",
+      "index": 410
+    },
+    {
+      "name": "img_411",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/upload/kr/ko/adminImage/ZP/IZ/20260227110316369CC.jpg ",
+      "alt": "오늘만 이 가격",
+      "index": 411
+    },
+    {
+      "name": "img_412",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/upload/kr/ko/adminImage/EU/HW/20260227110313953RU.jpg ",
+      "alt": "오늘만 이 가격",
+      "index": 412
+    },
+    {
+      "name": "img_413",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/upload/kr/ko/adminImage/RK/GE/20260227095837866EX.jpg ",
+      "alt": "OSULLOC NOW",
+      "index": 413
+    },
+    {
+      "name": "img_414",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/upload/kr/ko/adminImage/FM/AX/20260227100325279WD.jpg",
+      "alt": "OSULLOC NOW",
+      "index": 414
+    },
+    {
+      "name": "img_415",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/kr/ko/static/v2/images/main/teahouse_1979_m.jpg",
+      "alt": "오설록 1979",
+      "index": 415
+    },
+    {
+      "name": "img_416",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/kr/ko/static/v2/images/main/teahouse_1979.jpg",
+      "alt": "오설록 1979",
+      "index": 416
+    },
+    {
+      "name": "img_417",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/kr/ko/static/v2/images/main/teahouse_jeju_m.jpg",
+      "alt": "제주 오설록 티뮤지엄",
+      "index": 417
+    },
+    {
+      "name": "img_418",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/kr/ko/static/v2/images/main/teahouse_jeju.jpg",
+      "alt": "제주 오설록 티뮤지엄",
+      "index": 418
+    },
+    {
+      "name": "img_419",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/kr/ko/static/v2/images/main/teahouse_bukchon_m.jpg",
+      "alt": "티하우스 북촌점",
+      "index": 419
+    },
+    {
+      "name": "img_420",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/kr/ko/static/v2/images/main/teahouse_bukchon.jpg",
+      "alt": "티하우스 북촌점",
+      "index": 420
+    },
+    {
+      "name": "img_421",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/kr/ko/static/v2/images/main/teahouse_yongsan_m.jpg",
+      "alt": "티하우스 용산파크점",
+      "index": 421
+    },
+    {
+      "name": "img_422",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/kr/ko/static/v2/images/main/teahouse_yongsan.jpg",
+      "alt": "티하우스 용산파크점",
+      "index": 422
+    },
+    {
+      "name": "img_423",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/kr/ko/static/v2/images/main/teahouse_mmca_m.jpg",
+      "alt": "티하우스 MMCA",
+      "index": 423
+    },
+    {
+      "name": "img_424",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/kr/ko/static/v2/images/main/teahouse_mmca.jpg",
+      "alt": "티하우스 MMCA",
+      "index": 424
+    },
+    {
+      "name": "img_425",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/kr/ko/static/v2/images/main/teahouse_haeundae_m.jpg",
+      "alt": "티하우스 해운대점",
+      "index": 425
+    },
+    {
+      "name": "img_426",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/kr/ko/static/v2/images/main/teahouse_haeundae.jpg",
+      "alt": "티하우스 해운대점",
+      "index": 426
+    },
+    {
+      "name": "img_427",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/kr/ko/static/v2/images/main/teahouse_gimpo_m.jpg",
+      "alt": "티하우스 김포공항점",
+      "index": 427
+    },
+    {
+      "name": "img_428",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/kr/ko/static/v2/images/main/teahouse_gimpo.jpg",
+      "alt": "티하우스 김포공항점",
+      "index": 428
+    },
+    {
+      "name": "img_429",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/kr/ko/static/v2/images/main/teahouse_incheon_m.jpg",
+      "alt": "티하우스 인천공항점 (신세계면세점)",
+      "index": 429
+    },
+    {
+      "name": "img_430",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/kr/ko/static/v2/images/main/teahouse_incheon.jpg",
+      "alt": "티하우스 인천공항점 (신세계면세점)",
+      "index": 430
+    },
+    {
+      "name": "img_431",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/kr/ko/static/v2/images/main/main_brand_m.jpg?ver=241212",
+      "alt": "TEA FROM JEJU ISLAND",
+      "index": 431
+    },
+    {
+      "name": "img_432",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/kr/ko/static/v2/images/main/main_brand.jpg",
+      "alt": "TEA FROM JEJU ISLAND",
+      "index": 432
+    },
+    {
+      "name": "img_433",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/kr/ko/static/v2/images/common/logo_footer.png",
+      "alt": "오설록",
+      "index": 433
+    },
+    {
+      "name": "img_434",
+      "type": "image",
+      "defaultValue": "https://image.osulloc.com/kr/ko/static/v2/images/common/icon_escrow.png",
+      "alt": "에스크로 가입사실 확인",
+      "index": 434
+    },
+    {
+      "name": "link_435",
+      "type": "link",
+      "defaultValue": "https://brand.naver.com/osulloc",
+      "text": "",
+      "index": 435
+    },
+    {
+      "name": "link_436",
+      "type": "link",
+      "defaultValue": "https://www.instagram.com/osulloc_official/",
+      "text": "",
+      "index": 436
+    },
+    {
+      "name": "link_437",
+      "type": "link",
+      "defaultValue": "https://www.youtube.com/channel/UC27q_WWuOkdyNIr7M_6trvA",
+      "text": "",
+      "index": 437
+    },
+    {
+      "name": "link_438",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/shop/item/list?category=bakery&line=178",
+      "text": "3월 봄맞이 3주간 베이커리 할인☆",
+      "index": 438
+    },
+    {
+      "name": "link_439",
+      "type": "link",
+      "defaultValue": "#container",
+      "text": "본문 바로가기",
+      "index": 439
+    },
+    {
+      "name": "link_440",
+      "type": "link",
+      "defaultValue": "#gnb",
+      "text": "주메뉴 바로가기",
+      "index": 440
+    },
+    {
+      "name": "link_441",
+      "type": "link",
+      "defaultValue": "/kr/ko",
+      "text": "",
+      "index": 441
+    },
+    {
+      "name": "link_442",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/shop/item/list",
+      "text": "제품",
+      "index": 442
+    },
+    {
+      "name": "link_443",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/shop/item/list?category=teashop",
+      "text": "티 제품",
+      "index": 443
+    },
+    {
+      "name": "link_444",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/shop/item/list/best/sale",
+      "text": "베스트",
+      "index": 444
+    },
+    {
+      "name": "link_445",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/shop/item/list?category=teashop&line=198",
+      "text": "티 세트",
+      "index": 445
+    },
+    {
+      "name": "link_446",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/shop/item/list?category=teashop&line=197",
+      "text": "녹차",
+      "index": 446
+    },
+    {
+      "name": "link_447",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/shop/item/list?category=teashop&line=249",
+      "text": "발효차/홍차",
+      "index": 447
+    },
+    {
+      "name": "link_448",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/shop/item/list?category=teashop&line=196",
+      "text": "블렌디드티",
+      "index": 448
+    },
+    {
+      "name": "link_449",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/shop/item/list?category=teashop&line=195",
+      "text": "허브티",
+      "index": 449
+    },
+    {
+      "name": "link_450",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/shop/item/list?category=teashop&cate=matcha_milk",
+      "text": "말차/밀크티",
+      "index": 450
+    },
+    {
+      "name": "link_451",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/shop/item/list?category=teashop&cate=kom_coldbrew",
+      "text": "콤부차/콜드브루 티",
+      "index": 451
+    },
+    {
+      "name": "link_452",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/shop/item/list?category=bakery",
+      "text": "티푸드",
+      "index": 452
+    },
+    {
+      "name": "link_453",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/shop/item/list?category=bakery&line=174",
+      "text": "과자/초콜릿",
+      "index": 453
+    },
+    {
+      "name": "link_454",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/shop/item/list?category=bakery&line=178",
+      "text": "베이커리",
+      "index": 454
+    },
+    {
+      "name": "link_455",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/shop/item/list?category=themashop",
+      "text": "라이프스타일",
+      "index": 455
+    },
+    {
+      "name": "link_456",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/shop/teawareshop",
+      "text": "티웨어",
+      "index": 456
+    },
+    {
+      "name": "link_457",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/shop/item/list?category=themashop&line=202",
+      "text": "스킨케어",
+      "index": 457
+    },
+    {
+      "name": "link_458",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/shop/item/list?category=teashop&line=228",
+      "text": "정기배송",
+      "index": 458
+    },
+    {
+      "name": "link_459",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/shop/item/gift_new",
+      "text": "기프트",
+      "index": 459
+    },
+    {
+      "name": "link_460",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/magazine",
+      "text": "티 라이프",
+      "index": 460
+    },
+    {
+      "name": "link_461",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/magazine",
+      "text": "오설록 매거진",
+      "index": 461
+    },
+    {
+      "name": "link_462",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/brandstory",
+      "text": "오설록 헤리티지",
+      "index": 462
+    },
+    {
+      "name": "link_463",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/store-introduction/2",
+      "text": "제주 티뮤지엄",
+      "index": 463
+    },
+    {
+      "name": "link_464",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/store-introduction",
+      "text": "티샵과 티하우스",
+      "index": 464
+    },
+    {
+      "name": "link_465",
+      "type": "link",
+      "defaultValue": "https://osulloc.biz/",
+      "text": "단체 및 기업 구매",
+      "index": 465
+    },
+    {
+      "name": "link_466",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/shop/cart",
+      "text": "",
+      "index": 466
+    },
+    {
+      "name": "link_467",
+      "type": "link",
+      "defaultValue": "/kr/ko/life/event/list/ing",
+      "text": "이벤트",
+      "index": 467
+    },
+    {
+      "name": "link_468",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/login?r=https://www.osulloc.com/",
+      "text": "로그인",
+      "index": 468
+    },
+    {
+      "name": "link_469",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/login?r=https://www.osulloc.com/",
+      "text": "로그인",
+      "index": 469
+    },
+    {
+      "name": "link_470",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/shop/item/list",
+      "text": "제품",
+      "index": 470
+    },
+    {
+      "name": "link_471",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/shop/item/list?category=teashop",
+      "text": "티 제품",
+      "index": 471
+    },
+    {
+      "name": "link_472",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/shop/item/list?category=bakery",
+      "text": "티푸드",
+      "index": 472
+    },
+    {
+      "name": "link_473",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/shop/item/list?category=themashop",
+      "text": "라이프스타일",
+      "index": 473
+    },
+    {
+      "name": "link_474",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/shop/item/gift_new",
+      "text": "기프트",
+      "index": 474
+    },
+    {
+      "name": "link_475",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/magazine",
+      "text": "티 라이프",
+      "index": 475
+    },
+    {
+      "name": "link_476",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/magazine",
+      "text": "오설록 매거진",
+      "index": 476
+    },
+    {
+      "name": "link_477",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/brandstory",
+      "text": "오설록 헤리티지",
+      "index": 477
+    },
+    {
+      "name": "link_478",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/store-introduction/2",
+      "text": "제주 티뮤지엄",
+      "index": 478
+    },
+    {
+      "name": "link_479",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/store-introduction",
+      "text": "티샵과 티하우스",
+      "index": 479
+    },
+    {
+      "name": "link_480",
+      "type": "link",
+      "defaultValue": "https://osulloc.biz/",
+      "text": "단체 및 기업 구매",
+      "index": 480
+    },
+    {
+      "name": "link_481",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/store-introduction",
+      "text": "매장찾기",
+      "index": 481
+    },
+    {
+      "name": "link_482",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/cs/notice",
+      "text": "공지사항",
+      "index": 482
+    },
+    {
+      "name": "link_483",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/cs",
+      "text": "고객센터",
+      "index": 483
+    },
+    {
+      "name": "link_484",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/login?r=https://www.osulloc.com/kr/ko/beautypoint/credit",
+      "text": "뷰티포인트 추후 적립",
+      "index": 484
+    },
+    {
+      "name": "link_485",
+      "type": "link",
+      "defaultValue": "/kr/ko/life/event/view/12331",
+      "text": "03.05 - 05.31\n\t\t\t\t\t\t\t\t\t오설록X무자기 재입고순백의 티웨어를 만나보세요\n\t",
+      "index": 485
+    },
+    {
+      "name": "link_486",
+      "type": "link",
+      "defaultValue": "/kr/ko/life/event/view/12325",
+      "text": "03.01 - 05.31\n\t\t\t\t\t\t\t\t\t봄과 함께 루틴 재정비!차 입문 가이드\n\t\t\t\t\t",
+      "index": 486
+    },
+    {
+      "name": "link_487",
+      "type": "link",
+      "defaultValue": "/kr/ko/life/event/view/12323",
+      "text": "02.19 - 03.15\n\t\t\t\t\t\t\t\t\t봄과 함께 새로운 시작!졸업&입학 선물 추천\n\t\t",
+      "index": 487
+    },
+    {
+      "name": "link_488",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/magazine/teainside/8",
+      "text": "03.01 - 03.31\n\t\t\t\t\t\t\t\t\t사랑하는 상대는 어떤 타입인가요?취향별 디저트\n\t",
+      "index": 488
+    },
+    {
+      "name": "link_489",
+      "type": "link",
+      "defaultValue": "/kr/ko/life/event/view/12324",
+      "text": "03.01 - 03.31\n\t\t\t\t\t\t\t\t\t3월 출석체크\n\t\t\t\t\t\t\t\t\t출첵만으로 얻을 수",
+      "index": 489
+    },
+    {
+      "name": "link_490",
+      "type": "link",
+      "defaultValue": "/kr/ko/shop/item/list/best/sale",
+      "text": "BEST 상품 목록으로 이동전체 보기",
+      "index": 490
+    },
+    {
+      "name": "link_491",
+      "type": "link",
+      "defaultValue": "/kr/ko/shop/item/teashop/16045",
+      "text": "",
+      "index": 491
+    },
+    {
+      "name": "link_492",
+      "type": "link",
+      "defaultValue": "/kr/ko/shop/item/teashop/16045",
+      "text": "프리미엄 티 컬렉션 9종 90입\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t",
+      "index": 492
+    },
+    {
+      "name": "link_493",
+      "type": "link",
+      "defaultValue": "/kr/ko/shop/item/themashop/22055",
+      "text": "",
+      "index": 493
+    },
+    {
+      "name": "link_494",
+      "type": "link",
+      "defaultValue": "/kr/ko/shop/item/themashop/22055",
+      "text": "[무자기] 티 컵 & 캐모마일 블렌드 기프트\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t",
+      "index": 494
+    },
+    {
+      "name": "link_495",
+      "type": "link",
+      "defaultValue": "/kr/ko/shop/item/themashop/22057",
+      "text": "",
+      "index": 495
+    },
+    {
+      "name": "link_496",
+      "type": "link",
+      "defaultValue": "/kr/ko/shop/item/themashop/22057",
+      "text": "[무자기] 티 컵 & 세작 기프트\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t",
+      "index": 496
+    },
+    {
+      "name": "link_497",
+      "type": "link",
+      "defaultValue": "/kr/ko/shop/item/teashop/22042",
+      "text": "",
+      "index": 497
+    },
+    {
+      "name": "link_498",
+      "type": "link",
+      "defaultValue": "/kr/ko/shop/item/teashop/22042",
+      "text": "[한정 보자기] 티 에디션 헤리티지 9종 63입\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t",
+      "index": 498
+    },
+    {
+      "name": "link_499",
+      "type": "link",
+      "defaultValue": "/kr/ko/shop/item/themashop/22054",
+      "text": "",
+      "index": 499
+    },
+    {
+      "name": "link_500",
+      "type": "link",
+      "defaultValue": "/kr/ko/shop/item/themashop/22054",
+      "text": "[무자기] 동백꽃 플레이트 세트\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t",
+      "index": 500
+    },
+    {
+      "name": "link_501",
+      "type": "link",
+      "defaultValue": "/kr/ko/shop/item/themashop/22053",
+      "text": "",
+      "index": 501
+    },
+    {
+      "name": "link_502",
+      "type": "link",
+      "defaultValue": "/kr/ko/shop/item/themashop/22053",
+      "text": "[무자기] 제주 플레이트 & 픽 세트\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t",
+      "index": 502
+    },
+    {
+      "name": "link_503",
+      "type": "link",
+      "defaultValue": "/kr/ko/shop/item/teashop/21782",
+      "text": "",
+      "index": 503
+    },
+    {
+      "name": "link_504",
+      "type": "link",
+      "defaultValue": "/kr/ko/shop/item/teashop/21782",
+      "text": "[보자기] 마스터 블렌드 8종 32입\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t",
+      "index": 504
+    },
+    {
+      "name": "link_505",
+      "type": "link",
+      "defaultValue": "/kr/ko/shop/item/teashop/22049",
+      "text": "",
+      "index": 505
+    },
+    {
+      "name": "link_506",
+      "type": "link",
+      "defaultValue": "/kr/ko/shop/item/teashop/22049",
+      "text": "말차 리추얼 기프트 (아이보리)\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t",
+      "index": 506
+    },
+    {
+      "name": "link_507",
+      "type": "link",
+      "defaultValue": "/kr/ko/shop/item/teashop/21785",
+      "text": "",
+      "index": 507
+    },
+    {
+      "name": "link_508",
+      "type": "link",
+      "defaultValue": "/kr/ko/shop/item/teashop/21785",
+      "text": "[보자기] 랑드샤 베스트 티 4종 세트\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t",
+      "index": 508
+    },
+    {
+      "name": "link_509",
+      "type": "link",
+      "defaultValue": "/kr/ko/shop/item/bakery/22048",
+      "text": "",
+      "index": 509
+    },
+    {
+      "name": "link_510",
+      "type": "link",
+      "defaultValue": "/kr/ko/shop/item/bakery/22048",
+      "text": "말차 티푸드 와플 기프트 셀렉션\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t",
+      "index": 510
+    },
+    {
+      "name": "link_511",
+      "type": "link",
+      "defaultValue": "/kr/ko/shop/item/themashop/22052",
+      "text": "",
+      "index": 511
+    },
+    {
+      "name": "link_512",
+      "type": "link",
+      "defaultValue": "/kr/ko/shop/item/themashop/22052",
+      "text": "[무자기] 티 컵 세트\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t",
+      "index": 512
+    },
+    {
+      "name": "link_513",
+      "type": "link",
+      "defaultValue": "/kr/ko/shop/item/teashop/17003",
+      "text": "",
+      "index": 513
+    },
+    {
+      "name": "link_514",
+      "type": "link",
+      "defaultValue": "/kr/ko/shop/item/teashop/17003",
+      "text": "프리미엄 말차\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n",
+      "index": 514
+    },
+    {
+      "name": "link_515",
+      "type": "link",
+      "defaultValue": "/kr/ko/shop/item/teashop/22045",
+      "text": "",
+      "index": 515
+    },
+    {
+      "name": "link_516",
+      "type": "link",
+      "defaultValue": "/kr/ko/shop/item/teashop/22045",
+      "text": "베스트&신상 기프트 셀렉션\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t",
+      "index": 516
+    },
+    {
+      "name": "link_517",
+      "type": "link",
+      "defaultValue": "/kr/ko/shop/item/bakery/22066",
+      "text": "",
+      "index": 517
+    },
+    {
+      "name": "link_518",
+      "type": "link",
+      "defaultValue": "/kr/ko/shop/item/bakery/22066",
+      "text": "말차 티푸드 웨하스 기프트 셀렉션\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t",
+      "index": 518
+    },
+    {
+      "name": "link_519",
+      "type": "link",
+      "defaultValue": "/kr/ko/shop/item/bakery/22048",
+      "text": "",
+      "index": 519
+    },
+    {
+      "name": "link_520",
+      "type": "link",
+      "defaultValue": "/kr/ko/shop/item/bakery/22048",
+      "text": "말차 티푸드 와플 기프트 셀렉션\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t",
+      "index": 520
+    },
+    {
+      "name": "link_521",
+      "type": "link",
+      "defaultValue": "/kr/ko/shop/item/bakery/21501",
+      "text": "",
+      "index": 521
+    },
+    {
+      "name": "link_522",
+      "type": "link",
+      "defaultValue": "/kr/ko/shop/item/bakery/21501",
+      "text": "그린티 랑드샤&비스킷 세트\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t",
+      "index": 522
+    },
+    {
+      "name": "link_523",
+      "type": "link",
+      "defaultValue": "/kr/ko/shop/item/themashop/22056",
+      "text": "",
+      "index": 523
+    },
+    {
+      "name": "link_524",
+      "type": "link",
+      "defaultValue": "/kr/ko/shop/item/themashop/22056",
+      "text": "[무자기] 티 컵 & 달빛걷기 기프트\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n",
+      "index": 524
+    },
+    {
+      "name": "link_525",
+      "type": "link",
+      "defaultValue": "/kr/ko/shop/item/themashop/22054",
+      "text": "",
+      "index": 525
+    },
+    {
+      "name": "link_526",
+      "type": "link",
+      "defaultValue": "/kr/ko/shop/item/themashop/22054",
+      "text": "[무자기] 동백꽃 플레이트 세트\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t",
+      "index": 526
+    },
+    {
+      "name": "link_527",
+      "type": "link",
+      "defaultValue": "/kr/ko/shop/item/themashop/22053",
+      "text": "",
+      "index": 527
+    },
+    {
+      "name": "link_528",
+      "type": "link",
+      "defaultValue": "/kr/ko/shop/item/themashop/22053",
+      "text": "[무자기] 제주 플레이트 & 픽 세트\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n",
+      "index": 528
+    },
+    {
+      "name": "link_529",
+      "type": "link",
+      "defaultValue": "/kr/ko/shop/item/themashop/22052",
+      "text": "",
+      "index": 529
+    },
+    {
+      "name": "link_530",
+      "type": "link",
+      "defaultValue": "/kr/ko/shop/item/themashop/22052",
+      "text": "[무자기] 티 컵 세트\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t",
+      "index": 530
+    },
+    {
+      "name": "link_531",
+      "type": "link",
+      "defaultValue": "/kr/ko/shop/item/bakery/22072",
+      "text": "화이트데이 필승템으로 달콤하게 마음을 전하세요\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t",
+      "index": 531
+    },
+    {
+      "name": "link_532",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/shop/item/teashop/5041#anchor2",
+      "text": "이달의 베스트 리뷰\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t",
+      "index": 532
+    },
+    {
+      "name": "link_533",
+      "type": "link",
+      "defaultValue": "/kr/ko/store-introduction",
+      "text": "오설록 매장 소개 목록 페이지로 이동전체 보기",
+      "index": 533
+    },
+    {
+      "name": "link_534",
+      "type": "link",
+      "defaultValue": "/kr/ko/store-introduction/174",
+      "text": "오설록 1979",
+      "index": 534
+    },
+    {
+      "name": "link_535",
+      "type": "link",
+      "defaultValue": "/kr/ko/store-introduction/2",
+      "text": "제주 오설록 티뮤지엄",
+      "index": 535
+    },
+    {
+      "name": "link_536",
+      "type": "link",
+      "defaultValue": "/kr/ko/store-introduction/312",
+      "text": "티하우스 북촌점",
+      "index": 536
+    },
+    {
+      "name": "link_537",
+      "type": "link",
+      "defaultValue": "/kr/ko/store-introduction/yongsan",
+      "text": "티하우스 용산파크점",
+      "index": 537
+    },
+    {
+      "name": "link_538",
+      "type": "link",
+      "defaultValue": "/kr/ko/store-introduction/mmca",
+      "text": "티하우스 MMCA",
+      "index": 538
+    },
+    {
+      "name": "link_539",
+      "type": "link",
+      "defaultValue": "/kr/ko/store-introduction/haeundae",
+      "text": "티하우스 해운대점",
+      "index": 539
+    },
+    {
+      "name": "link_540",
+      "type": "link",
+      "defaultValue": "/kr/ko/store-introduction/gimpo",
+      "text": "티하우스 김포공항점",
+      "index": 540
+    },
+    {
+      "name": "link_541",
+      "type": "link",
+      "defaultValue": "/kr/ko/store-introduction/incheon",
+      "text": "티하우스 인천공항점 (신세계면세점)",
+      "index": 541
+    },
+    {
+      "name": "link_542",
+      "type": "link",
+      "defaultValue": "/kr/ko/brandstory",
+      "text": "TEA FROM JEJU ISLAND",
+      "index": 542
+    },
+    {
+      "name": "link_543",
+      "type": "link",
+      "defaultValue": "mailto:help@osulloc.com",
+      "text": "help@osulloc.com",
+      "index": 543
+    },
+    {
+      "name": "link_544",
+      "type": "link",
+      "defaultValue": "mailto:mall@osulloc.com",
+      "text": "mall@osulloc.com",
+      "index": 544
+    },
+    {
+      "name": "link_545",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/mypage/qna",
+      "text": "1:1 문의",
+      "index": 545
+    },
+    {
+      "name": "link_546",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/cs/member/benefit",
+      "text": "오설록 멤버십 혜택",
+      "index": 546
+    },
+    {
+      "name": "link_547",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/beautypoint/credit",
+      "text": "뷰티포인트 추후적립",
+      "index": 547
+    },
+    {
+      "name": "link_548",
+      "type": "link",
+      "defaultValue": "https://pf.kakao.com/_iAIau",
+      "text": "카카오톡 플러스친구",
+      "index": 548
+    },
+    {
+      "name": "link_549",
+      "type": "link",
+      "defaultValue": "https://www.instagram.com/osulloc_official/",
+      "text": "인스타그램",
+      "index": 549
+    },
+    {
+      "name": "link_550",
+      "type": "link",
+      "defaultValue": "https://www.youtube.com/channel/UC27q_WWuOkdyNIr7M_6trvA",
+      "text": "유튜브",
+      "index": 550
+    },
+    {
+      "name": "link_551",
+      "type": "link",
+      "defaultValue": "https://www.tiktok.com/@osulloc_official",
+      "text": "틱톡",
+      "index": 551
+    },
+    {
+      "name": "link_552",
+      "type": "link",
+      "defaultValue": "https://twitter.com/osullocofficial",
+      "text": "X(구 트위터)",
+      "index": 552
+    },
+    {
+      "name": "link_553",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko",
+      "text": "KOREAN",
+      "index": 553
+    },
+    {
+      "name": "link_554",
+      "type": "link",
+      "defaultValue": "https://us.osulloc.com",
+      "text": "ENGLISH",
+      "index": 554
+    },
+    {
+      "name": "link_555",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/zh",
+      "text": "CHINESE(中文)",
+      "index": 555
+    },
+    {
+      "name": "link_556",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/cs/notice/news/6363",
+      "text": "오설록몰 영상정보 처리방침 변경 안내(26.02.12)",
+      "index": 556
+    },
+    {
+      "name": "link_557",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/cs/notice/news/6362",
+      "text": "[공지] 오설록 티 크리에이터 5기 최종 합격자 발표",
+      "index": 557
+    },
+    {
+      "name": "link_558",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/cs/notice/news/6361",
+      "text": "유료 쇼핑백 가격 인상 안내",
+      "index": 558
+    },
+    {
+      "name": "link_559",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/cs/notice",
+      "text": "더 보기",
+      "index": 559
+    },
+    {
+      "name": "link_560",
+      "type": "link",
+      "defaultValue": "https://www.apgroup.com/int/ko",
+      "text": "회사소개",
+      "index": 560
+    },
+    {
+      "name": "link_561",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/misc/terms",
+      "text": "서비스 이용약관",
+      "index": 561
+    },
+    {
+      "name": "link_562",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/misc/statement",
+      "text": "개인정보 처리방침",
+      "index": 562
+    },
+    {
+      "name": "link_563",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/misc/procedures",
+      "text": "영상정보 처리방침",
+      "index": 563
+    },
+    {
+      "name": "link_564",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/cs/notice/announce",
+      "text": "전자공고",
+      "index": 564
+    },
+    {
+      "name": "link_565",
+      "type": "link",
+      "defaultValue": "https://www.ftc.go.kr/info/bizinfo/communicationViewPopup.jsp?wrkr_no=3908701499",
+      "text": "사업자 정보 확인 >",
+      "index": 565
+    },
+    {
+      "name": "link_566",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/cs/notice/news/6361",
+      "text": "유료 쇼핑백 가격 인상 안내",
+      "index": 566
+    },
+    {
+      "name": "link_567",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/cs/notice/news/6362",
+      "text": "[공지] 오설록 티 크리에이터 5기 최종 합격자 발표",
+      "index": 567
+    },
+    {
+      "name": "link_568",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/cs/notice",
+      "text": "더보기 >",
+      "index": 568
+    },
+    {
+      "name": "link_569",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/login?r=https://www.osulloc.com/",
+      "text": "로그인",
+      "index": 569
+    },
+    {
+      "name": "link_570",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/cs",
+      "text": "고객센터",
+      "index": 570
+    },
+    {
+      "name": "link_571",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko",
+      "text": "KOREAN",
+      "index": 571
+    },
+    {
+      "name": "link_572",
+      "type": "link",
+      "defaultValue": "https://us.osulloc.com",
+      "text": "ENGLISH",
+      "index": 572
+    },
+    {
+      "name": "link_573",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/zh",
+      "text": "CHINESE(中文)",
+      "index": 573
+    },
+    {
+      "name": "link_574",
+      "type": "link",
+      "defaultValue": "https://www.apgroup.com/int/ko",
+      "text": "회사소개",
+      "index": 574
+    },
+    {
+      "name": "link_575",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/misc/terms",
+      "text": "서비스 이용약관",
+      "index": 575
+    },
+    {
+      "name": "link_576",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/misc/statement",
+      "text": "개인정보 처리방침",
+      "index": 576
+    },
+    {
+      "name": "link_577",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/cs/notice/announce",
+      "text": "전자공고",
+      "index": 577
+    },
+    {
+      "name": "link_578",
+      "type": "link",
+      "defaultValue": "https://www.osulloc.com/kr/ko/misc/procedures",
+      "text": "영상정보 처리방침",
+      "index": 578
+    },
+    {
+      "name": "link_579",
+      "type": "link",
+      "defaultValue": "mailto:help@osulloc.com",
+      "text": "help@osulloc.com",
+      "index": 579
+    },
+    {
+      "name": "link_580",
+      "type": "link",
+      "defaultValue": "mailto:mall@osulloc.com",
+      "text": "mall@osulloc.com",
+      "index": 580
+    },
+    {
+      "name": "link_581",
+      "type": "link",
+      "defaultValue": "https://pf.kakao.com/_iAIau",
+      "text": "카카오톡 플러스친구",
+      "index": 581
+    },
+    {
+      "name": "link_582",
+      "type": "link",
+      "defaultValue": "https://www.instagram.com/osulloc_official/",
+      "text": "인스타그램",
+      "index": 582
+    },
+    {
+      "name": "link_583",
+      "type": "link",
+      "defaultValue": "https://www.youtube.com/channel/UC27q_WWuOkdyNIr7M_6trvA",
+      "text": "유튜브",
+      "index": 583
+    },
+    {
+      "name": "link_584",
+      "type": "link",
+      "defaultValue": "https://www.tiktok.com/@osulloc_official",
+      "text": "틱톡",
+      "index": 584
+    },
+    {
+      "name": "link_585",
+      "type": "link",
+      "defaultValue": "https://twitter.com/osullocofficial",
+      "text": "X(구 트위터)",
+      "index": 585
+    }
+  ]
+}

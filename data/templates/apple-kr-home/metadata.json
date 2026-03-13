@@ -1,0 +1,25 @@
+{
+  "id": "apple-kr-home",
+  "name": "Apple Korea Minimal",
+  "section_type": "full_page",
+  "d1000_principles": [
+    3,
+    11,
+    1,
+    12,
+    20
+  ],
+  "category": "electronics",
+  "source_url": "https://www.apple.com/kr",
+  "ssim_score": 0.9214889741274814,
+  "slot_count": 999,
+  "thumbnail_path": "apple-kr-home/thumbnail.jpg",
+  "tags": [
+    "minimal",
+    "clean",
+    "white",
+    "product-centric",
+    "premium"
+  ],
+  "created_at": "2026-03-13T11:36:50.610768+00:00"
+}
