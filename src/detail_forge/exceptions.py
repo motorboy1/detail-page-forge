@@ -26,8 +26,18 @@ class DetailForgeError(Exception):
     ) -> None:
         super().__init__(message)
         self.message = message
-        self.error_code = error_code
+        self.error_code = error_code or self._derive_error_code()
         self.details: dict[str, Any] = details if details is not None else {}
+
+    @classmethod
+    def _derive_error_code(cls) -> str:
+        """Derive UPPER_SNAKE_CASE error code from class name.
+
+        Example: ProviderTimeoutError -> PROVIDER_TIMEOUT
+        """
+        import re as _re
+        name = cls.__name__.removesuffix("Error")
+        return _re.sub(r"(?<=[a-z0-9])(?=[A-Z])", "_", name).upper()
 
     def __str__(self) -> str:
         if self.error_code:

@@ -32,10 +32,10 @@ class TestDetailForgeError:
         err = DetailForgeError("msg")
         assert err.details == {}
 
-    def test_base_error_code_defaults_to_none(self):
+    def test_base_error_code_auto_derives(self):
         from detail_forge.exceptions import DetailForgeError
         err = DetailForgeError("msg")
-        assert err.error_code is None
+        assert err.error_code == "DETAIL_FORGE"
 
     def test_str_returns_message(self):
         from detail_forge.exceptions import DetailForgeError
