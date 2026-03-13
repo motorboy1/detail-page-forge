@@ -927,6 +927,7 @@ class TestReferenceLibraryWithRealImages:
 
     def test_save_and_reload_index(self, tmp_path):
         import json
+
         from detail_forge.asset_pipeline.reference_library import ReferenceLibrary
 
         # Create images
@@ -1168,6 +1169,7 @@ class TestLectureKnowledgeWithTranscripts:
 
     def test_save_and_reload_from_index(self, tmp_path):
         import json
+
         from detail_forge.asset_pipeline.lecture_knowledge import LectureKnowledge
 
         self._make_transcripts(tmp_path)
@@ -1194,6 +1196,7 @@ class TestLectureKnowledgeWithTranscripts:
 
     def test_skips_transcripts_without_principle_id(self, tmp_path):
         import json
+
         from detail_forge.asset_pipeline.lecture_knowledge import LectureKnowledge
 
         # Valid transcripts
@@ -1265,6 +1268,7 @@ class TestLectureKnowledgeCoverageEdgeCases:
     def test_default_data_dir_none_uses_transcripts_if_exists(self, tmp_path, monkeypatch):
         """Cover lines 82-89: when data_dir=None and a default dir exists."""
         import json
+
         from detail_forge.asset_pipeline import lecture_knowledge as lk_mod
 
         # Patch default dirs to point to our tmp directory
@@ -1305,6 +1309,7 @@ class TestLectureKnowledgeCoverageEdgeCases:
     def test_load_index_from_saved_index_json(self, tmp_path):
         """Cover lines 110-115: load from pre-built insights_index.json."""
         import json
+
         from detail_forge.asset_pipeline.lecture_knowledge import LectureKnowledge
 
         tmp_path.mkdir(parents=True, exist_ok=True)
@@ -1329,6 +1334,7 @@ class TestLectureKnowledgeCoverageEdgeCases:
     def test_load_index_falls_through_malformed_index_json(self, tmp_path):
         """Cover line 114: malformed index.json falls through to scan."""
         import json
+
         from detail_forge.asset_pipeline.lecture_knowledge import LectureKnowledge
 
         # Write malformed index
@@ -1348,6 +1354,7 @@ class TestLectureKnowledgeCoverageEdgeCases:
     def test_scan_skips_insights_index_file(self, tmp_path):
         """Cover line 172: insights_index.json skipped during scan."""
         import json
+
         from detail_forge.asset_pipeline.lecture_knowledge import LectureKnowledge
 
         # Write the index file (should be skipped during scan)
@@ -1386,6 +1393,7 @@ class TestReferenceLibraryCoverageEdgeCases:
     def test_search_no_matches_returns_empty(self, tmp_path):
         """Search with no matching results."""
         import json
+
         from detail_forge.asset_pipeline.reference_library import ReferenceLibrary
 
         data = [
@@ -1401,6 +1409,7 @@ class TestReferenceLibraryCoverageEdgeCases:
     def test_recommend_for_unknown_category_uses_principles(self, tmp_path):
         """recommend_for_product with unknown category falls to principle-only search."""
         import json
+
         from detail_forge.asset_pipeline.reference_library import ReferenceLibrary
 
         data = [

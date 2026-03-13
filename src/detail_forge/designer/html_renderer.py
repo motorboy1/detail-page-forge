@@ -10,6 +10,7 @@ Modes:
 from __future__ import annotations
 
 from dataclasses import dataclass, field
+
 from detail_forge.copywriter.generator import SectionCopy
 from detail_forge.designer.design_tokens import DesignTokenSet
 
@@ -327,7 +328,8 @@ def _render_benefits(c, name, photos, m):
 
 def _render_testimonials(c, name, photos, m):
     sents = [s.strip() for s in c.body.replace('\u3002','.').split('.') if len(s.strip())>5][:3]
-    if not sents: sents = [c.body]
+    if not sents:
+        sents = [c.body]
     mode = m.get("mode","standard")
     avs = ['\U0001f468\u200d\U0001f4bc','\U0001f469\u200d\U0001f373','\U0001f9d1\u200d\U0001f4bb']
     nms = ['김민준','이수진','박지영']
@@ -479,7 +481,6 @@ def _render_social_proof(c, name, photos, m):
     mode = m.get("mode","standard")
     bg1 = '#08080f' if mode=='dark' else '#0a0a12' if mode=='trendy' else '#0a0a1e'
     bg2 = '#14141f' if mode=='dark' else '#16162a' if mode=='trendy' else '#1a1a3e'
-    ac = '#d4af37' if mode=='dark' else '#e74c3c'
     return f'''<section class="so-sec" style="background:linear-gradient(135deg,{bg1},{bg2})"><div class="so-in">
     <h2 class="so-h2">{c.headline}</h2>
     <div class="so-stats">
@@ -488,15 +489,15 @@ def _render_social_proof(c, name, photos, m):
     <div class="so-s"><span class="so-n">50K+</span><span class="so-l">누적 판매</span></div>
     <div class="so-d"></div>
     <div class="so-s"><span class="so-n">4.9</span><span class="so-l">★ 평점</span></div>
-    </div><p class="so-body">{c.body}</p></div></section>''', f'''.so-in {{ max-width:780px; margin:0 auto; text-align:center; }}
-.so-h2 {{ font-size:30px; font-weight:900; color:#fff; margin-bottom:32px; word-break:keep-all; }}
-.so-stats {{ display:flex; justify-content:center; margin-bottom:32px; }}
-.so-s {{ text-align:center; padding:0 36px; }}
-.so-n {{ display:block; font-size:36px; font-weight:900; color:#fff; margin-bottom:4px; }}
-.so-l {{ font-size:13px; color:rgba(255,255,255,.35); }}
-.so-d {{ width:1px; background:rgba(255,255,255,.08); }}
-.so-body {{ font-size:15px; color:rgba(255,255,255,.4); line-height:1.9; max-width:500px; margin:0 auto; word-break:keep-all; }}
-@media(max-width:600px){{ .so-s {{ padding:0 20px; }} .so-n {{ font-size:28px; }} }}'''
+    </div><p class="so-body">{c.body}</p></div></section>''', '''.so-in { max-width:780px; margin:0 auto; text-align:center; }
+.so-h2 { font-size:30px; font-weight:900; color:#fff; margin-bottom:32px; word-break:keep-all; }
+.so-stats { display:flex; justify-content:center; margin-bottom:32px; }
+.so-s { text-align:center; padding:0 36px; }
+.so-n { display:block; font-size:36px; font-weight:900; color:#fff; margin-bottom:4px; }
+.so-l { font-size:13px; color:rgba(255,255,255,.35); }
+.so-d { width:1px; background:rgba(255,255,255,.08); }
+.so-body { font-size:15px; color:rgba(255,255,255,.4); line-height:1.9; max-width:500px; margin:0 auto; word-break:keep-all; }
+@media(max-width:600px){ .so-s { padding:0 20px; } .so-n { font-size:28px; } }'''
 
 
 
@@ -505,7 +506,6 @@ def _render_social_proof(c, name, photos, m):
 # ═══════════════════════════════════════════════════════════════
 
 def _hero_vintage(c, name, photos, m):
-    bg = _bg(photos, 0, 300)
     return f'''<section class="hero-v">
   <div class="hv-paper"></div>
   <div class="hv-in">
@@ -568,19 +568,27 @@ def _feat_vintage(c, name, photos, m):
 
 def _render_hero(c, name, photos, m):
     mode = m.get("mode", "standard")
-    if mode == "dark": return _hero_dark(c, name, photos, m)
-    if mode == "minimal": return _hero_minimal(c, name, photos, m)
-    if mode == "trendy": return _hero_trendy(c, name, photos, m)
-    if mode == "vintage": return _hero_vintage(c, name, photos, m)
+    if mode == "dark":
+        return _hero_dark(c, name, photos, m)
+    if mode == "minimal":
+        return _hero_minimal(c, name, photos, m)
+    if mode == "trendy":
+        return _hero_trendy(c, name, photos, m)
+    if mode == "vintage":
+        return _hero_vintage(c, name, photos, m)
     return _hero_standard(c, name, photos, m)
 
 
 def _render_features(c, name, photos, m):
     mode = m.get("mode", "standard")
-    if mode == "dark": return _feat_dark(c, name, photos, m)
-    if mode == "minimal": return _feat_minimal(c, name, photos, m)
-    if mode == "trendy": return _feat_trendy(c, name, photos, m)
-    if mode == "vintage": return _feat_vintage(c, name, photos, m)
+    if mode == "dark":
+        return _feat_dark(c, name, photos, m)
+    if mode == "minimal":
+        return _feat_minimal(c, name, photos, m)
+    if mode == "trendy":
+        return _feat_trendy(c, name, photos, m)
+    if mode == "vintage":
+        return _feat_vintage(c, name, photos, m)
     return _feat_standard(c, name, photos, m)
 
 
@@ -624,6 +632,7 @@ class HtmlRenderer:
         token_css = token_set.to_css()
         page.global_css = token_css + "\n" + GLOBAL_CSS
         for i, copy in enumerate(sections):
-            if progress_callback: progress_callback(i, len(sections))
+            if progress_callback:
+                progress_callback(i, len(sections))
             page.sections.append(self.render_section(copy, product_name))
         return page

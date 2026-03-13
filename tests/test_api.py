@@ -1,6 +1,5 @@
 """Tests for FastAPI endpoints."""
 
-import pytest
 from fastapi.testclient import TestClient
 
 from detail_forge.api.app import app

@@ -2,7 +2,7 @@
 
 import datetime
 
-from sqlalchemy import Column, DateTime, Float, Integer, JSON, String
+from sqlalchemy import JSON, Column, DateTime, Float, Integer, String
 from sqlalchemy.orm import DeclarativeBase
 
 

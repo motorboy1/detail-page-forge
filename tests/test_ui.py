@@ -5,8 +5,6 @@ from __future__ import annotations
 import sys
 from pathlib import Path
 
-import pytest
-
 # Ensure src is on path (mirrors what ui/app.py does)
 sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 
@@ -27,7 +25,7 @@ class TestImports:
         assert TemplateSearcher is not None
 
     def test_one_click_generator_import(self):
-        from detail_forge.synthesis.one_click_generator import OneClickGenerator, GenerationResult
+        from detail_forge.synthesis.one_click_generator import GenerationResult, OneClickGenerator
         assert OneClickGenerator is not None
         assert GenerationResult is not None
 
@@ -37,7 +35,7 @@ class TestImports:
         assert SectionCopy is not None
 
     def test_theme_generator_import(self):
-        from detail_forge.designer.theme_generator import ThemeGenerator, Theme
+        from detail_forge.designer.theme_generator import Theme, ThemeGenerator
         assert ThemeGenerator is not None
         assert Theme is not None
 
@@ -46,7 +44,12 @@ class TestImports:
         assert DesignTokenSet is not None
 
     def test_d1000_constants_import(self):
-        from detail_forge.designer.d1000_principles import STYLE_PRESETS, CATEGORY_PROFILES, STYLE_KEYWORDS, D1000_GUIDE
+        from detail_forge.designer.d1000_principles import (
+            CATEGORY_PROFILES,
+            D1000_GUIDE,
+            STYLE_KEYWORDS,
+            STYLE_PRESETS,
+        )
         assert STYLE_PRESETS is not None
         assert CATEGORY_PROFILES is not None
         assert STYLE_KEYWORDS is not None
@@ -103,7 +106,7 @@ class TestThemeGeneratorRecipes:
             assert "affinity" in recipe
 
     def test_generate_recipe_returns_theme(self):
-        from detail_forge.designer.theme_generator import ThemeGenerator, Theme
+        from detail_forge.designer.theme_generator import Theme, ThemeGenerator
         gen = ThemeGenerator()
         theme = gen.generate("classic_trust")
         assert isinstance(theme, Theme)
@@ -111,7 +114,7 @@ class TestThemeGeneratorRecipes:
         assert theme.tokens is not None
 
     def test_generate_custom_theme(self):
-        from detail_forge.designer.theme_generator import ThemeGenerator, Theme
+        from detail_forge.designer.theme_generator import Theme, ThemeGenerator
         gen = ThemeGenerator()
         theme = gen.generate_custom(principle_ids=[3, 15, 21])
         assert isinstance(theme, Theme)
@@ -196,8 +199,8 @@ class TestTemplateStore:
         assert isinstance(templates, list)
 
     def test_template_searcher_search_returns_list(self):
-        from detail_forge.templates.store import TemplateStore
         from detail_forge.templates.search import TemplateSearcher
+        from detail_forge.templates.store import TemplateStore
         store = TemplateStore()
         searcher = TemplateSearcher(store)
         results = searcher.search(limit=10)
@@ -225,7 +228,7 @@ class TestQualityGate:
     """
 
     def test_quality_gate_returns_output_quality(self):
-        from detail_forge.output.quality_gate import QualityGate, OutputQuality
+        from detail_forge.output.quality_gate import OutputQuality, QualityGate
         gate = QualityGate()
         result = gate.evaluate(self._SIMPLE_HTML, platform="web")
         assert isinstance(result, OutputQuality)
@@ -261,8 +264,9 @@ class TestExportManager:
         assert len(pkg.zip_bytes) > 0
 
     def test_export_zip_is_valid(self):
-        import zipfile
         import io
+        import zipfile
+
         from detail_forge.output.export_manager import ExportManager
         manager = ExportManager()
         pkg = manager.export(

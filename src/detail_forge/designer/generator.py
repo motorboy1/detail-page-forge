@@ -3,12 +3,10 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from pathlib import Path
 
 from detail_forge.config import get_settings
 from detail_forge.copywriter.generator import SectionCopy
 from detail_forge.providers.base import AIProviderBase, ImageRequest
-
 
 SECTION_STYLE_PROMPTS = {
     "hero": (

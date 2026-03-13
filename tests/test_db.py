@@ -1,10 +1,9 @@
 """Tests for DB models and session management."""
 
-import datetime
 
 import pytest
 
-from detail_forge.db.models import Base, Generation, Template, User
+from detail_forge.db.models import Generation, Template, User
 from detail_forge.db.session import DatabaseManager
 
 

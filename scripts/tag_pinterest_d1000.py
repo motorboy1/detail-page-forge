@@ -13,10 +13,11 @@ INDEX_FILE = KNOWLEDGE_DIR / "pinterest_index.json"
 TAGGED_FILE = KNOWLEDGE_DIR / "pinterest_tagged.json"
 RAW_EXTRACTION = KNOWLEDGE_DIR / "raw_extraction.json"
 
-from dotenv import load_dotenv
+from dotenv import load_dotenv  # noqa: E402
+
 load_dotenv(PROJECT_ROOT / ".env")
 
-import google.genai as genai
+import google.genai as genai  # noqa: E402
 
 client = genai.Client(api_key=os.getenv("GOOGLE_API_KEY"))
 MODEL = "gemini-2.0-flash"
@@ -199,7 +200,7 @@ def main():
 
     tagged_count = sum(1 for p in pins if p.get("d1000_tags"))
     print(f"\nPins with tags: {tagged_count}/{len(pins)}")
-    print(f"\nTop 10 principles by pin count:")
+    print("\nTop 10 principles by pin count:")
     for pid, cnt in tag_counts.most_common(10):
         p = principles.get(pid, {})
         print(f"  #{pid} {p.get('title', '?')}: {cnt} pins")

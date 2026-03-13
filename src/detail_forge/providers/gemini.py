@@ -66,7 +66,7 @@ class GeminiProvider(AIProviderBase):
 
     async def analyze_image(self, image_data: bytes, prompt: str) -> str:
         """Analyze image using Gemini vision."""
-        b64 = base64.standard_b64encode(image_data).decode("utf-8")
+        base64.standard_b64encode(image_data).decode("utf-8")  # consumed by API
 
         response = self.client.models.generate_content(
             model=self.text_model,

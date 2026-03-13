@@ -4,7 +4,6 @@ from __future__ import annotations
 
 import io
 import json
-import shutil
 from dataclasses import dataclass
 from pathlib import Path
 

@@ -3,9 +3,7 @@
 from __future__ import annotations
 
 import asyncio
-import json
 from dataclasses import dataclass, field
-from pathlib import Path
 
 from playwright.async_api import async_playwright
 

@@ -10,7 +10,6 @@ from unittest.mock import AsyncMock, MagicMock, patch
 
 import pytest
 
-
 # ---------------------------------------------------------------------------
 # T-3.2.3: Provider tests — OpenAI, Gemini, Claude
 # ---------------------------------------------------------------------------
@@ -48,7 +47,7 @@ class TestOpenAIProviderGenerateCopy:
 
     @pytest.mark.asyncio
     async def test_generate_copy_returns_copy_response(self):
-        openai = pytest.importorskip("openai", reason="openai SDK not installed")
+        pytest.importorskip("openai", reason="openai SDK not installed")
         from detail_forge.providers.base import CopyRequest, CopyResponse
 
         request = CopyRequest(
@@ -115,6 +114,7 @@ class TestOpenAIProviderGenerateImages:
     async def test_generate_images_returns_image_response(self):
         pytest.importorskip("openai", reason="openai SDK not installed")
         import base64
+
         from detail_forge.providers.base import ImageRequest, ImageResponse
 
         request = ImageRequest(prompt="beautiful product photo", n=1)
@@ -144,6 +144,7 @@ class TestOpenAIProviderGenerateImages:
     async def test_generate_images_n_images(self):
         pytest.importorskip("openai", reason="openai SDK not installed")
         import base64
+
         from detail_forge.providers.base import ImageRequest
 
         request = ImageRequest(prompt="product photo", n=3)
@@ -612,6 +613,7 @@ class TestProviderRouterRegister:
 
     def test_register_provider(self):
         from unittest.mock import MagicMock
+
         from detail_forge.providers.router import ProviderRouter
 
         router = ProviderRouter()
@@ -627,6 +629,7 @@ class TestProviderRouterRegister:
 
     def test_register_multiple_providers(self):
         from unittest.mock import MagicMock
+
         from detail_forge.providers.router import ProviderRouter
 
         router = ProviderRouter()
@@ -642,6 +645,7 @@ class TestProviderRouterGetProviders:
 
     def _make_router_with_providers(self):
         from unittest.mock import MagicMock
+
         from detail_forge.providers.router import ProviderConfig, ProviderRouter
 
         config = ProviderConfig(
@@ -684,7 +688,6 @@ class TestProviderRouterFallback:
 
     @pytest.mark.asyncio
     async def test_fallback_succeeds_with_primary(self):
-        from unittest.mock import AsyncMock, MagicMock
         from detail_forge.providers.base import CopyRequest, CopyResponse
         from detail_forge.providers.router import ProviderConfig, ProviderRouter
 
@@ -712,7 +715,6 @@ class TestProviderRouterFallback:
 
     @pytest.mark.asyncio
     async def test_fallback_tries_next_on_failure(self):
-        from unittest.mock import AsyncMock
         from detail_forge.providers.base import CopyRequest, CopyResponse
         from detail_forge.providers.router import ProviderConfig, ProviderRouter
 
@@ -740,7 +742,6 @@ class TestProviderRouterFallback:
 
     @pytest.mark.asyncio
     async def test_fallback_raises_when_all_fail(self):
-        from unittest.mock import AsyncMock
         from detail_forge.providers.base import CopyRequest
         from detail_forge.providers.router import ProviderConfig, ProviderRouter
 

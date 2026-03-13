@@ -2,12 +2,12 @@
 
 from __future__ import annotations
 
+import io
 import json
 import re
 from pathlib import Path
 
 from PIL import Image
-import io
 
 from detail_forge.templates.models import SlotMapping, TemplateMetadata
 from detail_forge.templates.store import TemplateStore

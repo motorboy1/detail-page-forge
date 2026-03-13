@@ -2,9 +2,8 @@
 """Enhanced D1000 tagging with expanded keywords + color + pattern matching."""
 
 import json
-import re
-from pathlib import Path
 from collections import Counter
+from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 KNOWLEDGE_DIR = PROJECT_ROOT / "data" / "d1000_knowledge"
@@ -144,11 +143,11 @@ def color_principles(hex_color):
         b = int(hex_color[5:7], 16)
     except (ValueError, IndexError):
         return []
-    
+
     results = []
     brightness = (r + g + b) / 3
     saturation = max(r, g, b) - min(r, g, b)
-    
+
     # Very dark -> shadow/spotlight/neon principles
     if brightness < 40:
         results.extend([(24, 0.3), (33, 0.3), (45, 0.3)])
@@ -164,7 +163,7 @@ def color_principles(hex_color):
     # Metallic range (grays with slight warm tint)
     if 100 < brightness < 200 and saturation < 30:
         results.extend([(28, 0.2)])
-    
+
     return results
 
 
@@ -177,10 +176,10 @@ def score_pin(pin):
         text_parts.append(pin["title"].lower())
     if pin.get("description"):
         text_parts.append(pin["description"].lower())
-    
+
     full_text = " ".join(text_parts)
     scores = {}
-    
+
     # 1. Direct keyword matching
     for pid, (name, keywords) in P.items():
         for kw in keywords:
@@ -191,7 +190,7 @@ def score_pin(pin):
                     scores[pid] = {"score": 0, "keywords": []}
                 scores[pid]["score"] += score
                 scores[pid]["keywords"].append(kw)
-    
+
     # 2. Concept mapping (broader associations)
     for concept, pids in CONCEPT_MAP.items():
         if concept in full_text:
@@ -203,7 +202,7 @@ def score_pin(pin):
                     scores[pid] = {"score": 0, "keywords": []}
                 scores[pid]["score"] += weight
                 scores[pid]["keywords"].append(f"concept:{concept}")
-    
+
     # 3. Color-based matching
     color_matches = color_principles(pin.get("dominant_color", ""))
     for pid, weight in color_matches:
@@ -211,7 +210,7 @@ def score_pin(pin):
             scores[pid] = {"score": 0, "keywords": []}
         scores[pid]["score"] += weight
         scores[pid]["keywords"].append(f"color:{pin.get('dominant_color', '')}")
-    
+
     # Sort and return top 3
     sorted_scores = sorted(scores.items(), key=lambda x: x[1]["score"], reverse=True)
     results = []
@@ -230,11 +229,11 @@ def score_pin(pin):
 def main():
     pins = json.loads(INDEX_FILE.read_text())
     print(f"Loaded {len(pins)} pins")
-    
+
     tag_dist = Counter()
     conf_dist = Counter()
     tagged = 0
-    
+
     for pin in pins:
         tags = score_pin(pin)
         if tags:
@@ -249,26 +248,26 @@ def main():
             pin["d1000_tags"] = []
             pin["d1000_tag_details"] = []
             pin["tag_confidence"] = "untagged"
-    
+
     TAGGED_FILE.write_text(json.dumps(pins, indent=2, ensure_ascii=False))
-    
+
     untagged = len(pins) - tagged
     print(f"\nTagged: {tagged}/{len(pins)} ({tagged*100//len(pins)}%)")
     print(f"Untagged: {untagged}")
-    
+
     print(f"\nConfidence: {dict(conf_dist.most_common())}")
-    
-    print(f"\nTop 20 principles:")
+
+    print("\nTop 20 principles:")
     for pid, cnt in tag_dist.most_common(20):
         name = P.get(pid, ("?",))[0]
         print(f"  #{pid:2d} {name}: {cnt}")
-    
+
     covered = set(tag_dist.keys())
     missing = set(P.keys()) - covered
     print(f"\nPrinciples covered: {len(covered)}/50")
     if missing:
         print(f"Uncovered: {sorted(missing)}")
-    
+
     print(f"\nSaved: {TAGGED_FILE}")
 
 

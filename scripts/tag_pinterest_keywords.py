@@ -6,9 +6,8 @@ then matches against Pinterest alt_text/title/description.
 """
 
 import json
-import re
-from pathlib import Path
 from collections import Counter
+from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 KNOWLEDGE_DIR = PROJECT_ROOT / "data" / "d1000_knowledge"
@@ -307,13 +306,13 @@ def score_pin(pin, principles):
         text_parts.append(pin["title"].lower())
     if pin.get("description"):
         text_parts.append(pin["description"].lower())
-    
+
     full_text = " ".join(text_parts)
     if not full_text.strip():
         return []
-    
+
     scores = {}
-    
+
     # Score against principle keywords
     for pid, pdata in principles.items():
         score = 0
@@ -327,7 +326,7 @@ def score_pin(pin, principles):
                 matched_keywords.append(kw)
         if score > 0:
             scores[pid] = {"score": score, "keywords": matched_keywords}
-    
+
     # Also check general keywords
     for gkw, pids in GENERAL_DESIGN_KEYWORDS.items():
         if gkw in full_text:
@@ -336,10 +335,10 @@ def score_pin(pin, principles):
                     scores[pid]["score"] += 0.3
                 elif pid in principles:
                     scores[pid] = {"score": 0.3, "keywords": [f"general:{gkw}"]}
-    
+
     # Sort by score, return top 3
     sorted_scores = sorted(scores.items(), key=lambda x: x[1]["score"], reverse=True)
-    
+
     results = []
     for pid, data in sorted_scores[:3]:
         if data["score"] >= 0.8:  # Minimum threshold
@@ -350,7 +349,7 @@ def score_pin(pin, principles):
                 "confidence": confidence,
                 "matched_keywords": data["keywords"][:5],
             })
-    
+
     return results
 
 
@@ -358,15 +357,15 @@ def main():
     print("Loading Pinterest index...")
     pins = json.loads(INDEX_FILE.read_text())
     print(f"Loaded {len(pins)} pins")
-    
+
     tagged_count = 0
     untagged_count = 0
     tag_distribution = Counter()
     confidence_dist = Counter()
-    
+
     for pin in pins:
         tags = score_pin(pin, PRINCIPLE_KEYWORDS)
-        
+
         if tags:
             pin["d1000_tags"] = [t["principle_id"] for t in tags]
             pin["d1000_tag_details"] = tags
@@ -380,30 +379,30 @@ def main():
             pin["d1000_tag_details"] = []
             pin["tag_confidence"] = "untagged"
             untagged_count += 1
-    
+
     # Save
     TAGGED_FILE.write_text(json.dumps(pins, indent=2, ensure_ascii=False))
-    
+
     print(f"\n{'='*50}")
-    print(f"RESULTS:")
+    print("RESULTS:")
     print(f"  Tagged: {tagged_count} pins ({tagged_count*100//len(pins)}%)")
     print(f"  Untagged: {untagged_count} pins")
-    print(f"\nConfidence distribution:")
+    print("\nConfidence distribution:")
     for conf, cnt in confidence_dist.most_common():
         print(f"  {conf}: {cnt}")
-    
-    print(f"\nTop 15 principles by pin count:")
+
+    print("\nTop 15 principles by pin count:")
     for pid, cnt in tag_distribution.most_common(15):
         name = PRINCIPLE_KEYWORDS.get(pid, {}).get("name", f"#{pid}")
         print(f"  #{pid:2d} {name}: {cnt} pins")
-    
+
     # Show untagged principles
     all_pids = set(PRINCIPLE_KEYWORDS.keys())
     tagged_pids = set(tag_distribution.keys())
     missing = all_pids - tagged_pids
     if missing:
         print(f"\nPrinciples with 0 pins: {sorted(missing)}")
-    
+
     print(f"\nSaved to: {TAGGED_FILE}")
 
 

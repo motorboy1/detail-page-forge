@@ -8,8 +8,6 @@ from pathlib import Path
 # Ensure src/ is on the import path
 sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 
-import io
-import json
 
 import streamlit as st
 
@@ -65,17 +63,21 @@ _init_session_state()
 # ──────────────────────────────────────────────────────────────────
 
 def _load_core():
-    from detail_forge.templates.store import TemplateStore
-    from detail_forge.templates.search import TemplateSearcher
-    from detail_forge.synthesis.one_click_generator import OneClickGenerator
     from detail_forge.copywriter.generator import ProductInfo, SectionCopy
-    from detail_forge.designer.theme_generator import ThemeGenerator
+    from detail_forge.designer.d1000_principles import (
+        CATEGORY_PROFILES,
+        STYLE_KEYWORDS,
+        STYLE_PRESETS,
+    )
     from detail_forge.designer.design_tokens import DesignTokenSet
-    from detail_forge.designer.d1000_principles import STYLE_PRESETS, CATEGORY_PROFILES, STYLE_KEYWORDS
-    from detail_forge.output.web_renderer import WebRenderer
+    from detail_forge.designer.theme_generator import ThemeGenerator
+    from detail_forge.output.export_manager import ExportManager
     from detail_forge.output.naver_renderer import NaverRenderer
     from detail_forge.output.quality_gate import QualityGate
-    from detail_forge.output.export_manager import ExportManager
+    from detail_forge.output.web_renderer import WebRenderer
+    from detail_forge.synthesis.one_click_generator import OneClickGenerator
+    from detail_forge.templates.search import TemplateSearcher
+    from detail_forge.templates.store import TemplateStore
     store = TemplateStore()
     return {
         "store": store,
@@ -268,6 +270,7 @@ def render_phase2():
     try:
         c = _get_core()
         searcher = c["searcher"]
+        STYLE_PRESETS = c["STYLE_PRESETS"]
 
         # ── Filter bar ────────────────────────────────────
         with st.expander("필터 옵션", expanded=True):
@@ -283,7 +286,6 @@ def render_phase2():
                 st.session_state.filter_section_type = filter_type
 
             with f_col2:
-                STYLE_PRESETS = c["STYLE_PRESETS"]
                 preset_names = list(STYLE_PRESETS.keys())
                 chosen_preset = st.selectbox("스타일 프리셋", ["(선택 안 함)"] + preset_names)
                 if chosen_preset != "(선택 안 함)":
@@ -471,7 +473,6 @@ def render_phase3():
     try:
         c = _get_core()
         theme_gen = c["theme_gen"]
-        STYLE_PRESETS = c["STYLE_PRESETS"]
     except Exception as e:
         st.error(f"엔진 로드 실패: {e}")
         return
@@ -483,7 +484,6 @@ def render_phase3():
         st.subheader("스타일 프리셋")
 
         recipes = theme_gen.list_recipes()
-        recipe_meta = {r["name"]: r for r in recipes}
 
         RECIPE_KR = {
             "premium_minimal": "고급 미니멀",
@@ -531,7 +531,6 @@ def render_phase3():
         # Custom principles expander
         with st.expander("D1000 원리 직접 선택", expanded=False):
             from detail_forge.designer.d1000_principles import D1000_GUIDE
-            cats_seen = set()
             selected_pids = list(st.session_state.custom_principle_ids)
             for entry in D1000_GUIDE:
                 pid = entry["id"]
@@ -708,12 +707,12 @@ def _run_generation(c: dict):
 
 def _generate_placeholder_html(product, theme):
     """Generate a simple placeholder page when no templates are available."""
-    from detail_forge.output.web_renderer import WebRenderer
+    from detail_forge.designer.theme_generator import ThemeGenerator
     from detail_forge.output.naver_renderer import NaverRenderer
     from detail_forge.output.quality_gate import QualityGate
+    from detail_forge.output.web_renderer import WebRenderer
     from detail_forge.synthesis.one_click_generator import GenerationResult
     from detail_forge.synthesis.page_assembler import AssembledPage
-    from detail_forge.designer.theme_generator import ThemeGenerator, Theme
 
     if theme is None:
         theme_gen = ThemeGenerator()
@@ -768,7 +767,6 @@ def _generate_placeholder_html(product, theme):
     quality = quality_gate.evaluate(html=web_html.html, platform="web")
     assembled = AssembledPage(html=simple_html, section_count=3, token_count=0, warnings=[])
 
-    import time
     result = GenerationResult(
         assembled_page=assembled,
         theme=theme,

@@ -9,9 +9,7 @@ from dataclasses import dataclass, field
 from detail_forge.analyzer.parser import Section
 from detail_forge.analyzer.ranker import RankedTemplate
 from detail_forge.designer.d1000_principles import (
-    get_custom_prompt,
     get_enriched_prompt,
-    get_section_prompt,
     get_system_prompt_compact,
 )
 
