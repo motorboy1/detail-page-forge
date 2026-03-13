@@ -82,21 +82,39 @@ class CoherenceEngine:
 
         # --- Color token reference check -----------------------------------
         consistent_colors = True
-        sections_with_color_refs = [
-            sec for sec in sections if _CSS_VAR_COLOR_RE.search(sec.css + sec.html)
-        ]
-        if sections and len(sections_with_color_refs) < len(sections):
-            consistent_colors = False
-            issues.append("Some sections do not reference --df-color-* tokens")
+        # Check if any section uses raw color values instead of token vars
+        raw_color_re = re.compile(r"(?:color|background(?:-color)?)\s*:\s*(#[0-9a-fA-F]{3,8}|rgb[a]?\([^)]+\))")
+        all_raw_colors: list[set[str]] = []
+        for sec in sections:
+            raw_colors = set(raw_color_re.findall(sec.html))
+            if raw_colors:
+                all_raw_colors.append(raw_colors)
+
+        if len(all_raw_colors) > 1:
+            first_colors = all_raw_colors[0]
+            for color_set in all_raw_colors[1:]:
+                if color_set != first_colors:
+                    consistent_colors = False
+                    issues.append("Inconsistent raw color values across sections")
+                    break
 
         # --- Spacing token reference check ---------------------------------
         consistent_spacing = True
-        sections_with_spacing_refs = [
-            sec for sec in sections if _CSS_VAR_SPACING_RE.search(sec.css + sec.html)
-        ]
-        if sections and len(sections_with_spacing_refs) < len(sections):
-            consistent_spacing = False
-            issues.append("Some sections do not reference --df-spacing-* tokens")
+        # Check if sections use inconsistent spacing values
+        raw_spacing_re = re.compile(r"(?:padding|margin|gap)\s*:\s*(\d+(?:px|rem|em|%)(?:\s+\d+(?:px|rem|em|%))*)")
+        all_raw_spacing: list[set[str]] = []
+        for sec in sections:
+            raw_spacings = set(raw_spacing_re.findall(sec.html + sec.css))
+            if raw_spacings:
+                all_raw_spacing.append(raw_spacings)
+
+        if len(all_raw_spacing) > 1:
+            first_spacing = all_raw_spacing[0]
+            for spacing_set in all_raw_spacing[1:]:
+                if spacing_set != first_spacing:
+                    consistent_spacing = False
+                    issues.append("Inconsistent spacing values across sections")
+                    break
 
         # --- Transition/animation check ------------------------------------
         has_transitions = any(

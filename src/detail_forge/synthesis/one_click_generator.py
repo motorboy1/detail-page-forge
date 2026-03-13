@@ -14,7 +14,7 @@ Fully deterministic, no AI calls.
 from __future__ import annotations
 
 import time
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 
 from detail_forge.copywriter.generator import ProductInfo, SectionCopy
 from detail_forge.designer.theme_generator import Theme, ThemeGenerator
@@ -46,6 +46,7 @@ class GenerationResult:
     naver_html: NaverHTML | None
     quality: OutputQuality
     generation_time_ms: int
+    warnings: list[str] = field(default_factory=list)
 
 
 class OneClickGenerator:
@@ -118,7 +119,7 @@ class OneClickGenerator:
         resolved_theme = self._resolve_theme(theme, principle_ids)
 
         # ── Template loading ──────────────────────────────────────────────
-        sections_data = self._build_sections_data(template_ids, copy_sections)
+        sections_data, template_warnings = self._build_sections_data(template_ids, copy_sections)
 
         # ── Page assembly ─────────────────────────────────────────────────
         assembled = self._assembler.assemble(
@@ -150,6 +151,7 @@ class OneClickGenerator:
             naver_html=naver_html,
             quality=quality,
             generation_time_ms=elapsed_ms,
+            warnings=template_warnings,
         )
 
     # ── Private helpers ───────────────────────────────────────────────────
@@ -170,7 +172,7 @@ class OneClickGenerator:
         self,
         template_ids: list[str],
         copy_sections: list[SectionCopy],
-    ) -> list[dict]:
+    ) -> tuple[list[dict], list[str]]:
         """Load templates and pair each with the best matching copy section.
 
         Pairing strategy:
@@ -186,14 +188,16 @@ class OneClickGenerator:
             List of dicts ready for PageAssembler.assemble().
         """
         if not template_ids:
-            return []
+            return [], []
 
         sections_data: list[dict] = []
+        warnings: list[str] = []
 
         for idx, tid in enumerate(template_ids):
             try:
                 meta, html, _slots, slot_mapping = self._store.get_template(tid)
             except FileNotFoundError:
+                warnings.append(f"Template '{tid}' not found, skipped")
                 continue
 
             # Match copy: prefer section_type match, then positional, then empty
@@ -207,7 +211,7 @@ class OneClickGenerator:
                 }
             )
 
-        return sections_data
+        return sections_data, warnings
 
 
 # ---------------------------------------------------------------------------

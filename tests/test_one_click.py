@@ -649,3 +649,83 @@ class TestOneClickGeneratorMissingTemplate:
         # Only hero-01 contributed to the result
         assert result is not None
         assert result.assembled_page.section_count == 1
+
+
+# ===========================================================================
+# New tests for warnings field in GenerationResult
+# ===========================================================================
+
+
+class TestGenerationResultWarnings:
+    """GenerationResult must expose a warnings field."""
+
+    def test_generation_result_has_warnings_field(self, store, product, copy_sections):
+        """GenerationResult dataclass must have a warnings list field."""
+        from detail_forge.synthesis.one_click_generator import GenerationResult, OneClickGenerator
+
+        gen = OneClickGenerator(template_store=store)
+        result = gen.generate(
+            product=product,
+            copy_sections=copy_sections,
+            template_ids=["hero-01"],
+        )
+
+        assert isinstance(result, GenerationResult)
+        assert hasattr(result, "warnings")
+        assert isinstance(result.warnings, list)
+
+    def test_no_warnings_when_all_templates_found(self, store, product, copy_sections):
+        """When all template IDs exist, warnings list must be empty."""
+        from detail_forge.synthesis.one_click_generator import OneClickGenerator
+
+        gen = OneClickGenerator(template_store=store)
+        result = gen.generate(
+            product=product,
+            copy_sections=copy_sections,
+            template_ids=["hero-01", "features-01"],
+        )
+
+        assert result.warnings == []
+
+    def test_missing_template_produces_warning(self, store, product, copy_sections):
+        """A non-existent template ID must produce a warning instead of silently skipping."""
+        from detail_forge.synthesis.one_click_generator import OneClickGenerator
+
+        gen = OneClickGenerator(template_store=store)
+        result = gen.generate(
+            product=product,
+            copy_sections=copy_sections,
+            template_ids=["hero-01", "does-not-exist"],
+        )
+
+        # One template found, one skipped with a warning
+        assert len(result.warnings) == 1
+        assert "does-not-exist" in result.warnings[0]
+
+    def test_all_missing_templates_produce_warnings(self, store, product, copy_sections):
+        """Each missing template ID must produce its own warning entry."""
+        from detail_forge.synthesis.one_click_generator import OneClickGenerator
+
+        gen = OneClickGenerator(template_store=store)
+        result = gen.generate(
+            product=product,
+            copy_sections=copy_sections,
+            template_ids=["ghost-01", "phantom-02"],
+        )
+
+        assert len(result.warnings) == 2
+        assert any("ghost-01" in w for w in result.warnings)
+        assert any("phantom-02" in w for w in result.warnings)
+
+    def test_empty_template_ids_no_warnings(self, store, product, copy_sections):
+        """Empty template list should produce zero warnings."""
+        from detail_forge.synthesis.one_click_generator import OneClickGenerator
+
+        gen = OneClickGenerator(template_store=store)
+        result = gen.generate(
+            product=product,
+            copy_sections=copy_sections,
+            template_ids=[],
+        )
+
+        assert result.warnings == []

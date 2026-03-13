@@ -5,7 +5,7 @@ Sanitizes HTML for Naver SmartStore editor compatibility:
 - Removes event handler attributes
 - Converts <style> rules to inline CSS
 - Replaces web fonts with Naver-safe alternatives
-- Strips CSS custom properties (var(--df-*))
+- Resolves CSS custom properties (var(--df-*)) to actual values
 """
 
 from __future__ import annotations
@@ -42,47 +42,54 @@ class NaverRenderer:
         "'Space Grotesk'": "Arial, sans-serif",
         '"Space Grotesk"': "Arial, sans-serif",
     }
-    # CSS custom property pattern
+    # CSS custom property detection pattern (kept for detection, not for empty substitution)
     _CSS_VAR_RE = re.compile(r"var\(--[^)]+\)")
 
     def render(self, html: str) -> NaverHTML:
         """Convert HTML to Naver SmartStore-compatible format.
 
         Steps:
-        1. Remove forbidden tags
-        2. Remove forbidden event attributes
-        3. Extract and inline <style> CSS onto elements
-        4. Replace web fonts with safe alternatives
-        5. Strip CSS custom properties
+        1. Build CSS variable map from all <style> blocks
+        2. Remove forbidden tags
+        3. Remove forbidden event attributes
+        4. Extract and inline <style> CSS onto elements (with var() resolved)
+        5. Replace web fonts with safe alternatives
+        6. Resolve remaining CSS custom properties in inline styles
         """
         warnings: list[str] = []
         soup = BeautifulSoup(html, "html.parser")
 
-        # Step 1: Extract style rules before removing tags
-        style_map = self._extract_style_map(soup)
+        # Step 1: Build a global var_map from ALL style blocks before any removal
+        all_css = "\n".join(
+            style_tag.get_text() for style_tag in soup.find_all("style")
+        )
+        var_map = self._build_var_map(all_css)
 
-        # Step 2: Remove forbidden tags
+        # Step 2: Extract style rules (with var() resolved) before removing tags
+        style_map = self._extract_style_map(soup, var_map)
+
+        # Step 3: Remove forbidden tags
         for tag_name in self.FORBIDDEN_TAGS:
             for tag in soup.find_all(tag_name):
                 tag.decompose()
 
-        # Step 3: Remove forbidden attributes
+        # Step 4: Remove forbidden attributes
         for tag in soup.find_all(True):
             for attr in list(self.FORBIDDEN_ATTRS):
                 if tag.has_attr(attr):
                     del tag[attr]
                     warnings.append(f"Removed forbidden attribute: {attr}")
 
-        # Step 4: Apply inline styles from style_map
+        # Step 5: Apply inline styles from style_map
         self._apply_inline_styles(soup, style_map)
 
-        # Step 5: Replace web fonts
+        # Step 6: Replace web fonts
         self._replace_web_fonts(soup)
 
-        # Step 6: Strip remaining CSS custom properties in all style attributes
+        # Step 7: Resolve remaining var() references in inline styles using var_map
         for tag in soup.find_all(True):
             if tag.has_attr("style"):
-                tag["style"] = self._CSS_VAR_RE.sub("", tag["style"])
+                tag["style"] = self._resolve_css_vars(tag["style"], var_map)
 
         # Render to string
         result_html = str(soup)
@@ -92,11 +99,42 @@ class NaverRenderer:
             size_bytes=len(result_html.encode("utf-8")),
         )
 
-    def _extract_style_map(self, soup: BeautifulSoup) -> dict[str, dict[str, str]]:
+    def _build_var_map(self, css_text: str) -> dict[str, str]:
+        """Extract CSS custom property declarations into a name->value map.
+
+        Scans the full CSS text (including :root and any other blocks) for
+        --name: value; declarations and returns a lookup dict.
+        """
+        var_map: dict[str, str] = {}
+        for match in re.finditer(r"(--[a-zA-Z][\w-]*)\s*:\s*([^;]+);", css_text):
+            var_map[match.group(1)] = match.group(2).strip()
+        return var_map
+
+    def _resolve_css_vars(self, css_text: str, var_map: dict[str, str]) -> str:
+        """Replace var(--name) and var(--name, fallback) with resolved values.
+
+        If the variable name exists in var_map, uses that value.
+        Falls back to the declared fallback value if the variable is unknown.
+        """
+        def replacer(m: re.Match) -> str:
+            inner = m.group(1)  # contents inside var(...)
+            parts = inner.split(",", 1)
+            var_name = parts[0].strip()
+            fallback = parts[1].strip() if len(parts) > 1 else ""
+            return var_map.get(var_name, fallback)
+
+        return re.sub(r"var\(([^)]+)\)", replacer, css_text)
+
+    def _extract_style_map(
+        self, soup: BeautifulSoup, var_map: dict[str, str]
+    ) -> dict[str, dict[str, str]]:
         """Parse <style> blocks and return a simple selector->property map.
 
         Only handles basic element selectors (e.g., h1, p, body) for
         deterministic inline style application.
+
+        var() references are resolved to actual values using var_map before
+        parsing rules. Custom property declarations are stripped afterward.
         """
         style_map: dict[str, dict[str, str]] = {}
         for style_tag in soup.find_all("style"):
@@ -104,10 +142,11 @@ class NaverRenderer:
             # Replace web fonts in CSS text first
             for web_font, safe_font in self.SAFE_FONTS.items():
                 css_text = css_text.replace(web_font, safe_font)
-            # Strip CSS custom property declarations
+            # Resolve var() references to actual values BEFORE stripping declarations
+            css_text = self._resolve_css_vars(css_text, var_map)
+            # Strip CSS custom property declarations (--name: value;)
+            # The values are already resolved above so we only remove the declarations
             css_text = re.sub(r"--[a-zA-Z][^:]*:[^;]+;", "", css_text)
-            # Strip var() references
-            css_text = self._CSS_VAR_RE.sub("", css_text)
             # Parse rules
             rules = re.findall(r"([^{]+)\{([^}]*)\}", css_text)
             for selector_block, props_block in rules:

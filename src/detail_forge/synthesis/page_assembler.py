@@ -37,6 +37,14 @@ _SECTION_TRANSITIONS_CSS = """
 }
 """
 
+_NOSCRIPT_FALLBACK = """
+<noscript>
+<style>
+.dp > section, .dp > div { opacity: 1 !important; transform: none !important; }
+</style>
+</noscript>
+"""
+
 _SCROLL_REVEAL_JS = """
 <script>
 (function() {
@@ -193,6 +201,7 @@ def _build_html_document(
   <div class="dp">
 {sections_html}
   </div>
+  {_NOSCRIPT_FALLBACK}
   {_SCROLL_REVEAL_JS}
 </body>
 </html>"""

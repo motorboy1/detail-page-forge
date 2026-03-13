@@ -115,6 +115,33 @@ HTML_MULTI_SECTION = """<!DOCTYPE html>
 </html>"""
 
 
+HTML_WITH_DESIGN_TOKENS = """<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    :root {
+      --df-color-primary: #e74c3c;
+      --df-color-accent: #f39c12;
+      --df-color-bg: #ffffff;
+      --df-color-text: #333333;
+      --df-font-heading: 'Noto Sans KR', -apple-system, sans-serif;
+      --df-font-body: 'Noto Sans KR', -apple-system, sans-serif;
+      --df-spacing-section: 70px 44px;
+    }
+    h1 { color: var(--df-color-primary); font-family: var(--df-font-heading); font-size: 32px; }
+    p { color: var(--df-color-text); font-family: var(--df-font-body); }
+    .hero { background-color: var(--df-color-bg); padding: var(--df-spacing-section); }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <h1>Product Title</h1>
+    <p>Description text</p>
+  </div>
+</body>
+</html>"""
+
+
 # ===========================================================================
 # NaverRenderer Tests
 # ===========================================================================
@@ -238,6 +265,35 @@ class TestNaverRenderer:
 
         assert hasattr(NaverRenderer, "SAFE_FONTS")
         assert "'Noto Sans KR'" in NaverRenderer.SAFE_FONTS
+
+
+    def test_resolves_css_vars_to_actual_values(self):
+        """var(--df-color-primary) should resolve to #e74c3c, not empty string."""
+        result = self.renderer.render(HTML_WITH_DESIGN_TOKENS)
+        assert "#e74c3c" in result.html
+        assert "var(--df-color-primary)" not in result.html
+
+    def test_resolves_css_vars_with_fallback(self):
+        """var(--unknown, #333) should resolve to the fallback value #333."""
+        html = """<!DOCTYPE html>
+<html><head>
+  <style>
+    p { color: var(--unknown-var, #333333); }
+  </style>
+</head><body><p>Text</p></body></html>"""
+        result = self.renderer.render(html)
+        assert "#333333" in result.html
+        assert "var(--unknown-var" not in result.html
+
+    def test_resolved_values_appear_in_inline_styles(self):
+        """Full design token HTML: inline styles should have resolved color/font values."""
+        result = self.renderer.render(HTML_WITH_DESIGN_TOKENS)
+        # var(--df-color-primary) -> #e74c3c should appear in the h1 inline style
+        assert "#e74c3c" in result.html
+        # var(--df-color-text) -> #333333 should appear in the p inline style
+        assert "#333333" in result.html
+        # No unresolved var() references should remain
+        assert "var(--df-" not in result.html
 
 
 # ===========================================================================

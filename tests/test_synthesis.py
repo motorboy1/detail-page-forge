@@ -723,3 +723,145 @@ class TestSectionCompositorCoverageGaps:
         texts = [el.get_text() for el in soup.find_all(attrs={"data-slot": True})]
         # Both slots should be filled with non-empty text
         assert all(t for t in texts)
+
+
+# ============================================================
+# New tests for code quality fixes
+# ============================================================
+
+
+class TestPageAssemblerNoscriptFallback:
+    """PageAssembler output must include <noscript> fallback for JS-disabled users."""
+
+    @pytest.fixture
+    def assembler(self):
+        from detail_forge.synthesis import CoherenceEngine, PageAssembler, SectionCompositor
+
+        return PageAssembler(compositor=SectionCompositor(), coherence=CoherenceEngine())
+
+    def test_noscript_block_present(self, assembler):
+        """HTML output must contain a <noscript> tag with opacity override."""
+        tokens = make_tokens()
+        sections_data = [
+            {
+                "template_html": SIMPLE_HTML,
+                "copy": SIMPLE_COPY,
+                "slot_mapping": SIMPLE_MAPPING,
+            }
+        ]
+        page = assembler.assemble(sections_data, tokens)
+        assert "<noscript>" in page.html
+
+    def test_noscript_overrides_opacity(self, assembler):
+        """The <noscript> block must contain an opacity override style."""
+        tokens = make_tokens()
+        sections_data = [
+            {
+                "template_html": SIMPLE_HTML,
+                "copy": SIMPLE_COPY,
+                "slot_mapping": SIMPLE_MAPPING,
+            }
+        ]
+        page = assembler.assemble(sections_data, tokens)
+        assert "opacity: 1 !important" in page.html
+
+    def test_noscript_appears_before_scroll_reveal_js(self, assembler):
+        """<noscript> fallback must appear before the IntersectionObserver script."""
+        tokens = make_tokens()
+        sections_data = [
+            {
+                "template_html": SIMPLE_HTML,
+                "copy": SIMPLE_COPY,
+                "slot_mapping": SIMPLE_MAPPING,
+            }
+        ]
+        page = assembler.assemble(sections_data, tokens)
+        noscript_idx = page.html.index("<noscript>")
+        observer_idx = page.html.index("IntersectionObserver")
+        assert noscript_idx < observer_idx
+
+    def test_noscript_present_for_empty_sections(self, assembler):
+        """Even with no sections, the HTML document must include the noscript block."""
+        tokens = make_tokens()
+        page = assembler.assemble([], tokens)
+        assert "<noscript>" in page.html
+
+
+class TestCoherenceEngineRawColorDetection:
+    """CoherenceEngine must detect inconsistent raw color values."""
+
+    @pytest.fixture
+    def engine(self):
+        from detail_forge.synthesis import CoherenceEngine
+
+        return CoherenceEngine()
+
+    def test_consistent_sections_no_color_issue(self, engine):
+        """Sections with identical raw colors (or no raw colors) should be coherent."""
+        from detail_forge.synthesis.section_compositor import ComposedSection
+
+        tokens = make_tokens()
+        sec1 = ComposedSection(
+            section_type="hero",
+            html='<div style="color:#e74c3c">A</div>',
+            css="",
+            quality_score=8.0,
+            warnings=[],
+        )
+        sec2 = ComposedSection(
+            section_type="features",
+            html='<div style="color:#e74c3c">B</div>',
+            css="",
+            quality_score=7.0,
+            warnings=[],
+        )
+        report = engine.check([sec1, sec2], tokens)
+        color_issues = [i for i in report.issues if "color" in i.lower()]
+        assert color_issues == []
+
+    def test_inconsistent_raw_colors_detected(self, engine):
+        """Sections with different raw color values should trigger a coherence issue."""
+        from detail_forge.synthesis.section_compositor import ComposedSection
+
+        tokens = make_tokens()
+        sec1 = ComposedSection(
+            section_type="hero",
+            html='<div style="color:#e74c3c">A</div>',
+            css="",
+            quality_score=8.0,
+            warnings=[],
+        )
+        sec2 = ComposedSection(
+            section_type="features",
+            html='<div style="color:#3498db">B</div>',
+            css="",
+            quality_score=7.0,
+            warnings=[],
+        )
+        report = engine.check([sec1, sec2], tokens)
+        color_issues = [i for i in report.issues if "color" in i.lower()]
+        assert len(color_issues) >= 1
+
+    def test_sections_without_raw_colors_not_flagged(self, engine):
+        """Sections using only CSS vars (no raw colors) should not be flagged."""
+        from detail_forge.synthesis.section_compositor import ComposedSection
+
+        tokens = make_tokens()
+        css = "div { color: var(--df-color-primary); }"
+        sec1 = ComposedSection(
+            section_type="hero",
+            html="<div>A</div>",
+            css=css,
+            quality_score=8.0,
+            warnings=[],
+        )
+        sec2 = ComposedSection(
+            section_type="features",
+            html="<div>B</div>",
+            css=css,
+            quality_score=7.0,
+            warnings=[],
+        )
+        report = engine.check([sec1, sec2], tokens)
+        color_issues = [i for i in report.issues if "Inconsistent raw color" in i]
+        assert color_issues == []
