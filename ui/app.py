@@ -10,6 +10,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 
 
 import streamlit as st
+from ui.theme import inject_theme
 
 st.set_page_config(
     page_title="Detail Forge — 상세페이지 AI 생성기",
@@ -17,6 +18,7 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded",
 )
+inject_theme()
 
 # ──────────────────────────────────────────────────────────────────
 # Session state
@@ -111,8 +113,11 @@ def _get_core():
 
 def _render_sidebar():
     with st.sidebar:
-        st.title("Detail Forge")
-        st.caption("AI 상세페이지 자동 생성기 v2.0")
+        st.markdown(
+            '<span class="pf-nav-logo">Detail Forge</span>'
+            '<span class="pf-nav-subtitle">AI 상세페이지 자동 생성기 v2.0</span>',
+            unsafe_allow_html=True,
+        )
         st.divider()
 
         phases = [
@@ -174,17 +179,31 @@ def _render_sidebar():
 
 def _render_progress():
     phase = st.session_state.current_phase
-    labels = ["상품 정보", "템플릿 선택", "디자인 스튜디오", "내보내기"]
-    cols = st.columns(4)
-    for i, (col, label) in enumerate(zip(cols, labels), 1):
-        with col:
-            if i < phase:
-                st.success(f"완료  {label}")
-            elif i == phase:
-                st.info(f"진행중  {label}")
-            else:
-                st.markdown(f"대기  {label}")
-    st.divider()
+    steps = [
+        ("01", "상품 정보"),
+        ("02", "템플릿 선택"),
+        ("03", "디자인 스튜디오"),
+        ("04", "내보내기"),
+    ]
+    step_items = []
+    for i, (num, label) in enumerate(steps, 1):
+        if i < phase:
+            cls = "pf-step pf-step--done"
+            dot_inner = "&#10003;"
+        elif i == phase:
+            cls = "pf-step pf-step--active"
+            dot_inner = num
+        else:
+            cls = "pf-step"
+            dot_inner = num
+        step_items.append(
+            f'<div class="{cls}">'
+            f'<div class="pf-step-dot">{dot_inner}</div>'
+            f'<div class="pf-step-label">{label}</div>'
+            f'</div>'
+        )
+    steps_html = f'<div class="pf-step-bar">{"".join(step_items)}</div>'
+    st.markdown(steps_html, unsafe_allow_html=True)
 
 
 # ──────────────────────────────────────────────────────────────────
@@ -300,14 +319,34 @@ def _render_lecture_insights(lecture_kb, principle_ids: list[int], context: str 
         return
 
     if context == "panel":
-        st.markdown("##### 🎓 강의 노하우")
+        st.markdown(
+            '<div style="font-size:0.75rem;font-weight:700;letter-spacing:0.08em;'
+            'text-transform:uppercase;color:var(--pf-text-muted);margin-bottom:0.5rem;">'
+            '강의 노하우</div>',
+            unsafe_allow_html=True,
+        )
         for ins in insights[:5]:
-            with st.expander(f"원리 #{ins.principle_id} — {ins.source_lecture}", expanded=False):
-                st.markdown(f"**핵심 인사이트:**  \n{ins.insight_text}")
-                st.caption(f"💡 AI 활용 팁: {ins.reasoning_prompt[:150]}...")
+            card_html = (
+                f'<div class="pf-insight-card">'
+                f'<div style="margin-bottom:4px;">'
+                f'<span class="pf-insight-badge">#{ins.principle_id}</span>'
+                f'<span style="font-size:0.78rem;color:var(--pf-text-muted);">{ins.source_lecture}</span>'
+                f'</div>'
+                f'<div style="font-size:0.83rem;color:var(--pf-text);margin-bottom:4px;">{ins.insight_text}</div>'
+                f'<div style="font-size:0.75rem;color:var(--pf-text-muted);">'
+                f'AI 팁: {ins.reasoning_prompt[:120]}...'
+                f'</div></div>'
+            )
+            st.markdown(card_html, unsafe_allow_html=True)
     elif context == "compact":
         for ins in insights[:3]:
-            st.caption(f"🎓 #{ins.principle_id}: {ins.insight_text[:80]}...")
+            card_html = (
+                f'<div class="pf-insight-card" style="padding:0.5rem 0.75rem;margin-bottom:0.35rem;">'
+                f'<span class="pf-insight-badge">#{ins.principle_id}</span>'
+                f'<span style="font-size:0.78rem;color:var(--pf-text-muted);">{ins.insight_text[:80]}...</span>'
+                f'</div>'
+            )
+            st.markdown(card_html, unsafe_allow_html=True)
 
 
 def render_phase2():
