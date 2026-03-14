@@ -23,7 +23,7 @@ class LectureInsight:
 
 
 # Default lecture directories — support both naming conventions
-_PROJECT_ROOT = Path(__file__).parent.parent.parent.parent.parent  # project root
+_PROJECT_ROOT = Path(__file__).parent.parent.parent.parent  # project root
 _DEFAULT_LECTURE_DIRS = [
     _PROJECT_ROOT / "data" / "d1000_knowledge" / "lectures",
     _PROJECT_ROOT / "data" / "d1000_knowledge" / "transcripts",

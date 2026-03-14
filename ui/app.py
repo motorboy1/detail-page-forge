@@ -63,6 +63,7 @@ _init_session_state()
 # ──────────────────────────────────────────────────────────────────
 
 def _load_core():
+    from detail_forge.asset_pipeline.lecture_knowledge import LectureKnowledge
     from detail_forge.copywriter.generator import ProductInfo, SectionCopy
     from detail_forge.designer.d1000_principles import (
         CATEGORY_PROFILES,
@@ -79,6 +80,7 @@ def _load_core():
     from detail_forge.templates.search import TemplateSearcher
     from detail_forge.templates.store import TemplateStore
     store = TemplateStore()
+    lecture_kb = LectureKnowledge()
     return {
         "store": store,
         "searcher": TemplateSearcher(store),
@@ -94,6 +96,7 @@ def _load_core():
         "STYLE_PRESETS": STYLE_PRESETS,
         "CATEGORY_PROFILES": CATEGORY_PROFILES,
         "STYLE_KEYWORDS": STYLE_KEYWORDS,
+        "lecture_kb": lecture_kb,
     }
 
 
@@ -139,6 +142,30 @@ def _render_sidebar():
         st.divider()
         st.caption("D1000 원리 기반 엔진")
         st.caption("Claude Sonnet 3.5")
+
+        # ── Lecture Knowledge Browser ──────────────────
+        st.divider()
+        with st.expander("🎓 강의 인사이트 브라우저", expanded=False):
+            try:
+                c = _get_core()
+                lecture_kb = c.get("lecture_kb")
+                if lecture_kb:
+                    all_insights = lecture_kb.load_index()
+                    st.caption(f"{len(all_insights)}개 강의 인사이트 로드됨")
+                    if all_insights:
+                        # Group by principle
+                        by_principle = {}
+                        for ins in all_insights:
+                            by_principle.setdefault(ins.principle_id, []).append(ins)
+                        for pid in sorted(by_principle.keys()):
+                            items = by_principle[pid]
+                            st.markdown(f"**#{pid}** ({len(items)}개 강의)")
+                            for ins in items:
+                                st.caption(f"└ {ins.source_lecture}: {ins.insight_text[:60]}...")
+                    else:
+                        st.caption("전사 데이터 없음")
+            except Exception:
+                st.caption("강의 데이터 로드 실패")
 
 
 # ──────────────────────────────────────────────────────────────────
@@ -263,6 +290,26 @@ def render_phase1():
 # Phase 2: Template Gallery
 # ──────────────────────────────────────────────────────────────────
 
+
+def _render_lecture_insights(lecture_kb, principle_ids: list[int], context: str = "panel"):
+    """Render lecture insights for given D1000 principle IDs."""
+    if not principle_ids:
+        return
+    insights = lecture_kb.get_insights_for_principles(principle_ids)
+    if not insights:
+        return
+
+    if context == "panel":
+        st.markdown("##### 🎓 강의 노하우")
+        for ins in insights[:5]:
+            with st.expander(f"원리 #{ins.principle_id} — {ins.source_lecture}", expanded=False):
+                st.markdown(f"**핵심 인사이트:**  \n{ins.insight_text}")
+                st.caption(f"💡 AI 활용 팁: {ins.reasoning_prompt[:150]}...")
+    elif context == "compact":
+        for ins in insights[:3]:
+            st.caption(f"🎓 #{ins.principle_id}: {ins.insight_text[:80]}...")
+
+
 def render_phase2():
     st.header("🖼 Phase 2: 템플릿 갤러리")
     st.caption("사용할 템플릿을 선택하세요. D1000 원리 기반으로 필터링할 수 있습니다.")
@@ -297,6 +344,10 @@ def render_phase2():
             with f_col3:
                 st.caption("선택된 D1000 원리")
                 st.caption(f"{st.session_state.filter_d1000}")
+
+        # Show lecture insights for filtered principles
+        if st.session_state.filter_d1000:
+            _render_lecture_insights(c.get("lecture_kb"), st.session_state.filter_d1000, context="compact")
 
         # ── Template search ───────────────────────────────
         templates = searcher.search(
@@ -528,6 +579,15 @@ def render_phase3():
                 st.session_state.generation_result = None
                 st.rerun()
 
+        # Show insights for selected recipe's principles
+        if st.session_state.selected_recipe and st.session_state.selected_recipe != "__custom__":
+            try:
+                recipe_data = theme_gen.get_recipe(st.session_state.selected_recipe)
+                if recipe_data and hasattr(recipe_data, "principle_ids"):
+                    _render_lecture_insights(c.get("lecture_kb"), recipe_data.principle_ids, context="panel")
+            except (ValueError, AttributeError):
+                pass
+
         # Custom principles expander
         with st.expander("D1000 원리 직접 선택", expanded=False):
             from detail_forge.designer.d1000_principles import D1000_GUIDE
@@ -546,6 +606,7 @@ def render_phase3():
                     selected_pids.remove(pid)
             st.session_state.custom_principle_ids = selected_pids
             if selected_pids:
+                _render_lecture_insights(c.get("lecture_kb"), selected_pids, context="panel")
                 if st.button("커스텀 테마 적용", type="primary", use_container_width=True):
                     st.session_state.selected_recipe = "__custom__"
                     st.session_state.generation_result = None
