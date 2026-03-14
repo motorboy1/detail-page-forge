@@ -10,7 +10,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 
 
 import streamlit as st
-from ui.theme import inject_theme
+from theme import inject_theme
 
 st.set_page_config(
     page_title="Detail Forge — 상세페이지 AI 생성기",
