@@ -8,6 +8,7 @@ from dataclasses import dataclass, field
 
 from detail_forge.analyzer.parser import Section
 from detail_forge.analyzer.ranker import RankedTemplate
+from detail_forge.asset_pipeline.lecture_knowledge import LectureKnowledge
 from detail_forge.designer.d1000_principles import (
     get_enriched_prompt,
     get_system_prompt_compact,
@@ -70,6 +71,7 @@ def generate_all_copy(
     product: ProductInfo,
     template: RankedTemplate,
     selected_principles: list[int] | None = None,
+    lecture_insights: bool = True,
 ) -> CopyResult:
     """Generate copy for ALL sections in a single Claude CLI call.
 
@@ -79,6 +81,7 @@ def generate_all_copy(
         selected_principles: Optional list of D1000 principle IDs to apply.
             If provided, generates a custom design prompt from selected principles.
             If None, uses the default compact system prompt.
+        lecture_insights: If True, inject lecture-derived reasoning prompts.
     """
     from detail_forge.providers.claude import _call_claude
 
@@ -93,12 +96,22 @@ def generate_all_copy(
     else:
         d1000_guide = get_system_prompt_compact()
 
+    # Lecture-derived practical insights
+    lecture_block = ""
+    if lecture_insights:
+        kb = LectureKnowledge()
+        target_pids = selected_principles or list(range(1, 51))
+        prompts = kb.get_reasoning_prompts(target_pids)
+        if prompts:
+            lecture_block = "\n\n[강의 실전 노하우]\n" + "\n".join(f"- {p}" for p in prompts[:5])
+
     prompt = f"""당신은 이커머스 상세페이지 전문 카피라이터이자 비주얼 디렉터입니다.
 한국 네이버 스마트스토어와 쿠팡에서 잘 팔리는 상세페이지 카피를 작성합니다.
 
 {d1000_guide}
 
 위 디자인 원리를 참고하여, 각 섹션의 카피가 디자인과 어울리도록 작성하세요.
+{lecture_block}
 특히 headline은 시각적 임팩트를, body는 설득력을 극대화하세요.
 
 상품명: {product.name}

@@ -131,6 +131,20 @@ hr, [data-testid="stDivider"] hr {
   color: var(--pf-text) !important;
   padding: 0.75rem 1rem !important;
   border-bottom: 1px solid var(--pf-border) !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.5rem !important;
+  min-height: 2.5rem !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+[data-testid="stExpander"] summary span {
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+  flex: 1 !important;
+  min-width: 0 !important;
 }
 [data-testid="stExpander"] summary:hover {
   background: oklch(0.72 0.17 195 / 0.08) !important;
