@@ -799,10 +799,14 @@ def _run_generation(c: dict):
                 for w in result.warnings:
                     st.warning(w)
             st.success(f"생성 완료 ({result.generation_time_ms}ms)")
+            st.rerun()
         except Exception as e:
             st.error(f"생성 오류: {e}")
             # Fallback: generate a simple placeholder HTML
-            _generate_placeholder_html(product, theme)
+            try:
+                _generate_placeholder_html(product, theme)
+            except Exception as e2:
+                st.error(f"플레이스홀더 생성도 실패: {e2}")
 
 
 def _generate_placeholder_html(product, theme):
@@ -878,6 +882,7 @@ def _generate_placeholder_html(product, theme):
     )
     st.session_state.generation_result = result
     st.info("템플릿이 없어 기본 레이아웃으로 생성되었습니다.")
+    st.rerun()
 
 
 def _render_live_preview(result):
@@ -889,8 +894,8 @@ def _render_live_preview(result):
 
     # Device frame wrapper
     frame_style = (
-        f"border:1px solid #ddd;border-radius:12px;"
-        f"box-shadow:0 4px 20px rgba(0,0,0,0.1);"
+        f"border:1px solid rgba(255,255,255,0.15);border-radius:12px;"
+        f"box-shadow:0 4px 20px rgba(0,0,0,0.4);"
         f"overflow:hidden;max-width:{width}px;margin:0 auto;"
     )
     if is_mobile:
@@ -914,7 +919,7 @@ def _render_live_preview(result):
         st.markdown(
             f'<div style="text-align:center;padding:8px;background:{score_color}20;'
             f'border-radius:8px;"><div style="font-size:22px;font-weight:700;color:{score_color};">'
-            f'{q.total_score:.1f}</div><div style="font-size:11px;color:#666;">종합 점수</div></div>',
+            f'{q.total_score:.1f}</div><div style="font-size:11px;color:rgba(255,255,255,0.6);">종합 점수</div></div>',
             unsafe_allow_html=True,
         )
     with q_col2:
@@ -923,15 +928,15 @@ def _render_live_preview(result):
         st.markdown(
             f'<div style="text-align:center;padding:8px;background:{status_color}20;'
             f'border-radius:8px;"><div style="font-size:22px;font-weight:700;color:{status_color};">'
-            f'{status}</div><div style="font-size:11px;color:#666;">품질 게이트</div></div>',
+            f'{status}</div><div style="font-size:11px;color:rgba(255,255,255,0.6);">품질 게이트</div></div>',
             unsafe_allow_html=True,
         )
     with q_col3:
         st.markdown(
-            f'<div style="text-align:center;padding:8px;background:#e3f2fd;border-radius:8px;">'
-            f'<div style="font-size:22px;font-weight:700;color:#1565c0;">'
+            f'<div style="text-align:center;padding:8px;background:rgba(33,150,243,0.12);border-radius:8px;">'
+            f'<div style="font-size:22px;font-weight:700;color:#64b5f6;">'
             f'{result.generation_time_ms}ms</div>'
-            f'<div style="font-size:11px;color:#666;">생성 시간</div></div>',
+            f'<div style="font-size:11px;color:rgba(255,255,255,0.6);">생성 시간</div></div>',
             unsafe_allow_html=True,
         )
 
@@ -963,7 +968,7 @@ def render_phase4():
                 f'<div style="text-align:center;padding:12px;background:{color}20;'
                 f'border-radius:8px;border:1px solid {color}40;">'
                 f'<div style="font-size:24px;font-weight:700;color:{color};">{dim.score:.1f}</div>'
-                f'<div style="font-size:12px;color:#666;margin-top:4px;">{dim.name}</div>'
+                f'<div style="font-size:12px;color:rgba(255,255,255,0.6);margin-top:4px;">{dim.name}</div>'
                 f"</div>",
                 unsafe_allow_html=True,
             )
