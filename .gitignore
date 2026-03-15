@@ -9,8 +9,13 @@ dist/
 build/
 .ruff_cache/
 .coverage
-data/d1000_knowledge/
+data/d1000_knowledge/*
 !data/d1000_knowledge/transcripts/
+!data/d1000_knowledge/pinterest/
+data/d1000_knowledge/pinterest/*
+!data/d1000_knowledge/pinterest/index.json
+!data/d1000_knowledge/d1000_principles_knowledge.json
+!data/d1000_knowledge/knowledge_manifest.json
 
 # pytest-benchmark saved results
 .benchmarks/

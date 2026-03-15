@@ -23,8 +23,7 @@ class ReferenceImage:
 
 
 _DEFAULT_PINTEREST_DIR = (
-    Path(__file__).parent.parent.parent.parent  # src/
-    / ".."  # project root
+    Path(__file__).parent.parent.parent.parent  # project root
     / "data"
     / "d1000_knowledge"
     / "pinterest"
