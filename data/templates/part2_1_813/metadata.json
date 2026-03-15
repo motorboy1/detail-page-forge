@@ -1,0 +1,25 @@
+{
+  "id": "part2_1_813",
+  "name": "Real Unicorn Blurred Book",
+  "section_type": "hero",
+  "d1000_principles": [
+    2,
+    7,
+    14,
+    25
+  ],
+  "category": "publication",
+  "source_url": "",
+  "ssim_score": 0.0,
+  "slot_count": 0,
+  "thumbnail_path": "part2_1_813/thumbnail.jpg",
+  "tags": [
+    "unicorn",
+    "blurred",
+    "horse",
+    "book",
+    "toc",
+    "minimal"
+  ],
+  "created_at": "2026-03-15T10:50:25.704076+00:00"
+}

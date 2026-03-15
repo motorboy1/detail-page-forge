@@ -1,0 +1,127 @@
+{
+  "total": 17,
+  "text": 17,
+  "image": 0,
+  "link": 0,
+  "slots": [
+    {
+      "name": "text_0",
+      "type": "text",
+      "defaultValue": "Please",
+      "tag": "span",
+      "index": 0
+    },
+    {
+      "name": "text_1",
+      "type": "text",
+      "defaultValue": "Bring",
+      "tag": "span",
+      "index": 1
+    },
+    {
+      "name": "text_2",
+      "type": "text",
+      "defaultValue": "Some",
+      "tag": "span",
+      "index": 2
+    },
+    {
+      "name": "text_3",
+      "type": "text",
+      "defaultValue": "Pickles,",
+      "tag": "span",
+      "index": 3
+    },
+    {
+      "name": "text_4",
+      "type": "text",
+      "defaultValue": "Oranges,",
+      "tag": "span",
+      "index": 4
+    },
+    {
+      "name": "text_5",
+      "type": "text",
+      "defaultValue": "Ripe",
+      "tag": "span",
+      "index": 5
+    },
+    {
+      "name": "text_6",
+      "type": "text",
+      "defaultValue": "Avocados,",
+      "tag": "span",
+      "index": 6
+    },
+    {
+      "name": "text_7",
+      "type": "text",
+      "defaultValue": "And",
+      "tag": "span",
+      "index": 7
+    },
+    {
+      "name": "text_8",
+      "type": "text",
+      "defaultValue": "A",
+      "tag": "span",
+      "index": 8
+    },
+    {
+      "name": "text_9",
+      "type": "text",
+      "defaultValue": "Gallon",
+      "tag": "span",
+      "index": 9
+    },
+    {
+      "name": "text_10",
+      "type": "text",
+      "defaultValue": "Of",
+      "tag": "span",
+      "index": 10
+    },
+    {
+      "name": "text_11",
+      "type": "text",
+      "defaultValue": "Milk,",
+      "tag": "span",
+      "index": 11
+    },
+    {
+      "name": "text_12",
+      "type": "text",
+      "defaultValue": "Plus",
+      "tag": "span",
+      "index": 12
+    },
+    {
+      "name": "text_13",
+      "type": "text",
+      "defaultValue": "Some",
+      "tag": "span",
+      "index": 13
+    },
+    {
+      "name": "text_14",
+      "type": "text",
+      "defaultValue": "Chunks",
+      "tag": "span",
+      "index": 14
+    },
+    {
+      "name": "text_15",
+      "type": "text",
+      "defaultValue": "Of",
+      "tag": "span",
+      "index": 15
+    },
+    {
+      "name": "text_16",
+      "type": "text",
+      "defaultValue": "Pork.",
+      "tag": "span",
+      "index": 16
+    }
+  ]
+}

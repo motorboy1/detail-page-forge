@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Data Visualization</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Courier New', monospace; }
+.hero { min-height: 100vh; background: #0000cc; display: flex; flex-direction: column; justify-content: space-between; padding: 30px; position: relative; overflow: hidden; color: #fff; }
+.data-header { font-size: 16px; font-weight: 700; line-height: 1.6; }
+.ruler { position: absolute; top: 0; left: 50%; transform: translateX(-50%); display: flex; gap: 2px; }
+.ruler-mark { width: 2px; height: 20px; background: #fff; }
+.node { position: absolute; display: flex; align-items: center; gap: 8px; font-size: 16px; font-weight: 700; }
+.node-box { width: 18px; height: 18px; border: 2px solid #fff; }
+.curve { position: absolute; width: 300px; height: 400px; border: 1px solid #fff; border-radius: 50%; top: 20%; left: 15%; }
+.bottom-row { display: flex; justify-content: space-between; align-items: flex-end; }
+.circles { display: flex; gap: 10px; }
+.circle-item { width: 40px; height: 40px; border: 2px solid #fff; border-radius: 50%; }
+.grid-icon { width: 80px; height: 60px; border: 1px solid #fff; display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; padding: 5px; }
+.side-ruler { position: absolute; right: 10px; top: 50%; display: flex; flex-direction: column; gap: 3px; }
+.side-mark { width: 20px; height: 2px; background: #fff; }
+</style>
+</head>
+<body>
+<section class="hero">
+  <div class="data-header" data-slot="text_0" data-slot-type="text">124.55  00<br>99.81   OXX<br>12.03   OXO<br>9.99    0</div>
+  <div class="node" style="top:25%;left:18%;" data-slot="text_1" data-slot-type="text"><span class="node-box"></span>1256</div>
+  <div class="node" style="top:30%;left:50%;" data-slot="text_2" data-slot-type="text">RGF^<span class="node-box"></span></div>
+  <div class="node" style="top:50%;left:30%;" data-slot="text_3" data-slot-type="text">002<span class="node-box"></span></div>
+  <div class="node" style="top:60%;left:15%;" data-slot="text_4" data-slot-type="text">False<span class="node-box"></span></div>
+  <div class="node" style="top:68%;right:20%;" data-slot="text_5" data-slot-type="text"><span class="node-box"></span>45.667</div>
+  <div class="bottom-row">
+    <div style="display:flex;align-items:center;gap:15px;">
+      <div class="circles"><span class="circle-item"></span><span class="circle-item" style="width:30px;height:30px;"></span></div>
+      <span data-slot="text_6" data-slot-type="text" style="font-size:20px;font-weight:700;">124.55</span>
+    </div>
+    <div class="grid-icon" data-slot="image_0" data-slot-type="image"></div>
+  </div>
+</section>
+</body>
+</html>

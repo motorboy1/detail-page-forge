@@ -1,0 +1,36 @@
+{
+  "total": 4,
+  "text": 4,
+  "image": 0,
+  "link": 0,
+  "slots": [
+    {
+      "name": "text_0",
+      "type": "text",
+      "defaultValue": "Ciis",
+      "tag": "h1",
+      "index": 0
+    },
+    {
+      "name": "text_1",
+      "type": "text",
+      "defaultValue": "\"Ana\" 2024",
+      "tag": "h2",
+      "index": 1
+    },
+    {
+      "name": "text_2",
+      "type": "text",
+      "defaultValue": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consec adipiscing elit",
+      "tag": "p",
+      "index": 2
+    },
+    {
+      "name": "text_3",
+      "type": "text",
+      "defaultValue": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consec adipiscing elit",
+      "tag": "p",
+      "index": 3
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Mountain Motivation</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #C2D6E8;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .mountain-scene {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 85%;
+    z-index: 0;
+  }
+  .mountain {
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 0;
+  }
+  .mountain-main {
+    left: 15%;
+    border-left: 300px solid transparent;
+    border-right: 300px solid transparent;
+    border-bottom: 500px solid #7A9BBF;
+  }
+  .mountain-main::after {
+    content: '';
+    position: absolute;
+    top: -160px;
+    left: -120px;
+    width: 0;
+    height: 0;
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    border-bottom: 160px solid #E8F0F8;
+  }
+  .mountain-left {
+    left: -5%;
+    border-left: 250px solid transparent;
+    border-right: 250px solid transparent;
+    border-bottom: 400px solid #8DAFC8;
+  }
+  .mountain-left::after {
+    content: '';
+    position: absolute;
+    top: -120px;
+    left: -100px;
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 120px solid #E8F0F8;
+  }
+  .mountain-right {
+    right: 5%;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 350px solid #6A8DAA;
+  }
+  .mountain-right::after {
+    content: '';
+    position: absolute;
+    top: -100px;
+    left: -80px;
+    width: 0;
+    height: 0;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 100px solid #E8F0F8;
+  }
+  .ground {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background: linear-gradient(to bottom, #8BAA6A, #6B8E4E);
+  }
+  .tree {
+    position: absolute;
+    bottom: 60px;
+    z-index: 2;
+  }
+  .tree-1 { right: 10%; }
+  .tree-2 { right: 15%; bottom: 50px; }
+  .tree-trunk {
+    width: 16px;
+    height: 30px;
+    background: #6B4226;
+    margin: 0 auto;
+  }
+  .tree-top {
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 60px solid #2E7D32;
+    position: relative;
+  }
+  .tree-top::after {
+    content: '';
+    position: absolute;
+    top: 25px;
+    left: -35px;
+    width: 0;
+    height: 0;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 55px solid #388E3C;
+  }
+  .tree-1 .tree-top { border-bottom-color: #2E7D32; }
+  .tree-1 .tree-top::after { border-bottom-color: #388E3C; }
+
+  .quote-text {
+    position: relative;
+    z-index: 3;
+    padding: 48px;
+    font-family: 'Anton', 'Impact', sans-serif;
+    font-size: clamp(3rem, 10vw, 7rem);
+    font-weight: 400;
+    color: rgba(40, 60, 80, 0.7);
+    line-height: 1.0;
+    text-transform: uppercase;
+    mix-blend-mode: multiply;
+  }
+
+  @media (max-width: 768px) {
+    .quote-text { padding: 24px; }
+  }
+</style>
+</head>
+<body>
+<div class="mountain-scene">
+<div class="mountain mountain-left"></div>
+<div class="mountain mountain-main"></div>
+<div class="mountain mountain-right"></div>
+<div class="tree tree-1">
+<div class="tree-top"></div>
+<div class="tree-trunk"></div>
+</div>
+<div class="tree tree-2">
+<div class="tree-top"></div>
+<div class="tree-trunk"></div>
+</div>
+<div class="ground"></div>
+</div>
+<div class="quote-text">
+    Many<br/>
+    People<br/>
+    Stop Their<br/>
+    Grind Right<br/>
+    Before<br/>
+    Success.
+  </div>
+</body>
+</html>

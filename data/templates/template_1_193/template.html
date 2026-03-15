@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Boy Meets Girl 1984</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    min-height: 100vh;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 48px 40px;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+  }
+  .flow-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px 16px;
+    align-items: center;
+  }
+  .word {
+    font-size: clamp(1.8rem, 5.5vw, 3.5rem);
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+  }
+  .word.italic {
+    font-style: italic;
+  }
+  .word.highlight {
+    color: #CCFF00;
+  }
+  .arrow {
+    color: #CCFF00;
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+  }
+  .connector {
+    border: 2px solid #CCFF00;
+    height: 2px;
+    width: 100%;
+  }
+  .image-placeholder {
+    width: 120px;
+    height: 120px;
+    background: linear-gradient(135deg, #666 0%, #888 50%, #555 100%);
+    border: 2px solid #CCFF00;
+  }
+  .row { display: flex; align-items: center; gap: 8px; }
+  .row-span-3 { grid-column: span 3; display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+  @media (max-width: 600px) {
+    body { padding: 24px 16px; }
+  }
+</style>
+</head>
+<body>
+<div class="flow-grid">
+<span class="word" data-slot="text_0" data-slot-type="text">LEOS</span>
+<span class="arrow" data-slot="text_1" data-slot-type="text">→</span>
+<span class="word" data-slot="text_2" data-slot-type="text">CARAX'S</span>
+<span class="word" data-slot="text_3" data-slot-type="text">DEBUT</span>
+<span class="word" data-slot="text_4" data-slot-type="text">FILM</span>
+<span class="word italic" data-slot="text_5" data-slot-type="text">BOY</span>
+<span class="word highlight italic" data-slot="text_6" data-slot-type="text">MEETS</span>
+<span class="word highlight" data-slot="text_7" data-slot-type="text">GIRL</span>
+<span class="word" data-slot="text_8" data-slot-type="text">1984</span>
+<span class="word" data-slot="text_9" data-slot-type="text">HAS</span>
+<span class="connector"></span>
+<span class="word" data-slot="text_10" data-slot-type="text">BEEN</span>
+<span class="word" data-slot="text_11" data-slot-type="text">ARCHIVED</span>
+<span class="word" data-slot="text_12" data-slot-type="text">FOR</span>
+<span class="word" data-slot="text_13" data-slot-type="text">40</span>
+<span class="word" data-slot="text_14" data-slot-type="text">YEARS</span>
+<span class="word" data-slot="text_15" data-slot-type="text">AND</span>
+<span class="word" data-slot="text_16" data-slot-type="text">WILL BE</span>
+<span class="word highlight" data-slot="text_17" data-slot-type="text">REVEALED</span>
+<div class="image-placeholder"></div>
+<span class="word" data-slot="text_18" data-slot-type="text">THIS</span>
+<span class="word highlight" data-slot="text_19" data-slot-type="text">SUMMER</span>
+<span></span>
+<span></span>
+</div>
+</body>
+</html>

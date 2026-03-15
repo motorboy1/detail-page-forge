@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Colorful Grocery List</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #000;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
+  }
+
+  .text-grid {
+    max-width: 700px;
+    width: 100%;
+  }
+  .text-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-family: 'Anton', 'Impact', sans-serif;
+    font-weight: 400;
+    font-size: clamp(2.5rem, 8vw, 5.5rem);
+    color: #fff;
+    line-height: 1.05;
+    text-transform: uppercase;
+  }
+  .green { color: #00C853; }
+  .orange { color: #F5A623; }
+  .gray { color: #9E9E9E; }
+  .pink { color: #FF4081; }
+
+  @media (max-width: 768px) {
+    body { padding: 24px; }
+  }
+</style>
+</head>
+<body>
+<div class="text-grid">
+<div class="text-line"><span data-slot="text_0" data-slot-type="text">Please</span><span data-slot="text_1" data-slot-type="text">Bring</span></div>
+<div class="text-line"><span data-slot="text_2" data-slot-type="text">Some</span><span class="green" data-slot="text_3" data-slot-type="text">Pickles,</span></div>
+<div class="text-line"><span class="orange" data-slot="text_4" data-slot-type="text">Oranges,</span><span data-slot="text_5" data-slot-type="text">Ripe</span></div>
+<div class="text-line"><span class="green" data-slot="text_6" data-slot-type="text">Avocados,</span><span data-slot="text_7" data-slot-type="text">And</span></div>
+<div class="text-line"><span data-slot="text_8" data-slot-type="text">A</span><span data-slot="text_9" data-slot-type="text">Gallon</span><span data-slot="text_10" data-slot-type="text">Of</span></div>
+<div class="text-line"><span class="gray" data-slot="text_11" data-slot-type="text">Milk,</span><span data-slot="text_12" data-slot-type="text">Plus</span></div>
+<div class="text-line"><span data-slot="text_13" data-slot-type="text">Some</span><span data-slot="text_14" data-slot-type="text">Chunks</span></div>
+<div class="text-line"><span data-slot="text_15" data-slot-type="text">Of</span><span class="pink" data-slot="text_16" data-slot-type="text">Pork.</span></div>
+</div>
+</body>
+</html>

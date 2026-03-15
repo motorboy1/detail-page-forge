@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&family=Inter:wght@400;700&display=swap');
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { width: 1920px; min-height: 2400px; background: #f5eee8; font-family: 'Inter', sans-serif; color: #000000; position: relative; overflow: hidden; }
+.crossword { display: grid; grid-template-columns: repeat(8, 1fr); grid-template-rows: repeat(8, 1fr); width: 100%; height: 2000px; gap: 3px; padding: 40px; }
+.cell { background: #f5eee8; border: 2px solid rgba(0,0,0,0.15); display: flex; align-items: center; justify-content: center; position: relative; }
+.cell.black { background: #000000; border-color: #000000; }
+.cell.red { background: #e63946; border-color: #e63946; }
+.cell.pink { background: #f4b5b5; border-color: #f4b5b5; }
+.cell .letter { font-family: 'Courier Prime', monospace; font-size: 80px; font-weight: 700; color: #000000; text-transform: uppercase; }
+.cell.red .letter { color: #1a0000; }
+.cell.pink .letter { color: #1a0000; }
+.body-text { position: absolute; bottom: 500px; left: 80px; max-width: 550px; z-index: 10; }
+.body-text p { font-size: 20px; line-height: 1.5; font-weight: 700; text-transform: uppercase; color: #000000; }
+</style>
+</head>
+<body>
+<div class="crossword">
+  <!-- Row 1 -->
+  <div class="cell"></div><div class="cell"></div><div class="cell black"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div>
+  <!-- Row 2: DESIGN horizontal -->
+  <div class="cell red"><span class="letter">D</span></div><div class="cell red"><span class="letter">E</span></div><div class="cell red"><span class="letter">S</span></div><div class="cell red"><span class="letter">I</span></div><div class="cell red"><span class="letter">G</span></div><div class="cell red"><span class="letter">N</span></div><div class="cell"></div><div class="cell"></div>
+  <!-- Row 3: E vertical -->
+  <div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell black"></div><div class="cell pink"><span class="letter">E</span></div><div class="cell"></div><div class="cell"></div>
+  <!-- Row 4: N vertical -->
+  <div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell pink"><span class="letter">N</span></div><div class="cell"></div><div class="cell"></div>
+  <!-- Row 5: I vertical -->
+  <div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell pink"><span class="letter">I</span></div><div class="cell"></div><div class="cell"></div>
+  <!-- Row 6: U vertical + body text area -->
+  <div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell pink"><span class="letter">U</span></div><div class="cell"></div><div class="cell"></div>
+  <!-- Row 7: S vertical -->
+  <div class="cell black"></div><div class="cell"></div><div class="cell"></div><div class="cell black"></div><div class="cell"></div><div class="cell pink"><span class="letter">S</span></div><div class="cell"></div><div class="cell black"></div>
+  <!-- Row 8 -->
+  <div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div>
+</div>
+<div class="body-text">
+  <p>Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</div>
+</body>
+</html>

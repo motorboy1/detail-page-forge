@@ -1,0 +1,22 @@
+{
+  "id": "template_1_1225",
+  "name": "Template 1 1225",
+  "section_type": "features",
+  "d1000_principles": [
+    "P07",
+    "P15",
+    "P42"
+  ],
+  "category": "design",
+  "source_url": "figma://template_1_1225",
+  "ssim_score": 0.0,
+  "slot_count": 1,
+  "thumbnail_path": "",
+  "tags": [
+    "dark",
+    "light",
+    "premium",
+    "modern"
+  ],
+  "created_at": "2026-03-14T15:48:56.306726+00:00"
+}

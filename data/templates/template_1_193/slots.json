@@ -1,0 +1,148 @@
+{
+  "total": 20,
+  "text": 20,
+  "image": 0,
+  "link": 0,
+  "slots": [
+    {
+      "name": "text_0",
+      "type": "text",
+      "defaultValue": "LEOS",
+      "tag": "span",
+      "index": 0
+    },
+    {
+      "name": "text_1",
+      "type": "text",
+      "defaultValue": "→",
+      "tag": "span",
+      "index": 1
+    },
+    {
+      "name": "text_2",
+      "type": "text",
+      "defaultValue": "CARAX'S",
+      "tag": "span",
+      "index": 2
+    },
+    {
+      "name": "text_3",
+      "type": "text",
+      "defaultValue": "DEBUT",
+      "tag": "span",
+      "index": 3
+    },
+    {
+      "name": "text_4",
+      "type": "text",
+      "defaultValue": "FILM",
+      "tag": "span",
+      "index": 4
+    },
+    {
+      "name": "text_5",
+      "type": "text",
+      "defaultValue": "BOY",
+      "tag": "span",
+      "index": 5
+    },
+    {
+      "name": "text_6",
+      "type": "text",
+      "defaultValue": "MEETS",
+      "tag": "span",
+      "index": 6
+    },
+    {
+      "name": "text_7",
+      "type": "text",
+      "defaultValue": "GIRL",
+      "tag": "span",
+      "index": 7
+    },
+    {
+      "name": "text_8",
+      "type": "text",
+      "defaultValue": "1984",
+      "tag": "span",
+      "index": 8
+    },
+    {
+      "name": "text_9",
+      "type": "text",
+      "defaultValue": "HAS",
+      "tag": "span",
+      "index": 9
+    },
+    {
+      "name": "text_10",
+      "type": "text",
+      "defaultValue": "BEEN",
+      "tag": "span",
+      "index": 10
+    },
+    {
+      "name": "text_11",
+      "type": "text",
+      "defaultValue": "ARCHIVED",
+      "tag": "span",
+      "index": 11
+    },
+    {
+      "name": "text_12",
+      "type": "text",
+      "defaultValue": "FOR",
+      "tag": "span",
+      "index": 12
+    },
+    {
+      "name": "text_13",
+      "type": "text",
+      "defaultValue": "40",
+      "tag": "span",
+      "index": 13
+    },
+    {
+      "name": "text_14",
+      "type": "text",
+      "defaultValue": "YEARS",
+      "tag": "span",
+      "index": 14
+    },
+    {
+      "name": "text_15",
+      "type": "text",
+      "defaultValue": "AND",
+      "tag": "span",
+      "index": 15
+    },
+    {
+      "name": "text_16",
+      "type": "text",
+      "defaultValue": "WILL BE",
+      "tag": "span",
+      "index": 16
+    },
+    {
+      "name": "text_17",
+      "type": "text",
+      "defaultValue": "REVEALED",
+      "tag": "span",
+      "index": 17
+    },
+    {
+      "name": "text_18",
+      "type": "text",
+      "defaultValue": "THIS",
+      "tag": "span",
+      "index": 18
+    },
+    {
+      "name": "text_19",
+      "type": "text",
+      "defaultValue": "SUMMER",
+      "tag": "span",
+      "index": 19
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html><html lang="ko"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Uncertainty Field</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Noto Sans KR',sans-serif;background:#2a2035;color:#fff;min-height:100vh}
+.container{max-width:800px;margin:0 auto;position:relative;overflow:hidden;padding:60px 40px;min-height:100vh}
+.grid{position:absolute;top:0;left:0;right:0;bottom:0;background:repeating-linear-gradient(90deg,rgba(255,255,255,0.05) 0px,rgba(255,255,255,0.05) 1px,transparent 1px,transparent 25%),repeating-linear-gradient(0deg,rgba(255,255,255,0.05) 0px,rgba(255,255,255,0.05) 1px,transparent 1px,transparent 25%)}
+.curves{position:absolute;top:0;left:0;right:0;height:55%;display:grid;grid-template-columns:1fr 1fr 1fr;grid-template-rows:1fr 1fr}
+.curve-cell{border:1px dashed rgba(255,255,255,0.15);position:relative}
+.dot{width:10px;height:10px;border:2px solid rgba(255,255,255,0.4);border-radius:50%;position:absolute}
+.data-tag{background:#fff;color:#2a2035;padding:4px 12px;font-size:11px;position:absolute}
+.bottom-content{position:absolute;bottom:60px;left:40px;right:40px}
+.headline{font-size:56px;font-weight:900;line-height:1.2;margin-bottom:24px}
+.description{font-size:13px;color:rgba(255,255,255,0.7);line-height:1.8;max-width:400px}
+.side-tag{position:absolute;right:20px;bottom:100px;background:#fff;color:#2a2035;padding:4px 12px;font-size:11px;transform:rotate(90deg);transform-origin:right bottom}
+</style></head><body>
+<div class="container">
+<div class="grid"></div>
+<div class="curves">
+<div class="curve-cell"><div class="dot" style="top:0;right:0"></div></div>
+<div class="curve-cell"><div class="data-tag" data-slot="data_labels" style="top:10px;right:10px">불확실성 78.1</div></div>
+<div class="curve-cell"><div class="dot" style="top:0;left:0"></div></div>
+<div class="curve-cell"><div class="data-tag" style="bottom:10px;left:10px">불확실성 78.1</div></div>
+<div class="curve-cell"><div class="data-tag" data-slot="tag_label" style="top:10px;right:10px;transform:rotate(-10deg)">현장입니다</div></div>
+<div class="curve-cell"></div>
+</div>
+<div class="bottom-content">
+<h1 class="headline" data-slot="headline">불확실성의 현장 &copy;</h1>
+<p class="description" data-slot="description">이 세상 모든 현자엥서 일어나는 일들은 절대로 예측이 불가능하며 논리적으로 해설되지도 않는다.</p>
+</div>
+<div class="side-tag" data-slot="side_label">불확실성 78.1</div>
+</div></body></html>

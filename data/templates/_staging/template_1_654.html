@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>From The Skies We Came From</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Helvetica Neue', Arial, sans-serif; }
+.hero { min-height: 100vh; background: linear-gradient(180deg, #0066cc 0%, #66b3ff 50%, #e0f0ff 100%); display: flex; align-items: center; justify-content: center; padding: 40px; position: relative; overflow: hidden; }
+.cloud { position: absolute; background: #fff; border-radius: 50%; opacity: 0.9; }
+.cloud-1 { width: 250px; height: 120px; top: 15%; left: 5%; }
+.cloud-2 { width: 350px; height: 150px; top: 40%; left: 30%; }
+.cloud-3 { width: 300px; height: 140px; bottom: 5%; left: 10%; }
+.hero-text { font-size: 100px; font-weight: 900; color: rgba(255,255,255,0.5); line-height: 0.95; letter-spacing: -3px; text-align: center; position: relative; z-index: 1; }
+</style>
+</head>
+<body>
+<section class="hero">
+  <div class="cloud cloud-1" data-slot="image_0" data-slot-type="image"></div>
+  <div class="cloud cloud-2" data-slot="image_1" data-slot-type="image"></div>
+  <div class="cloud cloud-3" data-slot="image_2" data-slot-type="image"></div>
+  <h1 class="hero-text" data-slot="text_0" data-slot-type="text">FROM THE SKIES WE CAME FROM</h1>
+</section>
+</body>
+</html>

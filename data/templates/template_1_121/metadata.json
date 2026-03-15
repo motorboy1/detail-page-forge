@@ -1,0 +1,22 @@
+{
+  "id": "template_1_121",
+  "name": "Template 1 121",
+  "section_type": "pricing",
+  "d1000_principles": [
+    "P03",
+    "P07",
+    "P28"
+  ],
+  "category": "design",
+  "source_url": "figma://template_1_121",
+  "ssim_score": 0.0,
+  "slot_count": 9,
+  "thumbnail_path": "",
+  "tags": [
+    "dark",
+    "gradient",
+    "premium",
+    "modern"
+  ],
+  "created_at": "2026-03-14T15:48:56.297215+00:00"
+}

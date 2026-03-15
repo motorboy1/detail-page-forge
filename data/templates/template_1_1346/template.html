@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { width: 1920px; min-height: 2400px; background: #000000; font-family: 'Inter', sans-serif; color: #ffffff; position: relative; overflow: hidden; }
+.container { padding: 80px 60px; min-height: 2400px; display: flex; flex-direction: column; }
+.city-grid { display: flex; flex-wrap: wrap; gap: 10px 20px; align-items: center; }
+.city-row { display: flex; align-items: center; width: 100%; margin-bottom: 10px; flex-wrap: wrap; gap: 10px; }
+.city-name { font-size: 120px; font-weight: 900; letter-spacing: 2px; text-transform: uppercase; line-height: 1.1; }
+.city-icon { width: 140px; height: 140px; border-radius: 8px; overflow: hidden; display: inline-flex; }
+.city-icon img { width: 100%; height: 100%; object-fit: cover; }
+.arrow { font-size: 60px; margin: 0 20px; color: #ffffff; }
+.spacer { flex: 1; }
+.bottom-icons { display: flex; gap: 20px; align-items: center; padding: 40px 0; }
+.icon-star { font-size: 40px; }
+.icon-dot { width: 40px; height: 40px; background: #ffffff; border-radius: 50%; }
+</style>
+</head>
+<body>
+<div class="container">
+<div class="city-grid">
+<div class="city-row">
+<span class="city-name" data-slot="text_0" data-slot-type="text">LONDON</span>
+<div class="city-icon"><img alt="London" data-slot="img_0" data-slot-type="image" src="london.png"/></div>
+<span class="city-name" data-slot="text_1" data-slot-type="text">PARIS</span>
+<div class="city-icon"><img alt="Paris" data-slot="img_1" data-slot-type="image" src="paris.png"/></div>
+</div>
+<div class="city-row">
+<div class="city-icon"><img alt="Milano" data-slot="img_2" data-slot-type="image" src="milano.png"/></div>
+<span class="city-name" data-slot="text_2" data-slot-type="text">MILANO</span>
+<div class="city-icon"><img alt="Seoul" data-slot="img_3" data-slot-type="image" src="seoul.png"/></div>
+<span class="city-name" data-slot="text_3" data-slot-type="text">SEOUL</span>
+</div>
+<div class="city-row">
+<span class="city-name" data-slot="text_4" data-slot-type="text">TOKYO</span>
+<div class="city-icon"><img alt="Tokyo" data-slot="img_4" data-slot-type="image" src="tokyo.png"/></div>
+<span class="city-name" data-slot="text_5" data-slot-type="text">BERLIN</span>
+<div class="city-icon"><img alt="Berlin" data-slot="img_5" data-slot-type="image" src="berlin.png"/></div>
+</div>
+<div class="city-row">
+<span class="arrow" data-slot="text_6" data-slot-type="text">→</span>
+<div class="city-icon"><img alt="Hong Kong" data-slot="img_6" data-slot-type="image" src="hongkong.png"/></div>
+<span class="city-name" data-slot="text_7" data-slot-type="text">HONG KONG</span>
+</div>
+<div class="city-row">
+<span class="city-name" data-slot="text_8" data-slot-type="text">NEW YORK</span>
+<div class="city-icon"><img alt="New York" data-slot="img_7" data-slot-type="image" src="newyork.png"/></div>
+<span class="arrow" data-slot="text_9" data-slot-type="text">→</span>
+</div>
+<div class="city-row">
+<span class="arrow" data-slot="text_10" data-slot-type="text">→</span>
+<div class="city-icon"><img alt="Shanghai" data-slot="img_8" data-slot-type="image" src="shanghai.png"/></div>
+<span class="city-name" data-slot="text_11" data-slot-type="text">SHANGHAI</span>
+</div>
+</div>
+<div class="spacer"></div>
+<div class="bottom-icons">
+<span class="icon-star" data-slot="text_12" data-slot-type="text">✶</span>
+<div class="icon-dot"></div>
+</div>
+</div>
+</body>
+</html>

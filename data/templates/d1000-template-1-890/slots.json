@@ -1,0 +1,30 @@
+{
+  "total": 3,
+  "text": 2,
+  "image": 1,
+  "link": 0,
+  "slots": [
+    {
+      "name": "text_0",
+      "type": "text",
+      "defaultValue": "Every CNC",
+      "tag": "h1",
+      "index": 0
+    },
+    {
+      "name": "text_1",
+      "type": "text",
+      "defaultValue": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "tag": "p",
+      "index": 1
+    },
+    {
+      "name": "img_0",
+      "type": "image",
+      "defaultValue": "https://placehold.co/100x140/333/999?text=Spring",
+      "tag": "img",
+      "index": 0,
+      "alt": "Product"
+    }
+  ]
+}

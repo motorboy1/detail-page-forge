@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Studio XXAX Opening</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@500;700&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Anton', 'Impact', sans-serif;
+    background: #FFD726;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 48px;
+  }
+
+  .poster-text {
+    font-size: clamp(3rem, 10vw, 7.5rem);
+    font-weight: 400;
+    color: #000;
+    line-height: 1.0;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    word-spacing: 0.3em;
+  }
+  .poster-text .line {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .footer-text {
+    margin-top: 40px;
+    font-family: 'Inter', sans-serif;
+    font-size: clamp(0.9rem, 2vw, 1.3rem);
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  @media (max-width: 768px) {
+    body { padding: 24px; }
+    .poster-text { font-size: clamp(2rem, 8vw, 4rem); }
+  }
+</style>
+</head>
+<body>
+<div class="poster-text">
+<div class="line"><span data-slot="text_0" data-slot-type="text">Studio</span><span data-slot="text_1" data-slot-type="text">XXAX</span></div>
+<div class="line"><span data-slot="text_2" data-slot-type="text">Opening</span><span data-slot="text_3" data-slot-type="text">Show</span></div>
+<div class="line"><span data-slot="text_4" data-slot-type="text">At</span><span data-slot="text_5" data-slot-type="text">Hapjeong,</span></div>
+<div class="line"><span data-slot="text_6" data-slot-type="text">Seoul,</span><span data-slot="text_7" data-slot-type="text">South</span></div>
+<div class="line"><span data-slot="text_8" data-slot-type="text">Korea</span><span data-slot="text_9" data-slot-type="text">@ 10.14</span></div>
+<div class="line"><span data-slot="text_10" data-slot-type="text">PM 8:00</span><span data-slot="text_11" data-slot-type="text">- 10:00</span></div>
+</div>
+<p class="footer-text" data-slot="text_12" data-slot-type="text">Find us in Instagram @xxax.kr</p>
+</body>
+</html>

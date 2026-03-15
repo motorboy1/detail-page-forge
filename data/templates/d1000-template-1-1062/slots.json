@@ -1,0 +1,45 @@
+{
+  "total": 5,
+  "text": 3,
+  "image": 2,
+  "link": 0,
+  "slots": [
+    {
+      "name": "text_0",
+      "type": "text",
+      "defaultValue": "007",
+      "tag": "p",
+      "index": 0
+    },
+    {
+      "name": "text_1",
+      "type": "text",
+      "defaultValue": "Essentials.",
+      "tag": "h1",
+      "index": 1
+    },
+    {
+      "name": "text_2",
+      "type": "text",
+      "defaultValue": "FROM 199 USD",
+      "tag": "p",
+      "index": 2
+    },
+    {
+      "name": "img_0",
+      "type": "image",
+      "defaultValue": "/images/placeholder-lipstick-1.png",
+      "tag": "img",
+      "index": 0,
+      "alt": "Luxury lipstick product"
+    },
+    {
+      "name": "img_1",
+      "type": "image",
+      "defaultValue": "/images/placeholder-lipstick-2.png",
+      "tag": "img",
+      "index": 1,
+      "alt": "Luxury lipstick product"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Only For The Elderly Ones</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Helvetica Neue', Arial, sans-serif; }
+.hero { min-height: 100vh; background: linear-gradient(180deg, #4a5568 0%, #2d3748 50%, #1a202c 100%); display: flex; flex-direction: column; justify-content: space-between; padding: 40px; position: relative; }
+.top-row { display: flex; justify-content: space-between; align-items: flex-start; }
+.hero-title { font-size: 100px; font-weight: 900; color: #ecc94b; line-height: 0.9; letter-spacing: -3px; }
+.hero-text-sm { font-size: 14px; font-weight: 700; color: #ecc94b; text-transform: uppercase; max-width: 250px; line-height: 1.4; }
+.center-icon { width: 200px; height: 60px; background: #ecc94b; align-self: center; }
+.bottom-row { display: flex; justify-content: space-between; align-items: flex-end; }
+.bottom-text { font-size: 12px; font-weight: 600; color: #ecc94b; text-transform: uppercase; max-width: 500px; }
+.bottom-title { font-size: 90px; font-weight: 900; color: #ecc94b; line-height: 0.9; }
+</style>
+</head>
+<body>
+<section class="hero">
+  <div class="top-row">
+    <h1 class="hero-title" data-slot="text_0" data-slot-type="text">ONLY</h1>
+    <span class="hero-text-sm" data-slot="text_1" data-slot-type="text">Lorem ipsum dolor sit amet, consec adipiscing elit</span>
+  </div>
+  <div class="top-row">
+    <span class="hero-text-sm" data-slot="text_2" data-slot-type="text">Lorem ipsum dolor sit amet, consec adipiscing elit</span>
+    <h2 class="hero-title" data-slot="text_3" data-slot-type="text">FOR THE</h2>
+  </div>
+  <div class="center-icon" data-slot="image_0" data-slot-type="image"></div>
+  <div class="bottom-row">
+    <p class="bottom-text" data-slot="text_4" data-slot-type="text">Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod</p>
+    <h2 class="bottom-title" data-slot="text_5" data-slot-type="text">ELDERLY ONES</h2>
+  </div>
+</section>
+</body>
+</html>

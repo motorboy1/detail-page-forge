@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Typography Editorial</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Georgia', 'Times New Roman', serif; background: #fdf0f0; }
+.editorial { min-height: 100vh; padding: 60px 40px; position: relative; display: flex; flex-direction: column; justify-content: center; }
+.editorial-bg { font-size: 100px; font-weight: 700; font-style: italic; color: rgba(255, 0, 0, 0.25); line-height: 1.1; position: absolute; top: 40px; left: 20px; right: 20px; z-index: 0; }
+.card { background: #ff0000; color: #fff; padding: 20px 24px; font-size: 16px; line-height: 1.5; position: relative; z-index: 1; max-width: 320px; margin: 20px 0; }
+.card.left { align-self: flex-start; margin-left: 120px; }
+.card.right { align-self: flex-end; margin-right: 60px; }
+.card.bottom { align-self: flex-start; max-width: 560px; margin-top: 40px; }
+</style>
+</head>
+<body>
+<section class="editorial">
+<div class="editorial-bg" data-slot="text_0" data-slot-type="text">Blurring things don't always lead to killing the design.</div>
+<div class="card left" data-slot="text_1" data-slot-type="text">Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod Lorem</div>
+<div class="card right" data-slot="text_2" data-slot-type="text">Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consec adipiscing elit,</div>
+<div class="card bottom" data-slot="text_3" data-slot-type="text">Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consec adipiscing elit,</div>
+</section>
+</body>
+</html>

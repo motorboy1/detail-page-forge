@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Achieved By Random Blurs</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Helvetica Neue', Arial, sans-serif; }
+.hero { min-height: 100vh; background: linear-gradient(160deg, #e8e0ff 0%, #4400ff 50%, #6644ff 100%); display: flex; flex-direction: column; justify-content: space-between; padding: 40px; color: #fff; }
+.hero-top p { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; line-height: 1.6; max-width: 600px; opacity: 0.8; }
+.divider { width: 100%; height: 2px; background: rgba(255,255,255,0.4); margin: 20px 0; }
+.hero-title { font-size: 36px; font-weight: 900; text-transform: uppercase; font-style: italic; line-height: 1.2; }
+.hero-bottom { display: flex; align-items: flex-end; }
+.starburst { width: 80px; height: 80px; background: #fff; clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%); }
+</style>
+</head>
+<body>
+<section class="hero">
+  <div class="hero-top">
+    <p data-slot="text_0" data-slot-type="text">Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod</p>
+  </div>
+  <div class="divider"></div>
+  <h1 class="hero-title" data-slot="text_1" data-slot-type="text">ACHIEVED BY (RANDOM) BLURS</h1>
+  <div class="hero-bottom">
+    <div class="starburst"></div>
+  </div>
+</section>
+</body>
+</html>

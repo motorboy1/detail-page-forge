@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>They Never Look Back</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Helvetica Neue', Arial, sans-serif; }
+.hero { min-height: 100vh; background: linear-gradient(180deg, #000 0%, #000 40%, #6600ff 100%); display: flex; flex-direction: column; padding: 40px; color: #fff; }
+.hero-title { font-size: 100px; line-height: 1; margin-bottom: 24px; }
+.hero-title .serif { font-family: 'Georgia', serif; font-weight: 400; }
+.hero-title .bold { font-weight: 900; }
+.hero-description { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; line-height: 1.6; max-width: 600px; margin-bottom: 40px; }
+.hero-visual { flex: 1; display: flex; align-items: center; justify-content: center; position: relative; }
+.satellite { width: 300px; height: 300px; border: 3px solid rgba(255,255,255,0.3); border-radius: 50%; display: flex; align-items: center; justify-content: center; }
+.satellite-inner { width: 200px; height: 120px; background: rgba(255,255,255,0.1); border: 2px solid #fff; }
+</style>
+</head>
+<body>
+<section class="hero">
+  <h1 class="hero-title">
+    <span class="bold" data-slot="text_0" data-slot-type="text">They</span> <span class="serif" data-slot="text_1" data-slot-type="text">(Never)</span><br>
+    <span class="serif" data-slot="text_2" data-slot-type="text">Look</span> <span class="bold" data-slot="text_3" data-slot-type="text">Back.</span>
+  </h1>
+  <p class="hero-description" data-slot="text_4" data-slot-type="text">Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod</p>
+  <div class="hero-visual">
+    <div class="satellite" data-slot="image_0" data-slot-type="image"></div>
+  </div>
+</section>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Anthology</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inter:wght@400;700&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    min-height: 100vh;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    overflow: hidden;
+  }
+  .sky-section {
+    position: relative;
+    background: linear-gradient(180deg, #2980B9 0%, #85C1E9 50%, #FAD7A0 80%, #F5CBA7 100%);
+    min-height: 50vh;
+    padding: 48px 40px;
+    display: flex;
+    flex-direction: column;
+  }
+  .title-script {
+    font-family: 'Dancing Script', cursive;
+    font-size: clamp(5rem, 16vw, 10rem);
+    color: #CCFF00;
+    line-height: 0.9;
+    position: relative;
+    z-index: 2;
+  }
+  .body-right {
+    position: absolute;
+    top: 48px;
+    right: 40px;
+    font-size: clamp(0.7rem, 1.5vw, 0.85rem);
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: right;
+    max-width: 280px;
+    line-height: 1.5;
+    color: #CCFF00;
+  }
+  .body-left {
+    font-size: clamp(0.7rem, 1.5vw, 0.85rem);
+    font-weight: 700;
+    text-transform: uppercase;
+    max-width: 320px;
+    line-height: 1.5;
+    color: #CCFF00;
+    margin-top: 16px;
+  }
+  .body-left-small {
+    font-size: clamp(0.7rem, 1.5vw, 0.85rem);
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #CCFF00;
+    margin-top: 16px;
+  }
+  .compass {
+    width: 32px;
+    height: 32px;
+    border: 2px solid #CCFF00;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: #CCFF00;
+    margin-top: 8px;
+  }
+  .desert-section {
+    min-height: 50vh;
+    background: linear-gradient(180deg, #D4891A 0%, #B8720E 40%, #8B5A0B 100%);
+    display: flex;
+    align-items: flex-end;
+    padding: 0 40px 32px;
+    position: relative;
+  }
+  .desert-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40%;
+    background: linear-gradient(180deg, rgba(245,203,167,0.3) 0%, transparent 100%);
+  }
+  .bottom-text {
+    font-size: clamp(0.7rem, 1.5vw, 0.85rem);
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.5;
+    text-align: center;
+    width: 100%;
+  }
+  @media (max-width: 600px) {
+    .sky-section { padding: 24px 20px; }
+    .body-right { right: 20px; top: 24px; }
+    .desert-section { padding: 0 20px 24px; }
+  }
+</style>
+</head>
+<body>
+<div class="sky-section">
+<h1 class="title-script" data-slot="text_0" data-slot-type="text">Antho<br/>logy</h1>
+<p class="body-right" data-slot="text_1" data-slot-type="text">LOREM IPSUM DOLOR SIT AMET, CONSEC ADIPISCING ELIT, SED DO EIUSMOD LOREM IPSUM DOLOR SIT AMET, CONSEC ADIPISCING ELIT, SED DO EIUSMOD LOREM IPSUM DOLOR SIT AMET,</p>
+<p class="body-left" data-slot="text_2" data-slot-type="text">LOREM IPSUM DOLOR SIT AMET, CONSEC ADIPISCING ELIT, SED DO EIUSMOD LOREM IPSUM DOLOR SIT AMET, CONSEC ADIPISCING ELIT, SED DO EIUSMOD LOREM IPSUM DOLOR SIT AMET,</p>
+<p class="body-left-small" data-slot="text_3" data-slot-type="text">LOREM IPSUM DOLOR SIT AMET, CONSEC</p>
+<div class="compass">✦</div>
+</div>
+<div class="desert-section">
+<p class="bottom-text" data-slot="text_4" data-slot-type="text">LOREM IPSUM DOLOR SIT AMET, CONSEC ADIPISCING ELIT, SED DO EIUSMOD LOREM IPSUM DOLOR SIT AMET, CONSEC ADIPISCING ELIT, SED DO EIUSMOD LOREM IPSUM DOLOR SIT AMET,</p>
+</div>
+</body>
+</html>

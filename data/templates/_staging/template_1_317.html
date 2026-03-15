@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Studio Unicorn</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Helvetica Neue', Arial, sans-serif; }
+.hero { min-height: 100vh; background: linear-gradient(180deg, #f5deb3 0%, #fff 30%, #fff 100%); display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 60px 40px; position: relative; overflow: hidden; }
+.hero-title { font-size: 120px; font-weight: 900; line-height: 0.95; letter-spacing: -4px; color: #000; margin-bottom: 40px; }
+.hero-title span { font-size: 60px; vertical-align: super; }
+.hero-image { width: 400px; height: 400px; background: linear-gradient(135deg, #f0e0e0, #e0d0f0, #d0f0e0); border-radius: 50%; margin: 20px 0; opacity: 0.7; filter: blur(2px); }
+.hero-description { font-size: 14px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: #000; max-width: 700px; line-height: 1.6; margin-top: 40px; }
+</style>
+</head>
+<body>
+<section class="hero">
+  <h1 class="hero-title" data-slot="text_0" data-slot-type="text">Studio<span>*</span> Unicorn</h1>
+  <div class="hero-image" data-slot="image_0" data-slot-type="image"></div>
+  <p class="hero-description" data-slot="text_1" data-slot-type="text">Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod</p>
+</section>
+</body>
+</html>

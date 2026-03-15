@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Intersection</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #000;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 48px 40px 60px;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    overflow: hidden;
+  }
+  .top-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  .body-left, .body-right {
+    font-size: clamp(0.75rem, 1.8vw, 1rem);
+    line-height: 1.6;
+    color: #ccc;
+    max-width: 320px;
+  }
+  .body-right { text-align: right; }
+  .cascade {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -20px;
+  }
+  .cascade-line {
+    font-weight: 900;
+    letter-spacing: -0.03em;
+    line-height: 1.05;
+    background: linear-gradient(180deg, #999 0%, #fff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  @media (max-width: 600px) {
+    body { padding: 24px 20px 40px; }
+    .top-row { flex-direction: column; gap: 16px; }
+  }
+</style>
+</head>
+<body>
+<div class="top-row">
+<p class="body-left" data-slot="text_0" data-slot-type="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<p class="body-right" data-slot="text_1" data-slot-type="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</div>
+<div class="cascade">
+<span class="cascade-line" data-slot="text_2" data-slot-type="text" style="font-size: clamp(1.5rem, 4vw, 2.5rem);">i</span>
+<span class="cascade-line" data-slot="text_3" data-slot-type="text" style="font-size: clamp(1.8rem, 5vw, 3rem);">in</span>
+<span class="cascade-line" data-slot="text_4" data-slot-type="text" style="font-size: clamp(2rem, 5.5vw, 3.5rem);">int</span>
+<span class="cascade-line" data-slot="text_5" data-slot-type="text" style="font-size: clamp(2.2rem, 6vw, 4rem);">inte</span>
+<span class="cascade-line" data-slot="text_6" data-slot-type="text" style="font-size: clamp(2.5rem, 6.5vw, 4.5rem);">inter</span>
+<span class="cascade-line" data-slot="text_7" data-slot-type="text" style="font-size: clamp(2.8rem, 7vw, 5rem);">inters</span>
+<span class="cascade-line" data-slot="text_8" data-slot-type="text" style="font-size: clamp(3rem, 7.5vw, 5.5rem);">interse</span>
+<span class="cascade-line" data-slot="text_9" data-slot-type="text" style="font-size: clamp(3.2rem, 8vw, 6rem);">intersec</span>
+<span class="cascade-line" data-slot="text_10" data-slot-type="text" style="font-size: clamp(3.5rem, 8.5vw, 6.5rem);">intersect</span>
+<span class="cascade-line" data-slot="text_11" data-slot-type="text" style="font-size: clamp(3.8rem, 9vw, 7rem);">intersecti</span>
+<span class="cascade-line" data-slot="text_12" data-slot-type="text" style="font-size: clamp(4rem, 9.5vw, 7.5rem);">intersectio</span>
+<span class="cascade-line" data-slot="text_13" data-slot-type="text" style="font-size: clamp(4.2rem, 10vw, 8rem);">intersection</span>
+<span class="cascade-line" data-slot="text_14" data-slot-type="text" style="font-size: clamp(4.5rem, 10.5vw, 8.5rem);">intersection.</span>
+</div>
+</body>
+</html>

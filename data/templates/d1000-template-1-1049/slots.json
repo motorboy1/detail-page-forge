@@ -1,0 +1,36 @@
+{
+  "total": 4,
+  "text": 4,
+  "image": 0,
+  "link": 0,
+  "slots": [
+    {
+      "name": "text_0",
+      "type": "text",
+      "defaultValue": "Consec Adipiscing Dolore Et Labore, Amet, Ut Consec Incididunt Sit Dolore Magna Elit, Sed",
+      "tag": "p",
+      "index": 0
+    },
+    {
+      "name": "text_1",
+      "type": "text",
+      "defaultValue": "Labore Consec Amet, Consec Incididunt Ut Dolor Sit Amet, Co",
+      "tag": "p",
+      "index": 1
+    },
+    {
+      "name": "text_2",
+      "type": "text",
+      "defaultValue": "Theory.",
+      "tag": "h1",
+      "index": 2
+    },
+    {
+      "name": "text_3",
+      "type": "text",
+      "defaultValue": "Lorem Ipsum",
+      "tag": "p",
+      "index": 3
+    }
+  ]
+}

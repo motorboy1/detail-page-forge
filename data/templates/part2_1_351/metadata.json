@@ -1,0 +1,25 @@
+{
+  "id": "part2_1_351",
+  "name": "Antitech Metal Tag Card",
+  "section_type": "hero",
+  "d1000_principles": [
+    3,
+    10,
+    19,
+    31
+  ],
+  "category": "concept",
+  "source_url": "",
+  "ssim_score": 0.0,
+  "slot_count": 0,
+  "thumbnail_path": "part2_1_351/thumbnail.jpg",
+  "tags": [
+    "metal",
+    "tag",
+    "silver",
+    "antitech",
+    "futuristic",
+    "card"
+  ],
+  "created_at": "2026-03-15T10:03:30.077052+00:00"
+}

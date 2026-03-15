@@ -1,0 +1,33 @@
+<!DOCTYPE html><html lang="ko"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Born From Mud</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Noto Sans KR',sans-serif;background:#b8b8b8;min-height:100vh;padding:20px}
+.container{max-width:600px;margin:0 auto;display:flex;flex-direction:column;gap:6px}
+.pill{background:#b8b8b8;border-radius:30px;padding:12px 24px;box-shadow:4px 4px 8px rgba(0,0,0,0.2),-4px -4px 8px rgba(255,255,255,0.3);text-align:center;font-size:13px;color:#666}
+.pill-row{display:flex;gap:6px;justify-content:center;align-items:center}
+.badge{width:40px;height:40px;border-radius:50%;background:#b8b8b8;box-shadow:3px 3px 6px rgba(0,0,0,0.2),-3px -3px 6px rgba(255,255,255,0.3);display:flex;align-items:center;justify-content:center;font-size:10px;color:#888}
+.flower{width:50px;height:50px;background:#b8b8b8;border-radius:50%;box-shadow:inset 3px 3px 6px rgba(0,0,0,0.15),inset -3px -3px 6px rgba(255,255,255,0.2)}
+.main-block{background:#b8b8b8;border-radius:20px;padding:30px;box-shadow:6px 6px 12px rgba(0,0,0,0.2),-6px -6px 12px rgba(255,255,255,0.3);text-align:center}
+.brand-en{font-size:12px;color:#888;letter-spacing:2px;margin-bottom:8px}
+.headline{font-size:36px;font-weight:900;color:#777;text-shadow:2px 2px 3px rgba(0,0,0,0.15),-1px -1px 2px rgba(255,255,255,0.4)}
+.desc-row{display:flex;gap:6px}
+.desc-card{flex:1;background:#b8b8b8;border-radius:16px;padding:20px;box-shadow:4px 4px 8px rgba(0,0,0,0.2),-4px -4px 8px rgba(255,255,255,0.3);font-size:12px;color:#666;line-height:1.7}
+.bottom-row{display:flex;gap:6px;justify-content:center}
+.bottom-pill{background:#b8b8b8;border-radius:20px;padding:8px 20px;box-shadow:3px 3px 6px rgba(0,0,0,0.2),-3px -3px 6px rgba(255,255,255,0.3);font-size:11px;color:#888;letter-spacing:1px}
+</style></head><body>
+<div class="container">
+<div class="pill-row"><div class="badge">+</div><div class="pill" style="flex:1;font-family:monospace;font-size:10px">||||||||||||||||||||||||||||</div><div class="badge">+</div></div>
+<div class="pill" data-slot="date_code">22210128</div>
+<div class="pill" data-slot="top_text">당신은 무조건, 진흙 속에서 태어났다. 우리를 따르라.</div>
+<div class="pill" data-slot="date">2021.10.01</div>
+<div class="pill-row"><div class="flower"></div><div class="pill" style="flex:1" data-slot="question">당신이 태어난 환경을 정말로 기억하시나요?</div><div class="flower"></div></div>
+<div class="main-block">
+<div class="brand-en" data-slot="brand_en">BORN FROM MUD</div>
+<h1 class="headline" data-slot="headline">진흙에서 태어나다</h1>
+</div>
+<div class="desc-row">
+<div class="desc-card" data-slot="desc_left">우리는 당신을 위협하는 것이 아니라, 당신에게 좋은 안식처를 제공하려는 선의를 품고 있을 뿐입니다.</div>
+<div class="desc-card" data-slot="desc_right">우리를 거부하여도 좋습니다만, 삶을 살다 보면 당신이 절대 물에서 태어나지 않았다는 감각을 분명히 느낄겁니다.</div>
+</div>
+<div class="bottom-row"><div class="bottom-pill">BORN FROM MUD</div><div class="bottom-pill">BORN FROM MUD</div></div>
+</div></body></html>

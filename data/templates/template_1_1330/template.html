@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700;900&family=Inter:wght@400;700&display=swap');
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { width: 1920px; min-height: 2400px; background: linear-gradient(180deg, #1a1040 0%, #0d0825 100%); font-family: 'Inter', sans-serif; color: #ffffff; position: relative; overflow: hidden; }
+.container { position: relative; padding: 60px 80px; min-height: 2400px; z-index: 2; }
+.year-badge { text-align: center; margin-bottom: 40px; }
+.year-badge span { font-size: 36px; font-weight: 700; letter-spacing: 6px; color: #ffffff; }
+.year-badge .star { margin: 0 12px; }
+.main-text { font-family: 'Oswald', sans-serif; font-size: 150px; font-weight: 900; line-height: 1.0; text-transform: uppercase; color: rgba(255,255,255,0.75); transform: skewY(-3deg); text-align: center; margin-top: 80px; }
+.planet { position: absolute; border-radius: 50%; }
+.planet-mars { top: 40px; left: 60px; width: 200px; height: 200px; background: radial-gradient(circle at 35% 35%, #e87040 0%, #c04020 60%, #802010 100%); }
+.planet-saturn { top: 30px; right: 100px; width: 320px; height: 280px; }
+.saturn-body { width: 240px; height: 240px; background: radial-gradient(circle at 40% 35%, #a0c8e0 0%, #6098b8 60%, #407088 100%); border-radius: 50%; position: relative; }
+.saturn-ring { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) rotateX(70deg); width: 320px; height: 320px; border: 15px solid rgba(160,200,224,0.4); border-radius: 50%; }
+.planet-moon { top: 45%; left: 30%; width: 100px; height: 100px; background: radial-gradient(circle at 40% 35%, #b0a898 0%, #807060 100%); }
+.planet-jupiter { bottom: 100px; right: 60px; width: 420px; height: 420px; background: radial-gradient(circle at 40% 35%, #e8c880 0%, #c8a050 40%, #a08030 100%); }
+.planet-venus { bottom: 200px; left: 80px; width: 280px; height: 280px; background: radial-gradient(circle at 40% 35%, #e8c080 0%, #d0a050 60%, #b08030 100%); }
+</style>
+</head>
+<body>
+<div class="container">
+<div class="year-badge">
+<span class="star" data-slot="text_0" data-slot-type="text">★</span><span data-slot="text_1" data-slot-type="text">2025</span><span class="star" data-slot="text_2" data-slot-type="text">★</span>
+</div>
+<div class="main-text">
+    LOREM IPSUM<br/>
+    DOLOR SIT AMET,<br/>
+    CONSEC<br/>
+    ADIPISCING ELIT, SED<br/>
+    DO EIUSMOD<br/>
+    TEMPOR
+  </div>
+</div>
+<div class="planet planet-mars"></div>
+<div class="planet planet-moon"></div>
+<div class="planet planet-venus"></div>
+<div class="planet planet-jupiter"></div>
+</body>
+</html>

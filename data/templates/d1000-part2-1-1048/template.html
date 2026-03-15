@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>20000 Heroes</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Noto Sans KR','Helvetica Neue',sans-serif}
+.hero{min-height:100vh;background:linear-gradient(180deg,#b8c8e8,#d8dff0,#e8ecf5);display:flex;flex-direction:column;padding:40px 30px;position:relative;overflow:hidden}
+.title-row{display:flex;align-items:flex-start;gap:10px;position:relative;z-index:2}
+.big-number{font-size:clamp(5rem,12vw,9rem);font-weight:900;color:#fff;line-height:0.9;text-shadow:2px 4px 10px rgba(0,0,0,0.1)}
+.title-kr{font-size:clamp(3rem,8vw,7rem);font-weight:900;color:#2a3a5c;line-height:0.9}
+.subtitle{color:#2a3a5c;font-size:1rem;line-height:1.6;max-width:350px;margin:20px 0;position:relative;z-index:2}
+.plane-img{position:absolute;top:20px;left:50%;width:70%}
+.plane-img img{width:100%;transform:rotate(-15deg)}
+.stats-row{display:flex;gap:40px;margin:30px 0;position:relative;z-index:2}
+.stat{border-left:2px solid #2a3a5c;padding-left:15px}
+.stat-label{font-size:0.75rem;color:#555}
+.stat-value{font-size:1.5rem;font-weight:900;color:#1a1a1a}
+.names-area{position:relative;flex:1;background:linear-gradient(180deg,rgba(0,0,0,0.6),rgba(0,0,0,0.8));margin:20px -30px 0;padding:20px;overflow:hidden}
+.names-grid{color:rgba(255,255,255,0.4);font-size:0.7rem;line-height:2;word-spacing:10px}
+.bottom-bar{display:flex;justify-content:space-between;align-items:center;padding:15px 0;position:relative;z-index:2}
+.org{font-size:0.8rem;color:#333;font-weight:700}
+.notice{font-size:0.7rem;color:#666}
+</style></head>
+<body>
+<section class="hero">
+<div class="title-row">
+<span class="big-number">20,000</span>
+<span class="title-kr">영웅들</span>
+</div>
+<p class="subtitle">우리가 기억하지 못하는 20만명의 숨은 영웅들을 역사는 가르쳐주지 않는 것인가?</p>
+<div class="stats-row">
+<div class="stat"><div class="stat-label">디천전쟁의 부상자 수</div><div class="stat-value">18,290명</div></div>
+<div class="stat"><div class="stat-label">디천전쟁의 사망자 수</div><div class="stat-value">2,390명</div></div>
+</div>
+<div class="names-area"><div class="names-grid">홍길동 홍길동 홍길동 홍길동 홍길동 홍길동 홍길동 홍길동 홍길동 홍길동 홍길동 홍길동 홍길동 홍길동 홍길동 홍길동 홍길동 홍길동 홍길동 홍길동 홍길동 홍길동 홍길동 홍길동 홍길동 홍길동 홍길동 홍길동 홍길동 홍길동</div></div>
+<div class="bottom-bar">
+<span class="org">대한민국 기억연구소</span>
+<span class="notice">공익광고심의필</span>
+<span class="notice">2025제39841호</span>
+</div>
+</section>
+</body></html>

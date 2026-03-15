@@ -1,0 +1,64 @@
+{
+  "total": 8,
+  "text": 8,
+  "image": 0,
+  "link": 0,
+  "slots": [
+    {
+      "name": "text_0",
+      "type": "text",
+      "defaultValue": "THE REDEEMER",
+      "tag": "h1",
+      "index": 0
+    },
+    {
+      "name": "text_1",
+      "type": "text",
+      "defaultValue": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod",
+      "tag": "p",
+      "index": 1
+    },
+    {
+      "name": "text_2",
+      "type": "text",
+      "defaultValue": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consec",
+      "tag": "p",
+      "index": 2
+    },
+    {
+      "name": "text_3",
+      "type": "text",
+      "defaultValue": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consec",
+      "tag": "p",
+      "index": 3
+    },
+    {
+      "name": "text_4",
+      "type": "text",
+      "defaultValue": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod",
+      "tag": "p",
+      "index": 4
+    },
+    {
+      "name": "text_5",
+      "type": "text",
+      "defaultValue": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod",
+      "tag": "p",
+      "index": 5
+    },
+    {
+      "name": "text_6",
+      "type": "text",
+      "defaultValue": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consec",
+      "tag": "p",
+      "index": 6
+    },
+    {
+      "name": "text_7",
+      "type": "text",
+      "defaultValue": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod",
+      "tag": "p",
+      "index": 7
+    }
+  ]
+}

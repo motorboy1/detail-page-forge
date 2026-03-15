@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Merry Christmas</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Courier New', monospace; background: #000; color: #fff; }
+.holiday { min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 40px 20px; text-align: center; }
+.tree { font-size: 13px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; line-height: 1.4; max-width: 600px; word-break: break-all; margin-bottom: 40px; position: relative; }
+.tree .star { color: #ff0000; font-size: 24px; }
+.holiday-title { font-size: 80px; font-weight: 400; margin-top: 20px; }
+.holiday-title .script { font-family: 'Georgia', serif; font-style: italic; }
+.holiday-title .bold { font-weight: 900; }
+.holiday-date { font-size: 24px; letter-spacing: 8px; margin-top: 16px; color: #ccc; }
+</style>
+</head>
+<body>
+<section class="holiday">
+  <div class="tree">
+    <span class="star" data-slot="text_0" data-slot-type="text">*</span><br>
+    <span data-slot="text_1" data-slot-type="text">LOREM IPSUM DOLOR SIT AMET, CONSEC ADIPISCING ELIT, SED DO EIUSMOD LOREM IPSUM DOLOR SIT AMET</span>
+  </div>
+  <h1 class="holiday-title">
+    <span class="script" data-slot="text_2" data-slot-type="text">Merry</span> <span class="bold" data-slot="text_3" data-slot-type="text">Christmas.</span>
+  </h1>
+  <p class="holiday-date" data-slot="text_4" data-slot-type="text">2025.12.25. AM 10:00</p>
+</section>
+</body>
+</html>

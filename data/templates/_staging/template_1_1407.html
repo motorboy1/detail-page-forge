@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grocery List Poster</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #E84040;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
+    position: relative;
+    overflow: hidden;
+  }
+  body::before {
+    content: '';
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    width: 250px;
+    height: 300px;
+    background: rgba(0,0,0,0.25);
+    filter: blur(30px);
+    border-radius: 40% 60% 50% 50%;
+    transform: rotate(-15deg);
+  }
+
+  .text-grid {
+    position: relative;
+    z-index: 1;
+    max-width: 600px;
+    width: 100%;
+  }
+  .text-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: clamp(2rem, 7vw, 4rem);
+    color: #000;
+    line-height: 1.05;
+    text-shadow: 0 0 2px rgba(0,0,0,0.3);
+  }
+  .text-line span {
+    display: inline-block;
+  }
+
+  @media (max-width: 768px) {
+    body { padding: 24px; }
+  }
+</style>
+</head>
+<body>
+  <div class="text-grid">
+    <div class="text-line"><span>please</span><span>bring</span></div>
+    <div class="text-line"><span>some</span><span>pickles,</span></div>
+    <div class="text-line"><span>oranges,</span><span>ripe</span></div>
+    <div class="text-line"><span>avocados,</span><span>and</span></div>
+    <div class="text-line"><span>a</span><span>gallon</span><span>of</span></div>
+    <div class="text-line"><span>milk,</span><span>plus</span></div>
+    <div class="text-line"><span>some</span><span>chunks</span></div>
+    <div class="text-line"><span>of</span><span>pork.</span></div>
+  </div>
+</body>
+</html>

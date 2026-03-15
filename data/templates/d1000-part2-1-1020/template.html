@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Queen Co</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Noto Sans KR','Helvetica Neue',sans-serif}
+.hero{min-height:100vh;background:#f5f5f0;display:flex;flex-direction:column;padding:40px 40px;position:relative}
+.logo{font-size:0.8rem;color:#666;letter-spacing:2px;margin-bottom:30px}
+h1{font-size:clamp(2.5rem,6vw,4rem);font-weight:900;color:#1a1a1a;line-height:1.2;margin-bottom:20px}
+.desc{color:#444;font-size:0.95rem;line-height:1.8;max-width:350px;margin-bottom:40px}
+.chess-area{position:relative;flex:1;display:flex;align-items:center;justify-content:center}
+.chess-img img{width:200px;filter:drop-shadow(30px 10px 20px rgba(0,0,0,0.3))}
+.annotations{position:absolute;right:20px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;gap:30px}
+.annotation{font-size:0.75rem;color:#555;display:flex;align-items:center;gap:5px}
+.annotation::before{content:'';width:30px;height:1px;background:#999}
+.bottom-bar{display:flex;justify-content:space-between;border-top:1px solid #ddd;padding-top:15px;margin-top:auto}
+.bottom-item{font-size:0.75rem;color:#666}
+</style></head>
+<body>
+<section class="hero">
+<div class="logo">QUEEN.CO.KR</div>
+<h1>20년간의<br>노력에 대해</h1>
+<p class="desc">나의 그림자의 길이는 20년이나 된다. 하지만 그림자 끝에는 내가 예상하지 못한 새로운 내가 있었다.</p>
+<div class="chess-area">
+<div class="chess-img"><img src="https://placehold.co/200x300/111/333?text=Pawn" alt="Chess"></div>
+<div class="annotations">
+<span class="annotation">QUEEN.CO 엑싯</span>
+<span class="annotation">20년간의 사업 운영</span>
+<span class="annotation">공동대표 @ PAWN TECH LTD.</span>
+</div>
+</div>
+<div class="bottom-bar">
+<span class="bottom-item">퀸코 대표 홍길순</span>
+<span class="bottom-item">20년간의 노하우</span>
+<span class="bottom-item">그리고 엑싯까지</span>
+</div>
+</section>
+</body></html>

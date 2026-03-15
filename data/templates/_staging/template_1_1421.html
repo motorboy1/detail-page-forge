@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Beform - Motivation</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@700&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    min-height: 100vh;
+    background: linear-gradient(160deg, #A8C4D8 0%, #C8DCE8 30%, #E8F0F8 50%, #B0C8D8 70%, #9AB8D0 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 48px;
+  }
+
+  .quote-block {
+    max-width: 100%;
+  }
+  .quote-line {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Anton', 'Impact', sans-serif;
+    font-size: clamp(3rem, 10vw, 6.5rem);
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.0;
+    text-transform: uppercase;
+  }
+
+  .brand-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding-top: 80px;
+  }
+  .brand-star {
+    width: 32px;
+    height: 32px;
+  }
+  .brand-star svg { width: 100%; height: 100%; }
+  .brand-name {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 0.75rem;
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+    padding: 6px 10px;
+    letter-spacing: 0.1em;
+    line-height: 1.2;
+    text-align: center;
+  }
+  .brand-dot {
+    width: 24px;
+    height: 24px;
+    background: #fff;
+    border-radius: 50%;
+  }
+
+  @media (max-width: 768px) {
+    body { padding: 24px; }
+  }
+</style>
+</head>
+<body>
+  <div class="quote-block">
+    <div class="quote-line"><span>Many</span><span>People</span></div>
+    <div class="quote-line"><span>Stop Their</span><span>Grind</span></div>
+    <div class="quote-line"><span>Right</span><span>Before</span></div>
+    <div class="quote-line"><span>Success.</span></div>
+  </div>
+  <div class="brand-footer">
+    <div class="brand-star">
+      <svg viewBox="0 0 32 32" fill="#fff">
+        <path d="M16 0L18 12L28 8L20 16L28 24L18 20L16 32L14 20L4 24L12 16L4 8L14 12Z"/>
+      </svg>
+    </div>
+    <div class="brand-name">BEF<br>ORM</div>
+    <div class="brand-dot"></div>
+  </div>
+</body>
+</html>

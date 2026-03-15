@@ -1,0 +1,29 @@
+{
+  "total": 3,
+  "text": 3,
+  "image": 0,
+  "link": 0,
+  "slots": [
+    {
+      "name": "text_0",
+      "type": "text",
+      "defaultValue": "FLAR EMIS",
+      "tag": "h1",
+      "index": 0
+    },
+    {
+      "name": "text_1",
+      "type": "text",
+      "defaultValue": "2025.12.25.",
+      "tag": "p",
+      "index": 1
+    },
+    {
+      "name": "text_2",
+      "type": "text",
+      "defaultValue": "AM 10:00",
+      "tag": "p",
+      "index": 2
+    }
+  ]
+}

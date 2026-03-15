@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Power Game</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Helvetica Neue', Arial, sans-serif; }
+.hero { min-height: 100vh; background: #f0f0f0; display: flex; flex-direction: column; padding: 40px; position: relative; }
+.hero-title { font-size: 100px; font-weight: 900; color: #1a1a1a; letter-spacing: 15px; display: flex; align-items: center; gap: 10px; margin-bottom: 30px; }
+.hero-title-icon { width: 80px; height: 80px; background: #333; border-radius: 50%; }
+.chess-area { display: flex; gap: 40px; flex: 1; align-items: flex-end; }
+.chess-piece { width: 250px; height: 400px; background: #2a2a2a; border-radius: 20px 20px 0 0; }
+.chess-piece-blur { width: 200px; height: 500px; background: #3a3a3a; border-radius: 20px 20px 0 0; filter: blur(3px); opacity: 0.6; }
+.info-block { position: absolute; bottom: 80px; left: 40px; max-width: 400px; }
+.info-title { font-size: 16px; font-weight: 900; color: #1a1a1a; text-transform: uppercase; margin-bottom: 10px; }
+.info-text { font-size: 13px; color: #555; line-height: 1.6; }
+</style>
+</head>
+<body>
+<section class="hero">
+  <h1 class="hero-title" data-slot="text_0" data-slot-type="text">P<span class="hero-title-icon" data-slot="image_0" data-slot-type="image"></span>WERE</h1>
+  <div class="chess-area">
+    <div class="chess-piece" data-slot="image_1" data-slot-type="image"></div>
+    <div class="chess-piece-blur" data-slot="image_2" data-slot-type="image"></div>
+  </div>
+  <div class="info-block">
+    <h2 class="info-title" data-slot="text_1" data-slot-type="text">GAME @ OLYMPIC STADIUM</h2>
+    <p class="info-text" data-slot="text_2" data-slot-type="text">Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consecLorem ipsum dolor sit amet</p>
+  </div>
+</section>
+</body>
+</html>

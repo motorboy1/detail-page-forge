@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Question Does The Sea</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Helvetica Neue', Arial, sans-serif; }
+.hero { min-height: 100vh; display: flex; flex-direction: column; }
+.top-section { flex: 1; background: linear-gradient(180deg, #c0c8b0 0%, #8a9a3a 100%); padding: 30px 30px 0; position: relative; display: flex; flex-direction: column; justify-content: flex-start; }
+.top-icons { position: absolute; top: 20px; right: 20px; display: flex; gap: 6px; }
+.top-icon { width: 20px; height: 20px; background: #8a9a3a; border-radius: 50%; }
+.top-text { font-size: 80px; font-weight: 900; line-height: 0.95; letter-spacing: -2px; background: linear-gradient(180deg, #b0c0d0 0%, #6b7b3a 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.bottom-section { flex: 1; background: #8a9a3a; padding: 30px; display: flex; align-items: center; }
+.bottom-text { font-size: 80px; font-weight: 900; color: #fff; line-height: 0.95; letter-spacing: -2px; }
+</style>
+</head>
+<body>
+<section class="hero">
+  <div class="top-section">
+    <div class="top-icons" data-slot="image_0" data-slot-type="image"><span class="top-icon"></span><span class="top-icon"></span><span class="top-icon"></span></div>
+    <h1 class="top-text" data-slot="text_0" data-slot-type="text">QUESTION: DOES THE SEA REALLY FLOW?</h1>
+  </div>
+  <div class="bottom-section">
+    <h2 class="bottom-text" data-slot="text_1" data-slot-type="text">THIS IS NOT A CONSPIRACY THEORY</h2>
+  </div>
+</section>
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "id": "part2_1_496",
+  "name": "Mapper Glasses Cyan Bold",
+  "section_type": "hero",
+  "d1000_principles": [
+    3,
+    7,
+    14,
+    28
+  ],
+  "category": "product",
+  "source_url": "",
+  "ssim_score": 0.0,
+  "slot_count": 0,
+  "thumbnail_path": "part2_1_496/thumbnail.jpg",
+  "tags": [
+    "glasses",
+    "cyan",
+    "bold",
+    "product",
+    "repeat",
+    "tech"
+  ],
+  "created_at": "2026-03-15T10:34:20.622239+00:00"
+}

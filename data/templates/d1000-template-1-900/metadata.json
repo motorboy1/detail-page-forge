@@ -1,0 +1,20 @@
+{
+  "id": "d1000-template-1-900",
+  "name": "template_1_900",
+  "section_type": "hero",
+  "d1000_principles": [],
+  "category": "general",
+  "source_url": "figma_d1000",
+  "ssim_score": 0.0,
+  "slot_count": 4,
+  "thumbnail_path": "",
+  "tags": [
+    "light",
+    "bold",
+    "serif",
+    "italic",
+    "modern",
+    "editorial"
+  ],
+  "created_at": "2026-03-15T06:12:20.201483+00:00"
+}

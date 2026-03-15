@@ -1,0 +1,21 @@
+<section style="margin:0;padding:0;width:100%;min-height:100vh;background:#c8ff00;font-family:'Pretendard',sans-serif;color:#000;position:relative;overflow:hidden;display:flex;flex-direction:column">
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:0;flex:1">
+    <div style="position:relative;background:linear-gradient(180deg,#8ab,#5a7);min-height:200px;display:flex;align-items:flex-end">
+      <div style="position:absolute;top:20%;left:30%;width:3px;height:40%;background:#3a2a1a"></div>
+      <div style="position:absolute;top:10%;left:20%;width:80px;height:80px;border:2px solid #3a2a1a;border-radius:50% 20% 50% 20%;transform:rotate(-20deg)"></div>
+    </div>
+    <div style="padding:20px;display:flex;flex-direction:column;justify-content:space-between">
+      <p data-slot="body_left" style="font-size:12px;line-height:1.7;margin:0">우리는 나무를 본다 한들, 그것이 어떤 형태로 변형이 될지는 예측할 수없다. 가령, 이 나무가 의자가 될 지 혹은 책상이 될 지 아무도 알 수 없는 노릇이다.</p>
+      <p data-slot="body_right" style="font-size:12px;line-height:1.7;margin:0">우리는 이 들판에 어떤 나무가 자라날 지, 그리고 그 나무에서 어떤 제품이 탄생할지 영원히 예측할 수 없을 것이다. 이런 땅이 너무나도 많다.</p>
+    </div>
+    <div style="padding:20px;display:flex;flex-direction:column;justify-content:flex-end">
+      <div style="width:40px;height:40px;background:#000;clip-path:polygon(20% 0%,80% 0%,100% 40%,80% 100%,20% 100%,0% 40%);margin-bottom:16px"></div>
+      <p data-slot="brand" style="font-size:13px;letter-spacing:3px;margin:0;font-weight:600">CHAIRS &amp; DESKS ©</p>
+    </div>
+    <div style="background:linear-gradient(180deg,#6a8,#4a6);min-height:150px"></div>
+  </div>
+  <div style="background:#c8ff00;padding:32px 40px">
+    <h1 data-slot="headline" style="font-size:64px;font-weight:900;margin:0;line-height:1;letter-spacing:-2px">의자인가<br>책상인가?</h1>
+    <p data-slot="body_bottom" style="font-size:12px;line-height:1.7;margin:16px 0 0 0;max-width:50%;text-align:right;float:right">우리는 나무를 본다 한들, 그것이 어떤 형태로 변형이 될지는 예측할 수 없다. 가령, 이 나무가 의자가 될 지 혹은 책상이 될 지는 아무도 알 수 없는 노릇이다.</p>
+  </div>
+</section>

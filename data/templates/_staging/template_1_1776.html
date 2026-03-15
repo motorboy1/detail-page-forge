@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bloom</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    min-height: 100vh;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+    color: #000;
+  }
+  .top-text {
+    font-size: clamp(0.7rem, 1.6vw, 0.85rem);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    padding: 32px 40px;
+    line-height: 1.5;
+  }
+  .blur-area {
+    flex: 1;
+    min-height: 50vh;
+    background: radial-gradient(ellipse at 50% 40%, #FF4500 0%, #FF6347 20%, #90EE90 40%, #fff 70%);
+    filter: blur(40px);
+    -webkit-filter: blur(40px);
+  }
+  .bottom-section {
+    padding: 20px 40px 32px;
+  }
+  .bloom-title {
+    font-size: clamp(5rem, 18vw, 12rem);
+    font-weight: 900;
+    letter-spacing: -0.04em;
+    line-height: 0.85;
+    margin-bottom: 16px;
+  }
+  .bottom-text {
+    font-size: clamp(0.7rem, 1.6vw, 0.85rem);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    line-height: 1.5;
+  }
+  @media (max-width: 600px) {
+    .top-text, .bottom-section { padding-left: 20px; padding-right: 20px; }
+  }
+</style>
+</head>
+<body>
+  <p class="top-text">LOREM IPSUM DOLOR SIT AMET, CONSEC ADIPISCING ELIT, SED DO EIUSMOD LOREM IPSUM DOLOR SIT AMET, CONSEC ADIPISCING ELIT, SED DO EIUSMOD LOREM IPSUM DOLOR SIT AMET,</p>
+  <div class="blur-area"></div>
+  <div class="bottom-section">
+    <h1 class="bloom-title">Bloom</h1>
+    <p class="bottom-text">LOREM IPSUM DOLOR SIT AMET, CONSEC ADIPISCING ELIT, SED DO EIUSMOD LOREM IPSUM DOLOR SIT AMET, CONSEC ADIPISCING ELIT, SED DO EIUSMOD LOREM IPSUM DOLOR SIT AMET,</p>
+  </div>
+</body>
+</html>

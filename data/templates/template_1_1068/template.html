@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@300;400&display=swap');
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { width: 1920px; min-height: 2400px; background: linear-gradient(180deg, #000000 0%, #1a0a00 60%, #cc5500 100%); font-family: 'Inter', sans-serif; color: #ffffff; position: relative; overflow: hidden; }
+.container { padding: 120px 160px; display: flex; flex-direction: column; align-items: center; min-height: 2400px; }
+.title-block { text-align: center; margin-top: 200px; }
+.title { font-family: 'Press Start 2P', monospace; font-size: 128px; color: #ff6600; letter-spacing: 12px; line-height: 1.1; text-transform: uppercase; }
+.subtitle { font-family: 'Press Start 2P', monospace; font-size: 32px; color: #ff8833; margin-top: 40px; letter-spacing: 8px; }
+.product-image { margin: 120px auto; width: 600px; height: 900px; display: flex; align-items: center; justify-content: center; }
+.product-image img { max-width: 100%; max-height: 100%; object-fit: contain; filter: drop-shadow(0 0 60px rgba(255,102,0,0.4)); }
+.body-text { max-width: 900px; text-align: center; margin-top: 80px; }
+.body-text p { font-size: 22px; line-height: 1.8; color: rgba(255,255,255,0.7); font-weight: 300; }
+.bottom-label { position: absolute; bottom: 80px; left: 160px; right: 160px; display: flex; justify-content: space-between; }
+.bottom-label span { font-family: 'Press Start 2P', monospace; font-size: 14px; color: #ff6600; letter-spacing: 4px; }
+</style>
+</head>
+<body>
+<div class="container">
+<div class="title-block">
+<h1 class="title" data-slot="text_0" data-slot-type="text">{DISPENSE}</h1>
+<p class="subtitle" data-slot="text_1" data-slot-type="text">FRAGRANCE COLLECTION</p>
+</div>
+<div class="product-image">
+<img alt="Product Image" data-slot="img_0" data-slot-type="image" src="product.jpg"/>
+</div>
+<div class="body-text">
+<p data-slot="text_2" data-slot-type="text">A carefully crafted fragrance that captures the essence of modern luxury. Each note has been selected to create an unforgettable sensory experience that lingers throughout the day.</p>
+</div>
+<div class="bottom-label">
+<span data-slot="text_3" data-slot-type="text">VOL. 01</span>
+<span data-slot="text_4" data-slot-type="text">50ML / 1.7 FL OZ</span>
+</div>
+</div>
+</body>
+</html>

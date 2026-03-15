@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Never Forget The Names</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Helvetica Neue', Arial, sans-serif; background: #ff0000; color: #000; }
+.hero { min-height: 100vh; display: flex; flex-direction: column; align-items: center; padding: 0 40px; }
+.hero-image { width: 400px; height: 200px; background: #666; margin-top: 40px; clip-path: polygon(30% 0%, 100% 0%, 100% 100%, 0% 100%); }
+.hero-title { font-size: 72px; font-weight: 900; text-transform: uppercase; text-align: center; margin: 40px 0 16px; }
+.hero-subtitle { font-size: 13px; font-weight: 700; text-transform: uppercase; text-align: center; letter-spacing: 0.5px; line-height: 1.6; max-width: 700px; margin-bottom: 40px; }
+.hero-body { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; line-height: 1.5; text-align: center; color: rgba(0,0,0,0.5); max-width: 700px; word-break: break-all; }
+</style>
+</head>
+<body>
+<section class="hero">
+  <div class="hero-image" data-slot="image_0" data-slot-type="image"></div>
+  <h1 class="hero-title" data-slot="text_0" data-slot-type="text">NEVER FORGET THE NAMES</h1>
+  <p class="hero-subtitle" data-slot="text_1" data-slot-type="text">Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod</p>
+  <p class="hero-body" data-slot="text_2" data-slot-type="text">Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet</p>
+</section>
+</body>
+</html>

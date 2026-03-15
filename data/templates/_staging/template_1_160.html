@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cloak Esthema</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #3366FF 0%, #6699FF 30%, #CCE0FF 60%, #E8F0FF 80%, #F0F4FF 100%);
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px;
+  }
+
+  .top-text {
+    font-size: clamp(0.7rem, 1.3vw, 0.85rem);
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.5;
+    text-transform: uppercase;
+    max-width: 520px;
+    letter-spacing: 0.02em;
+  }
+
+  .brand-block {
+    margin-top: auto;
+  }
+  .brand-name {
+    font-size: clamp(3.5rem, 11vw, 7.5rem);
+    font-weight: 200;
+    color: #fff;
+    line-height: 1.0;
+    letter-spacing: -0.02em;
+  }
+  .brand-name sup {
+    font-size: 0.35em;
+    vertical-align: super;
+    font-weight: 300;
+  }
+
+  @media (max-width: 768px) {
+    body { padding: 24px; }
+  }
+</style>
+</head>
+<body>
+  <p class="top-text">Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod</p>
+  <div class="brand-block">
+    <h1 class="brand-name">Cloak*<br>Esthema<sup>R</sup></h1>
+  </div>
+</body>
+</html>

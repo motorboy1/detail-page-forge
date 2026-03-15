@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,400;1,700&family=Inter:wght@400;600&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}body{font-family:'Inter',sans-serif}
+.hero{min-height:100vh;background:linear-gradient(180deg,#5b9bd5 0%,#7cc576 40%,#a8d86e 70%,#8bc34a 100%);display:flex;flex-direction:column;justify-content:space-between;align-items:center;padding:60px 50px;text-align:center;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;inset:0;background:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg"/>'  );backdrop-filter:blur(20px);z-index:0}
+.body-text{font-size:clamp(0.75rem,1.5vw,0.95rem);font-weight:600;line-height:1.7;color:#fff;text-transform:uppercase;letter-spacing:0.04em;max-width:650px;text-shadow:0 1px 8px rgba(0,0,0,0.15);position:relative;z-index:1}
+.flower-art{flex:1;display:flex;align-items:center;justify-content:center;position:relative;z-index:1}
+.flower-art svg{width:300px;height:400px}
+.title{font-family:'Playfair Display',serif;font-size:clamp(2.5rem,7vw,4.5rem);color:#fff;font-style:italic;font-weight:400;line-height:1.1;text-shadow:0 2px 12px rgba(0,0,0,0.2);position:relative;z-index:1}
+.title em{text-decoration:underline;text-underline-offset:6px}
+</style></head><body>
+<section class="hero">
+<p class="body-text" data-slot="text_0" data-slot-type="text">LOREM IPSUM DOLOR SIT AMET, CONSEC ADIPISCING ELIT, SED DO EIUSMOD LOREM IPSUM DOLOR SIT AMET, CONSEC ADIPISCING ELIT, SED DO EIUSMOD LOREM IPSUM DOLOR SIT AMET, CONSEC ADIPISCING ELIT, SED DO EIUSMOD</p>
+<div class="flower-art"><svg fill="none" stroke="white" stroke-width="1.5" viewbox="0 0 200 300"><path d="M100,280 C100,200 80,160 60,120 C50,100 70,70 100,80 C130,70 150,100 140,120 C120,160 100,200 100,280Z"></path><path d="M100,120 C90,100 70,80 60,60 C55,40 80,30 100,50 C120,30 145,40 140,60 C130,80 110,100 100,120Z"></path><path d="M60,120 C40,110 25,90 30,70"></path><path d="M140,120 C160,110 175,90 170,70"></path><path d="M100,200 L130,180 C150,170 160,190 140,200Z"></path></svg></div>
+<h1 class="title" data-slot="text_1" data-slot-type="text"><em>Everything</em> that we <em>forgot</em></h1>
+</section>
+</body></html>

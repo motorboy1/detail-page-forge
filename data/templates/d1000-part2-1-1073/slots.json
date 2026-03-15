@@ -1,0 +1,73 @@
+{
+  "total": 9,
+  "text": 7,
+  "image": 2,
+  "link": 0,
+  "slots": [
+    {
+      "name": "text_0",
+      "type": "text",
+      "defaultValue": "프루티거 에어로 컬렉션",
+      "tag": "h1",
+      "index": 0
+    },
+    {
+      "name": "text_1",
+      "type": "text",
+      "defaultValue": "Frutiger Aero Collection",
+      "tag": "p",
+      "index": 1
+    },
+    {
+      "name": "text_2",
+      "type": "text",
+      "defaultValue": "우리가 그리워하던 윈도우XP, 그리고 비스타의 비전을 온전히 담아낼 수 있었습니다.",
+      "tag": "p",
+      "index": 2
+    },
+    {
+      "name": "text_3",
+      "type": "text",
+      "defaultValue": "BASIC SHIRTS",
+      "tag": "p",
+      "index": 3
+    },
+    {
+      "name": "text_4",
+      "type": "text",
+      "defaultValue": "99,000원",
+      "tag": "p",
+      "index": 4
+    },
+    {
+      "name": "text_5",
+      "type": "text",
+      "defaultValue": "BASIC SHIRTS",
+      "tag": "p",
+      "index": 5
+    },
+    {
+      "name": "text_6",
+      "type": "text",
+      "defaultValue": "99,000원",
+      "tag": "p",
+      "index": 6
+    },
+    {
+      "name": "img_0",
+      "type": "image",
+      "defaultValue": "https://placehold.co/200x200/334/fff?text=Shirt",
+      "tag": "img",
+      "index": 0,
+      "alt": "T-shirt"
+    },
+    {
+      "name": "img_1",
+      "type": "image",
+      "defaultValue": "https://placehold.co/200x200/334/fff?text=Shirt",
+      "tag": "img",
+      "index": 1,
+      "alt": "T-shirt"
+    }
+  ]
+}

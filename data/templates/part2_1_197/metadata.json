@@ -1,0 +1,25 @@
+{
+  "id": "part2_1_197",
+  "name": "Carbon Bike Spec Hero",
+  "section_type": "hero",
+  "d1000_principles": [
+    3,
+    7,
+    14,
+    22
+  ],
+  "category": "product",
+  "source_url": "",
+  "ssim_score": 0.0,
+  "slot_count": 0,
+  "thumbnail_path": "part2_1_197/thumbnail.jpg",
+  "tags": [
+    "bike",
+    "carbon",
+    "spec",
+    "gradient",
+    "dark",
+    "product"
+  ],
+  "created_at": "2026-03-15T09:49:45.918263+00:00"
+}

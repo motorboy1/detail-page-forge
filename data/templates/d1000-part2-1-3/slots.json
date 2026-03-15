@@ -1,0 +1,64 @@
+{
+  "total": 8,
+  "text": 8,
+  "image": 0,
+  "link": 0,
+  "slots": [
+    {
+      "name": "text_0",
+      "type": "text",
+      "defaultValue": "지은이 홍길동",
+      "tag": "span",
+      "index": 0
+    },
+    {
+      "name": "text_1",
+      "type": "text",
+      "defaultValue": "2026",
+      "tag": "span",
+      "index": 1
+    },
+    {
+      "name": "text_2",
+      "type": "text",
+      "defaultValue": "출판사 한음사",
+      "tag": "span",
+      "index": 2
+    },
+    {
+      "name": "text_3",
+      "type": "text",
+      "defaultValue": "WASTELAND",
+      "tag": "span",
+      "index": 3
+    },
+    {
+      "name": "text_4",
+      "type": "text",
+      "defaultValue": "ASTRONAUT",
+      "tag": "span",
+      "index": 4
+    },
+    {
+      "name": "text_5",
+      "type": "text",
+      "defaultValue": "사람들은 황야 너머에는 우주가 없다고 말했다.",
+      "tag": "p",
+      "index": 5
+    },
+    {
+      "name": "text_6",
+      "type": "text",
+      "defaultValue": "황야의 우주인",
+      "tag": "p",
+      "index": 6
+    },
+    {
+      "name": "text_7",
+      "type": "text",
+      "defaultValue": "그런데, 나는 우주복을 물려받은 적이 있다.",
+      "tag": "p",
+      "index": 7
+    }
+  ]
+}

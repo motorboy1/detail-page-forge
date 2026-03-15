@@ -1,0 +1,24 @@
+<!DOCTYPE html><html lang="ko"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Design Genius</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Noto Sans KR',sans-serif;background:#000;color:#fff;min-height:100vh}
+.container{max-width:700px;margin:0 auto;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;background:linear-gradient(180deg,#000080 0%,#000040 30%,#000 60%);padding:40px;text-align:center}
+.brand{font-size:12px;letter-spacing:6px;color:#999;margin-bottom:20px}
+.headline{font-size:28px;font-weight:700;line-height:1.5;margin-bottom:40px}
+.divider{width:1px;height:40px;background:#444;margin:0 auto 40px}
+.stat{font-size:120px;font-weight:300;font-family:'Georgia',serif;letter-spacing:-4px;margin-bottom:8px;text-shadow:0 20px 40px rgba(255,255,255,0.1)}
+.stat-reflection{font-size:120px;font-weight:300;font-family:'Georgia',serif;letter-spacing:-4px;color:rgba(255,255,255,0.08);transform:scaleY(-1);margin-top:-20px}
+.stat-label{font-size:14px;color:#888;margin-top:20px;margin-bottom:40px}
+.divider2{width:1px;height:40px;background:#444;margin:0 auto 30px}
+.cta{font-size:13px;color:#888;line-height:1.8}
+</style></head><body>
+<div class="container">
+<div class="brand" data-slot="brand">DESIGN GENIUS</div>
+<h1 class="headline" data-slot="headline">당신을 위한 최고의 디자인 솔루션</h1>
+<div class="divider"></div>
+<div class="stat" data-slot="stat_number">99.8%</div>
+<div class="stat-reflection" aria-hidden="true">99.8%</div>
+<div class="stat-label" data-slot="stat_label">압도적 고객 만족도</div>
+<div class="divider2"></div>
+<p class="cta" data-slot="cta">일반인도 충분히 디자인 천재가 될 수 있습니다. 디천법에 지금 가입하세요.</p>
+</div></body></html>

@@ -1,0 +1,169 @@
+{
+  "total": 23,
+  "text": 23,
+  "image": 0,
+  "link": 0,
+  "slots": [
+    {
+      "name": "text_0",
+      "type": "text",
+      "defaultValue": "London",
+      "tag": "span",
+      "index": 0
+    },
+    {
+      "name": "text_1",
+      "type": "text",
+      "defaultValue": "Paris",
+      "tag": "span",
+      "index": 1
+    },
+    {
+      "name": "text_2",
+      "type": "text",
+      "defaultValue": "✳",
+      "tag": "span",
+      "index": 2
+    },
+    {
+      "name": "text_3",
+      "type": "text",
+      "defaultValue": "Bazel",
+      "tag": "span",
+      "index": 3
+    },
+    {
+      "name": "text_4",
+      "type": "text",
+      "defaultValue": "✳",
+      "tag": "span",
+      "index": 4
+    },
+    {
+      "name": "text_5",
+      "type": "text",
+      "defaultValue": "Milan",
+      "tag": "span",
+      "index": 5
+    },
+    {
+      "name": "text_6",
+      "type": "text",
+      "defaultValue": "NewYork",
+      "tag": "span",
+      "index": 6
+    },
+    {
+      "name": "text_7",
+      "type": "text",
+      "defaultValue": "Seoul",
+      "tag": "span",
+      "index": 7
+    },
+    {
+      "name": "text_8",
+      "type": "text",
+      "defaultValue": "Berlin",
+      "tag": "span",
+      "index": 8
+    },
+    {
+      "name": "text_9",
+      "type": "text",
+      "defaultValue": "Shanghai",
+      "tag": "span",
+      "index": 9
+    },
+    {
+      "name": "text_10",
+      "type": "text",
+      "defaultValue": "Rome",
+      "tag": "span",
+      "index": 10
+    },
+    {
+      "name": "text_11",
+      "type": "text",
+      "defaultValue": "✳",
+      "tag": "span",
+      "index": 11
+    },
+    {
+      "name": "text_12",
+      "type": "text",
+      "defaultValue": "HongKong",
+      "tag": "span",
+      "index": 12
+    },
+    {
+      "name": "text_13",
+      "type": "text",
+      "defaultValue": "✳",
+      "tag": "span",
+      "index": 13
+    },
+    {
+      "name": "text_14",
+      "type": "text",
+      "defaultValue": "Los Angeles",
+      "tag": "span",
+      "index": 14
+    },
+    {
+      "name": "text_15",
+      "type": "text",
+      "defaultValue": "✳",
+      "tag": "span",
+      "index": 15
+    },
+    {
+      "name": "text_16",
+      "type": "text",
+      "defaultValue": "Tokyo",
+      "tag": "span",
+      "index": 16
+    },
+    {
+      "name": "text_17",
+      "type": "text",
+      "defaultValue": "Vienna",
+      "tag": "span",
+      "index": 17
+    },
+    {
+      "name": "text_18",
+      "type": "text",
+      "defaultValue": "Warsaw",
+      "tag": "span",
+      "index": 18
+    },
+    {
+      "name": "text_19",
+      "type": "text",
+      "defaultValue": "Bangkok",
+      "tag": "span",
+      "index": 19
+    },
+    {
+      "name": "text_20",
+      "type": "text",
+      "defaultValue": "✳",
+      "tag": "span",
+      "index": 20
+    },
+    {
+      "name": "text_21",
+      "type": "text",
+      "defaultValue": "Tbilisi",
+      "tag": "span",
+      "index": 21
+    },
+    {
+      "name": "text_22",
+      "type": "text",
+      "defaultValue": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consecadipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consec",
+      "tag": "p",
+      "index": 22
+    }
+  ]
+}

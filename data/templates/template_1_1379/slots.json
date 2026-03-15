@@ -1,0 +1,15 @@
+{
+  "total": 1,
+  "text": 1,
+  "image": 0,
+  "link": 0,
+  "slots": [
+    {
+      "name": "text_0",
+      "type": "text",
+      "defaultValue": "Thank youfor the followers",
+      "tag": "p",
+      "index": 0
+    }
+  ]
+}

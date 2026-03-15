@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@800;900&family=Inter:wght@400;700&display=swap');
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { width: 1920px; min-height: 2400px; background: #f5a623; font-family: 'Inter', sans-serif; color: #000000; position: relative; overflow: hidden; }
+.swirl-bg { position: absolute; top: 30%; left: 30%; width: 900px; height: 900px; background: radial-gradient(circle, rgba(100,80,0,0.25) 0%, transparent 70%); border-radius: 50%; pointer-events: none; }
+.swirl-detail { position: absolute; top: 25%; left: 25%; width: 1000px; height: 1200px; background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Cpath d='M100,20 C140,20 170,50 170,90 C170,130 140,160 100,160 C70,160 50,140 50,110 C50,85 70,70 90,70 C105,70 115,80 115,95 C115,108 105,115 95,115' fill='none' stroke='rgba(80,60,0,0.3)' stroke-width='8'/%3E%3C/svg%3E") center/contain no-repeat; pointer-events: none; }
+.container { position: relative; z-index: 2; padding: 60px 80px; display: flex; flex-direction: column; min-height: 2400px; }
+.title { font-family: 'Oswald', sans-serif; font-size: 140px; font-weight: 900; line-height: 1.0; text-transform: uppercase; color: #000000; }
+.body-text { margin-top: auto; padding-bottom: 60px; max-width: 1200px; }
+.body-text p { font-size: 18px; line-height: 1.6; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: rgba(0,0,0,0.85); }
+</style>
+</head>
+<body>
+<div class="swirl-bg"></div>
+<div class="container">
+  <h1 class="title">IF YOU DONT THINK ABOUT IT, DEPRESSION JUST EVAPORATES INTO THIN AIR.</h1>
+  <div class="body-text">
+    <p>Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod</p>
+  </div>
+</div>
+</body>
+</html>

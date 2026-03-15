@@ -1,0 +1,25 @@
+<!DOCTYPE html><html lang="ko"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Discherschem Mattress</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Noto Sans KR',sans-serif;background:#f0f8f0;min-height:100vh}
+.container{max-width:800px;margin:0 auto;background:linear-gradient(135deg,#f5fff5 0%,#e8f8e8 50%,#f0fff0 100%);position:relative;overflow:hidden;padding:40px}
+.grid-overlay{position:absolute;top:0;left:0;right:0;bottom:0;background:repeating-linear-gradient(90deg,rgba(180,220,180,0.15) 0px,rgba(180,220,180,0.15) 1px,transparent 1px,transparent 200px),repeating-linear-gradient(0deg,rgba(180,220,180,0.15) 0px,rgba(180,220,180,0.15) 1px,transparent 1px,transparent 200px)}
+.brand-side{position:absolute;right:20px;top:50%;transform:translateY(-50%) rotate(90deg);font-size:14px;color:rgba(100,160,100,0.3);letter-spacing:8px}
+.url{font-size:13px;color:#6a9a6a;margin-bottom:60px}
+.headline{font-size:72px;font-weight:900;color:rgba(100,160,100,0.25);line-height:1.1;margin-bottom:60px}
+.info-row{display:flex;justify-content:space-between;align-items:center;padding:16px 0;border-top:1px solid rgba(100,160,100,0.15)}
+.info-label{font-size:14px;color:#5a8a5a}
+.info-value{font-size:14px;color:#5a8a5a;letter-spacing:2px}
+.tagline{font-size:14px;color:#5a8a5a;padding:20px 0;border-top:1px solid rgba(100,160,100,0.15)}
+.feature{font-size:14px;color:#5a8a5a;padding:20px 0;border-top:1px solid rgba(100,160,100,0.15)}
+</style></head><body>
+<div class="container">
+<div class="grid-overlay"></div>
+<div class="brand-side" data-slot="brand_name">DISCHERSCHEM</div>
+<p class="url" data-slot="brand_url">www.discherschemmattress.kr</p>
+<h1 class="headline" data-slot="headline">공학적 매트리스</h1>
+<div class="info-row"><span class="info-label" data-slot="company_name">주식회사 뒤르켐</span><span class="info-value">DISCHERSCHEM</span><span class="info-value" data-slot="brand_year">2025</span></div>
+<div class="info-row"><span class="info-label" data-slot="size_label">사이즈 종류</span><span class="info-value" data-slot="size_value">S Q L K LK</span></div>
+<div class="tagline" data-slot="tagline">당신의 척추를 위한 뒤르켐의 관심</div>
+<div class="feature" data-slot="feature_text">가장 디테일한 공법이 적용된 공학스프링</div>
+</div></body></html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;700&display=swap');
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { width: 1920px; min-height: 2400px; font-family: 'Inter', sans-serif; color: #000000; position: relative; overflow: hidden; }
+.top-strip { background: #ffffff; padding: 80px 160px 60px; }
+.top-strip h1 { font-family: 'Bebas Neue', sans-serif; font-size: 140px; color: #000000; letter-spacing: 2px; line-height: 0.95; text-transform: uppercase; }
+.main-body { background: #c8ff00; padding: 80px 160px; flex: 1; min-height: 1800px; position: relative; }
+.number-grid { display: flex; flex-wrap: wrap; gap: 40px; margin-top: 60px; }
+.number-item { display: flex; flex-direction: column; align-items: flex-start; }
+.number-item .label { font-size: 14px; font-weight: 700; letter-spacing: 6px; text-transform: uppercase; color: rgba(0,0,0,0.5); margin-bottom: 8px; }
+.number-item .value { font-family: 'Bebas Neue', sans-serif; font-size: 96px; color: #000000; line-height: 1; }
+.divider { width: 100%; height: 2px; background: rgba(0,0,0,0.15); margin: 60px 0; }
+.content-block { max-width: 1000px; margin-top: 60px; }
+.content-block p { font-size: 22px; line-height: 1.8; color: rgba(0,0,0,0.7); font-weight: 300; }
+.content-block h2 { font-family: 'Bebas Neue', sans-serif; font-size: 64px; margin-bottom: 30px; color: #000000; }
+.footer-bar { background: #000000; padding: 40px 160px; display: flex; justify-content: space-between; align-items: center; }
+.footer-bar span { color: #c8ff00; font-size: 14px; letter-spacing: 4px; text-transform: uppercase; }
+</style>
+</head>
+<body>
+<div class="top-strip">
+  <h1>TITLE ON TOP</h1>
+</div>
+<div class="main-body">
+  <div class="number-grid">
+    <div class="number-item">
+      <span class="label">Edition</span>
+      <span class="value">10102</span>
+    </div>
+    <div class="number-item">
+      <span class="label">Series</span>
+      <span class="value">10102</span>
+    </div>
+    <div class="number-item">
+      <span class="label">Volume</span>
+      <span class="value">10102</span>
+    </div>
+  </div>
+  <div class="divider"></div>
+  <div class="content-block">
+    <h2>SECTION HEADLINE</h2>
+    <p>A bold statement in design that challenges conventional layouts. The striking contrast between monochrome typography and vibrant chartreuse creates an unforgettable visual impact that commands attention and drives engagement.</p>
+  </div>
+</div>
+<div class="footer-bar">
+  <span>Brand Name</span>
+  <span>2024 Collection</span>
+</div>
+</body>
+</html>

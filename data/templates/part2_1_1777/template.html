@@ -1,0 +1,28 @@
+<!DOCTYPE html><html lang="ko"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Esvogel Foundation</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Noto Sans KR',sans-serif;background:#c04020;min-height:100vh;color:#fff}
+.container{max-width:600px;margin:0 auto;position:relative;min-height:100vh}
+.top{padding:30px;display:flex;justify-content:space-between}
+.headline-left{font-size:32px;font-weight:900}
+.dash{font-size:32px;margin:0 12px;color:#fff}
+.headline-right{font-size:32px;font-weight:900}
+.sub-row{display:flex;justify-content:space-between;padding:0 30px;font-size:13px;color:rgba(255,255,255,0.7)}
+.portrait{height:350px;background:linear-gradient(180deg,rgba(192,64,32,0.3),rgba(0,0,0,0.6)),linear-gradient(135deg,#333 0%,#555 100%);margin:20px 30px;position:relative}
+.portrait-overlay{position:absolute;top:20%;left:30%;width:200px;height:250px;background:linear-gradient(135deg,#222,#444);clip-path:polygon(20% 0%,80% 0%,100% 20%,100% 100%,0% 100%,0% 20%)}
+.bottom{padding:30px;display:flex;justify-content:space-between;align-items:flex-end}
+.desc{font-size:12px;line-height:1.8;max-width:350px;text-align:center;color:rgba(255,255,255,0.8)}
+.brand-badge{border:1px solid rgba(255,255,255,0.5);border-radius:8px;padding:8px 12px;font-size:11px;writing-mode:vertical-rl}
+</style></head><body>
+<div class="container">
+<div class="top">
+<span class="headline-left" data-slot="headline">꿈을 꾸는 — 모든 사람</span>
+</div>
+<div class="sub-row"><span data-slot="sub_left">우리 모두는 한때 꿈을 꿨지만</span><span data-slot="sub_right">지금은 그러하지 못하다</span></div>
+<div class="portrait"><div class="portrait-overlay"></div></div>
+<div class="bottom">
+<span>~</span>
+<p class="desc" data-slot="description">꿈꾸는 모든 사람들을 지원하고자 만들어진 애스보겔 문화재단의 시작을 알립니다.</p>
+<div class="brand-badge" data-slot="brand">애스보겔</div>
+</div>
+</div></body></html>

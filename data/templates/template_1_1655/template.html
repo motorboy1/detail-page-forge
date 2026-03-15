@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Nebula Is Calling</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@400&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #F2E6D0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 40px;
+    font-family: 'Inter', sans-serif;
+  }
+  .headline {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(3rem, 10vw, 6rem);
+    font-weight: 700;
+    color: #1a1a5e;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  .headline .first-letter {
+    font-size: 1.2em;
+  }
+  .body-upper {
+    font-size: clamp(0.85rem, 2vw, 1rem);
+    color: #444;
+    text-align: center;
+    max-width: 360px;
+    line-height: 1.6;
+    margin-bottom: 32px;
+    font-style: italic;
+  }
+  .frame-container {
+    position: relative;
+    width: 100%;
+    max-width: 520px;
+    aspect-ratio: 1;
+    margin-bottom: 32px;
+  }
+  .frame-border {
+    position: absolute;
+    inset: 0;
+    border: 2px solid #8B7FC7;
+    border-radius: 8px;
+  }
+  .frame-border::before, .frame-border::after {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #8B7FC7;
+    border-radius: 50%;
+  }
+  .frame-border::before { top: -20px; left: -20px; }
+  .frame-border::after { top: -20px; right: -20px; }
+  .nebula-bg {
+    position: absolute;
+    inset: 12px;
+    background: linear-gradient(135deg, #1a0a3e 0%, #2d1b69 25%, #1a3a6e 50%, #4a2a8e 75%, #1a0a3e 100%);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .nebula-bg::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at 30% 40%, rgba(255,255,200,0.3) 0%, transparent 50%),
+                radial-gradient(circle at 70% 60%, rgba(100,180,255,0.3) 0%, transparent 40%);
+  }
+  .star {
+    position: absolute;
+    background: #fff;
+    border-radius: 50%;
+  }
+  .star-cross {
+    position: absolute;
+    color: #fff;
+    font-size: 24px;
+  }
+  .sparkle {
+    position: absolute;
+    color: #7B9FD4;
+    font-size: 18px;
+  }
+  .body-lower {
+    font-size: clamp(0.85rem, 2vw, 1rem);
+    color: #444;
+    text-align: center;
+    max-width: 360px;
+    line-height: 1.6;
+    font-style: italic;
+  }
+  @media (max-width: 600px) {
+    body { padding: 24px 20px; }
+  }
+</style>
+</head>
+<body>
+<h1 class="headline" data-slot="text_0" data-slot-type="text"><span class="first-letter">N</span>ebula is calling</h1>
+<p class="body-upper" data-slot="text_1" data-slot-type="text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<div class="frame-container">
+<div class="frame-border"></div>
+<div class="nebula-bg">
+<span class="star-cross" data-slot="text_2" data-slot-type="text" style="top:30%;left:25%;">✦</span>
+<span class="star-cross" data-slot="text_3" data-slot-type="text" style="top:15%;right:35%;">✦</span>
+<span class="sparkle" data-slot="text_4" data-slot-type="text" style="top:10%;left:15%;">✦</span>
+<span class="sparkle" data-slot="text_5" data-slot-type="text" style="bottom:15%;left:10%;">✦</span>
+<span class="sparkle" data-slot="text_6" data-slot-type="text" style="bottom:20%;right:15%;">✦</span>
+<span class="sparkle" data-slot="text_7" data-slot-type="text" style="top:5%;right:10%;">✦</span>
+</div>
+</div>
+<p class="body-lower" data-slot="text_8" data-slot-type="text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</body>
+</html>

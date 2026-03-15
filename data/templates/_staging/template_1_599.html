@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Slender Daemon</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Helvetica Neue', Arial, sans-serif; }
+.hero { min-height: 100vh; background: linear-gradient(180deg, #3d4a3c 0%, #2c3e2c 50%, #1a2e1a 100%); display: flex; flex-direction: column; justify-content: space-between; padding: 40px; }
+.hero-header { display: flex; justify-content: space-between; align-items: flex-start; }
+.hero-title { font-size: 56px; font-weight: 900; color: #e0d8c8; letter-spacing: -1px; }
+.hero-subtitle { font-size: 14px; color: #c0b8a8; max-width: 200px; }
+.ampersand { font-family: 'Baskerville', 'Georgia', serif; font-size: 400px; color: transparent; -webkit-text-stroke: 1px #c0b8a8; text-align: center; line-height: 0.8; margin: auto 0; opacity: 0.7; }
+.hero-description { font-size: 12px; color: #c0b8a8; text-align: center; max-width: 500px; margin: 0 auto; line-height: 1.6; text-transform: uppercase; }
+</style>
+</head>
+<body>
+<section class="hero">
+  <div class="hero-header">
+    <h1 class="hero-title" data-slot="text_0" data-slot-type="text">slender Daemon</h1>
+    <div>
+      <p class="hero-subtitle" data-slot="text_1" data-slot-type="text">Lorem ipsum dolor sit amet,</p>
+      <p class="hero-subtitle" data-slot="text_2" data-slot-type="text">Lorem ipsum dolor sit amet,</p>
+    </div>
+  </div>
+  <div class="ampersand" data-slot="text_3" data-slot-type="text">&amp;</div>
+  <p class="hero-description" data-slot="text_4" data-slot-type="text">Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet</p>
+</section>
+</body>
+</html>

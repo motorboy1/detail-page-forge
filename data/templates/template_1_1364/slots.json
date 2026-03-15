@@ -1,0 +1,103 @@
+{
+  "total": 13,
+  "text": 9,
+  "image": 4,
+  "link": 0,
+  "slots": [
+    {
+      "name": "text_0",
+      "type": "text",
+      "defaultValue": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "tag": "p",
+      "index": 0
+    },
+    {
+      "name": "text_1",
+      "type": "text",
+      "defaultValue": "Sometimes, We",
+      "tag": "span",
+      "index": 1
+    },
+    {
+      "name": "text_2",
+      "type": "text",
+      "defaultValue": "Dream",
+      "tag": "span",
+      "index": 2
+    },
+    {
+      "name": "text_3",
+      "type": "text",
+      "defaultValue": "of",
+      "tag": "span",
+      "index": 3
+    },
+    {
+      "name": "text_4",
+      "type": "text",
+      "defaultValue": "Eden.",
+      "tag": "span",
+      "index": 4
+    },
+    {
+      "name": "text_5",
+      "type": "text",
+      "defaultValue": "We often dream",
+      "tag": "span",
+      "index": 5
+    },
+    {
+      "name": "text_6",
+      "type": "text",
+      "defaultValue": "of",
+      "tag": "span",
+      "index": 6
+    },
+    {
+      "name": "text_7",
+      "type": "text",
+      "defaultValue": "our",
+      "tag": "span",
+      "index": 7
+    },
+    {
+      "name": "text_8",
+      "type": "text",
+      "defaultValue": "Sins.",
+      "tag": "span",
+      "index": 8
+    },
+    {
+      "name": "img_0",
+      "type": "image",
+      "defaultValue": "stars.jpg",
+      "tag": "img",
+      "index": 0,
+      "alt": "Night Sky"
+    },
+    {
+      "name": "img_1",
+      "type": "image",
+      "defaultValue": "blob.jpg",
+      "tag": "img",
+      "index": 1,
+      "alt": "Organic Shape"
+    },
+    {
+      "name": "img_2",
+      "type": "image",
+      "defaultValue": "skeleton.jpg",
+      "tag": "img",
+      "index": 2,
+      "alt": "Skeleton"
+    },
+    {
+      "name": "img_3",
+      "type": "image",
+      "defaultValue": "apple.jpg",
+      "tag": "img",
+      "index": 3,
+      "alt": "Apple"
+    }
+  ]
+}

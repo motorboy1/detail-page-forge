@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zodiac Sign - Aries</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,900;1,400&family=Inter:wght@400&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bg-split {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+  }
+  .bg-cream {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #F0D8B8;
+    clip-path: polygon(0 0, 100% 0, 0 70%);
+  }
+  .bg-brown {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #5C2810;
+    clip-path: polygon(100% 0, 0 70%, 0 100%, 100% 100%);
+  }
+
+  .content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    flex: 1;
+    justify-content: space-between;
+    padding: 48px 40px;
+  }
+
+  .header-block {
+    text-align: center;
+  }
+  .subtitle {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    color: #8B3A10;
+  }
+  .title-row {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 4px;
+  }
+  .title-line {
+    width: 60px;
+    height: 1px;
+    background: #8B3A10;
+  }
+  .star-deco {
+    width: 16px;
+    height: 16px;
+  }
+  .star-deco svg { width: 100%; height: 100%; }
+  .main-title {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(3rem, 8vw, 5rem);
+    font-weight: 900;
+    color: #8B3A10;
+    letter-spacing: 0.05em;
+  }
+
+  .ram-icon {
+    font-size: 10rem;
+    line-height: 1;
+    filter: drop-shadow(0 8px 24px rgba(0,0,0,0.2));
+  }
+
+  .bottom-text {
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #D4B090;
+    max-width: 520px;
+  }
+
+  @media (max-width: 768px) {
+    .content { padding: 32px 24px; }
+    .ram-icon { font-size: 6rem; }
+  }
+</style>
+</head>
+<body>
+  <div class="bg-split">
+    <div class="bg-cream"></div>
+    <div class="bg-brown"></div>
+  </div>
+  <div class="content">
+    <div class="header-block">
+      <p class="subtitle">Zodiac Sign-</p>
+      <div class="title-row">
+        <span class="title-line"></span>
+        <div class="star-deco"><svg viewBox="0 0 16 16" fill="#8B3A10"><path d="M8 0L9 6L16 8L9 10L8 16L7 10L0 8L7 6Z"/></svg></div>
+        <span class="main-title">ARIES</span>
+        <div class="star-deco"><svg viewBox="0 0 16 16" fill="#8B3A10"><path d="M8 0L9 6L16 8L9 10L8 16L7 10L0 8L7 6Z"/></svg></div>
+        <span class="title-line"></span>
+      </div>
+    </div>
+    <div class="ram-icon">&#x2648;</div>
+    <p class="bottom-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  </div>
+</body>
+</html>

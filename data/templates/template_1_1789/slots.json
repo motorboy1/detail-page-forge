@@ -1,0 +1,43 @@
+{
+  "total": 5,
+  "text": 5,
+  "image": 0,
+  "link": 0,
+  "slots": [
+    {
+      "name": "text_0",
+      "type": "text",
+      "defaultValue": "Anthology",
+      "tag": "h1",
+      "index": 0
+    },
+    {
+      "name": "text_1",
+      "type": "text",
+      "defaultValue": "LOREM IPSUM DOLOR SIT AMET, CONSEC ADIPISCING ELIT, SED DO EIUSMOD LOREM IPSUM DOLOR SIT AMET, CONSEC ADIPISCING ELIT, SED DO EIUSMOD LOREM IPSUM DOLOR SIT AMET,",
+      "tag": "p",
+      "index": 1
+    },
+    {
+      "name": "text_2",
+      "type": "text",
+      "defaultValue": "LOREM IPSUM DOLOR SIT AMET, CONSEC ADIPISCING ELIT, SED DO EIUSMOD LOREM IPSUM DOLOR SIT AMET, CONSEC ADIPISCING ELIT, SED DO EIUSMOD LOREM IPSUM DOLOR SIT AMET,",
+      "tag": "p",
+      "index": 2
+    },
+    {
+      "name": "text_3",
+      "type": "text",
+      "defaultValue": "LOREM IPSUM DOLOR SIT AMET, CONSEC",
+      "tag": "p",
+      "index": 3
+    },
+    {
+      "name": "text_4",
+      "type": "text",
+      "defaultValue": "LOREM IPSUM DOLOR SIT AMET, CONSEC ADIPISCING ELIT, SED DO EIUSMOD LOREM IPSUM DOLOR SIT AMET, CONSEC ADIPISCING ELIT, SED DO EIUSMOD LOREM IPSUM DOLOR SIT AMET,",
+      "tag": "p",
+      "index": 4
+    }
+  ]
+}

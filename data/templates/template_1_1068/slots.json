@@ -1,0 +1,51 @@
+{
+  "total": 6,
+  "text": 5,
+  "image": 1,
+  "link": 0,
+  "slots": [
+    {
+      "name": "text_0",
+      "type": "text",
+      "defaultValue": "{DISPENSE}",
+      "tag": "h1",
+      "index": 0
+    },
+    {
+      "name": "text_1",
+      "type": "text",
+      "defaultValue": "FRAGRANCE COLLECTION",
+      "tag": "p",
+      "index": 1
+    },
+    {
+      "name": "text_2",
+      "type": "text",
+      "defaultValue": "A carefully crafted fragrance that captures the essence of modern luxury. Each note has been selected to create an unforgettable sensory experience that lingers throughout the day.",
+      "tag": "p",
+      "index": 2
+    },
+    {
+      "name": "text_3",
+      "type": "text",
+      "defaultValue": "VOL. 01",
+      "tag": "span",
+      "index": 3
+    },
+    {
+      "name": "text_4",
+      "type": "text",
+      "defaultValue": "50ML / 1.7 FL OZ",
+      "tag": "span",
+      "index": 4
+    },
+    {
+      "name": "img_0",
+      "type": "image",
+      "defaultValue": "product.jpg",
+      "tag": "img",
+      "index": 0,
+      "alt": "Product Image"
+    }
+  ]
+}

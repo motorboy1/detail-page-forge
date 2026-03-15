@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Studio Construct</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Helvetica Neue', Arial, sans-serif; }
+.hero { min-height: 100vh; background: #0a0a0a; display: flex; flex-direction: column; justify-content: space-between; padding: 0; position: relative; overflow: hidden; }
+.top-bar { display: flex; justify-content: space-between; padding: 15px 20px; }
+.top-label { font-size: 11px; font-weight: 700; color: #999; text-transform: uppercase; letter-spacing: 2px; }
+.grid-overlay { position: absolute; inset: 0; background-image: repeating-linear-gradient(90deg, transparent, transparent calc(25% - 1px), rgba(255,255,255,0.1) calc(25% - 1px), rgba(255,255,255,0.1) 25%), repeating-linear-gradient(0deg, transparent, transparent calc(25% - 1px), rgba(255,255,255,0.1) calc(25% - 1px), rgba(255,255,255,0.1) 25%); border: 1px dashed rgba(255,255,255,0.1); }
+.circle-pattern { position: absolute; width: 500px; height: 500px; border: 1px dashed rgba(255,255,255,0.15); border-radius: 50%; }
+.circle-1 { top: -10%; left: -10%; }
+.circle-2 { top: 20%; right: -5%; }
+.circle-3 { bottom: -5%; left: 15%; }
+.circle-4 { bottom: 10%; right: 20%; }
+.content-text { position: absolute; top: 35%; left: 25%; font-size: 13px; color: #888; max-width: 250px; line-height: 1.6; }
+.bottom-section { position: relative; z-index: 1; padding: 30px; }
+.bottom-badge { display: inline-block; background: #fff; color: #000; font-size: 14px; font-weight: 900; padding: 6px 14px; margin-bottom: 15px; }
+.bottom-title { font-size: 72px; font-weight: 300; color: #fff; line-height: 1; font-style: italic; }
+</style>
+</head>
+<body>
+<section class="hero">
+  <div class="grid-overlay"></div>
+  <div class="circle-pattern circle-1"></div>
+  <div class="circle-pattern circle-2"></div>
+  <div class="circle-pattern circle-3"></div>
+  <div class="circle-pattern circle-4"></div>
+  <div class="top-bar">
+    <span class="top-label" data-slot="text_0" data-slot-type="text">STUDIO CONSTRUCT</span>
+    <span class="top-label" data-slot="text_1" data-slot-type="text">STUDIO CONSTRUCT</span>
+    <span class="top-label" data-slot="text_2" data-slot-type="text">STUDIO CONSTRUCT</span>
+    <span class="top-label" data-slot="text_3" data-slot-type="text">STUDIO CONSTRUCT</span>
+  </div>
+  <p class="content-text" data-slot="text_4" data-slot-type="text">Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod</p>
+  <div class="bottom-section">
+    <span class="bottom-badge" data-slot="text_5" data-slot-type="text">UNTIL 2027</span>
+    <h1 class="bottom-title" data-slot="text_6" data-slot-type="text">Ongoing Construction</h1>
+  </div>
+</section>
+</body>
+</html>

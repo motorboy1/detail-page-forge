@@ -1,0 +1,25 @@
+{
+  "id": "part2_1_318",
+  "name": "Classified Green Paper Cover",
+  "section_type": "hero",
+  "d1000_principles": [
+    2,
+    8,
+    16,
+    24
+  ],
+  "category": "publication",
+  "source_url": "",
+  "ssim_score": 0.0,
+  "slot_count": 0,
+  "thumbnail_path": "part2_1_318/thumbnail.jpg",
+  "tags": [
+    "classified",
+    "green",
+    "paper",
+    "curled",
+    "mystery",
+    "bold"
+  ],
+  "created_at": "2026-03-15T10:03:29.863041+00:00"
+}

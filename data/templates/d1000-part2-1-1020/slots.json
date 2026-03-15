@@ -1,0 +1,72 @@
+{
+  "total": 9,
+  "text": 8,
+  "image": 1,
+  "link": 0,
+  "slots": [
+    {
+      "name": "text_0",
+      "type": "text",
+      "defaultValue": "20년간의노력에 대해",
+      "tag": "h1",
+      "index": 0
+    },
+    {
+      "name": "text_1",
+      "type": "text",
+      "defaultValue": "나의 그림자의 길이는 20년이나 된다. 하지만 그림자 끝에는 내가 예상하지 못한 새로운 내가 있었다.",
+      "tag": "p",
+      "index": 1
+    },
+    {
+      "name": "text_2",
+      "type": "text",
+      "defaultValue": "QUEEN.CO 엑싯",
+      "tag": "span",
+      "index": 2
+    },
+    {
+      "name": "text_3",
+      "type": "text",
+      "defaultValue": "20년간의 사업 운영",
+      "tag": "span",
+      "index": 3
+    },
+    {
+      "name": "text_4",
+      "type": "text",
+      "defaultValue": "공동대표 @ PAWN TECH LTD.",
+      "tag": "span",
+      "index": 4
+    },
+    {
+      "name": "text_5",
+      "type": "text",
+      "defaultValue": "퀸코 대표 홍길순",
+      "tag": "span",
+      "index": 5
+    },
+    {
+      "name": "text_6",
+      "type": "text",
+      "defaultValue": "20년간의 노하우",
+      "tag": "span",
+      "index": 6
+    },
+    {
+      "name": "text_7",
+      "type": "text",
+      "defaultValue": "그리고 엑싯까지",
+      "tag": "span",
+      "index": 7
+    },
+    {
+      "name": "img_0",
+      "type": "image",
+      "defaultValue": "https://placehold.co/200x300/111/333?text=Pawn",
+      "tag": "img",
+      "index": 0,
+      "alt": "Chess"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "headline": "text_0",
+  "subheadline": "text_1",
+  "body": [
+    "text_2",
+    "text_3",
+    "text_4"
+  ],
+  "cta_text": null,
+  "product_image": "img_0",
+  "background_image": null,
+  "extra": {}
+}

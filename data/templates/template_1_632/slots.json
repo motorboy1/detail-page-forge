@@ -1,0 +1,22 @@
+{
+  "total": 2,
+  "text": 2,
+  "image": 0,
+  "link": 0,
+  "slots": [
+    {
+      "name": "text_0",
+      "type": "text",
+      "defaultValue": "QUESTION: DOES THE SEA REALLY FLOW?",
+      "tag": "h1",
+      "index": 0
+    },
+    {
+      "name": "text_1",
+      "type": "text",
+      "defaultValue": "THIS IS NOT A CONSPIRACY THEORY",
+      "tag": "h2",
+      "index": 1
+    }
+  ]
+}

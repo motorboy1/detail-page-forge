@@ -1,0 +1,41 @@
+<!DOCTYPE html><html lang="ko"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>The Cage</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Noto Sans KR',sans-serif;background:#e8e4e0;min-height:100vh;display:flex;justify-content:center;align-items:center;padding:40px}
+.container{max-width:550px;width:100%;background:#f5f2ee;position:relative;padding:0}
+.box{border:2px solid #333;position:relative}
+.flap-top{border:2px dashed #999;border-bottom:2px solid #333;padding:20px;text-align:center}
+.flap-tab{width:60px;height:30px;border:2px dashed #999;border-bottom:none;margin:0 auto}
+.main-content{padding:40px 30px;text-align:center;position:relative;min-height:300px}
+.brand{font-family:'Georgia',serif;font-style:italic;font-size:14px;color:#666;border:1px solid #999;border-radius:20px;padding:4px 16px;display:inline-block;margin-bottom:24px}
+.headline{font-size:36px;font-weight:900;color:#1a1a1a;line-height:1.4;margin-bottom:20px}
+.subtitle{font-size:13px;color:#666;line-height:1.8}
+.items{padding:20px 30px;border-top:2px solid #333}
+.item{display:flex;align-items:center;padding:10px 0;border-bottom:1px solid #ddd;gap:16px}
+.item-num{font-size:14px;font-weight:700;color:#333;min-width:30px}
+.item-text{font-size:13px;color:#333;flex:1}
+.item-pages{font-size:12px;color:#999;font-weight:700}
+.side-text{position:absolute;font-size:10px;color:#999;writing-mode:vertical-rl}
+.side-left{left:-20px;top:50%;transform:translateY(-50%)}
+.side-right{right:-20px;top:50%;transform:translateY(-50%)}
+.flap-bottom{border:2px dashed #999;border-top:2px solid #333;padding:20px}
+</style></head><body>
+<div class="container">
+<div class="box">
+<div class="flap-top"><div class="flap-tab"></div></div>
+<div class="main-content">
+<div class="brand" data-slot="brand">The Cage</div>
+<h1 class="headline" data-slot="headline">정신을 담은 시뮬레이션</h1>
+<p class="subtitle" data-slot="subtitle">이 세상은 우리 정신을 담기 위해서 존재하는 하나의 거대한 통이자 컴퓨터다</p>
+<span class="side-text side-left" data-slot="side_left">디지털 존재는 실재일까 허상일까...</span>
+<span class="side-text side-right" data-slot="side_right">물리적 한계를 넘어서는 정보의...</span>
+</div>
+<div class="items">
+<div class="item"><span class="item-num">01</span><span class="item-text" data-slot="item1">현대 우주론과 양자 정보 이론</span><span class="item-pages">200P</span></div>
+<div class="item"><span class="item-num">02</span><span class="item-text" data-slot="item2">시공간에 대한 구조와 창발 이론</span><span class="item-pages">200P</span></div>
+<div class="item"><span class="item-num">03</span><span class="item-text" data-slot="item3">뇌과학적인 양자현상 분석 연구</span><span class="item-pages">200P</span></div>
+<div class="item"><span class="item-num">04</span><span class="item-text" data-slot="item4">새로운 철학과 온톨로지 분석</span><span class="item-pages">200P</span></div>
+</div>
+<div class="flap-bottom"></div>
+</div>
+</div></body></html>

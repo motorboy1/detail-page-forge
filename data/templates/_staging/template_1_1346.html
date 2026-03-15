@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { width: 1920px; min-height: 2400px; background: #000000; font-family: 'Inter', sans-serif; color: #ffffff; position: relative; overflow: hidden; }
+.container { padding: 80px 60px; min-height: 2400px; display: flex; flex-direction: column; }
+.city-grid { display: flex; flex-wrap: wrap; gap: 10px 20px; align-items: center; }
+.city-row { display: flex; align-items: center; width: 100%; margin-bottom: 10px; flex-wrap: wrap; gap: 10px; }
+.city-name { font-size: 120px; font-weight: 900; letter-spacing: 2px; text-transform: uppercase; line-height: 1.1; }
+.city-icon { width: 140px; height: 140px; border-radius: 8px; overflow: hidden; display: inline-flex; }
+.city-icon img { width: 100%; height: 100%; object-fit: cover; }
+.arrow { font-size: 60px; margin: 0 20px; color: #ffffff; }
+.spacer { flex: 1; }
+.bottom-icons { display: flex; gap: 20px; align-items: center; padding: 40px 0; }
+.icon-star { font-size: 40px; }
+.icon-dot { width: 40px; height: 40px; background: #ffffff; border-radius: 50%; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="city-grid">
+    <div class="city-row">
+      <span class="city-name">LONDON</span>
+      <div class="city-icon"><img src="london.png" alt="London"></div>
+      <span class="city-name">PARIS</span>
+      <div class="city-icon"><img src="paris.png" alt="Paris"></div>
+    </div>
+    <div class="city-row">
+      <div class="city-icon"><img src="milano.png" alt="Milano"></div>
+      <span class="city-name">MILANO</span>
+      <div class="city-icon"><img src="seoul.png" alt="Seoul"></div>
+      <span class="city-name">SEOUL</span>
+    </div>
+    <div class="city-row">
+      <span class="city-name">TOKYO</span>
+      <div class="city-icon"><img src="tokyo.png" alt="Tokyo"></div>
+      <span class="city-name">BERLIN</span>
+      <div class="city-icon"><img src="berlin.png" alt="Berlin"></div>
+    </div>
+    <div class="city-row">
+      <span class="arrow">&rarr;</span>
+      <div class="city-icon"><img src="hongkong.png" alt="Hong Kong"></div>
+      <span class="city-name">HONG KONG</span>
+    </div>
+    <div class="city-row">
+      <span class="city-name">NEW YORK</span>
+      <div class="city-icon"><img src="newyork.png" alt="New York"></div>
+      <span class="arrow">&rarr;</span>
+    </div>
+    <div class="city-row">
+      <span class="arrow">&rarr;</span>
+      <div class="city-icon"><img src="shanghai.png" alt="Shanghai"></div>
+      <span class="city-name">SHANGHAI</span>
+    </div>
+  </div>
+  <div class="spacer"></div>
+  <div class="bottom-icons">
+    <span class="icon-star">&#10038;</span>
+    <div class="icon-dot"></div>
+  </div>
+</div>
+</body>
+</html>

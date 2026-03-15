@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Malicious Trend Reports</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    min-height: 100vh;
+    background: linear-gradient(180deg, #1a1a00 0%, #333300 40%, #666600 100%);
+    display: flex;
+    flex-direction: column;
+    padding: 48px 40px;
+    font-family: 'Inter', sans-serif;
+    color: #CCFF00;
+  }
+  .title-stack {
+    font-size: clamp(4rem, 14vw, 8rem);
+    font-weight: 900;
+    line-height: 0.9;
+    letter-spacing: -0.03em;
+    color: #000;
+    text-shadow: 3px 3px 0 #CCFF00, -1px -1px 0 #CCFF00;
+    margin-bottom: auto;
+  }
+  .bottom-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 24px;
+  }
+  .logo-circles {
+    display: flex;
+    gap: 8px;
+  }
+  .logo-circle {
+    width: 64px;
+    height: 80px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    background: #CCFF00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #000;
+  }
+  .body-text {
+    font-size: clamp(0.65rem, 1.4vw, 0.8rem);
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.5;
+    max-width: 360px;
+    text-align: right;
+  }
+  @media (max-width: 600px) {
+    body { padding: 24px 20px; }
+    .bottom-section { flex-direction: column; align-items: flex-start; }
+    .body-text { text-align: left; }
+  }
+</style>
+</head>
+<body>
+<h1 class="title-stack" data-slot="text_0" data-slot-type="text">Malicious<br/>TREND<br/>Reports</h1>
+<div class="bottom-section">
+<div class="logo-circles">
+<div class="logo-circle">A</div>
+<div class="logo-circle">A</div>
+<div class="logo-circle">S</div>
+</div>
+<p class="body-text" data-slot="text_1" data-slot-type="text">LOREM IPSUM DOLOR SIT AMET, CONSEC ADIPISCING ELIT, SED DO EIUSMOD LOREM IPSUM DOLOR SIT AMET, CONSEC ADIPISCING ELIT, SED DO EIUSMOD LOREM IPSUM DOLOR SIT AMET, CONSEC ADIPISCING ELIT, SED DO EIUSMOD LOREM IPSUM DOLOR SIT AMET, CONSEC ADIPISCING ELIT, SED DO EIUSMOD</p>
+</div>
+</body>
+</html>

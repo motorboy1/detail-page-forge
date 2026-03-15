@@ -1,0 +1,25 @@
+{
+  "id": "part2_1_481",
+  "name": "Cafe Espresso Warm Elegant",
+  "section_type": "hero",
+  "d1000_principles": [
+    5,
+    9,
+    17,
+    23
+  ],
+  "category": "food",
+  "source_url": "",
+  "ssim_score": 0.0,
+  "slot_count": 0,
+  "thumbnail_path": "part2_1_481/thumbnail.jpg",
+  "tags": [
+    "cafe",
+    "coffee",
+    "espresso",
+    "warm",
+    "elegant",
+    "minimal"
+  ],
+  "created_at": "2026-03-15T10:34:20.489359+00:00"
+}

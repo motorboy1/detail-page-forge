@@ -1,0 +1,25 @@
+{
+  "id": "part2_1_210",
+  "name": "Gallery Torn Paper Hero",
+  "section_type": "hero",
+  "d1000_principles": [
+    5,
+    11,
+    18,
+    26
+  ],
+  "category": "culture",
+  "source_url": "",
+  "ssim_score": 0.0,
+  "slot_count": 0,
+  "thumbnail_path": "part2_1_210/thumbnail.jpg",
+  "tags": [
+    "gallery",
+    "art",
+    "torn-paper",
+    "blue",
+    "exhibition",
+    "curation"
+  ],
+  "created_at": "2026-03-15T09:49:45.951586+00:00"
+}

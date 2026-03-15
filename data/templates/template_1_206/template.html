@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Mullets For Life</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    min-height: 100vh;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 40px;
+    font-family: 'Inter', sans-serif;
+    color: #000;
+  }
+  .headline {
+    font-size: clamp(3rem, 10vw, 6rem);
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin-bottom: 32px;
+    position: relative;
+  }
+  .data-label {
+    font-size: clamp(0.6rem, 1.2vw, 0.75rem);
+    font-weight: 500;
+    color: #000;
+  }
+  .spiral-container {
+    flex: 1;
+    width: 100%;
+    max-width: 500px;
+    aspect-ratio: 1;
+    position: relative;
+    margin-bottom: 32px;
+  }
+  .spiral-ring {
+    position: absolute;
+    border: 1.5px dashed #000;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .ring-1 { width: 90%; height: 90%; }
+  .ring-2 { width: 70%; height: 70%; border-style: solid; }
+  .spiral-dot {
+    position: absolute;
+    font-size: clamp(0.55rem, 1.1vw, 0.7rem);
+    font-weight: 500;
+  }
+  .bottom-text {
+    font-size: clamp(0.7rem, 1.5vw, 0.85rem);
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.6;
+    max-width: 600px;
+  }
+  @media (max-width: 600px) {
+    body { padding: 24px 20px; }
+  }
+</style>
+</head>
+<body>
+<h1 class="headline" data-slot="text_0" data-slot-type="text">Mullets for life</h1>
+<div class="spiral-container">
+<div class="spiral-ring ring-1"></div>
+<div class="spiral-ring ring-2"></div>
+<span class="spiral-dot" data-slot="text_1" data-slot-type="text" style="top:5%;left:30%;">01</span>
+<span class="spiral-dot" data-slot="text_2" data-slot-type="text" style="top:5%;left:50%;">01</span>
+<span class="spiral-dot" data-slot="text_3" data-slot-type="text" style="top:5%;right:20%;">01</span>
+<span class="spiral-dot" data-slot="text_4" data-slot-type="text" style="top:10%;left:10%;">01</span>
+<span class="spiral-dot" data-slot="text_5" data-slot-type="text" style="top:10%;left:20%;">01</span>
+<span class="spiral-dot" data-slot="text_6" data-slot-type="text" style="top:15%;right:30%;">01</span>
+<span class="spiral-dot" data-slot="text_7" data-slot-type="text" style="top:20%;left:15%;">01</span>
+<span class="spiral-dot" data-slot="text_8" data-slot-type="text" style="top:20%;right:15%;">01</span>
+<span class="spiral-dot" data-slot="text_9" data-slot-type="text" style="top:30%;left:12%;">01</span>
+<span class="spiral-dot" data-slot="text_10" data-slot-type="text" style="top:30%;right:10%;">01</span>
+<span class="spiral-dot" data-slot="text_11" data-slot-type="text" style="top:40%;left:10%;">01</span>
+<span class="spiral-dot" data-slot="text_12" data-slot-type="text" style="top:40%;right:8%;">01</span>
+<span class="spiral-dot" data-slot="text_13" data-slot-type="text" style="top:50%;left:8%;">01</span>
+<span class="spiral-dot" data-slot="text_14" data-slot-type="text" style="top:50%;right:6%;">01</span>
+<span class="spiral-dot" data-slot="text_15" data-slot-type="text" style="top:60%;left:10%;">01</span>
+<span class="spiral-dot" data-slot="text_16" data-slot-type="text" style="top:60%;right:5%;">01</span>
+<span class="spiral-dot" data-slot="text_17" data-slot-type="text" style="top:70%;left:15%;">01</span>
+<span class="spiral-dot" data-slot="text_18" data-slot-type="text" style="top:75%;left:25%;">01</span>
+<span class="spiral-dot" data-slot="text_19" data-slot-type="text" style="top:80%;left:30%;">01</span>
+<span class="spiral-dot" data-slot="text_20" data-slot-type="text" style="top:85%;left:35%;">01</span>
+<span class="spiral-dot" data-slot="text_21" data-slot-type="text" style="top:85%;left:50%;">01</span>
+<span class="spiral-dot" data-slot="text_22" data-slot-type="text" style="top:82%;right:15%;">01</span>
+<span class="spiral-dot" data-slot="text_23" data-slot-type="text" style="top:80%;right:8%;">01</span>
+<span class="spiral-dot" data-slot="text_24" data-slot-type="text" style="top:78%;right:3%;">01</span>
+</div>
+<p class="bottom-text" data-slot="text_25" data-slot-type="text">LOREM IPSUM DOLOR SIT AMET, CONSEC ADIPISCING ELIT, SED DO EIUSMOD LOREM IPSUM DOLOR SIT AMET, CONSEC ADIPISCING ELIT, SED DO EIUSMOD LOREM IPSUM DOLOR SIT AMET, CONSEC ADIPISCING ELIT, SED DO EIUSMOD LOREM IPSUM DOLOR SIT AMET, CONSEC ADIPISCING ELIT, SED DO EIUSMOD</p>
+</body>
+</html>

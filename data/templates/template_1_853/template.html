@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dior Nostalgia</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Georgia', serif; }
+.hero { min-height: 100vh; background: linear-gradient(180deg, #4a90d0 0%, #2d6e3d 30%, #c44040 50%, #e89090 70%, #f0c0d0 100%); display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 60px 40px; position: relative; filter: blur(0); }
+.hero::before { content: ''; position: absolute; inset: 0; background: inherit; filter: blur(20px); z-index: 0; }
+.hero-title { font-size: 64px; font-style: italic; color: #fff; position: relative; z-index: 1; margin-bottom: 30px; letter-spacing: -1px; }
+.product-grid { display: flex; gap: 15px; position: relative; z-index: 1; margin-bottom: 30px; }
+.product-card { width: 180px; height: 200px; border: 2px solid rgba(255,255,255,0.5); border-radius: 8px; background: rgba(255,255,255,0.1); backdrop-filter: blur(5px); }
+.hero-description { font-size: 14px; color: #fff; max-width: 500px; line-height: 1.6; position: relative; z-index: 1; }
+</style>
+</head>
+<body>
+<section class="hero">
+  <h1 class="hero-title" data-slot="text_0" data-slot-type="text">DiorNostalgia</h1>
+  <div class="product-grid">
+    <div class="product-card" data-slot="image_0" data-slot-type="image"></div>
+    <div class="product-card" data-slot="image_1" data-slot-type="image"></div>
+    <div class="product-card" data-slot="image_2" data-slot-type="image"></div>
+  </div>
+  <p class="hero-description" data-slot="text_1" data-slot-type="text">Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consec</p>
+</section>
+</body>
+</html>

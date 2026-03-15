@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clinico - Are you Happy Right Now?</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #F0C8A0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .character-bg {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .char-left, .char-right {
+    width: 280px;
+    height: 400px;
+    border-radius: 50% 50% 40% 40%;
+    position: absolute;
+  }
+  .char-left {
+    left: 5%;
+    background: radial-gradient(ellipse at 60% 30%, #D4A070 0%, #B88860 60%);
+  }
+  .char-left::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    right: 20%;
+    height: 50%;
+    background: #D4A020;
+    border-radius: 20px 20px 40% 40%;
+  }
+  .char-right {
+    right: 5%;
+    background: radial-gradient(ellipse at 40% 30%, #C89070 0%, #A07050 60%);
+  }
+  .char-right::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    right: 20%;
+    height: 50%;
+    background: #C05030;
+    border-radius: 20px 20px 40% 40%;
+  }
+
+  .card-overlay {
+    position: relative;
+    z-index: 2;
+    background: #2A2018;
+    width: 400px;
+    max-width: 85vw;
+    aspect-ratio: 3/4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 36px;
+  }
+
+  .brand-badge {
+    display: inline-block;
+    align-self: flex-start;
+    border: 1.5px solid rgba(220,190,150,0.6);
+    border-radius: 24px;
+    padding: 8px 24px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #E0C8A0;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+  }
+
+  .card-title {
+    font-size: clamp(2rem, 6vw, 3rem);
+    font-weight: 700;
+    color: #E0C8A0;
+    line-height: 1.15;
+  }
+
+  @media (max-width: 600px) {
+    .card-overlay { padding: 28px 24px; }
+    .char-left, .char-right { width: 200px; height: 300px; }
+  }
+</style>
+</head>
+<body>
+  <div class="character-bg">
+    <div class="char-left"></div>
+    <div class="char-right"></div>
+  </div>
+  <div class="card-overlay">
+    <span class="brand-badge">CLINICO</span>
+    <h1 class="card-title">Are you<br>Happy<br>Right Now?</h1>
+  </div>
+</body>
+</html>

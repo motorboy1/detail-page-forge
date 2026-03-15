@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Dancing+Script:wght@700&display=swap');
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { width: 1920px; min-height: 2400px; background: linear-gradient(180deg, #4a78b0 0%, #2a5080 50%, #1a3860 100%); font-family: 'Inter', sans-serif; color: #ffffff; position: relative; overflow: hidden; display: flex; flex-direction: column; align-items: center; }
+.container { padding: 100px 80px; text-align: center; display: flex; flex-direction: column; align-items: center; min-height: 2400px; }
+.script-bg { font-family: 'Dancing Script', cursive; font-size: 120px; color: rgba(200,170,100,0.25); margin-bottom: -60px; }
+.main-title { font-size: 120px; font-weight: 900; color: #e8b848; margin-bottom: 60px; line-height: 1.1; }
+.cta-btn { display: inline-block; padding: 24px 80px; background: #e8b848; color: #2a5080; font-size: 32px; font-weight: 700; border: none; cursor: pointer; margin-bottom: 80px; letter-spacing: 2px; }
+.medal { width: 600px; height: 800px; display: flex; align-items: center; justify-content: center; }
+.medal img { max-width: 100%; max-height: 100%; object-fit: contain; filter: drop-shadow(0 20px 60px rgba(0,0,0,0.3)); }
+</style>
+</head>
+<body>
+<div class="container">
+<div class="script-bg">Contest Open</div>
+<h1 class="main-title" data-slot="text_0" data-slot-type="text">The D1000 Game</h1>
+<button class="cta-btn" data-slot="text_1" data-slot-type="text">Participate</button>
+<div class="medal">
+<img alt="Gold Medal" data-slot="img_0" data-slot-type="image" src="medal.png"/>
+</div>
+</div>
+</body>
+</html>

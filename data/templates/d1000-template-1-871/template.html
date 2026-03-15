@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Global Cities</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Helvetica Neue',Arial,sans-serif}
+.hero{position:relative;min-height:100vh;background:linear-gradient(135deg,#2d5016,#4a7c23,#1a3a0a);display:flex;flex-direction:column;justify-content:space-between;padding:60px 50px;overflow:hidden}
+.hero::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 50% 60%,rgba(255,255,255,0.15),transparent 70%)}
+.cities-grid{display:flex;flex-wrap:wrap;justify-content:space-between;gap:20px 40px;position:relative;z-index:1}
+.city{color:#fff;font-size:clamp(1.4rem,2.5vw,2.2rem);font-weight:800;text-transform:uppercase;letter-spacing:2px}
+.description{color:#fff;font-size:0.95rem;line-height:1.7;position:relative;z-index:1;max-width:100%;margin-top:40px}
+</style></head>
+<body>
+<section class="hero">
+<div class="cities-grid">
+<span class="city">London</span><span class="city">Paris</span><span class="city">Bazel</span><span class="city">Milan</span><span class="city">NewYork</span>
+<span class="city">Seoul</span><span class="city">Berlin</span><span class="city">Shanghai</span><span class="city">Rome</span><span class="city">HongKong</span>
+<span class="city">Los Angeles</span><span class="city">Tokyo</span><span class="city">Vienna</span><span class="city">Warsaw</span>
+<span class="city">Bangkok</span><span class="city">Tbilisi</span>
+</div>
+<p class="description">Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</section>
+</body></html>

@@ -1,0 +1,25 @@
+{
+  "id": "part2_1_269",
+  "name": "Flower Exhibition Dark Frame",
+  "section_type": "hero",
+  "d1000_principles": [
+    6,
+    10,
+    21,
+    29
+  ],
+  "category": "exhibition",
+  "source_url": "",
+  "ssim_score": 0.0,
+  "slot_count": 0,
+  "thumbnail_path": "part2_1_269/thumbnail.jpg",
+  "tags": [
+    "flower",
+    "dark",
+    "yellow",
+    "exhibition",
+    "frames",
+    "art"
+  ],
+  "created_at": "2026-03-15T09:49:46.092862+00:00"
+}

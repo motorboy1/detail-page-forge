@@ -1,0 +1,30 @@
+{
+  "total": 3,
+  "text": 2,
+  "image": 1,
+  "link": 0,
+  "slots": [
+    {
+      "name": "text_0",
+      "type": "text",
+      "defaultValue": "The D1000 Game",
+      "tag": "h1",
+      "index": 0
+    },
+    {
+      "name": "text_1",
+      "type": "text",
+      "defaultValue": "Participate",
+      "tag": "button",
+      "index": 1
+    },
+    {
+      "name": "img_0",
+      "type": "image",
+      "defaultValue": "medal.png",
+      "tag": "img",
+      "index": 0,
+      "alt": "Gold Medal"
+    }
+  ]
+}

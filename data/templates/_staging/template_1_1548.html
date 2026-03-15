@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Glass Bubbles Typography</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,700&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #E00000;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .text-layer {
+    position: relative;
+    z-index: 0;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: clamp(2rem, 6vw, 3.8rem);
+    color: rgba(160, 0, 0, 0.85);
+    line-height: 1.15;
+    text-align: center;
+    max-width: 700px;
+  }
+
+  .bubble {
+    position: absolute;
+    border-radius: 50%;
+    background: radial-gradient(ellipse at 35% 30%, rgba(255,255,255,0.35) 0%, rgba(255,100,100,0.15) 40%, rgba(200,0,0,0.3) 70%, rgba(160,0,0,0.4) 100%);
+    border: 1px solid rgba(255,255,255,0.2);
+    box-shadow:
+      inset 0 -8px 20px rgba(160,0,0,0.3),
+      inset 0 4px 12px rgba(255,255,255,0.15),
+      0 4px 20px rgba(0,0,0,0.15);
+    z-index: 1;
+  }
+  .b1 { width: 300px; height: 300px; top: 30%; left: 25%; }
+  .b2 { width: 90px; height: 90px; top: 8%; right: 18%; }
+  .b3 { width: 60px; height: 60px; top: 15%; left: 20%; }
+  .b4 { width: 50px; height: 50px; top: 22%; left: 35%; }
+  .b5 { width: 70px; height: 70px; bottom: 30%; right: 15%; }
+  .b6 { width: 45px; height: 45px; bottom: 22%; left: 22%; }
+  .b7 { width: 40px; height: 40px; top: 55%; right: 22%; }
+
+  @media (max-width: 768px) {
+    .b1 { width: 180px; height: 180px; }
+    .b2 { width: 60px; height: 60px; }
+    body { padding: 20px; }
+  }
+</style>
+</head>
+<body>
+  <div class="text-layer">
+    Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+  </div>
+  <div class="bubble b1"></div>
+  <div class="bubble b2"></div>
+  <div class="bubble b3"></div>
+  <div class="bubble b4"></div>
+  <div class="bubble b5"></div>
+  <div class="bubble b6"></div>
+  <div class="bubble b7"></div>
+</body>
+</html>

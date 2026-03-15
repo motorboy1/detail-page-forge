@@ -1,0 +1,16 @@
+{
+  "total": 1,
+  "text": 0,
+  "image": 1,
+  "link": 0,
+  "slots": [
+    {
+      "name": "img_0",
+      "type": "image",
+      "defaultValue": "https://placehold.co/300x300/6b8cce/fff?text=Cap",
+      "tag": "img",
+      "index": 0,
+      "alt": "Product"
+    }
+  ]
+}

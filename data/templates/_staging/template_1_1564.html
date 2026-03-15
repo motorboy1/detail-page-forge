@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Cuban Revolution</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@300;400&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #5C6B30;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .figure-bg {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .figure-silhouette {
+    width: 80%;
+    height: 90%;
+    position: relative;
+  }
+  .beret {
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    width: 50%;
+    height: 18%;
+    background: #2A2A20;
+    border-radius: 60% 80% 30% 10%;
+    transform: rotate(-5deg);
+  }
+  .beret-star {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    width: 24px;
+    height: 24px;
+  }
+  .beret-star svg { width: 100%; height: 100%; }
+  .hair {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    width: 70%;
+    height: 40%;
+    background: #3A2820;
+    border-radius: 20% 30% 60% 50%;
+  }
+  .jacket {
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    width: 80%;
+    height: 35%;
+    background: #4A5828;
+    border-radius: 10% 10% 0 0;
+  }
+  .collar {
+    position: absolute;
+    top: -10px;
+    left: 30%;
+    width: 40%;
+    height: 40px;
+    background: #D4B090;
+    border-radius: 0 0 30% 30%;
+  }
+
+  .title-card {
+    position: relative;
+    z-index: 2;
+    background: #E8E0D0;
+    padding: 60px 48px;
+    max-width: 420px;
+    width: 85vw;
+  }
+  .title-main {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2.5rem, 7vw, 3.8rem);
+    font-weight: 400;
+    color: #3A2810;
+    line-height: 1.1;
+  }
+  .title-italic {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: clamp(2.5rem, 7vw, 3.8rem);
+    font-weight: 700;
+    color: #3A2810;
+    line-height: 1.1;
+  }
+  .author {
+    margin-top: 12px;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    color: #6A5840;
+    font-weight: 300;
+  }
+
+  @media (max-width: 600px) {
+    .title-card { padding: 40px 28px; }
+  }
+</style>
+</head>
+<body>
+  <div class="figure-bg">
+    <div class="figure-silhouette">
+      <div class="beret">
+        <div class="beret-star">
+          <svg viewBox="0 0 24 24" fill="#C8C0B0">
+            <polygon points="12,2 14.5,9 22,9 16,13.5 18,21 12,17 6,21 8,13.5 2,9 9.5,9"/>
+          </svg>
+        </div>
+      </div>
+      <div class="hair"></div>
+      <div class="jacket">
+        <div class="collar"></div>
+      </div>
+    </div>
+  </div>
+  <div class="title-card">
+    <h1 class="title-main">The Cuban</h1>
+    <h1 class="title-italic">Revolution</h1>
+    <p class="author">By Alexandro macronon</p>
+  </div>
+</body>
+</html>

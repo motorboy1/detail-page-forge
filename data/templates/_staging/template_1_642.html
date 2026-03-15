@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eenas</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Helvetica Neue', Arial, sans-serif; }
+.hero { min-height: 100vh; background: linear-gradient(180deg, #2200ff 0%, #7b68ee 40%, #c8b8ff 70%, #e8e0ff 100%); display: flex; flex-direction: column; justify-content: space-between; padding: 40px; }
+.hero-brand { font-family: 'Brush Script MT', cursive; font-size: 180px; color: #fff; line-height: 0.85; margin-bottom: 10px; }
+.hero-subtitle { font-size: 16px; font-weight: 600; color: rgba(255,255,255,0.7); text-transform: uppercase; text-align: center; letter-spacing: 1px; }
+.hero-footer { display: flex; justify-content: space-between; }
+.hero-footer-text { font-size: 12px; color: rgba(255,255,255,0.5); text-transform: uppercase; max-width: 250px; line-height: 1.5; }
+</style>
+</head>
+<body>
+<section class="hero">
+  <div>
+    <h1 class="hero-brand" data-slot="text_0" data-slot-type="text">eenas</h1>
+    <p class="hero-subtitle" data-slot="text_1" data-slot-type="text">Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor</p>
+  </div>
+  <div class="hero-footer">
+    <p class="hero-footer-text" data-slot="text_2" data-slot-type="text">Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor</p>
+    <p class="hero-footer-text" style="text-align:right;" data-slot="text_3" data-slot-type="text">Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor</p>
+  </div>
+</section>
+</body>
+</html>

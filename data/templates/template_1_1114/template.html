@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Inter:wght@300;400&display=swap');
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { width: 1920px; min-height: 2400px; background: #000000; font-family: 'Inter', sans-serif; color: #ffffff; position: relative; overflow: hidden; }
+.top-title { padding: 60px 60px 0; background: #000000; }
+.top-title h1 { font-family: 'Oswald', sans-serif; font-size: 148px; font-weight: 700; color: #ffffff; line-height: 1.0; text-transform: uppercase; text-align: right; }
+.torn-section { position: relative; min-height: 1200px; }
+.red-tear { position: absolute; top: 0; left: 0; width: 65%; height: 100%; background: #ff0000; clip-path: polygon(0 0, 100% 0, 85% 15%, 90% 30%, 75% 45%, 80% 55%, 60% 70%, 70% 85%, 55% 100%, 0 100%); }
+.black-tear { position: absolute; top: 0; right: 0; width: 60%; height: 100%; background: #000000; clip-path: polygon(30% 0, 100% 0, 100% 100%, 15% 100%, 25% 85%, 10% 70%, 20% 55%, 5% 45%, 15% 30%, 10% 15%); }
+.body-text { position: relative; z-index: 2; padding: 80px 60px; max-width: 600px; }
+.body-text p { font-size: 18px; line-height: 1.7; color: rgba(255,255,255,0.85); font-weight: 300; text-align: justify; }
+</style>
+</head>
+<body>
+<div class="top-title">
+<h1 data-slot="text_0" data-slot-type="text">IN AMERICA, BROKEN THINGS GET REPAIRED BY SHEETS OF PAPER</h1>
+</div>
+<div class="torn-section">
+<div class="red-tear"></div>
+<div class="black-tear"></div>
+</div>
+<div class="body-text">
+<p data-slot="text_1" data-slot-type="text">Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consecadipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consec</p>
+</div>
+</body>
+</html>

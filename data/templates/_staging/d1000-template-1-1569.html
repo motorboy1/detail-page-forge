@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', sans-serif; }
+  .hero {
+    min-height: 100vh;
+    background: #c8ff00;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 60px 50px;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero h1 {
+    font-size: clamp(3rem, 10vw, 6rem);
+    font-weight: 900;
+    line-height: 0.95;
+    color: #000;
+    max-width: 600px;
+  }
+  .hero .subtitle {
+    font-size: clamp(0.9rem, 2vw, 1.3rem);
+    font-weight: 500;
+    letter-spacing: 0.25em;
+    color: #000;
+    margin-top: 16px;
+    text-transform: uppercase;
+  }
+  .shapes {
+    position: absolute;
+    bottom: -5%;
+    left: 0;
+    right: 0;
+    height: 70%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 0;
+  }
+  .shape {
+    background: #000;
+    border-radius: 50%;
+  }
+  .shape-1 { width: 8%; height: 90%; border-radius: 40%; }
+  .shape-2 { width: 6%; height: 85%; border-radius: 40%; margin-left: -1%; }
+  .shape-3 { width: 35%; height: 95%; }
+  .shape-4 { width: 30%; height: 80%; margin-left: 5%; }
+  .shape-5 { width: 10%; height: 100%; border-radius: 40%; }
+</style>
+</head>
+<body>
+<section class="hero">
+  <h1>Never forget the bass</h1>
+  <p class="subtitle">SUB2KHZMODE</p>
+  <div class="shapes">
+    <div class="shape shape-1"></div>
+    <div class="shape shape-2"></div>
+    <div class="shape shape-3"></div>
+    <div class="shape shape-4"></div>
+    <div class="shape shape-5"></div>
+  </div>
+</section>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Our Prices</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 40px;
+    font-family: 'Inter', sans-serif;
+    color: #000;
+  }
+  .headline {
+    font-size: clamp(4rem, 14vw, 9rem);
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: -0.04em;
+    line-height: 0.85;
+    text-align: center;
+  }
+  .subheadline {
+    font-size: clamp(1.2rem, 3.5vw, 2rem);
+    font-weight: 400;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-top: -8px;
+    margin-bottom: 40px;
+  }
+  .shapes-container {
+    position: relative;
+    width: 100%;
+    max-width: 560px;
+    height: 60vh;
+    min-height: 400px;
+  }
+  .shape {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+  }
+  .hexagon {
+    width: 220px; height: 220px;
+    background: #000; color: #fff;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    top: 0; left: 10%;
+    transform: rotate(-10deg);
+  }
+  .square {
+    width: 200px; height: 200px;
+    border: 3px solid #000; color: #000;
+    top: 10%; right: 0;
+    transform: rotate(8deg);
+  }
+  .star-shape {
+    width: 200px; height: 200px;
+    border: 3px solid #000; color: #000;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    bottom: 0; left: 0;
+  }
+  .circle {
+    width: 180px; height: 180px;
+    border: 3px solid #000;
+    border-radius: 50%;
+    bottom: 0; right: 5%;
+    background: #fff;
+    font-size: 0;
+  }
+  .circle::after {
+    content: '';
+    display: block;
+    width: 60%;
+    height: 30%;
+    margin: 35% auto 0;
+    border-bottom: 3px solid #000;
+    border-radius: 0 0 50% 50%;
+  }
+  @media (max-width: 600px) {
+    body { padding: 24px 16px; }
+    .shape { transform: scale(0.7); }
+  }
+</style>
+</head>
+<body>
+<h1 class="headline" data-slot="text_0" data-slot-type="text">Our Prices</h1>
+<p class="subheadline" data-slot="text_1" data-slot-type="text">Starting from 10$</p>
+<div class="shapes-container">
+<div class="shape hexagon"><span data-slot="text_2" data-slot-type="text">A:18$</span></div>
+<div class="shape square"><span data-slot="text_3" data-slot-type="text">B:12$</span></div>
+<div class="shape star-shape"><span data-slot="text_4" data-slot-type="text">C:10$</span></div>
+<div class="shape circle"></div>
+</div>
+</body>
+</html>

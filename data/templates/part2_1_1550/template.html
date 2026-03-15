@@ -1,0 +1,32 @@
+<!DOCTYPE html><html lang="ko"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Spinning Spacetime</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Noto Sans KR',sans-serif;background:linear-gradient(135deg,#c0c0c0 0%,#e8e8e8 25%,#888 50%,#e8e8e8 75%,#c0c0c0 100%);min-height:100vh}
+.container{max-width:600px;margin:0 auto;position:relative;min-height:100vh;display:flex;flex-direction:column}
+.top-bar{display:flex;justify-content:space-between;align-items:center;padding:20px 24px}
+.brand-icon{font-size:12px;color:#999}
+.brand-name{font-size:12px;color:#888}
+.center-section{flex:1;display:flex;align-items:center;justify-content:center;position:relative}
+.vanish{width:100%;height:300px;background:radial-gradient(ellipse at center,#333 0%,#888 20%,#ccc 40%,#eee 60%,#ccc 80%);display:flex;align-items:center;justify-content:center}
+.title-row{display:flex;align-items:center;gap:16px}
+.title-ko{font-size:40px;font-weight:900;color:rgba(255,255,255,0.6);text-shadow:2px 2px 4px rgba(0,0,0,0.3)}
+.title-en{font-size:12px;color:rgba(255,255,255,0.5);letter-spacing:2px;text-align:center;line-height:1.6}
+.bottom{padding:30px 24px;display:flex;gap:24px}
+.desc{flex:1;font-size:11px;color:#555;line-height:1.8}
+</style></head><body>
+<div class="container">
+<div class="top-bar"><span class="brand-icon">icon</span><span class="brand-name" data-slot="brand">미술연구랩 오바이스</span></div>
+<div class="center-section">
+<div class="vanish">
+<div class="title-row">
+<span class="title-ko" data-slot="headline">회전하는</span>
+<span class="title-en" data-slot="headline_en">SPINNING<br>SPACETIME</span>
+<span class="title-ko">시공간</span>
+</div>
+</div>
+</div>
+<div class="bottom">
+<div class="desc" data-slot="desc_left">우리가 사는 현재는 사실 과거에서 미래로 가는 한개의 시간 축과 반대로 가는 비논리적인 시간 축이 만나서 그리는 하나의 궤적이다.</div>
+<div class="desc" data-slot="desc_right">그렇기에, 우리가 사는 현재 속에서 일어나는 미묘한 일들의 내막은 의외로 미래의 결과에 역으로 영향을 받는다.</div>
+</div>
+</div></body></html>

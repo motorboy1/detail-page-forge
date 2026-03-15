@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Porsche Cayenne 20-23</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #8B0000;
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 48px 0;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .car-image {
+    position: absolute;
+    right: 5%;
+    bottom: 18%;
+    width: 320px;
+    height: 200px;
+    background: linear-gradient(145deg, #D0D0D0, #A0A0A0);
+    border-radius: 40% 30% 10% 10% / 30% 30% 20% 20%;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+    z-index: 1;
+  }
+  .car-image::before {
+    content: '';
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    width: 70%;
+    height: 40%;
+    background: rgba(40,40,50,0.6);
+    border-radius: 30% 30% 5% 5%;
+  }
+  .car-image::after {
+    content: '';
+    position: absolute;
+    bottom: 5px;
+    left: 15%;
+    width: 20%;
+    height: 20%;
+    background: #888;
+    border-radius: 50%;
+    box-shadow: 180px 0 0 #888;
+  }
+
+  .title-block {
+    padding: 0 40px;
+    position: relative;
+    z-index: 2;
+  }
+  .main-title {
+    font-size: clamp(3.5rem, 12vw, 8rem);
+    font-weight: 900;
+    color: #fff;
+    line-height: 0.95;
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+  }
+
+  .desc-text {
+    position: absolute;
+    right: 40px;
+    bottom: 48px;
+    max-width: 340px;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #fff;
+    font-weight: 400;
+    z-index: 2;
+  }
+
+  @media (max-width: 768px) {
+    .title-block { padding: 0 24px; }
+    .desc-text { right: 24px; max-width: 260px; font-size: 0.8rem; }
+    .car-image { width: 200px; height: 130px; right: 3%; }
+  }
+</style>
+</head>
+<body>
+  <div class="title-block">
+    <h1 class="main-title">Porsche<br>Cayenne<br>20-23</h1>
+  </div>
+  <div class="car-image"></div>
+  <p class="desc-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</body>
+</html>

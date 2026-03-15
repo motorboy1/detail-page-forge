@@ -1,0 +1,25 @@
+{
+  "id": "part2_1_893",
+  "name": "Ekkamai Word Flow Diagram",
+  "section_type": "hero",
+  "d1000_principles": [
+    3,
+    8,
+    15,
+    28
+  ],
+  "category": "architecture",
+  "source_url": "",
+  "ssim_score": 0.0,
+  "slot_count": 0,
+  "thumbnail_path": "part2_1_893/thumbnail.jpg",
+  "tags": [
+    "diagram",
+    "flow",
+    "word",
+    "architecture",
+    "minimal",
+    "paper"
+  ],
+  "created_at": "2026-03-15T10:58:56.926385+00:00"
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Butterfly Effect</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@400;700&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    min-height: 100vh;
+    background: #e8e8e8;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+    color: #000;
+  }
+  .top-section {
+    padding: 48px 40px 0;
+    flex: 1;
+  }
+  .headline {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(4rem, 14vw, 9rem);
+    font-weight: 900;
+    line-height: 0.9;
+    letter-spacing: -0.02em;
+    margin-bottom: 24px;
+  }
+  .tm { font-size: 0.35em; vertical-align: super; }
+  .body-text {
+    font-size: clamp(0.65rem, 1.4vw, 0.8rem);
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.5;
+    max-width: 400px;
+    margin-bottom: 24px;
+  }
+  .chess-area {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    padding: 40px 0;
+  }
+  .pawn {
+    width: 60px;
+    height: 120px;
+    background: linear-gradient(180deg, #333 0%, #111 100%);
+    border-radius: 50% 50% 30% 30%;
+    position: relative;
+    z-index: 2;
+  }
+  .shadow-king {
+    position: absolute;
+    right: 20%;
+    bottom: 20%;
+    width: 200px;
+    height: 350px;
+    background: rgba(0,0,0,0.15);
+    filter: blur(8px);
+    clip-path: polygon(30% 0%, 70% 0%, 75% 10%, 60% 15%, 70% 15%, 50% 100%, 30% 15%, 40% 15%, 25% 10%);
+  }
+  .labels-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 40px;
+  }
+  .label-item {
+    font-size: clamp(0.65rem, 1.3vw, 0.8rem);
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .footer-bar {
+    background: #000;
+    color: #fff;
+    padding: 16px 40px;
+    font-size: clamp(0.6rem, 1.2vw, 0.75rem);
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.5;
+  }
+  @media (max-width: 600px) {
+    .top-section, .labels-row, .footer-bar { padding-left: 20px; padding-right: 20px; }
+  }
+</style>
+</head>
+<body>
+  <div class="top-section">
+    <h1 class="headline">Butterfly<br>Effect<span class="tm">TM</span></h1>
+    <p class="body-text">LOREM IPSUM DOLOR SIT AMET, CONSEC ADIPISCING ELIT, SED DO EIUSMOD LOREM IPSUM DOLOR SIT AMET, CONSEC ADIPISCING ELIT, SED DO EIUSMOD LOREM IPSUM DOLOR SIT AMET, CONSEC ADIPISCING ELIT, SED DO EIUSMOD</p>
+  </div>
+  <div class="chess-area">
+    <div class="pawn"></div>
+    <div class="shadow-king"></div>
+  </div>
+  <div class="labels-row">
+    <span class="label-item">LOREM IPSUM DOLOR SIT AMET,</span>
+    <span class="label-item">LOREM IPSUM DOLOR SIT AMET,</span>
+    <span class="label-item">LOREM IPSUM DOLOR SIT AMET,</span>
+  </div>
+  <div class="footer-bar">LOREM IPSUM DOLOR SIT AMET, CONSEC ADIPISCING ELIT, SED DO EIUSMOD LOREM IPSUM DOLOR SIT AMET, CONSEC ADIPISCING ELIT, SED DO EIUSMOD LOREM IPSUM DOLOR SIT AMET, CONSEC ADIPISCING ELIT, SED DO EIUSMOD</div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "id": "d1000-template-1-102",
+  "name": "D1000 Template 1 102",
+  "section_type": "hero",
+  "d1000_principles": [
+    11,
+    21,
+    44
+  ],
+  "category": "design",
+  "source_url": "figma://template_1_102.png",
+  "ssim_score": 0.0,
+  "slot_count": 2,
+  "thumbnail_path": "d1000-template-1-102/thumbnail.jpg",
+  "tags": [
+    "gradient",
+    "light",
+    "playful",
+    "nature"
+  ],
+  "created_at": "2026-03-14T15:09:45.174433+00:00"
+}

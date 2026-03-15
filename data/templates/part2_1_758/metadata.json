@@ -1,0 +1,25 @@
+{
+  "id": "part2_1_758",
+  "name": "Red Unpredictability Book",
+  "section_type": "hero",
+  "d1000_principles": [
+    2,
+    8,
+    15,
+    24
+  ],
+  "category": "publication",
+  "source_url": "",
+  "ssim_score": 0.0,
+  "slot_count": 0,
+  "thumbnail_path": "part2_1_758/thumbnail.jpg",
+  "tags": [
+    "red",
+    "text",
+    "overlay",
+    "book",
+    "bold",
+    "business"
+  ],
+  "created_at": "2026-03-15T10:50:25.604241+00:00"
+}

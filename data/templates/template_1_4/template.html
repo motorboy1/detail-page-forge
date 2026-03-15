@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Lorem Ipsum Sections</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Helvetica Neue', Arial, sans-serif; }
+.section { min-height: 33vh; display: flex; flex-direction: column; justify-content: flex-end; padding: 40px; }
+.section-1 { background: linear-gradient(135deg, #6600ff 0%, #fff 100%); }
+.section-2 { background: linear-gradient(135deg, #fff 0%, #8844ff 50%, #fff 100%); }
+.section-3 { background: linear-gradient(135deg, #ddc8ff 0%, #fff 100%); }
+.section h2 { font-size: 100px; font-weight: 900; color: #000; line-height: 1; margin-bottom: 16px; }
+.section h2 .dot { display: inline-block; width: 20px; height: 20px; background: #fff; border-radius: 50%; vertical-align: middle; }
+.section p { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; line-height: 1.6; color: #000; max-width: 700px; }
+</style>
+</head>
+<body>
+<section class="section section-1">
+<h2 data-slot="text_0" data-slot-type="text">Lorem ipsum</h2>
+<p data-slot="text_1" data-slot-type="text">Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod</p>
+</section>
+<section class="section section-2">
+<h2 data-slot="text_2" data-slot-type="text">Dolor<span class="dot"></span></h2>
+<p data-slot="text_3" data-slot-type="text">Lorem ipsum dolor sit amet,</p>
+</section>
+<section class="section section-3">
+<h2 data-slot="text_4" data-slot-type="text">SitAmet<span class="dot"></span></h2>
+</section>
+</body>
+</html>

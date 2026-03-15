@@ -146,6 +146,3525 @@
         "premium"
       ],
       "created_at": "2026-03-13T11:36:50.610768+00:00"
+    },
+    {
+      "id": "d1000-part2-1-3",
+      "name": "D1000 Part2 1 3",
+      "section_type": "hero",
+      "d1000_principles": [
+        20,
+        28,
+        40
+      ],
+      "category": "design",
+      "source_url": "figma://part2_1_3.png",
+      "ssim_score": 0.0,
+      "slot_count": 8,
+      "thumbnail_path": "d1000-part2-1-3/thumbnail.jpg",
+      "tags": [
+        "dark",
+        "premium",
+        "minimal",
+        "cinematic"
+      ],
+      "created_at": "2026-03-14T15:06:56.216822+00:00"
+    },
+    {
+      "id": "d1000-template-1-1569",
+      "name": "D1000 Template 1 1569",
+      "section_type": "hero",
+      "d1000_principles": [
+        3,
+        15,
+        20
+      ],
+      "category": "design",
+      "source_url": "figma://template_1_1569.png",
+      "ssim_score": 0.0,
+      "slot_count": 2,
+      "thumbnail_path": "d1000-template-1-1569/thumbnail.jpg",
+      "tags": [
+        "bold",
+        "modern",
+        "neon",
+        "dark"
+      ],
+      "created_at": "2026-03-14T15:06:56.327318+00:00"
+    },
+    {
+      "id": "d1000-template-1-287",
+      "name": "D1000 Template 1 287",
+      "section_type": "hero",
+      "d1000_principles": [
+        11,
+        28,
+        44
+      ],
+      "category": "design",
+      "source_url": "figma://template_1_287.png",
+      "ssim_score": 0.0,
+      "slot_count": 2,
+      "thumbnail_path": "d1000-template-1-287/thumbnail.jpg",
+      "tags": [
+        "gradient",
+        "bold",
+        "premium",
+        "pink"
+      ],
+      "created_at": "2026-03-14T15:06:56.483145+00:00"
+    },
+    {
+      "id": "d1000-template-1-1012",
+      "name": "D1000 Template 1 1012",
+      "section_type": "hero",
+      "d1000_principles": [
+        6,
+        20,
+        28
+      ],
+      "category": "design",
+      "source_url": "figma://template_1_1012.png",
+      "ssim_score": 0.0,
+      "slot_count": 13,
+      "thumbnail_path": "d1000-template-1-1012/thumbnail.jpg",
+      "tags": [
+        "minimal",
+        "premium",
+        "editorial",
+        "warm"
+      ],
+      "created_at": "2026-03-14T15:09:44.951208+00:00"
+    },
+    {
+      "id": "d1000-template-1-102",
+      "name": "D1000 Template 1 102",
+      "section_type": "hero",
+      "d1000_principles": [
+        11,
+        21,
+        44
+      ],
+      "category": "design",
+      "source_url": "figma://template_1_102.png",
+      "ssim_score": 0.0,
+      "slot_count": 2,
+      "thumbnail_path": "d1000-template-1-102/thumbnail.jpg",
+      "tags": [
+        "gradient",
+        "light",
+        "playful",
+        "nature"
+      ],
+      "created_at": "2026-03-14T15:09:45.174433+00:00"
+    },
+    {
+      "id": "d1000-template-1-1026",
+      "name": "D1000 Template 1 1026",
+      "section_type": "hero",
+      "d1000_principles": [
+        6,
+        15,
+        28
+      ],
+      "category": "design",
+      "source_url": "figma://template_1_1026.png",
+      "ssim_score": 0.0,
+      "slot_count": 8,
+      "thumbnail_path": "d1000-template-1-1026/thumbnail.jpg",
+      "tags": [
+        "editorial",
+        "premium",
+        "minimal",
+        "warm"
+      ],
+      "created_at": "2026-03-14T15:09:45.365140+00:00"
+    },
+    {
+      "id": "d1000-template-1-1049",
+      "name": "D1000 Template 1 1049",
+      "section_type": "hero",
+      "d1000_principles": [
+        3,
+        15,
+        35
+      ],
+      "category": "design",
+      "source_url": "figma://template_1_1049.png",
+      "ssim_score": 0.0,
+      "slot_count": 4,
+      "thumbnail_path": "d1000-template-1-1049/thumbnail.jpg",
+      "tags": [
+        "bold",
+        "modern",
+        "dark",
+        "constructivist"
+      ],
+      "created_at": "2026-03-14T15:09:45.504766+00:00"
+    },
+    {
+      "id": "d1000-template-1-1062",
+      "name": "D1000 Template 1 1062",
+      "section_type": "hero",
+      "d1000_principles": [
+        3,
+        20,
+        28
+      ],
+      "category": "beauty",
+      "source_url": "figma://template_1_1062.png",
+      "ssim_score": 0.0,
+      "slot_count": 5,
+      "thumbnail_path": "d1000-template-1-1062/thumbnail.jpg",
+      "tags": [
+        "premium",
+        "bold",
+        "dark",
+        "luxury",
+        "product"
+      ],
+      "created_at": "2026-03-14T15:09:45.669958+00:00"
+    },
+    {
+      "id": "template_1_1068",
+      "name": "Template 1 1068",
+      "section_type": "footer",
+      "d1000_principles": [
+        "P03",
+        "P12",
+        "P28"
+      ],
+      "category": "design",
+      "source_url": "figma://template_1_1068",
+      "ssim_score": 0.0,
+      "slot_count": 6,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "light",
+        "gradient",
+        "premium",
+        "modern"
+      ],
+      "created_at": "2026-03-14T15:13:25.931450+00:00"
+    },
+    {
+      "id": "template_1_1073",
+      "name": "Template 1 1073",
+      "section_type": "footer",
+      "d1000_principles": [
+        "P03",
+        "P15",
+        "P42"
+      ],
+      "category": "design",
+      "source_url": "figma://template_1_1073",
+      "ssim_score": 0.0,
+      "slot_count": 4,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "light",
+        "gradient",
+        "premium",
+        "modern"
+      ],
+      "created_at": "2026-03-14T15:13:25.933895+00:00"
+    },
+    {
+      "id": "template_1_1081",
+      "name": "Template 1 1081",
+      "section_type": "footer",
+      "d1000_principles": [
+        "P03",
+        "P12",
+        "P42"
+      ],
+      "category": "design",
+      "source_url": "figma://template_1_1081",
+      "ssim_score": 0.0,
+      "slot_count": 4,
+      "thumbnail_path": "",
+      "tags": [
+        "light",
+        "gradient",
+        "premium",
+        "modern"
+      ],
+      "created_at": "2026-03-14T15:13:25.936237+00:00"
+    },
+    {
+      "id": "template_1_1087",
+      "name": "Template 1 1087",
+      "section_type": "hero",
+      "d1000_principles": [
+        "P01",
+        "P07",
+        "P28"
+      ],
+      "category": "design",
+      "source_url": "figma://template_1_1087",
+      "ssim_score": 0.0,
+      "slot_count": 11,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "light",
+        "bold",
+        "premium",
+        "modern",
+        "playful"
+      ],
+      "created_at": "2026-03-14T15:13:25.939451+00:00"
+    },
+    {
+      "id": "template_1_1096",
+      "name": "Template 1 1096",
+      "section_type": "hero",
+      "d1000_principles": [
+        "P01",
+        "P05",
+        "P18"
+      ],
+      "category": "design",
+      "source_url": "figma://template_1_1096",
+      "ssim_score": 0.0,
+      "slot_count": 5,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "premium",
+        "modern"
+      ],
+      "created_at": "2026-03-14T15:13:25.941894+00:00"
+    },
+    {
+      "id": "template_1_1104",
+      "name": "Template 1 1104",
+      "section_type": "features",
+      "d1000_principles": [
+        "P03",
+        "P15",
+        "P42"
+      ],
+      "category": "design",
+      "source_url": "figma://template_1_1104",
+      "ssim_score": 0.0,
+      "slot_count": 1,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "light",
+        "gradient",
+        "premium",
+        "modern"
+      ],
+      "created_at": "2026-03-14T15:16:12.563081+00:00"
+    },
+    {
+      "id": "template_1_1114",
+      "name": "Template 1 1114",
+      "section_type": "hero",
+      "d1000_principles": [
+        "P03",
+        "P28",
+        "P42"
+      ],
+      "category": "design",
+      "source_url": "figma://template_1_1114",
+      "ssim_score": 0.0,
+      "slot_count": 2,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "light",
+        "premium",
+        "modern"
+      ],
+      "created_at": "2026-03-14T15:16:12.567157+00:00"
+    },
+    {
+      "id": "template_1_112",
+      "name": "Template 1 112",
+      "section_type": "footer",
+      "d1000_principles": [
+        "P03",
+        "P07",
+        "P28"
+      ],
+      "category": "design",
+      "source_url": "figma://template_1_112",
+      "ssim_score": 0.0,
+      "slot_count": 2,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "gradient",
+        "premium",
+        "modern"
+      ],
+      "created_at": "2026-03-14T15:16:12.570533+00:00"
+    },
+    {
+      "id": "template_1_1120",
+      "name": "Template 1 1120",
+      "section_type": "footer",
+      "d1000_principles": [
+        "P03",
+        "P07",
+        "P15"
+      ],
+      "category": "design",
+      "source_url": "figma://template_1_1120",
+      "ssim_score": 0.0,
+      "slot_count": 10,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "light",
+        "gradient",
+        "bold",
+        "premium",
+        "modern"
+      ],
+      "created_at": "2026-03-14T15:16:12.576666+00:00"
+    },
+    {
+      "id": "template_1_1132",
+      "name": "Template 1 1132",
+      "section_type": "features",
+      "d1000_principles": [
+        "P07",
+        "P15",
+        "P42"
+      ],
+      "category": "design",
+      "source_url": "figma://template_1_1132",
+      "ssim_score": 0.0,
+      "slot_count": 12,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "premium",
+        "modern"
+      ],
+      "created_at": "2026-03-14T15:16:12.584003+00:00"
+    },
+    {
+      "id": "template_1_121",
+      "name": "Template 1 121",
+      "section_type": "pricing",
+      "d1000_principles": [
+        "P03",
+        "P07",
+        "P28"
+      ],
+      "category": "design",
+      "source_url": "figma://template_1_121",
+      "ssim_score": 0.0,
+      "slot_count": 9,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "gradient",
+        "premium",
+        "modern"
+      ],
+      "created_at": "2026-03-14T15:48:56.297215+00:00"
+    },
+    {
+      "id": "template_1_1225",
+      "name": "Template 1 1225",
+      "section_type": "features",
+      "d1000_principles": [
+        "P07",
+        "P15",
+        "P42"
+      ],
+      "category": "design",
+      "source_url": "figma://template_1_1225",
+      "ssim_score": 0.0,
+      "slot_count": 1,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "light",
+        "premium",
+        "modern"
+      ],
+      "created_at": "2026-03-14T15:48:56.306726+00:00"
+    },
+    {
+      "id": "template_1_13",
+      "name": "Template 1 13",
+      "section_type": "hero",
+      "d1000_principles": [
+        "P03",
+        "P12",
+        "P28"
+      ],
+      "category": "design",
+      "source_url": "figma://template_1_13",
+      "ssim_score": 0.0,
+      "slot_count": 4,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "light",
+        "premium",
+        "modern"
+      ],
+      "created_at": "2026-03-14T15:48:56.313731+00:00"
+    },
+    {
+      "id": "template_1_1321",
+      "name": "Template 1 1321",
+      "section_type": "hero",
+      "d1000_principles": [
+        "P01",
+        "P05",
+        "P18"
+      ],
+      "category": "design",
+      "source_url": "figma://template_1_1321",
+      "ssim_score": 0.0,
+      "slot_count": 7,
+      "thumbnail_path": "",
+      "tags": [
+        "premium",
+        "modern"
+      ],
+      "created_at": "2026-03-14T15:48:56.318935+00:00"
+    },
+    {
+      "id": "template_1_1330",
+      "name": "Template 1 1330",
+      "section_type": "hero",
+      "d1000_principles": [
+        "P03",
+        "P15",
+        "P42"
+      ],
+      "category": "design",
+      "source_url": "figma://template_1_1330",
+      "ssim_score": 0.0,
+      "slot_count": 3,
+      "thumbnail_path": "",
+      "tags": [
+        "light",
+        "gradient",
+        "premium",
+        "modern"
+      ],
+      "created_at": "2026-03-14T15:48:56.324241+00:00"
+    },
+    {
+      "id": "template_1_1346",
+      "name": "Template 1 1346",
+      "section_type": "hero",
+      "d1000_principles": [
+        "P03",
+        "P07",
+        "P28"
+      ],
+      "category": "design",
+      "source_url": "figma://template_1_1346",
+      "ssim_score": 0.0,
+      "slot_count": 22,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "light",
+        "premium",
+        "modern"
+      ],
+      "created_at": "2026-03-14T15:52:06.921330+00:00"
+    },
+    {
+      "id": "template_1_1364",
+      "name": "Template 1 1364",
+      "section_type": "hero",
+      "d1000_principles": [
+        "P03",
+        "P07",
+        "P15"
+      ],
+      "category": "design",
+      "source_url": "figma://template_1_1364",
+      "ssim_score": 0.0,
+      "slot_count": 13,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "premium",
+        "modern"
+      ],
+      "created_at": "2026-03-14T15:52:06.948564+00:00"
+    },
+    {
+      "id": "template_1_1372",
+      "name": "Template 1 1372",
+      "section_type": "hero",
+      "d1000_principles": [
+        "P03",
+        "P12",
+        "P28"
+      ],
+      "category": "design",
+      "source_url": "figma://template_1_1372",
+      "ssim_score": 0.0,
+      "slot_count": 3,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "light",
+        "gradient",
+        "premium",
+        "modern"
+      ],
+      "created_at": "2026-03-14T15:52:06.965212+00:00"
+    },
+    {
+      "id": "template_1_1379",
+      "name": "Template 1 1379",
+      "section_type": "footer",
+      "d1000_principles": [
+        "P03",
+        "P15",
+        "P42"
+      ],
+      "category": "design",
+      "source_url": "figma://template_1_1379",
+      "ssim_score": 0.0,
+      "slot_count": 1,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "light",
+        "gradient",
+        "premium"
+      ],
+      "created_at": "2026-03-14T15:52:06.996089+00:00"
+    },
+    {
+      "id": "template_1_1385",
+      "name": "Template 1 1385",
+      "section_type": "features",
+      "d1000_principles": [
+        "P01",
+        "P05",
+        "P18"
+      ],
+      "category": "design",
+      "source_url": "figma://template_1_1385",
+      "ssim_score": 0.0,
+      "slot_count": 4,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "gradient",
+        "premium",
+        "modern"
+      ],
+      "created_at": "2026-03-14T15:52:07.039335+00:00"
+    },
+    {
+      "id": "template_1_1392",
+      "name": "Template 1 1392",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "figma://template_1_1392",
+      "ssim_score": 0.0,
+      "slot_count": 3,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "light",
+        "gradient",
+        "premium",
+        "modern"
+      ],
+      "created_at": "2026-03-14T21:30:45.424071+00:00"
+    },
+    {
+      "id": "template_1_1403",
+      "name": "Template 1 1403",
+      "section_type": "footer",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "figma://template_1_1403",
+      "ssim_score": 0.0,
+      "slot_count": 13,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "bold",
+        "premium",
+        "modern"
+      ],
+      "created_at": "2026-03-14T21:30:45.433434+00:00"
+    },
+    {
+      "id": "template_1_1407",
+      "name": "Template 1 1407",
+      "section_type": "features",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "figma://template_1_1407",
+      "ssim_score": 0.0,
+      "slot_count": 17,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "premium"
+      ],
+      "created_at": "2026-03-14T21:30:45.444507+00:00"
+    },
+    {
+      "id": "template_1_1414",
+      "name": "Template 1 1414",
+      "section_type": "features",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "figma://template_1_1414",
+      "ssim_score": 0.0,
+      "slot_count": 17,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "light",
+        "bold",
+        "premium",
+        "modern",
+        "playful"
+      ],
+      "created_at": "2026-03-14T21:30:45.454249+00:00"
+    },
+    {
+      "id": "template_1_1417",
+      "name": "Template 1 1417",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "figma://template_1_1417",
+      "ssim_score": 0.0,
+      "slot_count": 0,
+      "thumbnail_path": "",
+      "tags": [
+        "gradient",
+        "bold",
+        "premium",
+        "modern"
+      ],
+      "created_at": "2026-03-14T21:30:45.460799+00:00"
+    },
+    {
+      "id": "template_1_1421",
+      "name": "Template 1 1421",
+      "section_type": "testimonial",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "figma://template_1_1421",
+      "ssim_score": 0.0,
+      "slot_count": 7,
+      "thumbnail_path": "",
+      "tags": [
+        "light",
+        "gradient",
+        "bold",
+        "premium",
+        "modern"
+      ],
+      "created_at": "2026-03-14T21:33:27.881113+00:00"
+    },
+    {
+      "id": "template_1_1430",
+      "name": "Template 1 1430",
+      "section_type": "features",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "figma://template_1_1430",
+      "ssim_score": 0.0,
+      "slot_count": 0,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "light",
+        "gradient",
+        "premium",
+        "modern"
+      ],
+      "created_at": "2026-03-14T21:33:27.896810+00:00"
+    },
+    {
+      "id": "template_1_151",
+      "name": "Template 1 151",
+      "section_type": "footer",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "figma://template_1_151",
+      "ssim_score": 0.0,
+      "slot_count": 3,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "light",
+        "gradient",
+        "premium",
+        "modern"
+      ],
+      "created_at": "2026-03-14T21:33:27.902007+00:00"
+    },
+    {
+      "id": "template_1_1524",
+      "name": "Template 1 1524",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "figma://template_1_1524",
+      "ssim_score": 0.0,
+      "slot_count": 3,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "light",
+        "gradient",
+        "premium",
+        "modern"
+      ],
+      "created_at": "2026-03-14T21:33:27.908303+00:00"
+    },
+    {
+      "id": "template_1_1530",
+      "name": "Template 1 1530",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "figma://template_1_1530",
+      "ssim_score": 0.0,
+      "slot_count": 5,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "premium",
+        "modern"
+      ],
+      "created_at": "2026-03-14T21:42:34.457400+00:00"
+    },
+    {
+      "id": "template_1_1539",
+      "name": "Template 1 1539",
+      "section_type": "features",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "figma://template_1_1539",
+      "ssim_score": 0.0,
+      "slot_count": 2,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "light",
+        "premium",
+        "modern"
+      ],
+      "created_at": "2026-03-14T21:42:34.466948+00:00"
+    },
+    {
+      "id": "template_1_1548",
+      "name": "Template 1 1548",
+      "section_type": "footer",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "figma://template_1_1548",
+      "ssim_score": 0.0,
+      "slot_count": 0,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "gradient",
+        "premium"
+      ],
+      "created_at": "2026-03-14T21:42:34.478355+00:00"
+    },
+    {
+      "id": "template_1_1558",
+      "name": "Template 1 1558",
+      "section_type": "features",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "figma://template_1_1558",
+      "ssim_score": 0.0,
+      "slot_count": 2,
+      "thumbnail_path": "",
+      "tags": [
+        "gradient",
+        "premium",
+        "modern"
+      ],
+      "created_at": "2026-03-14T21:42:34.485110+00:00"
+    },
+    {
+      "id": "template_1_156",
+      "name": "Template 1 156",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "figma://template_1_156",
+      "ssim_score": 0.0,
+      "slot_count": 3,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "premium",
+        "modern"
+      ],
+      "created_at": "2026-03-14T21:46:22.299257+00:00"
+    },
+    {
+      "id": "template_1_1564",
+      "name": "Template 1 1564",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "figma://template_1_1564",
+      "ssim_score": 0.0,
+      "slot_count": 3,
+      "thumbnail_path": "",
+      "tags": [
+        "premium",
+        "modern"
+      ],
+      "created_at": "2026-03-14T21:46:22.305672+00:00"
+    },
+    {
+      "id": "template_1_1577",
+      "name": "Template 1 1577",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "figma://template_1_1577",
+      "ssim_score": 0.0,
+      "slot_count": 2,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "light",
+        "gradient",
+        "premium",
+        "modern"
+      ],
+      "created_at": "2026-03-14T21:46:22.311878+00:00"
+    },
+    {
+      "id": "template_1_1581",
+      "name": "Template 1 1581",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "figma://template_1_1581",
+      "ssim_score": 0.0,
+      "slot_count": 2,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "light",
+        "gradient",
+        "premium",
+        "modern"
+      ],
+      "created_at": "2026-03-14T21:46:22.316891+00:00"
+    },
+    {
+      "id": "template_1_1586",
+      "name": "Template 1 1586",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "figma://template_1_1586",
+      "ssim_score": 0.0,
+      "slot_count": 3,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "premium",
+        "modern"
+      ],
+      "created_at": "2026-03-14T21:46:22.323113+00:00"
+    },
+    {
+      "id": "template_1_1594",
+      "name": "Template 1 1594",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "figma://template_1_1594",
+      "ssim_score": 0.0,
+      "slot_count": 2,
+      "thumbnail_path": "",
+      "tags": [
+        "modern",
+        "premium",
+        "dark",
+        "bold",
+        "light"
+      ],
+      "created_at": "2026-03-14T22:46:01.165794+00:00"
+    },
+    {
+      "id": "template_1_160",
+      "name": "Template 1 160",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "figma://template_1_160",
+      "ssim_score": 0.0,
+      "slot_count": 2,
+      "thumbnail_path": "",
+      "tags": [
+        "premium",
+        "light",
+        "gradient",
+        "modern"
+      ],
+      "created_at": "2026-03-14T22:46:01.170390+00:00"
+    },
+    {
+      "id": "template_1_1633",
+      "name": "Template 1 1633",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "figma://template_1_1633",
+      "ssim_score": 0.0,
+      "slot_count": 2,
+      "thumbnail_path": "",
+      "tags": [
+        "premium",
+        "bold",
+        "modern"
+      ],
+      "created_at": "2026-03-14T22:46:01.173972+00:00"
+    },
+    {
+      "id": "template_1_1639",
+      "name": "Template 1 1639",
+      "section_type": "features",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "figma://template_1_1639",
+      "ssim_score": 0.0,
+      "slot_count": 15,
+      "thumbnail_path": "",
+      "tags": [
+        "gradient",
+        "light",
+        "modern",
+        "premium",
+        "dark",
+        "bold"
+      ],
+      "created_at": "2026-03-14T22:48:39.367459+00:00"
+    },
+    {
+      "id": "template_1_1655",
+      "name": "Template 1 1655",
+      "section_type": "features",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "figma://template_1_1655",
+      "ssim_score": 0.0,
+      "slot_count": 9,
+      "thumbnail_path": "",
+      "tags": [
+        "gradient",
+        "light",
+        "modern",
+        "premium",
+        "dark",
+        "bold"
+      ],
+      "created_at": "2026-03-14T22:48:39.370838+00:00"
+    },
+    {
+      "id": "template_1_166",
+      "name": "Template 1 166",
+      "section_type": "features",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "figma://template_1_166",
+      "ssim_score": 0.0,
+      "slot_count": 19,
+      "thumbnail_path": "",
+      "tags": [
+        "gradient",
+        "light",
+        "modern",
+        "premium",
+        "dark",
+        "bold"
+      ],
+      "created_at": "2026-03-14T22:48:39.374586+00:00"
+    },
+    {
+      "id": "template_1_1716",
+      "name": "Template 1 1716",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "figma://template_1_1716",
+      "ssim_score": 0.0,
+      "slot_count": 4,
+      "thumbnail_path": "",
+      "tags": [
+        "gradient",
+        "light",
+        "modern",
+        "premium",
+        "bold"
+      ],
+      "created_at": "2026-03-14T22:48:39.378812+00:00"
+    },
+    {
+      "id": "template_1_1736",
+      "name": "Template 1 1736",
+      "section_type": "testimonial",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "figma://template_1_1736",
+      "ssim_score": 0.0,
+      "slot_count": 5,
+      "thumbnail_path": "",
+      "tags": [
+        "gradient",
+        "light",
+        "modern",
+        "premium",
+        "dark",
+        "bold"
+      ],
+      "created_at": "2026-03-14T22:48:39.381514+00:00"
+    },
+    {
+      "id": "template_1_1746",
+      "name": "Template 1 1746",
+      "section_type": "testimonial",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "figma://template_1_1746",
+      "ssim_score": 0.0,
+      "slot_count": 5,
+      "thumbnail_path": "",
+      "tags": [
+        "modern",
+        "light",
+        "premium",
+        "dark",
+        "bold"
+      ],
+      "created_at": "2026-03-14T22:51:29.046448+00:00"
+    },
+    {
+      "id": "template_1_1763",
+      "name": "Template 1 1763",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "figma://template_1_1763",
+      "ssim_score": 0.0,
+      "slot_count": 3,
+      "thumbnail_path": "",
+      "tags": [
+        "modern",
+        "gradient",
+        "light",
+        "premium",
+        "dark",
+        "bold"
+      ],
+      "created_at": "2026-03-14T22:51:29.053388+00:00"
+    },
+    {
+      "id": "template_1_1771",
+      "name": "Template 1 1771",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "figma://template_1_1771",
+      "ssim_score": 0.0,
+      "slot_count": 2,
+      "thumbnail_path": "",
+      "tags": [
+        "modern",
+        "gradient",
+        "light",
+        "premium",
+        "bold"
+      ],
+      "created_at": "2026-03-14T22:51:29.065781+00:00"
+    },
+    {
+      "id": "template_1_1776",
+      "name": "Template 1 1776",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "figma://template_1_1776",
+      "ssim_score": 0.0,
+      "slot_count": 3,
+      "thumbnail_path": "",
+      "tags": [
+        "modern",
+        "gradient",
+        "light",
+        "premium",
+        "dark",
+        "bold"
+      ],
+      "created_at": "2026-03-14T22:51:29.070686+00:00"
+    },
+    {
+      "id": "template_1_1789",
+      "name": "Template 1 1789",
+      "section_type": "testimonial",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "figma://template_1_1789",
+      "ssim_score": 0.0,
+      "slot_count": 5,
+      "thumbnail_path": "",
+      "tags": [
+        "modern",
+        "gradient",
+        "light",
+        "premium",
+        "bold"
+      ],
+      "created_at": "2026-03-14T22:51:29.075130+00:00"
+    },
+    {
+      "id": "template_1_1801",
+      "name": "Template 1 1801",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "figma://template_1_1801",
+      "ssim_score": 0.0,
+      "slot_count": 3,
+      "thumbnail_path": "",
+      "tags": [
+        "light",
+        "premium",
+        "gradient",
+        "modern",
+        "bold"
+      ],
+      "created_at": "2026-03-14T22:53:38.985671+00:00"
+    },
+    {
+      "id": "template_1_1811",
+      "name": "Template 1 1811",
+      "section_type": "testimonial",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "figma://template_1_1811",
+      "ssim_score": 0.0,
+      "slot_count": 8,
+      "thumbnail_path": "",
+      "tags": [
+        "light",
+        "premium",
+        "modern",
+        "bold",
+        "dark"
+      ],
+      "created_at": "2026-03-14T22:53:38.991720+00:00"
+    },
+    {
+      "id": "template_1_1875",
+      "name": "Template 1 1875",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "figma://template_1_1875",
+      "ssim_score": 0.0,
+      "slot_count": 3,
+      "thumbnail_path": "",
+      "tags": [
+        "light",
+        "premium",
+        "modern",
+        "bold",
+        "dark"
+      ],
+      "created_at": "2026-03-14T22:53:38.997680+00:00"
+    },
+    {
+      "id": "template_1_1888",
+      "name": "Template 1 1888",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "figma://template_1_1888",
+      "ssim_score": 0.0,
+      "slot_count": 2,
+      "thumbnail_path": "",
+      "tags": [
+        "premium",
+        "gradient",
+        "modern",
+        "bold",
+        "dark"
+      ],
+      "created_at": "2026-03-14T22:53:39.002619+00:00"
+    },
+    {
+      "id": "template_1_193",
+      "name": "Template 1 193",
+      "section_type": "features",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "figma://template_1_193",
+      "ssim_score": 0.0,
+      "slot_count": 20,
+      "thumbnail_path": "",
+      "tags": [
+        "light",
+        "premium",
+        "gradient",
+        "modern",
+        "bold",
+        "dark"
+      ],
+      "created_at": "2026-03-14T22:53:39.008522+00:00"
+    },
+    {
+      "id": "template_1_206",
+      "name": "Template 1 206",
+      "section_type": "features",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "figma://template_1_206",
+      "ssim_score": 0.0,
+      "slot_count": 26,
+      "thumbnail_path": "",
+      "tags": [
+        "light",
+        "modern",
+        "dark",
+        "premium"
+      ],
+      "created_at": "2026-03-14T22:56:03.254606+00:00"
+    },
+    {
+      "id": "template_1_21",
+      "name": "Template 1 21",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "figma://template_1_21",
+      "ssim_score": 0.0,
+      "slot_count": 2,
+      "thumbnail_path": "",
+      "tags": [
+        "light",
+        "modern",
+        "gradient",
+        "dark",
+        "premium",
+        "bold"
+      ],
+      "created_at": "2026-03-14T22:56:03.258720+00:00"
+    },
+    {
+      "id": "template_1_25",
+      "name": "Template 1 25",
+      "section_type": "testimonial",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "figma://template_1_25",
+      "ssim_score": 0.0,
+      "slot_count": 5,
+      "thumbnail_path": "",
+      "tags": [
+        "light",
+        "modern",
+        "gradient",
+        "dark",
+        "premium",
+        "bold"
+      ],
+      "created_at": "2026-03-14T22:56:03.263583+00:00"
+    },
+    {
+      "id": "template_1_278",
+      "name": "Template 1 278",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "figma://template_1_278",
+      "ssim_score": 0.0,
+      "slot_count": 4,
+      "thumbnail_path": "",
+      "tags": [
+        "light",
+        "modern",
+        "gradient",
+        "dark",
+        "premium",
+        "bold"
+      ],
+      "created_at": "2026-03-14T22:56:03.270072+00:00"
+    },
+    {
+      "id": "template_1_296",
+      "name": "Template 1 296",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "figma://template_1_296",
+      "ssim_score": 0.0,
+      "slot_count": 3,
+      "thumbnail_path": "",
+      "tags": [
+        "premium",
+        "bold",
+        "modern",
+        "dark"
+      ],
+      "created_at": "2026-03-14T22:56:03.275634+00:00"
+    },
+    {
+      "id": "template_1_317",
+      "name": "Template 1 317",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 2,
+      "thumbnail_path": "",
+      "tags": [
+        "light",
+        "gradient",
+        "bold",
+        "modern"
+      ],
+      "created_at": "2026-03-14T23:18:41.794856+00:00"
+    },
+    {
+      "id": "template_1_321",
+      "name": "Template 1 321",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 5,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "gradient",
+        "bold",
+        "modern"
+      ],
+      "created_at": "2026-03-14T23:18:41.799833+00:00"
+    },
+    {
+      "id": "template_1_329",
+      "name": "Template 1 329",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 0,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "bold",
+        "serif",
+        "italic",
+        "modern"
+      ],
+      "created_at": "2026-03-14T23:18:41.803926+00:00"
+    },
+    {
+      "id": "template_1_337",
+      "name": "Template 1 337",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 5,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "bold",
+        "serif",
+        "italic",
+        "modern"
+      ],
+      "created_at": "2026-03-14T23:18:41.810028+00:00"
+    },
+    {
+      "id": "template_1_351",
+      "name": "Template 1 351",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 3,
+      "thumbnail_path": "",
+      "tags": [
+        "light",
+        "gradient",
+        "bold",
+        "modern"
+      ],
+      "created_at": "2026-03-14T23:18:41.814983+00:00"
+    },
+    {
+      "id": "template_1_359",
+      "name": "Template 1 359",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 2,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "gradient",
+        "bold",
+        "modern"
+      ],
+      "created_at": "2026-03-14T23:20:44.144124+00:00"
+    },
+    {
+      "id": "template_1_367",
+      "name": "Template 1 367",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 5,
+      "thumbnail_path": "",
+      "tags": [
+        "light",
+        "bold",
+        "italic",
+        "modern"
+      ],
+      "created_at": "2026-03-14T23:20:44.150486+00:00"
+    },
+    {
+      "id": "template_1_37",
+      "name": "Template 1 37",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 2,
+      "thumbnail_path": "",
+      "tags": [
+        "light",
+        "gradient",
+        "modern"
+      ],
+      "created_at": "2026-03-14T23:20:44.155888+00:00"
+    },
+    {
+      "id": "template_1_374",
+      "name": "Template 1 374",
+      "section_type": "features",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 7,
+      "thumbnail_path": "",
+      "tags": [
+        "light",
+        "gradient",
+        "bold",
+        "modern"
+      ],
+      "created_at": "2026-03-14T23:20:44.163038+00:00"
+    },
+    {
+      "id": "template_1_397",
+      "name": "Template 1 397",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 5,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "gradient",
+        "bold",
+        "modern"
+      ],
+      "created_at": "2026-03-14T23:20:44.168735+00:00"
+    },
+    {
+      "id": "template_1_4",
+      "name": "Template 1 4",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 5,
+      "thumbnail_path": "",
+      "tags": [
+        "light",
+        "gradient",
+        "bold",
+        "modern"
+      ],
+      "created_at": "2026-03-14T23:22:42.678948+00:00"
+    },
+    {
+      "id": "template_1_407",
+      "name": "Template 1 407",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 2,
+      "thumbnail_path": "",
+      "tags": [
+        "light",
+        "gradient",
+        "bold",
+        "italic",
+        "modern"
+      ],
+      "created_at": "2026-03-14T23:22:42.686267+00:00"
+    },
+    {
+      "id": "template_1_416",
+      "name": "Template 1 416",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 2,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "gradient",
+        "bold",
+        "modern"
+      ],
+      "created_at": "2026-03-14T23:22:42.695825+00:00"
+    },
+    {
+      "id": "template_1_428",
+      "name": "Template 1 428",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 2,
+      "thumbnail_path": "",
+      "tags": [
+        "light",
+        "gradient",
+        "serif",
+        "italic",
+        "modern"
+      ],
+      "created_at": "2026-03-14T23:22:42.700719+00:00"
+    },
+    {
+      "id": "template_1_43",
+      "name": "Template 1 43",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 3,
+      "thumbnail_path": "",
+      "tags": [
+        "light",
+        "bold",
+        "modern"
+      ],
+      "created_at": "2026-03-14T23:22:42.707162+00:00"
+    },
+    {
+      "id": "template_1_435",
+      "name": "Template 1 435",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 2,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "gradient",
+        "bold",
+        "italic",
+        "modern"
+      ],
+      "created_at": "2026-03-14T23:40:50.753927+00:00"
+    },
+    {
+      "id": "template_1_456",
+      "name": "Template 1 456",
+      "section_type": "features",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 9,
+      "thumbnail_path": "",
+      "tags": [
+        "light",
+        "serif",
+        "italic",
+        "modern"
+      ],
+      "created_at": "2026-03-14T23:40:50.763016+00:00"
+    },
+    {
+      "id": "template_1_468",
+      "name": "Template 1 468",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 2,
+      "thumbnail_path": "",
+      "tags": [
+        "light",
+        "gradient",
+        "bold",
+        "modern"
+      ],
+      "created_at": "2026-03-14T23:40:50.771061+00:00"
+    },
+    {
+      "id": "template_1_485",
+      "name": "Template 1 485",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 6,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "gradient",
+        "bold",
+        "modern"
+      ],
+      "created_at": "2026-03-14T23:40:50.776786+00:00"
+    },
+    {
+      "id": "template_1_49",
+      "name": "Template 1 49",
+      "section_type": "cta",
+      "d1000_principles": [],
+      "category": "design",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 5,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "gradient",
+        "bold",
+        "serif",
+        "italic",
+        "modern"
+      ],
+      "created_at": "2026-03-14T23:40:50.781940+00:00"
+    },
+    {
+      "id": "template_1_546",
+      "name": "Template 1 546",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "general",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 3,
+      "thumbnail_path": "",
+      "tags": [
+        "light",
+        "pattern",
+        "vintage",
+        "handcraft",
+        "serif"
+      ],
+      "created_at": "2026-03-15T02:06:40.002237+00:00"
+    },
+    {
+      "id": "template_1_552",
+      "name": "Template 1 552",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "general",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 6,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "bold",
+        "water",
+        "editorial",
+        "yellow"
+      ],
+      "created_at": "2026-03-15T02:06:40.014506+00:00"
+    },
+    {
+      "id": "template_1_588",
+      "name": "Template 1 588",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "general",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 4,
+      "thumbnail_path": "",
+      "tags": [
+        "light",
+        "bold",
+        "retro",
+        "pop",
+        "colorful",
+        "purple"
+      ],
+      "created_at": "2026-03-15T02:06:40.024135+00:00"
+    },
+    {
+      "id": "template_1_599",
+      "name": "Template 1 599",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "general",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 4,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "serif",
+        "elegant",
+        "moody",
+        "nature"
+      ],
+      "created_at": "2026-03-15T02:06:40.031736+00:00"
+    },
+    {
+      "id": "template_1_608",
+      "name": "Template 1 608",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "general",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 1,
+      "thumbnail_path": "",
+      "tags": [
+        "light",
+        "bold",
+        "colorful",
+        "red",
+        "experimental",
+        "italic"
+      ],
+      "created_at": "2026-03-15T02:06:40.041265+00:00"
+    },
+    {
+      "id": "template_1_61",
+      "name": "Template 1 61",
+      "section_type": "features",
+      "d1000_principles": [],
+      "category": "general",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 5,
+      "thumbnail_path": "",
+      "tags": [
+        "light",
+        "bold",
+        "modern",
+        "fashion",
+        "product",
+        "cards"
+      ],
+      "created_at": "2026-03-15T02:08:32.782994+00:00"
+    },
+    {
+      "id": "template_1_623",
+      "name": "Template 1 623",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "general",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 2,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "bold",
+        "editorial",
+        "masked-text",
+        "dramatic"
+      ],
+      "created_at": "2026-03-15T02:08:32.788353+00:00"
+    },
+    {
+      "id": "template_1_626",
+      "name": "Template 1 626",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "general",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 4,
+      "thumbnail_path": "",
+      "tags": [
+        "light",
+        "artistic",
+        "floral",
+        "image-masked",
+        "script",
+        "nature"
+      ],
+      "created_at": "2026-03-15T02:08:32.798283+00:00"
+    },
+    {
+      "id": "template_1_632",
+      "name": "Template 1 632",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "general",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 2,
+      "thumbnail_path": "",
+      "tags": [
+        "bold",
+        "editorial",
+        "split",
+        "dramatic",
+        "nature",
+        "olive"
+      ],
+      "created_at": "2026-03-15T02:08:32.803878+00:00"
+    },
+    {
+      "id": "template_1_642",
+      "name": "Template 1 642",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "general",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 4,
+      "thumbnail_path": "",
+      "tags": [
+        "gradient",
+        "purple",
+        "minimal",
+        "script",
+        "modern"
+      ],
+      "created_at": "2026-03-15T02:08:32.810022+00:00"
+    },
+    {
+      "id": "template_1_654",
+      "name": "Template 1 654",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "general",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 1,
+      "thumbnail_path": "",
+      "tags": [
+        "light",
+        "blue",
+        "sky",
+        "clouds",
+        "bold",
+        "dreamy"
+      ],
+      "created_at": "2026-03-15T02:10:44.432987+00:00"
+    },
+    {
+      "id": "template_1_673",
+      "name": "Template 1 673",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "general",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 5,
+      "thumbnail_path": "",
+      "tags": [
+        "light",
+        "warm",
+        "cafe",
+        "serif",
+        "elegant",
+        "beige"
+      ],
+      "created_at": "2026-03-15T02:10:44.439481+00:00"
+    },
+    {
+      "id": "template_1_682",
+      "name": "Template 1 682",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "general",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 3,
+      "thumbnail_path": "",
+      "tags": [
+        "light",
+        "bold",
+        "chess",
+        "sport",
+        "modern",
+        "gray"
+      ],
+      "created_at": "2026-03-15T02:10:44.445084+00:00"
+    },
+    {
+      "id": "template_1_704",
+      "name": "Template 1 704",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "general",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 5,
+      "thumbnail_path": "",
+      "tags": [
+        "colorful",
+        "travel",
+        "bold",
+        "gradient",
+        "warm",
+        "playful"
+      ],
+      "created_at": "2026-03-15T02:10:44.452064+00:00"
+    },
+    {
+      "id": "template_1_714",
+      "name": "Template 1 714",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "general",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 7,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "minimal",
+        "geometric",
+        "grid",
+        "technical",
+        "modern"
+      ],
+      "created_at": "2026-03-15T02:10:44.457728+00:00"
+    },
+    {
+      "id": "template_1_740",
+      "name": "Template 1 740",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "general",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 1,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "blue",
+        "data",
+        "technical",
+        "monospace",
+        "diagram"
+      ],
+      "created_at": "2026-03-15T02:13:38.309573+00:00"
+    },
+    {
+      "id": "template_1_835",
+      "name": "Template 1 835",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "general",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 4,
+      "thumbnail_path": "",
+      "tags": [
+        "light",
+        "bold",
+        "diagonal",
+        "blue",
+        "modern",
+        "editorial"
+      ],
+      "created_at": "2026-03-15T02:13:38.323499+00:00"
+    },
+    {
+      "id": "template_1_848",
+      "name": "Template 1 848",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "general",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 2,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "blue",
+        "serif",
+        "angled",
+        "nature",
+        "editorial"
+      ],
+      "created_at": "2026-03-15T02:13:38.339584+00:00"
+    },
+    {
+      "id": "template_1_853",
+      "name": "Template 1 853",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "general",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 2,
+      "thumbnail_path": "",
+      "tags": [
+        "colorful",
+        "floral",
+        "luxury",
+        "serif",
+        "italic",
+        "product"
+      ],
+      "created_at": "2026-03-15T02:13:38.353259+00:00"
+    },
+    {
+      "id": "template_1_862",
+      "name": "Template 1 862",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "general",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 5,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "green",
+        "pixel",
+        "retro",
+        "nature",
+        "columns"
+      ],
+      "created_at": "2026-03-15T02:13:38.360356+00:00"
+    },
+    {
+      "id": "d1000-template-1-871",
+      "name": "template_1_871",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "general",
+      "source_url": "figma_d1000",
+      "ssim_score": 0.0,
+      "slot_count": 17,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "gradient",
+        "bold",
+        "modern",
+        "nature"
+      ],
+      "created_at": "2026-03-15T06:12:20.180604+00:00"
+    },
+    {
+      "id": "d1000-template-1-890",
+      "name": "template_1_890",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "general",
+      "source_url": "figma_d1000",
+      "ssim_score": 0.0,
+      "slot_count": 3,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "gradient",
+        "bold",
+        "modern",
+        "industrial"
+      ],
+      "created_at": "2026-03-15T06:12:20.187546+00:00"
+    },
+    {
+      "id": "d1000-template-1-895",
+      "name": "template_1_895",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "general",
+      "source_url": "figma_d1000",
+      "ssim_score": 0.0,
+      "slot_count": 3,
+      "thumbnail_path": "",
+      "tags": [
+        "light",
+        "bold",
+        "modern",
+        "dramatic"
+      ],
+      "created_at": "2026-03-15T06:12:20.194821+00:00"
+    },
+    {
+      "id": "d1000-template-1-900",
+      "name": "template_1_900",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "general",
+      "source_url": "figma_d1000",
+      "ssim_score": 0.0,
+      "slot_count": 4,
+      "thumbnail_path": "",
+      "tags": [
+        "light",
+        "bold",
+        "serif",
+        "italic",
+        "modern",
+        "editorial"
+      ],
+      "created_at": "2026-03-15T06:12:20.201483+00:00"
+    },
+    {
+      "id": "d1000-template-1-91",
+      "name": "template_1_91",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "general",
+      "source_url": "figma_d1000",
+      "ssim_score": 0.0,
+      "slot_count": 1,
+      "thumbnail_path": "",
+      "tags": [
+        "light",
+        "bold",
+        "modern",
+        "ecommerce",
+        "playful"
+      ],
+      "created_at": "2026-03-15T06:12:20.208469+00:00"
+    },
+    {
+      "id": "d1000-template-1-910",
+      "name": "template_1_910",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "general",
+      "source_url": "figma_d1000",
+      "ssim_score": 0.0,
+      "slot_count": 5,
+      "thumbnail_path": "",
+      "tags": [
+        "light",
+        "bold",
+        "modern",
+        "brutalist",
+        "neon"
+      ],
+      "created_at": "2026-03-15T06:13:43.425731+00:00"
+    },
+    {
+      "id": "d1000-template-1-932",
+      "name": "template_1_932",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "general",
+      "source_url": "figma_d1000",
+      "ssim_score": 0.0,
+      "slot_count": 4,
+      "thumbnail_path": "",
+      "tags": [
+        "light",
+        "serif",
+        "italic",
+        "modern",
+        "art",
+        "editorial"
+      ],
+      "created_at": "2026-03-15T06:13:43.433862+00:00"
+    },
+    {
+      "id": "d1000-template-1-943",
+      "name": "template_1_943",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "general",
+      "source_url": "figma_d1000",
+      "ssim_score": 0.0,
+      "slot_count": 3,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "bold",
+        "modern",
+        "dramatic",
+        "torn"
+      ],
+      "created_at": "2026-03-15T06:13:43.440307+00:00"
+    },
+    {
+      "id": "d1000-template-1-955",
+      "name": "template_1_955",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "general",
+      "source_url": "figma_d1000",
+      "ssim_score": 0.0,
+      "slot_count": 6,
+      "thumbnail_path": "",
+      "tags": [
+        "light",
+        "bold",
+        "modern",
+        "architecture",
+        "gradient"
+      ],
+      "created_at": "2026-03-15T06:13:43.446717+00:00"
+    },
+    {
+      "id": "d1000-template-1-965",
+      "name": "template_1_965",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "general",
+      "source_url": "figma_d1000",
+      "ssim_score": 0.0,
+      "slot_count": 4,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "bold",
+        "modern",
+        "fashion",
+        "luxury"
+      ],
+      "created_at": "2026-03-15T06:13:43.454527+00:00"
+    },
+    {
+      "id": "d1000-template-1-974",
+      "name": "template_1_974",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "general",
+      "source_url": "figma_d1000",
+      "ssim_score": 0.0,
+      "slot_count": 4,
+      "thumbnail_path": "",
+      "tags": [
+        "dark",
+        "bold",
+        "modern",
+        "tech",
+        "nature"
+      ],
+      "created_at": "2026-03-15T06:14:44.050256+00:00"
+    },
+    {
+      "id": "d1000-template-1-986",
+      "name": "template_1_986",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "general",
+      "source_url": "figma_d1000",
+      "ssim_score": 0.0,
+      "slot_count": 23,
+      "thumbnail_path": "",
+      "tags": [
+        "light",
+        "bold",
+        "modern",
+        "vibrant",
+        "blue"
+      ],
+      "created_at": "2026-03-15T06:14:44.058635+00:00"
+    },
+    {
+      "id": "d1000-part2-1-1020",
+      "name": "part2_1_1020",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "general",
+      "source_url": "figma_d1000",
+      "ssim_score": 0.0,
+      "slot_count": 9,
+      "thumbnail_path": "",
+      "tags": [
+        "light",
+        "modern",
+        "korean",
+        "business",
+        "editorial"
+      ],
+      "created_at": "2026-03-15T06:17:03.047407+00:00"
+    },
+    {
+      "id": "d1000-part2-1-1048",
+      "name": "part2_1_1048",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "general",
+      "source_url": "figma_d1000",
+      "ssim_score": 0.0,
+      "slot_count": 6,
+      "thumbnail_path": "",
+      "tags": [
+        "light",
+        "gradient",
+        "bold",
+        "korean",
+        "memorial",
+        "editorial"
+      ],
+      "created_at": "2026-03-15T06:17:03.069426+00:00"
+    },
+    {
+      "id": "d1000-part2-1-107",
+      "name": "part2_1_107",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "general",
+      "source_url": "figma_d1000",
+      "ssim_score": 0.0,
+      "slot_count": 13,
+      "thumbnail_path": "",
+      "tags": [
+        "light",
+        "bold",
+        "modern",
+        "korean",
+        "playful",
+        "badges"
+      ],
+      "created_at": "2026-03-15T06:17:03.078875+00:00"
+    },
+    {
+      "id": "d1000-part2-1-1073",
+      "name": "part2_1_1073",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "general",
+      "source_url": "figma_d1000",
+      "ssim_score": 0.0,
+      "slot_count": 9,
+      "thumbnail_path": "",
+      "tags": [
+        "light",
+        "gradient",
+        "modern",
+        "korean",
+        "glassmorphism",
+        "ecommerce",
+        "retro"
+      ],
+      "created_at": "2026-03-15T06:17:03.087288+00:00"
+    },
+    {
+      "id": "d1000-part2-1-1141",
+      "name": "part2_1_1141",
+      "section_type": "hero",
+      "d1000_principles": [],
+      "category": "general",
+      "source_url": "figma_d1000",
+      "ssim_score": 0.0,
+      "slot_count": 5,
+      "thumbnail_path": "",
+      "tags": [
+        "light",
+        "modern",
+        "korean",
+        "chat",
+        "ecommerce",
+        "playful"
+      ],
+      "created_at": "2026-03-15T06:17:03.106441+00:00"
+    },
+    {
+      "id": "part2_1_1184",
+      "name": "part2_1_1184",
+      "section_type": "full_page",
+      "d1000_principles": [],
+      "category": "hero",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 11,
+      "thumbnail_path": "data/d1000_knowledge/figma_part2/part2_1_1184.png",
+      "tags": [
+        "figma_part2",
+        "korean"
+      ],
+      "created_at": "2026-03-15T08:30:13.702453+00:00"
+    },
+    {
+      "id": "part2_1_1204",
+      "name": "part2_1_1204",
+      "section_type": "full_page",
+      "d1000_principles": [],
+      "category": "hero",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 9,
+      "thumbnail_path": "data/d1000_knowledge/figma_part2/part2_1_1204.png",
+      "tags": [
+        "figma_part2",
+        "korean"
+      ],
+      "created_at": "2026-03-15T08:30:13.709232+00:00"
+    },
+    {
+      "id": "part2_1_1233",
+      "name": "part2_1_1233",
+      "section_type": "full_page",
+      "d1000_principles": [],
+      "category": "hero",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 9,
+      "thumbnail_path": "data/d1000_knowledge/figma_part2/part2_1_1233.png",
+      "tags": [
+        "figma_part2",
+        "korean"
+      ],
+      "created_at": "2026-03-15T08:30:13.719269+00:00"
+    },
+    {
+      "id": "part2_1_1267",
+      "name": "part2_1_1267",
+      "section_type": "full_page",
+      "d1000_principles": [],
+      "category": "hero",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 8,
+      "thumbnail_path": "data/d1000_knowledge/figma_part2/part2_1_1267.png",
+      "tags": [
+        "figma_part2",
+        "korean"
+      ],
+      "created_at": "2026-03-15T08:30:13.724026+00:00"
+    },
+    {
+      "id": "part2_1_1309",
+      "name": "part2_1_1309",
+      "section_type": "full_page",
+      "d1000_principles": [],
+      "category": "hero",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 5,
+      "thumbnail_path": "data/d1000_knowledge/figma_part2/part2_1_1309.png",
+      "tags": [
+        "figma_part2",
+        "korean"
+      ],
+      "created_at": "2026-03-15T08:30:13.727052+00:00"
+    },
+    {
+      "id": "part2_1_1415",
+      "name": "part2_1_1415",
+      "section_type": "full_page",
+      "d1000_principles": [],
+      "category": "hero",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 9,
+      "thumbnail_path": "data/d1000_knowledge/figma_part2/part2_1_1415.png",
+      "tags": [
+        "figma_part2",
+        "korean"
+      ],
+      "created_at": "2026-03-15T08:32:38.322113+00:00"
+    },
+    {
+      "id": "part2_1_1460",
+      "name": "part2_1_1460",
+      "section_type": "full_page",
+      "d1000_principles": [],
+      "category": "hero",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 6,
+      "thumbnail_path": "data/d1000_knowledge/figma_part2/part2_1_1460.png",
+      "tags": [
+        "figma_part2",
+        "korean"
+      ],
+      "created_at": "2026-03-15T08:32:38.329612+00:00"
+    },
+    {
+      "id": "part2_1_1471",
+      "name": "part2_1_1471",
+      "section_type": "full_page",
+      "d1000_principles": [],
+      "category": "hero",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 8,
+      "thumbnail_path": "data/d1000_knowledge/figma_part2/part2_1_1471.png",
+      "tags": [
+        "figma_part2",
+        "korean"
+      ],
+      "created_at": "2026-03-15T08:32:38.343602+00:00"
+    },
+    {
+      "id": "part2_1_1490",
+      "name": "part2_1_1490",
+      "section_type": "full_page",
+      "d1000_principles": [],
+      "category": "hero",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 9,
+      "thumbnail_path": "data/d1000_knowledge/figma_part2/part2_1_1490.png",
+      "tags": [
+        "figma_part2",
+        "korean"
+      ],
+      "created_at": "2026-03-15T08:32:38.349846+00:00"
+    },
+    {
+      "id": "part2_1_1550",
+      "name": "part2_1_1550",
+      "section_type": "full_page",
+      "d1000_principles": [],
+      "category": "hero",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 5,
+      "thumbnail_path": "data/d1000_knowledge/figma_part2/part2_1_1550.png",
+      "tags": [
+        "figma_part2",
+        "korean"
+      ],
+      "created_at": "2026-03-15T08:32:38.363627+00:00"
+    },
+    {
+      "id": "part2_1_1563",
+      "name": "part2_1_1563",
+      "section_type": "full_page",
+      "d1000_principles": [],
+      "category": "hero",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 4,
+      "thumbnail_path": "data/d1000_knowledge/figma_part2/part2_1_1563.png",
+      "tags": [
+        "figma_part2",
+        "korean"
+      ],
+      "created_at": "2026-03-15T08:35:03.717346+00:00"
+    },
+    {
+      "id": "part2_1_1578",
+      "name": "part2_1_1578",
+      "section_type": "full_page",
+      "d1000_principles": [],
+      "category": "hero",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 2,
+      "thumbnail_path": "data/d1000_knowledge/figma_part2/part2_1_1578.png",
+      "tags": [
+        "figma_part2",
+        "korean"
+      ],
+      "created_at": "2026-03-15T08:35:03.721020+00:00"
+    },
+    {
+      "id": "part2_1_1591",
+      "name": "part2_1_1591",
+      "section_type": "full_page",
+      "d1000_principles": [],
+      "category": "hero",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 6,
+      "thumbnail_path": "data/d1000_knowledge/figma_part2/part2_1_1591.png",
+      "tags": [
+        "figma_part2",
+        "korean"
+      ],
+      "created_at": "2026-03-15T08:35:03.723988+00:00"
+    },
+    {
+      "id": "part2_1_160",
+      "name": "part2_1_160",
+      "section_type": "full_page",
+      "d1000_principles": [],
+      "category": "hero",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 5,
+      "thumbnail_path": "data/d1000_knowledge/figma_part2/part2_1_160.png",
+      "tags": [
+        "figma_part2",
+        "korean"
+      ],
+      "created_at": "2026-03-15T08:35:03.732070+00:00"
+    },
+    {
+      "id": "part2_1_171",
+      "name": "part2_1_171",
+      "section_type": "full_page",
+      "d1000_principles": [],
+      "category": "hero",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 4,
+      "thumbnail_path": "data/d1000_knowledge/figma_part2/part2_1_171.png",
+      "tags": [
+        "figma_part2",
+        "korean"
+      ],
+      "created_at": "2026-03-15T08:35:03.738282+00:00"
+    },
+    {
+      "id": "part2_1_1751",
+      "name": "part2_1_1751",
+      "section_type": "full_page",
+      "d1000_principles": [],
+      "category": "hero",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 8,
+      "thumbnail_path": "data/d1000_knowledge/figma_part2/part2_1_1751.png",
+      "tags": [
+        "figma_part2",
+        "korean"
+      ],
+      "created_at": "2026-03-15T08:39:43.458827+00:00"
+    },
+    {
+      "id": "part2_1_1777",
+      "name": "part2_1_1777",
+      "section_type": "full_page",
+      "d1000_principles": [],
+      "category": "hero",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 5,
+      "thumbnail_path": "data/d1000_knowledge/figma_part2/part2_1_1777.png",
+      "tags": [
+        "figma_part2",
+        "korean"
+      ],
+      "created_at": "2026-03-15T08:39:43.464648+00:00"
+    },
+    {
+      "id": "part2_1_180",
+      "name": "part2_1_180",
+      "section_type": "full_page",
+      "d1000_principles": [],
+      "category": "hero",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 7,
+      "thumbnail_path": "data/d1000_knowledge/figma_part2/part2_1_180.png",
+      "tags": [
+        "figma_part2",
+        "korean"
+      ],
+      "created_at": "2026-03-15T08:39:43.473358+00:00"
+    },
+    {
+      "id": "part2_1_1801",
+      "name": "part2_1_1801",
+      "section_type": "full_page",
+      "d1000_principles": [],
+      "category": "hero",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 6,
+      "thumbnail_path": "data/d1000_knowledge/figma_part2/part2_1_1801.png",
+      "tags": [
+        "figma_part2",
+        "korean"
+      ],
+      "created_at": "2026-03-15T08:39:43.478997+00:00"
+    },
+    {
+      "id": "part2_1_19",
+      "name": "part2_1_19",
+      "section_type": "full_page",
+      "d1000_principles": [],
+      "category": "hero",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 5,
+      "thumbnail_path": "data/d1000_knowledge/figma_part2/part2_1_19.png",
+      "tags": [
+        "figma_part2",
+        "korean"
+      ],
+      "created_at": "2026-03-15T08:39:43.492369+00:00"
+    },
+    {
+      "id": "part2_1_197",
+      "name": "Carbon Bike Spec Hero",
+      "section_type": "hero",
+      "d1000_principles": [
+        3,
+        7,
+        14,
+        22
+      ],
+      "category": "product",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 0,
+      "thumbnail_path": "part2_1_197/thumbnail.jpg",
+      "tags": [
+        "bike",
+        "carbon",
+        "spec",
+        "gradient",
+        "dark",
+        "product"
+      ],
+      "created_at": "2026-03-15T09:49:45.918263+00:00"
+    },
+    {
+      "id": "part2_1_210",
+      "name": "Gallery Torn Paper Hero",
+      "section_type": "hero",
+      "d1000_principles": [
+        5,
+        11,
+        18,
+        26
+      ],
+      "category": "culture",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 0,
+      "thumbnail_path": "part2_1_210/thumbnail.jpg",
+      "tags": [
+        "gallery",
+        "art",
+        "torn-paper",
+        "blue",
+        "exhibition",
+        "curation"
+      ],
+      "created_at": "2026-03-15T09:49:45.951586+00:00"
+    },
+    {
+      "id": "part2_1_234",
+      "name": "Museum Exhibition Classical Art",
+      "section_type": "hero",
+      "d1000_principles": [
+        5,
+        12,
+        19,
+        30
+      ],
+      "category": "culture",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 0,
+      "thumbnail_path": "part2_1_234/thumbnail.jpg",
+      "tags": [
+        "museum",
+        "exhibition",
+        "classical",
+        "art",
+        "elegant",
+        "vintage"
+      ],
+      "created_at": "2026-03-15T09:49:46.016075+00:00"
+    },
+    {
+      "id": "part2_1_252",
+      "name": "Architecture Studio Bold BW",
+      "section_type": "hero",
+      "d1000_principles": [
+        3,
+        8,
+        15,
+        28
+      ],
+      "category": "architecture",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 0,
+      "thumbnail_path": "part2_1_252/thumbnail.jpg",
+      "tags": [
+        "architecture",
+        "studio",
+        "minimal",
+        "bold",
+        "black-white",
+        "bauhaus"
+      ],
+      "created_at": "2026-03-15T09:49:46.063630+00:00"
+    },
+    {
+      "id": "part2_1_269",
+      "name": "Flower Exhibition Dark Frame",
+      "section_type": "hero",
+      "d1000_principles": [
+        6,
+        10,
+        21,
+        29
+      ],
+      "category": "exhibition",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 0,
+      "thumbnail_path": "part2_1_269/thumbnail.jpg",
+      "tags": [
+        "flower",
+        "dark",
+        "yellow",
+        "exhibition",
+        "frames",
+        "art"
+      ],
+      "created_at": "2026-03-15T09:49:46.092862+00:00"
+    },
+    {
+      "id": "part2_1_3",
+      "name": "Wasteland Astronaut Book Cover",
+      "section_type": "hero",
+      "d1000_principles": [
+        4,
+        9,
+        17,
+        25
+      ],
+      "category": "publication",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 0,
+      "thumbnail_path": "part2_1_3/thumbnail.jpg",
+      "tags": [
+        "book",
+        "astronaut",
+        "keyhole",
+        "dark",
+        "cinematic",
+        "novel"
+      ],
+      "created_at": "2026-03-15T10:03:29.761335+00:00"
+    },
+    {
+      "id": "part2_1_318",
+      "name": "Classified Green Paper Cover",
+      "section_type": "hero",
+      "d1000_principles": [
+        2,
+        8,
+        16,
+        24
+      ],
+      "category": "publication",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 0,
+      "thumbnail_path": "part2_1_318/thumbnail.jpg",
+      "tags": [
+        "classified",
+        "green",
+        "paper",
+        "curled",
+        "mystery",
+        "bold"
+      ],
+      "created_at": "2026-03-15T10:03:29.863041+00:00"
+    },
+    {
+      "id": "part2_1_335",
+      "name": "Gallery Red Eye Exhibition",
+      "section_type": "hero",
+      "d1000_principles": [
+        5,
+        11,
+        20,
+        27
+      ],
+      "category": "culture",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 0,
+      "thumbnail_path": "part2_1_335/thumbnail.jpg",
+      "tags": [
+        "gallery",
+        "red",
+        "eye",
+        "exhibition",
+        "bold",
+        "dramatic"
+      ],
+      "created_at": "2026-03-15T10:03:29.974197+00:00"
+    },
+    {
+      "id": "part2_1_351",
+      "name": "Antitech Metal Tag Card",
+      "section_type": "hero",
+      "d1000_principles": [
+        3,
+        10,
+        19,
+        31
+      ],
+      "category": "concept",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 0,
+      "thumbnail_path": "part2_1_351/thumbnail.jpg",
+      "tags": [
+        "metal",
+        "tag",
+        "silver",
+        "antitech",
+        "futuristic",
+        "card"
+      ],
+      "created_at": "2026-03-15T10:03:30.077052+00:00"
+    },
+    {
+      "id": "part2_1_369",
+      "name": "Dark 3D Organic Book Cover",
+      "section_type": "hero",
+      "d1000_principles": [
+        4,
+        7,
+        15,
+        23
+      ],
+      "category": "publication",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 0,
+      "thumbnail_path": "part2_1_369/thumbnail.jpg",
+      "tags": [
+        "3d",
+        "dark",
+        "organic",
+        "metallic",
+        "book",
+        "abstract"
+      ],
+      "created_at": "2026-03-15T10:03:30.171729+00:00"
+    },
+    {
+      "id": "part2_1_396",
+      "name": "Magpie Spy Thriller Yellow",
+      "section_type": "hero",
+      "d1000_principles": [
+        2,
+        8,
+        16,
+        25
+      ],
+      "category": "publication",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 0,
+      "thumbnail_path": "part2_1_396/thumbnail.jpg",
+      "tags": [
+        "yellow",
+        "black",
+        "bold",
+        "thriller",
+        "bird",
+        "graphic"
+      ],
+      "created_at": "2026-03-15T10:34:20.352676+00:00"
+    },
+    {
+      "id": "part2_1_433",
+      "name": "Bar Santorini Blue Cocktail",
+      "section_type": "hero",
+      "d1000_principles": [
+        6,
+        10,
+        18,
+        26
+      ],
+      "category": "food",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 0,
+      "thumbnail_path": "part2_1_433/thumbnail.jpg",
+      "tags": [
+        "bar",
+        "cocktail",
+        "blue",
+        "santorini",
+        "illustration",
+        "drink"
+      ],
+      "created_at": "2026-03-15T10:34:20.427719+00:00"
+    },
+    {
+      "id": "part2_1_481",
+      "name": "Cafe Espresso Warm Elegant",
+      "section_type": "hero",
+      "d1000_principles": [
+        5,
+        9,
+        17,
+        23
+      ],
+      "category": "food",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 0,
+      "thumbnail_path": "part2_1_481/thumbnail.jpg",
+      "tags": [
+        "cafe",
+        "coffee",
+        "espresso",
+        "warm",
+        "elegant",
+        "minimal"
+      ],
+      "created_at": "2026-03-15T10:34:20.489359+00:00"
+    },
+    {
+      "id": "part2_1_496",
+      "name": "Mapper Glasses Cyan Bold",
+      "section_type": "hero",
+      "d1000_principles": [
+        3,
+        7,
+        14,
+        28
+      ],
+      "category": "product",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 0,
+      "thumbnail_path": "part2_1_496/thumbnail.jpg",
+      "tags": [
+        "glasses",
+        "cyan",
+        "bold",
+        "product",
+        "repeat",
+        "tech"
+      ],
+      "created_at": "2026-03-15T10:34:20.622239+00:00"
+    },
+    {
+      "id": "part2_1_536",
+      "name": "Dystopia Lecture Neon Pixel",
+      "section_type": "hero",
+      "d1000_principles": [
+        4,
+        11,
+        20,
+        29
+      ],
+      "category": "education",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 0,
+      "thumbnail_path": "part2_1_536/thumbnail.jpg",
+      "tags": [
+        "dystopia",
+        "lecture",
+        "neon",
+        "pixel",
+        "mountain",
+        "green"
+      ],
+      "created_at": "2026-03-15T10:34:20.670815+00:00"
+    },
+    {
+      "id": "part2_1_618",
+      "name": "Furniture Nature Grid Green",
+      "section_type": "hero",
+      "d1000_principles": [
+        5,
+        9,
+        18,
+        27
+      ],
+      "category": "product",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 0,
+      "thumbnail_path": "part2_1_618/thumbnail.jpg",
+      "tags": [
+        "furniture",
+        "green",
+        "nature",
+        "grid",
+        "tree",
+        "neon"
+      ],
+      "created_at": "2026-03-15T10:43:59.087009+00:00"
+    },
+    {
+      "id": "part2_1_637",
+      "name": "Event Horizon Blue Gradient",
+      "section_type": "hero",
+      "d1000_principles": [
+        4,
+        11,
+        19,
+        30
+      ],
+      "category": "publication",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 0,
+      "thumbnail_path": "part2_1_637/thumbnail.jpg",
+      "tags": [
+        "gradient",
+        "blue",
+        "purple",
+        "synopsis",
+        "story",
+        "clean"
+      ],
+      "created_at": "2026-03-15T10:43:59.125860+00:00"
+    },
+    {
+      "id": "part2_1_652",
+      "name": "Museum Olympics 88 Gradient",
+      "section_type": "hero",
+      "d1000_principles": [
+        5,
+        12,
+        21,
+        26
+      ],
+      "category": "culture",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 0,
+      "thumbnail_path": "part2_1_652/thumbnail.jpg",
+      "tags": [
+        "museum",
+        "olympics",
+        "gradient",
+        "nostalgia",
+        "exhibition"
+      ],
+      "created_at": "2026-03-15T10:43:59.145317+00:00"
+    },
+    {
+      "id": "part2_1_666",
+      "name": "Fourth Wall Meta Design",
+      "section_type": "hero",
+      "d1000_principles": [
+        3,
+        8,
+        15,
+        31
+      ],
+      "category": "concept",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 0,
+      "thumbnail_path": "part2_1_666/thumbnail.jpg",
+      "tags": [
+        "meta",
+        "design",
+        "minimal",
+        "white",
+        "fourth-wall",
+        "typography"
+      ],
+      "created_at": "2026-03-15T10:43:59.202289+00:00"
+    },
+    {
+      "id": "part2_1_691",
+      "name": "Designer Question Tool Mockup",
+      "section_type": "hero",
+      "d1000_principles": [
+        3,
+        7,
+        16,
+        28
+      ],
+      "category": "concept",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 0,
+      "thumbnail_path": "part2_1_691/thumbnail.jpg",
+      "tags": [
+        "designer",
+        "mockup",
+        "tool",
+        "question",
+        "bold",
+        "guides"
+      ],
+      "created_at": "2026-03-15T10:43:59.236339+00:00"
+    },
+    {
+      "id": "part2_1_743",
+      "name": "Pink Sparkle GCD LCM Concept",
+      "section_type": "hero",
+      "d1000_principles": [
+        6,
+        10,
+        20,
+        29
+      ],
+      "category": "concept",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 0,
+      "thumbnail_path": "part2_1_743/thumbnail.jpg",
+      "tags": [
+        "pink",
+        "sparkle",
+        "gradient",
+        "math",
+        "glow",
+        "dreamy"
+      ],
+      "created_at": "2026-03-15T10:50:25.519087+00:00"
+    },
+    {
+      "id": "part2_1_758",
+      "name": "Red Unpredictability Book",
+      "section_type": "hero",
+      "d1000_principles": [
+        2,
+        8,
+        15,
+        24
+      ],
+      "category": "publication",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 0,
+      "thumbnail_path": "part2_1_758/thumbnail.jpg",
+      "tags": [
+        "red",
+        "text",
+        "overlay",
+        "book",
+        "bold",
+        "business"
+      ],
+      "created_at": "2026-03-15T10:50:25.604241+00:00"
+    },
+    {
+      "id": "part2_1_785",
+      "name": "Paradise Sensor Cherry Blossom",
+      "section_type": "hero",
+      "d1000_principles": [
+        4,
+        9,
+        17,
+        30
+      ],
+      "category": "concept",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 0,
+      "thumbnail_path": "part2_1_785/thumbnail.jpg",
+      "tags": [
+        "paradise",
+        "cherry-blossom",
+        "pink",
+        "distortion",
+        "sensor",
+        "nature"
+      ],
+      "created_at": "2026-03-15T10:50:25.662482+00:00"
+    },
+    {
+      "id": "part2_1_813",
+      "name": "Real Unicorn Blurred Book",
+      "section_type": "hero",
+      "d1000_principles": [
+        2,
+        7,
+        14,
+        25
+      ],
+      "category": "publication",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 0,
+      "thumbnail_path": "part2_1_813/thumbnail.jpg",
+      "tags": [
+        "unicorn",
+        "blurred",
+        "horse",
+        "book",
+        "toc",
+        "minimal"
+      ],
+      "created_at": "2026-03-15T10:50:25.704076+00:00"
+    },
+    {
+      "id": "part2_1_839",
+      "name": "Doodle Girl Flower Essay",
+      "section_type": "hero",
+      "d1000_principles": [
+        5,
+        12,
+        21,
+        27
+      ],
+      "category": "publication",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 0,
+      "thumbnail_path": "part2_1_839/thumbnail.jpg",
+      "tags": [
+        "essay",
+        "flower",
+        "handwritten",
+        "nature",
+        "doodle",
+        "warm"
+      ],
+      "created_at": "2026-03-15T10:50:25.725550+00:00"
+    },
+    {
+      "id": "part2_1_84",
+      "name": "Marathon Giacometti Neon Green",
+      "section_type": "hero",
+      "d1000_principles": [
+        3,
+        9,
+        16,
+        22
+      ],
+      "category": "sports",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 0,
+      "thumbnail_path": "part2_1_84/thumbnail.jpg",
+      "tags": [
+        "marathon",
+        "green",
+        "motion",
+        "running",
+        "photos",
+        "bold"
+      ],
+      "created_at": "2026-03-15T10:58:56.890838+00:00"
+    },
+    {
+      "id": "part2_1_854",
+      "name": "Emo Party Red Abstract",
+      "section_type": "hero",
+      "d1000_principles": [
+        6,
+        10,
+        18,
+        26
+      ],
+      "category": "event",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 0,
+      "thumbnail_path": "part2_1_854/thumbnail.jpg",
+      "tags": [
+        "party",
+        "emotion",
+        "red",
+        "abstract",
+        "bold",
+        "youth"
+      ],
+      "created_at": "2026-03-15T10:58:56.911043+00:00"
+    },
+    {
+      "id": "part2_1_893",
+      "name": "Ekkamai Word Flow Diagram",
+      "section_type": "hero",
+      "d1000_principles": [
+        3,
+        8,
+        15,
+        28
+      ],
+      "category": "architecture",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 0,
+      "thumbnail_path": "part2_1_893/thumbnail.jpg",
+      "tags": [
+        "diagram",
+        "flow",
+        "word",
+        "architecture",
+        "minimal",
+        "paper"
+      ],
+      "created_at": "2026-03-15T10:58:56.926385+00:00"
+    },
+    {
+      "id": "part2_1_920",
+      "name": "Anti Hangeul Blueprint Typography",
+      "section_type": "hero",
+      "d1000_principles": [
+        3,
+        7,
+        14,
+        31
+      ],
+      "category": "design",
+      "source_url": "",
+      "ssim_score": 0.0,
+      "slot_count": 0,
+      "thumbnail_path": "part2_1_920/thumbnail.jpg",
+      "tags": [
+        "typography",
+        "hangeul",
+        "blueprint",
+        "anatomy",
+        "blue",
+        "technical"
+      ],
+      "created_at": "2026-03-15T10:58:56.937553+00:00"
     }
   ]
 }

@@ -1,0 +1,78 @@
+{
+  "total": 10,
+  "text": 10,
+  "image": 0,
+  "link": 0,
+  "slots": [
+    {
+      "name": "text_0",
+      "type": "text",
+      "defaultValue": "SOME",
+      "tag": "span",
+      "index": 0
+    },
+    {
+      "name": "text_1",
+      "type": "text",
+      "defaultValue": "Move",
+      "tag": "span",
+      "index": 1
+    },
+    {
+      "name": "text_2",
+      "type": "text",
+      "defaultValue": "ments",
+      "tag": "span",
+      "index": 2
+    },
+    {
+      "name": "text_3",
+      "type": "text",
+      "defaultValue": "ARE",
+      "tag": "span",
+      "index": 3
+    },
+    {
+      "name": "text_4",
+      "type": "text",
+      "defaultValue": "NOT",
+      "tag": "span",
+      "index": 4
+    },
+    {
+      "name": "text_5",
+      "type": "text",
+      "defaultValue": "MEANT",
+      "tag": "span",
+      "index": 5
+    },
+    {
+      "name": "text_6",
+      "type": "text",
+      "defaultValue": "TO",
+      "tag": "span",
+      "index": 6
+    },
+    {
+      "name": "text_7",
+      "type": "text",
+      "defaultValue": "change",
+      "tag": "span",
+      "index": 7
+    },
+    {
+      "name": "text_8",
+      "type": "text",
+      "defaultValue": "ANY",
+      "tag": "span",
+      "index": 8
+    },
+    {
+      "name": "text_9",
+      "type": "text",
+      "defaultValue": "THING",
+      "tag": "span",
+      "index": 9
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "total": 11,
+  "text": 11,
+  "image": 0,
+  "link": 0,
+  "slots": [
+    {
+      "name": "text_0",
+      "type": "text",
+      "defaultValue": "TITLE ON TOP",
+      "tag": "h1",
+      "index": 0
+    },
+    {
+      "name": "text_1",
+      "type": "text",
+      "defaultValue": "Edition",
+      "tag": "span",
+      "index": 1
+    },
+    {
+      "name": "text_2",
+      "type": "text",
+      "defaultValue": "10102",
+      "tag": "span",
+      "index": 2
+    },
+    {
+      "name": "text_3",
+      "type": "text",
+      "defaultValue": "Series",
+      "tag": "span",
+      "index": 3
+    },
+    {
+      "name": "text_4",
+      "type": "text",
+      "defaultValue": "10102",
+      "tag": "span",
+      "index": 4
+    },
+    {
+      "name": "text_5",
+      "type": "text",
+      "defaultValue": "Volume",
+      "tag": "span",
+      "index": 5
+    },
+    {
+      "name": "text_6",
+      "type": "text",
+      "defaultValue": "10102",
+      "tag": "span",
+      "index": 6
+    },
+    {
+      "name": "text_7",
+      "type": "text",
+      "defaultValue": "SECTION HEADLINE",
+      "tag": "h2",
+      "index": 7
+    },
+    {
+      "name": "text_8",
+      "type": "text",
+      "defaultValue": "A bold statement in design that challenges conventional layouts. The striking contrast between monochrome typography and vibrant chartreuse creates an unforgettable visual impact that commands attention and drives engagement.",
+      "tag": "p",
+      "index": 8
+    },
+    {
+      "name": "text_9",
+      "type": "text",
+      "defaultValue": "Brand Name",
+      "tag": "span",
+      "index": 9
+    },
+    {
+      "name": "text_10",
+      "type": "text",
+      "defaultValue": "2024 Collection",
+      "tag": "span",
+      "index": 10
+    }
+  ]
+}

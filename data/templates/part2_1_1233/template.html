@@ -1,0 +1,30 @@
+<!DOCTYPE html><html lang="ko"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Automatic Aid</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Noto Sans KR',sans-serif;background:#fff;min-height:100vh;display:flex;justify-content:center;align-items:center;padding:40px}
+.container{max-width:600px;width:100%;text-align:center}
+.module{background:#1a1a1a;color:#fff;border-radius:40px;padding:16px 32px;margin:4px auto;display:inline-block}
+.module-wide{background:#1a1a1a;color:#fff;border-radius:40px;padding:16px 40px;display:flex;align-items:center;justify-content:center;gap:20px;margin:4px auto}
+.badge{width:48px;height:48px;background:#1a1a1a;color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700}
+.arrow{color:#1a1a1a;font-size:20px;margin:8px 0}
+.brand-en{font-size:18px;font-weight:700;letter-spacing:2px;margin:20px 0 8px}
+.main-block{background:#1a1a1a;color:#fff;border-radius:20px;padding:40px;margin:4px auto;max-width:480px}
+.main-title{font-size:36px;font-weight:900;letter-spacing:12px;margin-bottom:30px}
+.desc-block{background:#1a1a1a;color:#fff;border-radius:30px;padding:24px 32px;margin:4px auto;max-width:400px}
+.desc{font-size:14px;line-height:1.8}
+.dots{margin:16px 0;font-size:24px;letter-spacing:8px}
+.url-block{background:#1a1a1a;color:#fff;border-radius:30px;padding:16px 32px;margin:4px auto;display:inline-block}
+.url-text{font-size:14px;font-weight:700;letter-spacing:2px}
+.barcode{margin:8px 0;font-family:monospace;font-size:10px;letter-spacing:-1px}
+.year{margin-top:16px;background:#1a1a1a;color:#fff;border-radius:12px;padding:8px 20px;display:inline-block;font-size:14px;font-weight:700;letter-spacing:4px}
+</style></head><body>
+<div class="container">
+<div class="module" data-slot="top_label">에이드 : 필요로 하는 자를 위하여</div>
+<div class="arrow">|</div>
+<div class="module-wide"><span class="badge" data-slot="badge_left">A*</span><span data-slot="sub_label">전자동 : 자동화된 것에 대하여</span><span class="badge" data-slot="badge_right">ID</span></div>
+<div class="brand-en" data-slot="brand_en">AUTOMATIC AID</div>
+<div class="main-block"><div class="main-title" data-slot="headline">전 자 동 에 이 드</div></div>
+<div class="desc-block"><p class="desc" data-slot="description">전자동에이드는 위급한 환자의 상황을 실시간으로 모니터링할 수 있게 만들어 줍니다.</p><div class="dots">...</div></div>
+<div class="url-block"><div class="url-text" data-slot="url">AUTAID.JP</div><div class="barcode">|||||||||||||||||||||||||||||||||||||</div></div>
+<div class="year" data-slot="year">2026</div>
+</div></body></html>

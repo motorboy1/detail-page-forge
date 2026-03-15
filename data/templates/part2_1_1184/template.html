@@ -1,0 +1,32 @@
+<!DOCTYPE html><html lang="ko"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Sunday Club Magazine</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Noto Sans KR',sans-serif;background:#f8f0f5;min-height:100vh}
+.container{max-width:800px;margin:0 auto;position:relative;overflow:hidden}
+.hero{position:relative;padding:40px 40px 0;background:linear-gradient(180deg,#f3eaf0 0%,#e8d8f0 50%,#dcc8e8 100%);min-height:500px}
+.date{font-family:'Georgia',serif;font-style:italic;font-size:18px;color:#8a7090;margin-bottom:12px}
+.brand{position:absolute;top:40px;right:40px;border:1px solid #8a7090;border-radius:20px;padding:6px 16px;font-size:11px;color:#8a7090;letter-spacing:1px}
+.main-title{font-size:42px;font-weight:700;color:#5a4060;line-height:1.3;margin-bottom:16px}
+.subtitle{font-size:13px;color:#8a7090;line-height:1.8;max-width:500px}
+.guitar-img{position:absolute;right:40px;bottom:20px;width:140px;height:320px;background:#c8b090;border-radius:8px}
+.cards{padding:30px 40px;display:flex;flex-direction:column;gap:16px}
+.card{border-left:3px solid #c8a0d0;padding:8px 16px}
+.card-label{font-size:12px;color:#8a7090}
+.card-value{font-size:18px;font-weight:700;color:#3a2040}
+.quote{background:#f0e8f3;padding:20px;margin:0 40px 40px;border-radius:8px;font-size:13px;color:#6a5070;line-height:1.7}
+</style></head><body>
+<div class="container">
+<div class="hero">
+<div class="date" data-slot="date_label">November 2026</div>
+<div class="brand" data-slot="brand_logo">SUNDAY CLUB</div>
+<h1 class="main-title" data-slot="headline">레인 코트를 입은 당신은 어디에?</h1>
+<p class="subtitle" data-slot="subtext">빛바랜 이 색감은 마치 오래된 상가에 붙어있는 태권도 학원 시트지와도 같소.</p>
+<div class="guitar-img" data-slot="product_image"></div>
+</div>
+<div class="cards">
+<div class="card"><span class="card-label" data-slot="card1_label">올해를 풍미한 미국 팝송</span><div class="card-value" data-slot="card1_value">데이비드보위</div></div>
+<div class="card"><span class="card-label" data-slot="card2_label">올해를 풍미한 자동차</span><div class="card-value" data-slot="card2_value">그랜저 (현대자동차)</div></div>
+<div class="card"><span class="card-label" data-slot="card3_label">올해를 풍미한 장소</span><div class="card-value" data-slot="card3_value">혜화동</div></div>
+</div>
+<div class="quote" data-slot="quote_text">그녀는기타에도 영혼이 있다고 말했다.</div>
+</div></body></html>

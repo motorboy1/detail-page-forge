@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Star Gazing</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,700;0,900;1,400&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    min-height: 100vh;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+    color: #CC00FF;
+  }
+  .grid-layout {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 60px 80px auto 60px;
+    border: 2px solid #CC00FF;
+  }
+  .cell {
+    border: 1px solid #CC00FF;
+    position: relative;
+    min-height: 80px;
+  }
+  .cell-text {
+    padding: 24px;
+    font-size: clamp(0.7rem, 1.4vw, 0.85rem);
+    font-style: italic;
+    line-height: 1.5;
+  }
+  .diamond {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: #CC00FF;
+    transform: rotate(45deg);
+  }
+  .diamond.top-center { top: -8px; left: 50%; margin-left: -8px; }
+  .diamond.bottom-center { bottom: -8px; left: 50%; margin-left: -8px; }
+  .diamond.mid-right { top: 50%; right: -8px; margin-top: -8px; }
+  .diamond.mid-left { top: 50%; left: -8px; margin-top: -8px; }
+  .title-cell {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 24px;
+  }
+  .title-main {
+    font-size: clamp(4rem, 12vw, 7rem);
+    font-weight: 900;
+    line-height: 0.85;
+    letter-spacing: -0.02em;
+  }
+  .bottom-bar {
+    grid-column: span 2;
+    display: flex;
+    align-items: center;
+    border-top: 2px solid #CC00FF;
+    padding: 0 24px;
+    gap: 24px;
+  }
+  .premier-text {
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  .date-text {
+    font-size: clamp(1.2rem, 3vw, 2rem);
+    font-weight: 700;
+  }
+  @media (max-width: 600px) {
+    .cell-text { padding: 12px; }
+  }
+</style>
+</head>
+<body>
+  <div class="grid-layout">
+    <div class="cell">
+      <div class="cell-text">Lorem Ipsum Dolor Sit Amet, Consec Adipiscing Elit, Sed Do Eiusmod Lorem Ipsum Dolor Sit Amet, Consec Adipiscing Elit, Sed Do Eiusmod Lorem Ipsum Dolor Sit Amet, Consec Adipiscing Elit, Sed Do Eiusmod</div>
+      <span class="diamond top-center"></span>
+    </div>
+    <div class="cell">
+      <span class="diamond top-center"></span>
+      <span class="diamond mid-right"></span>
+    </div>
+    <div class="cell"><span class="diamond mid-left"></span></div>
+    <div class="cell"><span class="diamond mid-right"></span></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"><span class="diamond bottom-center"></span></div>
+    <div class="cell title-cell">
+      <h1 class="title-main">Star<br>gazing</h1>
+    </div>
+    <div class="bottom-bar">
+      <span class="premier-text">PREMIER</span>
+      <span class="date-text">AUGUST 10. PM10:00</span>
+      <span class="diamond bottom-center"></span>
+    </div>
+  </div>
+</body>
+</html>

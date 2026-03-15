@@ -1,0 +1,44 @@
+{
+  "total": 5,
+  "text": 4,
+  "image": 1,
+  "link": 0,
+  "slots": [
+    {
+      "name": "text_0",
+      "type": "text",
+      "defaultValue": "A timeless icon of mid-century modern design, the lounge chair represents the pinnacle of comfort and aesthetic refinement. Designed with meticulous attention to every curve and proportion.",
+      "tag": "p",
+      "index": 0
+    },
+    {
+      "name": "text_1",
+      "type": "text",
+      "defaultValue": "Premium materials selected for both beauty and durability. Molded plywood shells paired with supple leather cushions create an experience that improves with age.",
+      "tag": "p",
+      "index": 1
+    },
+    {
+      "name": "text_2",
+      "type": "text",
+      "defaultValue": "Design Classic Since 1956",
+      "tag": "p",
+      "index": 2
+    },
+    {
+      "name": "text_3",
+      "type": "text",
+      "defaultValue": "EAMESLOUNGE",
+      "tag": "h1",
+      "index": 3
+    },
+    {
+      "name": "img_0",
+      "type": "image",
+      "defaultValue": "product.jpg",
+      "tag": "img",
+      "index": 0,
+      "alt": "Eames Lounge Chair"
+    }
+  ]
+}

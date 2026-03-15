@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blads</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Helvetica Neue', Arial, sans-serif; }
+.hero { min-height: 100vh; display: flex; flex-direction: column; }
+.hero-header { background: #000; padding: 30px 40px; display: flex; gap: 40px; align-items: flex-start; }
+.hero-brand { font-size: 96px; font-weight: 900; color: #d4a030; line-height: 1; }
+.hero-desc { font-size: 16px; color: #d4a030; line-height: 1.5; max-width: 400px; padding-top: 20px; }
+.hero-body { flex: 1; background: linear-gradient(135deg, #ff6b6b 0%, #ff9a4d 30%, #d4a030 60%, #ff6b6b 100%); position: relative; }
+.hero-footer { display: flex; justify-content: space-around; align-items: center; padding: 20px 40px; background: linear-gradient(180deg, rgba(255,107,107,0.3), transparent); }
+.icon { width: 32px; height: 32px; background: #000; clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%); }
+.icon.circle { clip-path: circle(50%); }
+</style>
+</head>
+<body>
+<section class="hero">
+  <div class="hero-header">
+    <h1 class="hero-brand" data-slot="text_0" data-slot-type="text">Blads</h1>
+    <p class="hero-desc" data-slot="text_1" data-slot-type="text">Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod</p>
+  </div>
+  <div class="hero-body"></div>
+  <div class="hero-footer">
+    <div class="icon"></div>
+    <div class="icon circle"></div>
+    <div class="icon"></div>
+    <div class="icon"></div>
+    <div class="icon"></div>
+  </div>
+</section>
+</body>
+</html>

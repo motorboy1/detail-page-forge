@@ -1,0 +1,51 @@
+{
+  "total": 6,
+  "text": 5,
+  "image": 1,
+  "link": 0,
+  "slots": [
+    {
+      "name": "text_0",
+      "type": "text",
+      "defaultValue": "One Vanderbilt",
+      "tag": "h1",
+      "index": 0
+    },
+    {
+      "name": "text_1",
+      "type": "text",
+      "defaultValue": "Upper Side,",
+      "tag": "span",
+      "index": 1
+    },
+    {
+      "name": "text_2",
+      "type": "text",
+      "defaultValue": "Manhattan",
+      "tag": "span",
+      "index": 2
+    },
+    {
+      "name": "text_3",
+      "type": "text",
+      "defaultValue": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum",
+      "tag": "p",
+      "index": 3
+    },
+    {
+      "name": "text_4",
+      "type": "text",
+      "defaultValue": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum",
+      "tag": "p",
+      "index": 4
+    },
+    {
+      "name": "img_0",
+      "type": "image",
+      "defaultValue": "https://placehold.co/200x500/ccc/999?text=Tower",
+      "tag": "img",
+      "index": 0,
+      "alt": "Building"
+    }
+  ]
+}

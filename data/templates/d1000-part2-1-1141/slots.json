@@ -1,0 +1,45 @@
+{
+  "total": 5,
+  "text": 3,
+  "image": 1,
+  "link": 1,
+  "slots": [
+    {
+      "name": "text_0",
+      "type": "text",
+      "defaultValue": "●  ᐃᐃᐃᐃ",
+      "tag": "span",
+      "index": 0
+    },
+    {
+      "name": "text_1",
+      "type": "text",
+      "defaultValue": "□",
+      "tag": "span",
+      "index": 1
+    },
+    {
+      "name": "text_2",
+      "type": "text",
+      "defaultValue": "www.klaus.co.kr",
+      "tag": "a",
+      "index": 2
+    },
+    {
+      "name": "img_0",
+      "type": "image",
+      "defaultValue": "https://placehold.co/250x180/eee/999?text=Cap",
+      "tag": "img",
+      "index": 0,
+      "alt": "Cap"
+    },
+    {
+      "name": "link_0",
+      "type": "link",
+      "defaultValue": "#",
+      "tag": "a",
+      "index": 0,
+      "text": "www.klaus.co.kr"
+    }
+  ]
+}

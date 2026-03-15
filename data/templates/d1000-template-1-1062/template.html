@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}body{font-family:'Inter',sans-serif}
+.product-hero{min-height:100vh;background:#c0272d;display:flex;flex-direction:column;justify-content:flex-end;padding:50px;position:relative;overflow:hidden}
+.product-images{position:absolute;top:5%;right:-5%;width:75%;height:80%}
+.product-images img{position:absolute;width:60%;filter:drop-shadow(0 8px 24px rgba(0,0,0,0.3))}
+.product-images img:first-child{top:0;left:0;transform:rotate(-25deg)}
+.product-images img:last-child{top:20%;left:30%;transform:rotate(-15deg)}
+.product-number{font-family:'Playfair Display',serif;font-size:clamp(3rem,8vw,5rem);color:#c8964a;font-weight:400;line-height:1;position:relative;z-index:2}
+.product-title{font-family:'Playfair Display',serif;font-size:clamp(3.5rem,10vw,6.5rem);color:#c8964a;font-weight:700;line-height:0.95;position:relative;z-index:2}
+.product-price{font-size:clamp(0.9rem,2vw,1.2rem);color:#c8964a;letter-spacing:0.3em;font-weight:300;margin-top:16px;text-transform:uppercase;position:relative;z-index:2}
+</style></head><body>
+<section class="product-hero">
+<div class="product-images">
+<img alt="Luxury lipstick product" data-slot="img_0" data-slot-type="image" src="/images/placeholder-lipstick-1.png"/>
+<img alt="Luxury lipstick product" data-slot="img_1" data-slot-type="image" src="/images/placeholder-lipstick-2.png"/>
+</div>
+<p class="product-number" data-slot="text_0" data-slot-type="text">007</p>
+<h1 class="product-title" data-slot="text_1" data-slot-type="text">Essentials.</h1>
+<p class="product-price" data-slot="text_2" data-slot-type="text">FROM 199 USD</p>
+</section>
+</body></html>

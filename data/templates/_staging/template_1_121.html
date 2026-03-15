@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Inter:wght@400;700;900&display=swap');
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { width: 1920px; min-height: 2400px; background: linear-gradient(180deg, #e8e4e0 0%, #d8d4d0 100%); font-family: 'Inter', sans-serif; color: #000000; position: relative; overflow: hidden; }
+.container { padding: 80px 100px; position: relative; z-index: 2; min-height: 2400px; }
+.script-title { font-family: 'Caveat', cursive; font-size: 180px; font-weight: 700; line-height: 0.9; color: #000000; margin-bottom: 40px; }
+.info-row { display: flex; justify-content: space-between; align-items: flex-start; margin-top: 20px; }
+.info-left { max-width: 550px; }
+.info-left h2 { font-size: 28px; font-weight: 900; letter-spacing: 4px; text-transform: uppercase; margin-bottom: 16px; }
+.info-left p { font-size: 16px; line-height: 1.6; color: rgba(0,0,0,0.7); font-weight: 400; }
+.info-right { text-align: right; }
+.info-right .star { font-size: 36px; margin-bottom: 12px; }
+.info-right h3 { font-size: 24px; font-weight: 900; letter-spacing: 3px; text-transform: uppercase; margin-bottom: 6px; }
+.dragon-illustration { position: absolute; top: 35%; left: 20%; width: 1200px; height: 1000px; opacity: 0.9; display: flex; align-items: center; justify-content: center; }
+.dragon-illustration img { max-width: 100%; max-height: 100%; object-fit: contain; }
+.venue-row { display: flex; justify-content: space-between; margin-top: 80px; }
+.venue-row span { font-size: 22px; font-weight: 900; letter-spacing: 3px; text-transform: uppercase; }
+.bottom-row { position: absolute; bottom: 80px; left: 100px; right: 100px; display: flex; justify-content: space-between; align-items: baseline; }
+.bottom-row span { font-size: 26px; font-weight: 900; letter-spacing: 3px; text-transform: uppercase; }
+.price { color: #000000; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1 class="script-title">"Summer<br>dragons"</h1>
+  <div class="info-row">
+    <div class="info-left">
+      <h2>SUMMER</h2>
+      <p>Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod</p>
+    </div>
+    <div class="info-right">
+      <div class="star">&#10038;</div>
+      <h3>DRAGONS</h3>
+    </div>
+  </div>
+  <div class="venue-row">
+    <span>PREMIER AT</span>
+    <span>COEX, SEOUL</span>
+  </div>
+  <div class="dragon-illustration">
+    <img src="dragon.png" alt="Dragon Illustration">
+  </div>
+</div>
+<div class="bottom-row">
+  <span>TICKETS FROM</span>
+  <span class="price">19,990 KRW</span>
+</div>
+</body>
+</html>

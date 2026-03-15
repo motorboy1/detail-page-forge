@@ -1,0 +1,22 @@
+{
+  "id": "template_1_1330",
+  "name": "Template 1 1330",
+  "section_type": "hero",
+  "d1000_principles": [
+    "P03",
+    "P15",
+    "P42"
+  ],
+  "category": "design",
+  "source_url": "figma://template_1_1330",
+  "ssim_score": 0.0,
+  "slot_count": 3,
+  "thumbnail_path": "",
+  "tags": [
+    "light",
+    "gradient",
+    "premium",
+    "modern"
+  ],
+  "created_at": "2026-03-14T15:48:56.324241+00:00"
+}

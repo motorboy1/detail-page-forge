@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ideas That You Can Use On The Go</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Helvetica Neue', Arial, sans-serif; }
+.hero { min-height: 100vh; background: #fff; display: flex; flex-direction: column; justify-content: space-between; padding: 40px; position: relative; overflow: hidden; }
+.diagonal { position: absolute; top: 0; right: 0; width: 50%; height: 100%; background: linear-gradient(to bottom right, transparent 0%, transparent 40%, #c0b0e0 40%, #c0b0e0 50%, #3366ff 50%, #3366ff 55%, #000 55%); }
+.hero-title { font-size: 100px; font-weight: 900; color: #000; line-height: 0.95; letter-spacing: -3px; position: relative; z-index: 1; }
+.bottom-area { display: flex; justify-content: space-between; align-items: flex-end; position: relative; z-index: 1; }
+.badges { display: flex; gap: 10px; }
+.badge { display: inline-block; background: #3366ff; color: #fff; font-size: 10px; font-weight: 900; padding: 12px 15px; border-radius: 50%; text-align: center; line-height: 1.2; }
+.stat-area { text-align: right; }
+.stat-number { font-size: 60px; font-weight: 700; color: #3366ff; }
+.stat-text { font-size: 13px; color: #666; max-width: 250px; line-height: 1.5; text-align: right; }
+</style>
+</head>
+<body>
+<section class="hero">
+  <div class="diagonal"></div>
+  <h1 class="hero-title" data-slot="text_0" data-slot-type="text">IDEAS THAT YOU CAN USE ON THE GO</h1>
+  <div class="bottom-area">
+    <div class="badges">
+      <span class="badge" data-slot="text_1" data-slot-type="text">50,000+<br>READERS</span>
+      <span class="badge" data-slot="text_2" data-slot-type="text">50,000+<br>READERS</span>
+    </div>
+    <div class="stat-area">
+      <div class="stat-number" data-slot="text_3" data-slot-type="text">50+</div>
+      <p class="stat-text" data-slot="text_4" data-slot-type="text">Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+  </div>
+</section>
+</body>
+</html>

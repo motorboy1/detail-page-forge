@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Frutiger Aero</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Noto Sans KR','Helvetica Neue',sans-serif}
+.hero{min-height:100vh;background:linear-gradient(180deg,#87ceeb,#4a9e4a);display:flex;flex-direction:column;align-items:center;padding:30px 20px;position:relative}
+.window-card{background:rgba(255,255,255,0.85);backdrop-filter:blur(10px);border-radius:12px;padding:30px;width:90%;max-width:500px;box-shadow:0 10px 40px rgba(0,0,0,0.1);margin-bottom:20px}
+.window-dots{display:flex;gap:6px;margin-bottom:15px}
+.dot{width:12px;height:12px;border-radius:50%}
+.dot-red{background:#ff5f57}
+.dot-yellow{background:#febc2e}
+.card-title{font-size:clamp(1.5rem,4vw,2.2rem);font-weight:900;color:#1a1a1a;margin-bottom:5px}
+.card-subtitle{font-size:0.8rem;color:#666;letter-spacing:3px;text-transform:uppercase;margin-bottom:15px}
+.card-desc{font-size:0.9rem;color:#444;line-height:1.7}
+.product-window{background:rgba(255,255,255,0.8);backdrop-filter:blur(10px);border-radius:12px;padding:20px;width:90%;max-width:500px;box-shadow:0 10px 40px rgba(0,0,0,0.1)}
+.products-row{display:flex;gap:15px;margin-top:15px}
+.product{flex:1;text-align:center}
+.product img{width:100%;border-radius:8px;margin-bottom:10px}
+.product-name{font-size:0.8rem;font-weight:700;color:#333}
+.product-price{font-size:1rem;font-weight:900;color:#000}
+.product-discount{color:#ff3300;font-size:0.8rem;font-weight:700;margin-left:5px}
+.brand-logo{position:absolute;bottom:20px;left:20px;font-size:1.5rem;color:#fff;font-weight:900}
+</style></head>
+<body>
+<section class="hero">
+<div class="window-card">
+<div class="window-dots"><span class="dot dot-red"></span><span class="dot dot-yellow"></span></div>
+<h1 class="card-title">프루티거 에어로 컬렉션</h1>
+<p class="card-subtitle">Frutiger Aero Collection</p>
+<p class="card-desc">우리가 그리워하던 윈도우XP, 그리고 비스타의 비전을 온전히 담아낼 수 있었습니다.</p>
+</div>
+<div class="product-window">
+<div class="window-dots"><span class="dot dot-red"></span><span class="dot dot-yellow"></span></div>
+<div class="products-row">
+<div class="product"><img src="https://placehold.co/200x200/334/fff?text=Shirt" alt="T-shirt"><p class="product-name">BASIC SHIRTS</p><p class="product-price">99,000원 <span class="product-discount">20%</span></p></div>
+<div class="product"><img src="https://placehold.co/200x200/334/fff?text=Shirt" alt="T-shirt"><p class="product-name">BASIC SHIRTS</p><p class="product-price">99,000원 <span class="product-discount">20%</span></p></div>
+</div>
+</div>
+<div class="brand-logo">A!</div>
+</section>
+</body></html>

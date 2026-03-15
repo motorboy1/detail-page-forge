@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Extremists</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Helvetica Neue', Arial, sans-serif; }
+.hero { min-height: 100vh; background: linear-gradient(180deg, #88ff00 0%, #88ff00 30%, #fff 100%); display: flex; flex-direction: column; position: relative; overflow: hidden; }
+.hero-header { padding: 30px 40px; position: relative; z-index: 1; }
+.hero-title { font-size: 64px; font-weight: 900; text-transform: uppercase; line-height: 1; color: #000; }
+.hero-meta { display: flex; gap: 20px; margin-top: 8px; }
+.hero-meta span { font-size: 16px; font-weight: 700; text-transform: uppercase; }
+.hero-tag { background: #88ff00; padding: 4px 12px; font-size: 14px; font-weight: 700; text-transform: uppercase; }
+.black-blocks { position: absolute; top: 25%; left: 0; right: 0; bottom: 10%; background: #000; clip-path: polygon(0% 10%, 10% 10%, 10% 0%, 35% 0%, 35% 5%, 50% 5%, 50% 0%, 80% 0%, 80% 5%, 95% 5%, 95% 0%, 100% 0%, 100% 100%, 85% 100%, 85% 95%, 70% 95%, 70% 100%, 0% 100%); z-index: 0; }
+.hero-footer { position: absolute; bottom: 30px; left: 40px; right: 40px; z-index: 1; }
+.hero-footer .label { font-size: 14px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: #fff; margin-bottom: 8px; }
+.hero-footer h2 { font-size: 56px; font-weight: 900; text-transform: uppercase; color: #88ff00; }
+</style>
+</head>
+<body>
+<section class="hero">
+<div class="hero-header">
+<h1 class="hero-title" data-slot="text_0" data-slot-type="text">EXTREMISTS IN SOUTH OF THE</h1>
+<div class="hero-meta">
+<span class="hero-tag" data-slot="text_1" data-slot-type="text">EXTREME</span>
+<span data-slot="text_2" data-slot-type="text">AT PM9.</span>
+</div>
+<span data-slot="text_3" data-slot-type="text">2025.10.13</span>
+</div>
+<div class="black-blocks"></div>
+<div class="hero-footer">
+<p class="label" data-slot="text_4" data-slot-type="text">ALERT FOR BOMB LOVERS</p>
+<h2 data-slot="text_5" data-slot-type="text">PLANTING BOMBS.</h2>
+</div>
+</section>
+</body>
+</html>

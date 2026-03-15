@@ -1,0 +1,25 @@
+{
+  "id": "part2_1_618",
+  "name": "Furniture Nature Grid Green",
+  "section_type": "hero",
+  "d1000_principles": [
+    5,
+    9,
+    18,
+    27
+  ],
+  "category": "product",
+  "source_url": "",
+  "ssim_score": 0.0,
+  "slot_count": 0,
+  "thumbnail_path": "part2_1_618/thumbnail.jpg",
+  "tags": [
+    "furniture",
+    "green",
+    "nature",
+    "grid",
+    "tree",
+    "neon"
+  ],
+  "created_at": "2026-03-15T10:43:59.087009+00:00"
+}

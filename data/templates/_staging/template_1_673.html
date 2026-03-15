@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Enjoy a Cup of Americano</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Georgia', serif; }
+.hero { min-height: 100vh; background: linear-gradient(180deg, #f5efe6 0%, #e8ddd0 100%); display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 60px 40px; }
+.hero-badge { display: inline-block; border: 2px solid #3e2a1a; border-radius: 50px; padding: 6px 20px; font-size: 14px; font-weight: 700; color: #3e2a1a; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 20px; }
+.hero-title { font-size: 64px; font-weight: 700; color: #3e2a1a; line-height: 1.1; margin-bottom: 10px; }
+.hero-title-italic { font-size: 72px; font-style: italic; color: #3e2a1a; font-family: 'Georgia', serif; margin-bottom: 30px; }
+.hero-image { width: 400px; height: 350px; background: linear-gradient(135deg, #d4b896, #8b6e4e); border-radius: 50%; margin: 20px 0 40px; }
+.hero-brand { font-size: 16px; font-weight: 900; color: #3e2a1a; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 8px; }
+.hero-description { font-size: 14px; color: #6b5a4a; max-width: 500px; }
+</style>
+</head>
+<body>
+<section class="hero">
+  <span class="hero-badge" data-slot="text_0" data-slot-type="text">10.14 OPEN</span>
+  <h1 class="hero-title" data-slot="text_1" data-slot-type="text">Enjoy a Cup of</h1>
+  <span class="hero-title-italic" data-slot="text_2" data-slot-type="text">Americano</span>
+  <div class="hero-image" data-slot="image_0" data-slot-type="image"></div>
+  <h2 class="hero-brand" data-slot="text_3" data-slot-type="text">CAFE AASVOGEL</h2>
+  <p class="hero-description" data-slot="text_4" data-slot-type="text">Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor</p>
+</section>
+</body>
+</html>

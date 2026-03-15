@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Colorful Grocery List</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #000;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
+  }
+
+  .text-grid {
+    max-width: 700px;
+    width: 100%;
+  }
+  .text-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-family: 'Anton', 'Impact', sans-serif;
+    font-weight: 400;
+    font-size: clamp(2.5rem, 8vw, 5.5rem);
+    color: #fff;
+    line-height: 1.05;
+    text-transform: uppercase;
+  }
+  .green { color: #00C853; }
+  .orange { color: #F5A623; }
+  .gray { color: #9E9E9E; }
+  .pink { color: #FF4081; }
+
+  @media (max-width: 768px) {
+    body { padding: 24px; }
+  }
+</style>
+</head>
+<body>
+  <div class="text-grid">
+    <div class="text-line"><span>Please</span><span>Bring</span></div>
+    <div class="text-line"><span>Some</span><span class="green">Pickles,</span></div>
+    <div class="text-line"><span class="orange">Oranges,</span><span>Ripe</span></div>
+    <div class="text-line"><span class="green">Avocados,</span><span>And</span></div>
+    <div class="text-line"><span>A</span><span>Gallon</span><span>Of</span></div>
+    <div class="text-line"><span class="gray">Milk,</span><span>Plus</span></div>
+    <div class="text-line"><span>Some</span><span>Chunks</span></div>
+    <div class="text-line"><span>Of</span><span class="pink">Pork.</span></div>
+  </div>
+</body>
+</html>

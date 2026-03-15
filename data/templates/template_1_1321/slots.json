@@ -1,0 +1,61 @@
+{
+  "total": 7,
+  "text": 3,
+  "image": 4,
+  "link": 0,
+  "slots": [
+    {
+      "name": "text_0",
+      "type": "text",
+      "defaultValue": "exotica collection",
+      "tag": "h1",
+      "index": 0
+    },
+    {
+      "name": "text_1",
+      "type": "text",
+      "defaultValue": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "tag": "p",
+      "index": 1
+    },
+    {
+      "name": "text_2",
+      "type": "text",
+      "defaultValue": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "tag": "p",
+      "index": 2
+    },
+    {
+      "name": "img_0",
+      "type": "image",
+      "defaultValue": "plant-1.jpg",
+      "tag": "img",
+      "index": 0,
+      "alt": "Pitcher Plant"
+    },
+    {
+      "name": "img_1",
+      "type": "image",
+      "defaultValue": "plant-2.jpg",
+      "tag": "img",
+      "index": 1,
+      "alt": "Hosta Plant"
+    },
+    {
+      "name": "img_2",
+      "type": "image",
+      "defaultValue": "plant-3.jpg",
+      "tag": "img",
+      "index": 2,
+      "alt": "Aloe Vera"
+    },
+    {
+      "name": "img_3",
+      "type": "image",
+      "defaultValue": "plant-4.jpg",
+      "tag": "img",
+      "index": 3,
+      "alt": "Venus Flytrap"
+    }
+  ]
+}

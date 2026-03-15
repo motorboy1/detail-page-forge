@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}body{font-family:'Inter',sans-serif}
+.editorial{min-height:100vh;background:#c4b9a8;position:relative;overflow:hidden;padding:40px}
+.bg-figure{position:absolute;top:0;left:50%;transform:translateX(-50%);width:60%;height:100%;background:linear-gradient(180deg,#d4c9b8 0%,#c8baa8 50%,#b8a898 100%);clip-path:polygon(30% 0,70% 0,75% 100%,25% 100%);opacity:0.6}
+.title{font-family:'Playfair Display',serif;font-size:clamp(2.5rem,7vw,4.5rem);font-weight:900;color:#1a1a1a;text-transform:uppercase;line-height:1;position:relative;z-index:2;margin-bottom:20px}
+.card{background:#fff;padding:16px 20px;position:relative;z-index:2;max-width:280px;font-size:0.82rem;line-height:1.6;color:#1a1a1a;text-align:justify;box-shadow:0 2px 8px rgba(0,0,0,0.08)}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:30px;position:relative;z-index:2}
+.accent-block{width:24px;height:24px;background:#fff;position:relative;z-index:2}
+</style></head><body>
+<section class="editorial">
+<div class="bg-figure"></div>
+<div class="grid">
+<div><h1 class="title" data-slot="text_0" data-slot-type="text">THE REDEEMER</h1><div class="card"><p data-slot="text_1" data-slot-type="text">Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod</p></div></div>
+<div><div class="accent-block"></div><div class="card"><p data-slot="text_2" data-slot-type="text">Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consec</p></div></div>
+<div><div class="card"><p data-slot="text_3" data-slot-type="text">Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consec</p></div></div>
+<div><div class="card"><p data-slot="text_4" data-slot-type="text">Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod</p></div></div>
+<div><div class="card"><p data-slot="text_5" data-slot-type="text">Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod</p></div><div class="card" style="margin-top:20px"><p data-slot="text_6" data-slot-type="text">Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consec</p></div></div>
+<div><div class="card"><p data-slot="text_7" data-slot-type="text">Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod</p></div></div>
+</div>
+</section>
+</body></html>

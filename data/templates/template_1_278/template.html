@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Wilhelm</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Playfair+Display:wght@700;900&family=Inter:wght@400;700&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    min-height: 100vh;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    overflow: hidden;
+  }
+  .bg-gradient {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, #CC0000 0%, #990033 20%, #663333 50%, #444422 75%, #555533 100%);
+    z-index: 0;
+  }
+  .blur-landscape {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 65%;
+    background: linear-gradient(180deg, rgba(100,80,40,0.3) 0%, rgba(80,60,30,0.6) 50%, rgba(60,50,25,0.8) 100%);
+    filter: blur(20px);
+    z-index: 1;
+  }
+  .content {
+    position: relative;
+    z-index: 2;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 48px 40px;
+  }
+  .title-row {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: auto;
+  }
+  .title-script {
+    font-family: 'Dancing Script', cursive;
+    font-size: clamp(5rem, 16vw, 10rem);
+    line-height: 0.8;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  }
+  .title-serif {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(4rem, 12vw, 8rem);
+    font-weight: 900;
+    color: #fff;
+    text-shadow: 2px 2px 0 #000;
+    margin-left: -20px;
+    margin-top: 20px;
+  }
+  .star-icon {
+    font-size: clamp(3rem, 8vw, 5rem);
+    margin-left: auto;
+    margin-top: -10px;
+  }
+  .bottom-text {
+    font-size: clamp(0.7rem, 1.5vw, 0.85rem);
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  @media (max-width: 600px) {
+    .content { padding: 24px 20px; }
+  }
+</style>
+</head>
+<body>
+<div class="bg-gradient"></div>
+<div class="blur-landscape"></div>
+<div class="content">
+<div class="title-row">
+<h1><span class="title-script" data-slot="text_0" data-slot-type="text">Wi</span><span class="title-serif" data-slot="text_1" data-slot-type="text">lhelm</span></h1>
+<span class="star-icon" data-slot="text_2" data-slot-type="text">✦</span>
+</div>
+<p class="bottom-text" data-slot="text_3" data-slot-type="text">LOREM IPSUM DOLOR SIT AMET, CONSEC ADIPISCING ELIT, SED DO EIUSMOD LOREM IPSUM DOLOR SIT AMET, CONSEC ADIPISCING ELIT, SED DO EIUSMOD LOREM IPSUM DOLOR SIT AMET, CONSEC ADIPISCING ELIT, SED DO EIUSMOD LOREM IPSUM DOLOR SIT AMET, CONSEC ADIPISCING ELIT, SED DO EIUSMOD</p>
+</div>
+</body>
+</html>

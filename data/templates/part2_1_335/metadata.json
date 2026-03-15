@@ -1,0 +1,25 @@
+{
+  "id": "part2_1_335",
+  "name": "Gallery Red Eye Exhibition",
+  "section_type": "hero",
+  "d1000_principles": [
+    5,
+    11,
+    20,
+    27
+  ],
+  "category": "culture",
+  "source_url": "",
+  "ssim_score": 0.0,
+  "slot_count": 0,
+  "thumbnail_path": "part2_1_335/thumbnail.jpg",
+  "tags": [
+    "gallery",
+    "red",
+    "eye",
+    "exhibition",
+    "bold",
+    "dramatic"
+  ],
+  "created_at": "2026-03-15T10:03:29.974197+00:00"
+}

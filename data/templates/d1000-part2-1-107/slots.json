@@ -1,0 +1,99 @@
+{
+  "total": 13,
+  "text": 13,
+  "image": 0,
+  "link": 0,
+  "slots": [
+    {
+      "name": "text_0",
+      "type": "text",
+      "defaultValue": "스티커의 비극",
+      "tag": "h1",
+      "index": 0
+    },
+    {
+      "name": "text_1",
+      "type": "text",
+      "defaultValue": "2026 베스트",
+      "tag": "span",
+      "index": 1
+    },
+    {
+      "name": "text_2",
+      "type": "text",
+      "defaultValue": "정말로 도전?",
+      "tag": "span",
+      "index": 2
+    },
+    {
+      "name": "text_3",
+      "type": "text",
+      "defaultValue": "회계사지음",
+      "tag": "span",
+      "index": 3
+    },
+    {
+      "name": "text_4",
+      "type": "text",
+      "defaultValue": "창업의 비밀들",
+      "tag": "span",
+      "index": 4
+    },
+    {
+      "name": "text_5",
+      "type": "text",
+      "defaultValue": "스티커 사진관의 마진률과 실제 점주의 순수익 분석 및 미래 동향 예측",
+      "tag": "p",
+      "index": 5
+    },
+    {
+      "name": "text_6",
+      "type": "text",
+      "defaultValue": "무인매장 프랜차이즈 전문 회계법인에서 발견한 무인 매장 창업 트렌드",
+      "tag": "p",
+      "index": 6
+    },
+    {
+      "name": "text_7",
+      "type": "text",
+      "defaultValue": "뿐만 아니라, 다양한 무인 점포의 생태계 분석 및 2026 유망 산업 제안",
+      "tag": "p",
+      "index": 7
+    },
+    {
+      "name": "text_8",
+      "type": "text",
+      "defaultValue": "체크리스트",
+      "tag": "span",
+      "index": 8
+    },
+    {
+      "name": "text_9",
+      "type": "text",
+      "defaultValue": "무인 매장",
+      "tag": "span",
+      "index": 9
+    },
+    {
+      "name": "text_10",
+      "type": "text",
+      "defaultValue": "도전?",
+      "tag": "span",
+      "index": 10
+    },
+    {
+      "name": "text_11",
+      "type": "text",
+      "defaultValue": "어워드 수상",
+      "tag": "span",
+      "index": 11
+    },
+    {
+      "name": "text_12",
+      "type": "text",
+      "defaultValue": "스티커 아티스",
+      "tag": "h1",
+      "index": 12
+    }
+  ]
+}

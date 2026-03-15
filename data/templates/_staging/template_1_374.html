@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chess Pieces</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Helvetica Neue', Arial, sans-serif; background: #ece4dc; color: #000; }
+.showcase { min-height: 100vh; display: flex; flex-direction: column; align-items: center; padding: 30px 40px; position: relative; }
+.showcase-header { text-align: center; margin-bottom: 20px; }
+.showcase-header p { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; }
+.barcode { width: 300px; height: 16px; background: repeating-linear-gradient(90deg, #000 0px, #000 2px, transparent 2px, transparent 4px); margin: 8px auto; }
+.pieces { display: flex; flex-direction: column; align-items: center; gap: 20px; flex: 1; justify-content: center; }
+.piece { text-align: center; }
+.piece-frame { width: 200px; height: 200px; border: 4px solid #000; display: flex; align-items: center; justify-content: center; position: relative; margin: 0 auto; }
+.piece-frame::before, .piece-frame::after { content: ''; position: absolute; width: 20px; height: 20px; border: 4px solid #000; }
+.piece-frame::before { top: -8px; left: -8px; border-right: none; border-bottom: none; }
+.piece-frame::after { bottom: -8px; right: -8px; border-left: none; border-top: none; }
+.piece-icon { width: 120px; height: 120px; background: #333; border-radius: 8px; }
+.piece-name { font-size: 28px; font-weight: 900; margin-top: 12px; text-transform: uppercase; }
+.side-text { writing-mode: vertical-rl; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; position: absolute; }
+.side-text.left { left: 10px; top: 50%; transform: translateY(-50%); }
+.side-text.right { right: 10px; top: 50%; transform: translateY(-50%) rotate(180deg); }
+.showcase-footer { text-align: center; margin-top: 20px; }
+.showcase-footer p { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; }
+</style>
+</head>
+<body>
+<section class="showcase">
+  <div class="showcase-header">
+    <p data-slot="text_0" data-slot-type="text">Lorem ipsum dolor sit amet, consec adipiscing elit, sed do</p>
+    <div class="barcode"></div>
+  </div>
+  <span class="side-text left" data-slot="text_1" data-slot-type="text">Lorem ipsum dolor sit amet, consec adipiscing elit, sed do</span>
+  <span class="side-text right" data-slot="text_2" data-slot-type="text">Lorem ipsum dolor sit amet, consec adipiscing elit, sed do</span>
+  <div class="pieces">
+    <div class="piece">
+      <div class="piece-frame"><div class="piece-icon"></div></div>
+      <p class="piece-name" data-slot="text_3" data-slot-type="text">BISHOP</p>
+    </div>
+    <div class="piece">
+      <div class="piece-frame"><div class="piece-icon"></div></div>
+      <p class="piece-name" data-slot="text_4" data-slot-type="text">ROOK</p>
+    </div>
+    <div class="piece">
+      <div class="piece-frame"><div class="piece-icon"></div></div>
+      <p class="piece-name" data-slot="text_5" data-slot-type="text">KING</p>
+    </div>
+  </div>
+  <div class="showcase-footer">
+    <div class="barcode"></div>
+    <p data-slot="text_6" data-slot-type="text">Lorem ipsum dolor sit amet, consec adipiscing elit, sed do</p>
+  </div>
+</section>
+</body>
+</html>

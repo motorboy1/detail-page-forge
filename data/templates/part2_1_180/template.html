@@ -1,0 +1,29 @@
+<!DOCTYPE html><html lang="ko"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Keyboard War</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Noto Sans KR',sans-serif;background:linear-gradient(180deg,#f8c0a0 0%,#e06030 40%,#c03020 100%);min-height:100vh;color:#fff}
+.container{max-width:700px;margin:0 auto;padding:30px;min-height:100vh;display:flex;flex-direction:column}
+.top-bar{display:flex;justify-content:space-between;font-size:13px;color:#c04020;margin-bottom:40px}
+.headline{font-size:72px;font-weight:900;color:rgba(255,255,255,0.3);text-align:center;margin-bottom:20px}
+.keyboard{background:#2a2a2a;border-radius:8px;padding:20px;margin:0 auto 20px;max-width:500px;min-height:200px;box-shadow:0 10px 40px rgba(0,0,0,0.4)}
+.key-row{display:flex;gap:4px;margin-bottom:4px;justify-content:center}
+.key{background:#444;border-radius:4px;padding:6px 10px;font-size:9px;color:#999;min-width:32px;text-align:center}
+.descriptions{display:flex;gap:16px;margin:20px 0;flex:1}
+.desc-col{flex:1;font-size:11px;color:#fff;line-height:1.7}
+.bottom-bar{display:flex;justify-content:space-between;font-size:13px;color:#c04020;margin-top:auto;padding-top:40px}
+</style></head><body>
+<div class="container">
+<div class="top-bar"><span data-slot="author">지은이 홍길동</span><span data-slot="year">2026년 신간</span><span data-slot="publisher">한음출판사</span></div>
+<h1 class="headline" data-slot="headline">키보드 전쟁</h1>
+<div class="keyboard">
+<div class="key-row"><div class="key">F1</div><div class="key">F2</div><div class="key">F3</div><div class="key">F4</div><div class="key">F5</div><div class="key">F6</div><div class="key">F7</div><div class="key">F8</div><div class="key">F9</div><div class="key">F10</div><div class="key">del</div></div>
+<div class="key-row"><div class="key">Q</div><div class="key">W</div><div class="key">E</div><div class="key">R</div><div class="key">T</div><div class="key">Y</div><div class="key">U</div><div class="key">I</div><div class="key">O</div><div class="key">P</div></div>
+<div class="key-row"><div class="key">A</div><div class="key">S</div><div class="key">D</div><div class="key">F</div><div class="key">G</div><div class="key">H</div><div class="key">J</div><div class="key">K</div><div class="key">L</div></div>
+</div>
+<div class="descriptions">
+<div class="desc-col" data-slot="desc1">우리 시대는 프로파간다를 선택할 수 없어도, 댓글을 선택할 수는 있는 놀라운 시대이다.</div>
+<div class="desc-col" data-slot="desc2">이 뜻은, 우리가 원치 않는 프로파간다에서 이에 반하는 댓글을 선택할 수 있다는 것.</div>
+<div class="desc-col" data-slot="desc3">결국, 댓글에 대한 명확한 알고리즘이 조작되지 않으면, 우리는 항상 이긴다는 것.</div>
+</div>
+<div class="bottom-bar"><span>지은이 홍길동</span><span>2026년 신간</span><span>한음출판사</span></div>
+</div></body></html>

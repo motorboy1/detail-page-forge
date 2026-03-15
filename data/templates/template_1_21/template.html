@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Recast</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    min-height: 100vh;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px 0;
+    font-family: 'Inter', sans-serif;
+    color: #000;
+  }
+  .top-text {
+    font-size: clamp(0.65rem, 1.4vw, 0.8rem);
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.5;
+    max-width: 600px;
+    margin-bottom: auto;
+  }
+  .car-area {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 40px 0 0;
+  }
+  .car-placeholder {
+    width: 60%;
+    max-width: 380px;
+    aspect-ratio: 2;
+    background: linear-gradient(135deg, #CC3333, #992222);
+    border-radius: 8px 40px 4px 4px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+  }
+  .bottom-title {
+    font-size: clamp(5rem, 18vw, 12rem);
+    font-weight: 900;
+    letter-spacing: -0.04em;
+    line-height: 0.85;
+    padding: 0 0 20px;
+  }
+  .registered {
+    color: #CC0000;
+    font-size: 0.5em;
+    vertical-align: super;
+  }
+  @media (max-width: 600px) {
+    body { padding: 24px 20px 0; }
+  }
+</style>
+</head>
+<body>
+<p class="top-text" data-slot="text_0" data-slot-type="text">LOREM IPSUM DOLOR SIT AMET, CONSEC ADIPISCING ELIT, SED DO EIUSMOD LOREM IPSUM DOLOR SIT AMET, CONSEC ADIPISCING ELIT, SED DO EIUSMOD LOREM IPSUM DOLOR SIT AMET, CONSEC ADIPISCING ELIT, SED DO EIUSMOD</p>
+<div class="car-area">
+<div class="car-placeholder"></div>
+</div>
+<h1 class="bottom-title" data-slot="text_1" data-slot-type="text">Recast<span class="registered">®</span></h1>
+</body>
+</html>

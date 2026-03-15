@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Design Is Actually</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Georgia', 'Times New Roman', serif; background: #f8f6f4; color: #000; }
+.hero { min-height: 100vh; display: flex; flex-direction: column; justify-content: space-between; padding: 40px; }
+.hero-subtitle { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 16px; line-height: 1.6; max-width: 400px; margin-bottom: 40px; }
+.hero-phrase { font-size: 80px; line-height: 1.2; }
+.hero-phrase .italic { font-style: italic; }
+.hero-phrase .highlight { background: rgba(100, 100, 200, 0.15); padding: 4px 12px; display: inline; }
+.dot { display: inline-block; width: 16px; height: 16px; background: #6666cc; border-radius: 50%; vertical-align: middle; margin: 0 4px; }
+</style>
+</head>
+<body>
+<section class="hero">
+<p class="hero-subtitle" data-slot="text_0" data-slot-type="text">Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet,</p>
+<div class="hero-phrase">
+<span data-slot="text_1" data-slot-type="text">Design is</span> <span class="italic" data-slot="text_2" data-slot-type="text">actually</span><br/>
+<span class="highlight" data-slot="text_3" data-slot-type="text">just</span><span class="dot"></span><span class="highlight" data-slot="text_4" data-slot-type="text">pretending to</span><br/>
+<span class="highlight" data-slot="text_5" data-slot-type="text">have</span> <span class="highlight" data-slot="text_6" data-slot-type="text">some</span><br/>
+<span class="highlight" data-slot="text_7" data-slot-type="text">meaning</span> <span class="italic" data-slot="text_8" data-slot-type="text">in it.</span><span class="dot"></span>
+</div>
+</section>
+</body>
+</html>

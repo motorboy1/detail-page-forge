@@ -1,0 +1,27 @@
+<!DOCTYPE html><html lang="ko"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Art Competition Guide</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Noto Sans KR',sans-serif;background:#2dd4a0;color:#000;min-height:100vh}
+.container{max-width:700px;margin:0 auto;padding:30px;position:relative;overflow:hidden;min-height:100vh}
+.top-row{display:flex;justify-content:space-between;margin-bottom:30px;font-size:14px}
+.count-label{font-size:20px;font-weight:700;margin-bottom:8px;display:flex;align-items:center;gap:12px}
+.count-line{width:60px;height:2px;background:#000}
+.headline{font-size:52px;font-weight:900;line-height:1.2;position:relative;z-index:1}
+.circle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:400px;height:400px;border:8px solid #fff;border-radius:50%;display:flex;align-items:center;justify-content:center}
+.circle-text{font-size:11px;color:#000;text-align:center;line-height:1.8;max-width:280px;padding:20px}
+.gallery-ring{position:absolute;top:50%;left:50%;width:420px;height:420px;transform:translate(-50%,-50%)}
+.format{font-size:14px;font-weight:700;margin-top:4px}
+.bottom{position:absolute;bottom:30px;left:30px;right:30px;display:flex;justify-content:space-between;align-items:center}
+.publisher{font-size:13px;font-weight:500}
+.mid-section{position:relative;height:500px;display:flex;align-items:center;justify-content:center}
+</style></head><body>
+<div class="container">
+<div class="top-row"><span data-slot="year_label">2025년판</span><span data-slot="pages">280P</span></div>
+<div class="count-label"><span data-slot="count">250개</span><span class="count-line"></span></div>
+<div class="headline" data-slot="headline">대표적인 미술 공모전 모음집</div>
+<div class="mid-section">
+<div class="circle"><div class="circle-text" data-slot="description">국내에서 발생하는 모든 주요 갤러리의 연락 메일과, 공략법, 그리고 이들과 연관된 모든 미술 공모전을 총망라하여 담아냈습니다.</div></div>
+</div>
+<div class="headline" style="font-size:48px"><span data-slot="headline">공모전 모음집</span> <span class="format" data-slot="format">PDF</span></div>
+<div class="bottom"><span>icon</span><span class="publisher" data-slot="publisher">미술연구랩 오바이스</span></div>
+</div></body></html>

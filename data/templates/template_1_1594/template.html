@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Be Creative</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:ital,wght@0,400;1,400&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 40px;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .headline {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(3rem, 9vw, 5.5rem);
+    color: #000;
+    text-align: left;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 32px;
+  }
+  .headline em {
+    font-style: italic;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 8px;
+    width: 100%;
+    max-width: 600px;
+  }
+  .cell {
+    aspect-ratio: 1;
+    background: #000;
+    border-radius: 2px;
+  }
+  .cell.creative {
+    background: #FF0000;
+    transform: rotate(12deg);
+  }
+
+  .footer-text {
+    margin-top: 32px;
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    font-size: clamp(1.2rem, 3vw, 1.8rem);
+    color: #000;
+    letter-spacing: 0.02em;
+    width: 100%;
+    max-width: 600px;
+  }
+
+  @media (max-width: 600px) {
+    body { padding: 24px; }
+    .grid-container { gap: 4px; }
+  }
+</style>
+</head>
+<body>
+<h1 class="headline" data-slot="text_0" data-slot-type="text">Be (<em>Creative</em>).</h1>
+<div class="grid-container">
+<div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell creative"></div><div class="cell"></div>
+<div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div>
+<div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div>
+<div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div>
+<div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div>
+<div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div>
+</div>
+<p class="footer-text" data-slot="text_1" data-slot-type="text">NEVER FOLLOW OTHERS</p>
+</body>
+</html>

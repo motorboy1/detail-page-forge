@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Inter:wght@300;400&display=swap');
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { width: 1920px; min-height: 2400px; background: #f5f3f0; font-family: 'Inter', sans-serif; color: #1a1a1a; position: relative; overflow: hidden; }
+.container { padding: 60px 80px; min-height: 2400px; display: flex; flex-direction: column; }
+.top-text { max-width: 550px; margin-bottom: 100px; }
+.top-text p { font-size: 18px; line-height: 1.7; color: rgba(26,26,26,0.6); font-weight: 300; }
+.statement { margin-bottom: 80px; }
+.line { display: flex; align-items: center; gap: 20px; flex-wrap: wrap; margin-bottom: 10px; }
+.serif { font-family: 'Playfair Display', serif; font-size: 150px; font-weight: 900; line-height: 1.05; color: #1a1a1a; }
+.serif-italic { font-family: 'Playfair Display', serif; font-size: 150px; font-weight: 700; font-style: italic; line-height: 1.05; color: #1a1a1a; }
+.inline-img { width: 220px; height: 140px; border-radius: 8px; overflow: hidden; display: inline-flex; flex-shrink: 0; }
+.inline-img img { width: 100%; height: 100%; object-fit: cover; }
+.statement-2 { margin-top: 80px; }
+</style>
+</head>
+<body>
+<div class="container">
+<div class="top-text">
+<p data-slot="text_0" data-slot-type="text">Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</div>
+<div class="statement">
+<div class="line"><span class="serif" data-slot="text_1" data-slot-type="text">Sometimes, We</span></div>
+<div class="line">
+<span class="serif" data-slot="text_2" data-slot-type="text">Dream</span>
+<div class="inline-img"><img alt="Night Sky" data-slot="img_0" data-slot-type="image" src="stars.jpg"/></div>
+<span class="serif" data-slot="text_3" data-slot-type="text">of</span>
+</div>
+<div class="line">
+<div class="inline-img"><img alt="Organic Shape" data-slot="img_1" data-slot-type="image" src="blob.jpg"/></div>
+<span class="serif-italic" data-slot="text_4" data-slot-type="text">Eden.</span>
+</div>
+</div>
+<div class="statement statement-2">
+<div class="line"><span class="serif" data-slot="text_5" data-slot-type="text">We often dream</span></div>
+<div class="line">
+<span class="serif" data-slot="text_6" data-slot-type="text">of</span>
+<div class="inline-img"><img alt="Skeleton" data-slot="img_2" data-slot-type="image" src="skeleton.jpg"/></div>
+<span class="serif" data-slot="text_7" data-slot-type="text">our</span>
+<div class="inline-img"><img alt="Apple" data-slot="img_3" data-slot-type="image" src="apple.jpg"/></div>
+<span class="serif-italic" data-slot="text_8" data-slot-type="text">Sins.</span>
+</div>
+</div>
+</div>
+</body>
+</html>

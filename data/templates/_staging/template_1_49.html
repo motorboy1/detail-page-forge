@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>There Is No Escape</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Helvetica Neue', Arial, sans-serif; }
+.hero { min-height: 100vh; background: linear-gradient(180deg, #8a9a6a 0%, #6a7a4a 50%, #7a8a5a 100%); display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 40px; position: relative; }
+.hero-bg { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(150,160,130,0.6), rgba(120,140,100,0.8)); filter: blur(20px); z-index: 0; }
+.modal { background: rgba(255,255,255,0.85); backdrop-filter: blur(20px); border-radius: 24px; padding: 48px; text-align: center; max-width: 500px; width: 100%; position: relative; z-index: 1; }
+.modal h1 { font-size: 36px; font-weight: 900; text-transform: uppercase; margin-bottom: 12px; }
+.modal p { font-size: 18px; color: #555; font-family: 'Georgia', serif; font-style: italic; margin-bottom: 32px; }
+.modal-buttons { display: flex; gap: 16px; }
+.btn { flex: 1; padding: 16px; font-size: 18px; font-weight: 700; border: none; border-radius: 12px; cursor: pointer; }
+.btn-light { background: #fff; color: #000; border: 1px solid #ddd; }
+.btn-dark { background: #000; color: #fff; }
+.hero-footer { position: absolute; bottom: 30px; left: 40px; right: 40px; z-index: 1; }
+.hero-footer p { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; line-height: 1.6; color: #fff; text-align: center; }
+</style>
+</head>
+<body>
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="modal">
+    <h1 data-slot="text_0" data-slot-type="text">THERE IS NO ESCAPE</h1>
+    <p data-slot="text_1" data-slot-type="text">You've reached the end of the d1000 journey</p>
+    <div class="modal-buttons">
+      <button class="btn btn-light" data-slot="text_2" data-slot-type="text">Close</button>
+      <button class="btn btn-dark" data-slot="text_3" data-slot-type="text">Okay</button>
+    </div>
+  </div>
+  <div class="hero-footer">
+    <p data-slot="text_4" data-slot-type="text">Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod</p>
+  </div>
+</section>
+</body>
+</html>

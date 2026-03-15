@@ -1,0 +1,25 @@
+{
+  "id": "part2_1_252",
+  "name": "Architecture Studio Bold BW",
+  "section_type": "hero",
+  "d1000_principles": [
+    3,
+    8,
+    15,
+    28
+  ],
+  "category": "architecture",
+  "source_url": "",
+  "ssim_score": 0.0,
+  "slot_count": 0,
+  "thumbnail_path": "part2_1_252/thumbnail.jpg",
+  "tags": [
+    "architecture",
+    "studio",
+    "minimal",
+    "bold",
+    "black-white",
+    "bauhaus"
+  ],
+  "created_at": "2026-03-15T09:49:46.063630+00:00"
+}

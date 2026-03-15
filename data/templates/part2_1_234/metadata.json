@@ -1,0 +1,25 @@
+{
+  "id": "part2_1_234",
+  "name": "Museum Exhibition Classical Art",
+  "section_type": "hero",
+  "d1000_principles": [
+    5,
+    12,
+    19,
+    30
+  ],
+  "category": "culture",
+  "source_url": "",
+  "ssim_score": 0.0,
+  "slot_count": 0,
+  "thumbnail_path": "part2_1_234/thumbnail.jpg",
+  "tags": [
+    "museum",
+    "exhibition",
+    "classical",
+    "art",
+    "elegant",
+    "vintage"
+  ],
+  "created_at": "2026-03-15T09:49:46.016075+00:00"
+}

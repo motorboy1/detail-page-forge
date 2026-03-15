@@ -137,6 +137,8 @@ def _make_thumbnail(image_path: Path, width: int = 400, quality: int = 75) -> by
     ratio = width / img.width
     new_h = int(img.height * ratio)
     img = img.resize((width, new_h), Image.LANCZOS)
+    if img.mode in ("RGBA", "P"):
+        img = img.convert("RGB")
     buf = io.BytesIO()
     img.save(buf, format="JPEG", quality=quality)
     return buf.getvalue()

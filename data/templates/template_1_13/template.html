@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { width: 1920px; min-height: 2400px; background: #000000; font-family: 'Inter', sans-serif; color: #ffffff; position: relative; overflow: hidden; }
+.container { display: flex; flex-direction: column; min-height: 2400px; }
+.top-text { padding: 60px 80px; max-width: 900px; }
+.top-text p { font-size: 16px; line-height: 1.5; font-weight: 700; text-transform: uppercase; color: rgba(255,255,255,0.85); letter-spacing: 1px; }
+.spacer { flex: 1; }
+.brand-stack { }
+.brand-row { display: flex; align-items: center; padding: 0 80px; }
+.brand-row.white-on-black { background: #000000; height: 220px; }
+.brand-row.white-on-red { background: #e60000; height: 220px; }
+.brand-row.black-on-black { background: #000000; height: 220px; }
+.brand-name { font-size: 200px; font-weight: 900; letter-spacing: -4px; line-height: 1; }
+.brand-row.white-on-black .brand-name { color: #ffffff; }
+.brand-row.white-on-red .brand-name { color: #ffffff; }
+.brand-row.black-on-black .brand-name { color: #1a1a1a; }
+.dot { display: inline-block; width: 36px; height: 36px; background: #e60000; border-radius: 50%; margin-left: 4px; vertical-align: middle; }
+.brand-row.white-on-red .dot { background: #e60000; }
+.brand-row.black-on-black .dot { background: #e60000; }
+</style>
+</head>
+<body>
+<div class="container">
+<div class="top-text">
+<p data-slot="text_0" data-slot-type="text">Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod</p>
+</div>
+<div class="spacer"></div>
+<div class="brand-stack">
+<div class="brand-row white-on-black">
+<span class="brand-name" data-slot="text_1" data-slot-type="text">SitAmet<span class="dot"></span></span>
+</div>
+<div class="brand-row white-on-red">
+<span class="brand-name" data-slot="text_2" data-slot-type="text">SitAmet<span class="dot"></span></span>
+</div>
+<div class="brand-row black-on-black">
+<span class="brand-name" data-slot="text_3" data-slot-type="text">SitAmet<span class="dot"></span></span>
+</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Offers For You</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Helvetica Neue', Arial, sans-serif; }
+.hero { min-height: 100vh; background: #fff; display: flex; flex-direction: column; justify-content: flex-end; padding: 40px; position: relative; }
+.cards { position: relative; height: 70vh; margin-bottom: 40px; }
+.card { position: absolute; width: 320px; background: #fff; border: 2px solid #000; border-radius: 12px; padding: 20px; }
+.card:nth-child(1) { top: 0; left: 20px; }
+.card:nth-child(2) { top: 80px; left: 140px; }
+.card:nth-child(3) { top: 160px; left: 260px; }
+.card-header { display: flex; justify-content: flex-end; gap: 8px; margin-bottom: 10px; border-bottom: 2px solid #000; padding-bottom: 10px; }
+.card-icon { width: 28px; height: 28px; background: #000; border-radius: 50%; }
+.card-image { width: 200px; height: 250px; background: #333; border-radius: 8px; margin: 0 auto 15px; }
+.card-label { font-size: 28px; font-weight: 700; color: #000; }
+.hero-desc { font-size: 12px; font-weight: 600; text-transform: uppercase; color: #000; max-width: 400px; position: absolute; top: 30px; right: 40px; line-height: 1.5; }
+.hero-title { font-size: 80px; font-weight: 900; color: #000; line-height: 0.95; letter-spacing: -3px; }
+</style>
+</head>
+<body>
+<section class="hero">
+  <p class="hero-desc" data-slot="text_0" data-slot-type="text">Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet</p>
+  <div class="cards">
+    <div class="card">
+      <div class="card-header"><span class="card-icon"></span><span class="card-icon"></span></div>
+      <div class="card-image" data-slot="image_0" data-slot-type="image"></div>
+      <span class="card-label" data-slot="text_1" data-slot-type="text">Leather Jacket</span>
+    </div>
+    <div class="card">
+      <div class="card-header"><span class="card-icon"></span><span class="card-icon"></span></div>
+      <div class="card-image" data-slot="image_1" data-slot-type="image"></div>
+      <span class="card-label" data-slot="text_2" data-slot-type="text">Moto Vest</span>
+    </div>
+    <div class="card">
+      <div class="card-header"><span class="card-icon"></span><span class="card-icon"></span></div>
+      <div class="card-image" data-slot="image_2" data-slot-type="image"></div>
+      <span class="card-label" data-slot="text_3" data-slot-type="text">PVC Trench</span>
+    </div>
+  </div>
+  <h1 class="hero-title" data-slot="text_4" data-slot-type="text">OFFERS<br>FOR YOU</h1>
+</section>
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "id": "part2_1_666",
+  "name": "Fourth Wall Meta Design",
+  "section_type": "hero",
+  "d1000_principles": [
+    3,
+    8,
+    15,
+    31
+  ],
+  "category": "concept",
+  "source_url": "",
+  "ssim_score": 0.0,
+  "slot_count": 0,
+  "thumbnail_path": "part2_1_666/thumbnail.jpg",
+  "tags": [
+    "meta",
+    "design",
+    "minimal",
+    "white",
+    "fourth-wall",
+    "typography"
+  ],
+  "created_at": "2026-03-15T10:43:59.202289+00:00"
+}

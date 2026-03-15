@@ -1,0 +1,21 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}body{font-family:'Inter',sans-serif}
+.poster{min-height:100vh;background:#e61919;position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:flex-end;padding:50px}
+.corner-top{position:absolute;top:0;left:0;width:50%;height:25%;background:#000;clip-path:polygon(0 0,100% 0,0 100%)}
+.corner-accent{position:absolute;top:0;right:10%;width:8%;height:12%;background:#fff;clip-path:polygon(0 30%,100% 0,80% 100%)}
+.rotated-text{position:absolute;top:15%;left:5%;transform:rotate(-35deg);transform-origin:left top;background:#fff;padding:12px 20px;font-size:0.8rem;line-height:1.5;color:#000;max-width:350px;text-align:justify;box-shadow:2px 2px 8px rgba(0,0,0,0.2)}
+.rotated-text-2{position:absolute;bottom:8%;right:3%;transform:rotate(-35deg);transform-origin:right bottom;background:#fff;padding:12px 20px;font-size:0.75rem;line-height:1.5;color:#000;max-width:250px;text-align:justify;box-shadow:2px 2px 8px rgba(0,0,0,0.2)}
+.title{font-size:clamp(3rem,10vw,7rem);font-weight:700;color:#000;line-height:0.9;position:relative;z-index:2}
+.subtitle{font-size:clamp(1rem,3vw,1.5rem);color:#000;font-weight:400;margin-top:8px;position:relative;z-index:2}
+</style></head><body>
+<section class="poster">
+  <div class="corner-top"></div>
+  <div class="corner-accent"></div>
+  <div class="rotated-text"><p>Consec Adipiscing Dolore Et Labore, Amet, Ut Consec Incididunt Sit Dolore Magna Elit, Sed</p></div>
+  <div class="rotated-text-2"><p>Labore Consec Amet, Consec Incididunt Ut Dolor Sit Amet, Co</p></div>
+  <h1 class="title">Theory.</h1>
+  <p class="subtitle">Lorem Ipsum</p>
+</section>
+</body></html>

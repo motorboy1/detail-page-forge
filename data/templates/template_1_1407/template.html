@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Grocery List Poster</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #E84040;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
+    position: relative;
+    overflow: hidden;
+  }
+  body::before {
+    content: '';
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    width: 250px;
+    height: 300px;
+    background: rgba(0,0,0,0.25);
+    filter: blur(30px);
+    border-radius: 40% 60% 50% 50%;
+    transform: rotate(-15deg);
+  }
+
+  .text-grid {
+    position: relative;
+    z-index: 1;
+    max-width: 600px;
+    width: 100%;
+  }
+  .text-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: clamp(2rem, 7vw, 4rem);
+    color: #000;
+    line-height: 1.05;
+    text-shadow: 0 0 2px rgba(0,0,0,0.3);
+  }
+  .text-line span {
+    display: inline-block;
+  }
+
+  @media (max-width: 768px) {
+    body { padding: 24px; }
+  }
+</style>
+</head>
+<body>
+<div class="text-grid">
+<div class="text-line"><span data-slot="text_0" data-slot-type="text">please</span><span data-slot="text_1" data-slot-type="text">bring</span></div>
+<div class="text-line"><span data-slot="text_2" data-slot-type="text">some</span><span data-slot="text_3" data-slot-type="text">pickles,</span></div>
+<div class="text-line"><span data-slot="text_4" data-slot-type="text">oranges,</span><span data-slot="text_5" data-slot-type="text">ripe</span></div>
+<div class="text-line"><span data-slot="text_6" data-slot-type="text">avocados,</span><span data-slot="text_7" data-slot-type="text">and</span></div>
+<div class="text-line"><span data-slot="text_8" data-slot-type="text">a</span><span data-slot="text_9" data-slot-type="text">gallon</span><span data-slot="text_10" data-slot-type="text">of</span></div>
+<div class="text-line"><span data-slot="text_11" data-slot-type="text">milk,</span><span data-slot="text_12" data-slot-type="text">plus</span></div>
+<div class="text-line"><span data-slot="text_13" data-slot-type="text">some</span><span data-slot="text_14" data-slot-type="text">chunks</span></div>
+<div class="text-line"><span data-slot="text_15" data-slot-type="text">of</span><span data-slot="text_16" data-slot-type="text">pork.</span></div>
+</div>
+</body>
+</html>

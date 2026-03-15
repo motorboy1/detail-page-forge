@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pretend To be a DesignGenius</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700;900&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #fff 0%, #fff 35%, #888 60%, #000 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 36px 40px 48px;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .main-title {
+    font-size: clamp(3rem, 10vw, 6.5rem);
+    font-weight: 900;
+    color: #000;
+    line-height: 1.0;
+    letter-spacing: -0.03em;
+  }
+
+  .footer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .footer-left {
+    font-size: clamp(2rem, 6vw, 3.5rem);
+    font-weight: 900;
+    color: #fff;
+    line-height: 1.1;
+  }
+  .footer-of {
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    font-weight: 700;
+    color: #fff;
+  }
+  .footer-right {
+    font-size: clamp(2rem, 6vw, 3.5rem);
+    font-weight: 900;
+    color: #fff;
+  }
+
+  @media (max-width: 768px) {
+    body { padding: 24px; }
+  }
+</style>
+</head>
+<body>
+  <h1 class="main-title">Pretend To be a<br>DesignGenius</h1>
+  <div class="footer-info">
+    <div class="footer-left">Vol.01<br>2025.August</div>
+    <span class="footer-of">of</span>
+    <span class="footer-right">50</span>
+  </div>
+</body>
+</html>

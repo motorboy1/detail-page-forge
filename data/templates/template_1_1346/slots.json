@@ -1,0 +1,171 @@
+{
+  "total": 22,
+  "text": 13,
+  "image": 9,
+  "link": 0,
+  "slots": [
+    {
+      "name": "text_0",
+      "type": "text",
+      "defaultValue": "LONDON",
+      "tag": "span",
+      "index": 0
+    },
+    {
+      "name": "text_1",
+      "type": "text",
+      "defaultValue": "PARIS",
+      "tag": "span",
+      "index": 1
+    },
+    {
+      "name": "text_2",
+      "type": "text",
+      "defaultValue": "MILANO",
+      "tag": "span",
+      "index": 2
+    },
+    {
+      "name": "text_3",
+      "type": "text",
+      "defaultValue": "SEOUL",
+      "tag": "span",
+      "index": 3
+    },
+    {
+      "name": "text_4",
+      "type": "text",
+      "defaultValue": "TOKYO",
+      "tag": "span",
+      "index": 4
+    },
+    {
+      "name": "text_5",
+      "type": "text",
+      "defaultValue": "BERLIN",
+      "tag": "span",
+      "index": 5
+    },
+    {
+      "name": "text_6",
+      "type": "text",
+      "defaultValue": "→",
+      "tag": "span",
+      "index": 6
+    },
+    {
+      "name": "text_7",
+      "type": "text",
+      "defaultValue": "HONG KONG",
+      "tag": "span",
+      "index": 7
+    },
+    {
+      "name": "text_8",
+      "type": "text",
+      "defaultValue": "NEW YORK",
+      "tag": "span",
+      "index": 8
+    },
+    {
+      "name": "text_9",
+      "type": "text",
+      "defaultValue": "→",
+      "tag": "span",
+      "index": 9
+    },
+    {
+      "name": "text_10",
+      "type": "text",
+      "defaultValue": "→",
+      "tag": "span",
+      "index": 10
+    },
+    {
+      "name": "text_11",
+      "type": "text",
+      "defaultValue": "SHANGHAI",
+      "tag": "span",
+      "index": 11
+    },
+    {
+      "name": "text_12",
+      "type": "text",
+      "defaultValue": "✶",
+      "tag": "span",
+      "index": 12
+    },
+    {
+      "name": "img_0",
+      "type": "image",
+      "defaultValue": "london.png",
+      "tag": "img",
+      "index": 0,
+      "alt": "London"
+    },
+    {
+      "name": "img_1",
+      "type": "image",
+      "defaultValue": "paris.png",
+      "tag": "img",
+      "index": 1,
+      "alt": "Paris"
+    },
+    {
+      "name": "img_2",
+      "type": "image",
+      "defaultValue": "milano.png",
+      "tag": "img",
+      "index": 2,
+      "alt": "Milano"
+    },
+    {
+      "name": "img_3",
+      "type": "image",
+      "defaultValue": "seoul.png",
+      "tag": "img",
+      "index": 3,
+      "alt": "Seoul"
+    },
+    {
+      "name": "img_4",
+      "type": "image",
+      "defaultValue": "tokyo.png",
+      "tag": "img",
+      "index": 4,
+      "alt": "Tokyo"
+    },
+    {
+      "name": "img_5",
+      "type": "image",
+      "defaultValue": "berlin.png",
+      "tag": "img",
+      "index": 5,
+      "alt": "Berlin"
+    },
+    {
+      "name": "img_6",
+      "type": "image",
+      "defaultValue": "hongkong.png",
+      "tag": "img",
+      "index": 6,
+      "alt": "Hong Kong"
+    },
+    {
+      "name": "img_7",
+      "type": "image",
+      "defaultValue": "newyork.png",
+      "tag": "img",
+      "index": 7,
+      "alt": "New York"
+    },
+    {
+      "name": "img_8",
+      "type": "image",
+      "defaultValue": "shanghai.png",
+      "tag": "img",
+      "index": 8,
+      "alt": "Shanghai"
+    }
+  ]
+}

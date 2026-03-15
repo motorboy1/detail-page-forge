@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Kriston Clapton</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    min-height: 100vh;
+    background: #000;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 48px;
+    font-family: 'Inter', sans-serif;
+  }
+  body::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse at center, transparent 30%, #CC0000 100%);
+    z-index: 0;
+  }
+  body::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 120px;
+    background: linear-gradient(to bottom, #CC0000 0%, transparent 100%);
+    z-index: 0;
+  }
+
+  .top-text {
+    position: relative;
+    z-index: 1;
+    font-size: clamp(0.7rem, 1.5vw, 0.9rem);
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.5;
+    text-transform: uppercase;
+    max-width: 680px;
+    letter-spacing: 0.02em;
+  }
+
+  .bottom-block {
+    position: relative;
+    z-index: 1;
+  }
+  .brand-name {
+    font-size: clamp(3rem, 10vw, 7rem);
+    font-weight: 900;
+    color: #fff;
+    line-height: 1.0;
+    letter-spacing: -0.02em;
+  }
+  .brand-name sup {
+    font-size: 0.4em;
+    vertical-align: super;
+  }
+  .date {
+    margin-top: 16px;
+    font-size: clamp(0.9rem, 2vw, 1.2rem);
+    font-weight: 700;
+    color: #fff;
+  }
+
+  @media (max-width: 768px) {
+    body { padding: 24px; }
+  }
+</style>
+</head>
+<body>
+<p class="top-text" data-slot="text_0" data-slot-type="text">Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod</p>
+<div class="bottom-block">
+<h1 class="brand-name" data-slot="text_1" data-slot-type="text">Kriston<br/>Clapton<sup>TM</sup></h1>
+<p class="date" data-slot="text_2" data-slot-type="text">2025.12.25.</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+{
+  "total": 4,
+  "text": 3,
+  "image": 1,
+  "link": 0,
+  "slots": [
+    {
+      "name": "text_0",
+      "type": "text",
+      "defaultValue": "An exploration into the depths of design where darkness meets illumination. The interplay of shadow and light creates a visual narrative that transcends conventional aesthetics.",
+      "tag": "p",
+      "index": 0
+    },
+    {
+      "name": "text_1",
+      "type": "text",
+      "defaultValue": "GRUDSOFBLUE",
+      "tag": "h1",
+      "index": 1
+    },
+    {
+      "name": "text_2",
+      "type": "text",
+      "defaultValue": "Limited edition collection. Each piece crafted with precision and purpose, embodying the philosophy of understated elegance.",
+      "tag": "p",
+      "index": 2
+    },
+    {
+      "name": "img_0",
+      "type": "image",
+      "defaultValue": "product.jpg",
+      "tag": "img",
+      "index": 0,
+      "alt": "Product"
+    }
+  ]
+}

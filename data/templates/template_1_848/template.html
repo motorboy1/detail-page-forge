@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NeuroToxic</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Georgia', serif; }
+.hero { min-height: 100vh; background: #2c4a6e; display: flex; flex-direction: column; justify-content: space-between; padding: 40px; position: relative; overflow: hidden; }
+.hero-title { font-size: 80px; font-weight: 400; color: #8ab4e8; line-height: 1; letter-spacing: -1px; }
+.hero-title span { font-style: italic; }
+.angled-panel { position: absolute; top: 15%; right: -5%; width: 60%; height: 60%; background: #c8ddf0; transform: rotate(-15deg); z-index: 0; }
+.hero-image { width: 350px; height: 350px; background: linear-gradient(135deg, #2c4a6e, #4a7ab5); border-radius: 10px; position: relative; z-index: 1; align-self: flex-start; margin-top: -40px; }
+.hero-description { font-size: 13px; color: #8ab4e8; line-height: 1.6; position: relative; z-index: 1; max-width: 100%; }
+</style>
+</head>
+<body>
+<section class="hero">
+  <h1 class="hero-title" data-slot="text_0" data-slot-type="text">Neuro<span>Toxic</span></h1>
+  <div class="angled-panel"></div>
+  <div class="hero-image" data-slot="image_0" data-slot-type="image"></div>
+  <p class="hero-description" data-slot="text_1" data-slot-type="text">Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consecLorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</section>
+</body>
+</html>

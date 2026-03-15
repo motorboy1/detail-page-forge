@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>D1000.KR - Meta Pixel Event</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    min-height: 100vh;
+    background: #FF0000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 48px 40px;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    gap: 32px;
+  }
+  .ticket-card {
+    background: #000;
+    border-radius: 24px;
+    padding: 40px 32px;
+    width: 100%;
+    max-width: 560px;
+    text-align: center;
+    position: relative;
+  }
+  .ticket-card::before, .ticket-card::after {
+    content: '';
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background: #FF0000;
+    border-radius: 50%;
+  }
+  .ticket-card::before { left: -16px; top: 50%; transform: translateY(-50%); }
+  .ticket-card::after { right: -16px; top: 50%; transform: translateY(-50%); }
+  .brand-name {
+    font-size: clamp(2.5rem, 8vw, 4rem);
+    font-weight: 900;
+    margin-bottom: 16px;
+  }
+  .body-text {
+    font-size: clamp(0.65rem, 1.5vw, 0.8rem);
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  .event-title {
+    font-size: clamp(2rem, 6vw, 3.5rem);
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+    margin-bottom: 16px;
+  }
+  .barcode {
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    margin-bottom: 8px;
+  }
+  .barcode-bar {
+    width: 3px;
+    height: 40px;
+    background: #fff;
+  }
+  .barcode-bar.thin { width: 2px; }
+  .barcode-bar.thick { width: 5px; }
+  .bottom-card {
+    background: #000;
+    border-radius: 24px;
+    padding: 32px;
+    width: 100%;
+    max-width: 560px;
+    text-align: center;
+  }
+  .icons-row {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  .icon-circle {
+    width: 48px;
+    height: 48px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+  }
+  .thanks-text {
+    font-size: clamp(2rem, 6vw, 3.5rem);
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 16px;
+  }
+  @media (max-width: 600px) {
+    body { padding: 24px 16px; }
+  }
+</style>
+</head>
+<body>
+<div class="ticket-card">
+<h1 class="brand-name" data-slot="text_0" data-slot-type="text">D1000.KR</h1>
+<p class="body-text" data-slot="text_1" data-slot-type="text">LOREM IPSUM DOLOR SIT AMET, CONSEC ADIPISCING ELIT, SED DO EIUSMOD LOREM IPSUM DOLOR SIT AMET, CONSEC ADIPISCING ELIT, SED DO EIUSMOD LOREM IPSUM DOLOR SIT AMET, CONSEC</p>
+<h2 class="event-title" data-slot="text_2" data-slot-type="text">META PIXEL<br/>EVENT SUCCESSFUL</h2>
+<div class="barcode">
+<span class="barcode-bar"></span><span class="barcode-bar thin"></span><span class="barcode-bar thick"></span><span class="barcode-bar"></span><span class="barcode-bar thin"></span><span class="barcode-bar thick"></span><span class="barcode-bar"></span><span class="barcode-bar thin"></span><span class="barcode-bar"></span><span class="barcode-bar thick"></span><span class="barcode-bar thin"></span><span class="barcode-bar"></span><span class="barcode-bar thick"></span><span class="barcode-bar"></span><span class="barcode-bar thin"></span><span class="barcode-bar thick"></span><span class="barcode-bar"></span><span class="barcode-bar thin"></span>
+</div>
+</div>
+<div class="bottom-card">
+<div class="icons-row">
+<span data-slot="text_3" data-slot-type="text">(</span>
+<div class="icon-circle">B</div>
+<div class="icon-circle">P</div>
+<div class="icon-circle">S</div>
+<span data-slot="text_4" data-slot-type="text">)</span>
+</div>
+<p class="body-text" data-slot="text_5" data-slot-type="text">LOREM IPSUM DOLOR SIT AMET, CONSEC ADIPISCING ELIT, SED DO EIUSMOD LOREM IPSUM DOLOR SIT AMET, CONSEC ADIPISCING ELIT, SED DO EIUSMOD LOREM IPSUM DOLOR SIT AMET, CONSEC</p>
+<p class="body-text" data-slot="text_6" data-slot-type="text">LOREM IPSUM DOLOR SIT AMET, CONSEC ADIPISCING ELIT, SED DO EIUSMOD LOREM IPSUM DOLOR SIT AMET, CONSEC ADIPISCING ELIT, SED DO EIUSMOD LOREM IPSUM DOLOR SIT AMET, CONSEC</p>
+<h3 class="thanks-text" data-slot="text_7" data-slot-type="text">THANKS</h3>
+</div>
+</body>
+</html>

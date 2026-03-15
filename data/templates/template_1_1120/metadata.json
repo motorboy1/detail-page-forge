@@ -1,0 +1,24 @@
+{
+  "id": "template_1_1120",
+  "name": "Template 1 1120",
+  "section_type": "footer",
+  "d1000_principles": [
+    "P03",
+    "P07",
+    "P15"
+  ],
+  "category": "design",
+  "source_url": "figma://template_1_1120",
+  "ssim_score": 0.0,
+  "slot_count": 10,
+  "thumbnail_path": "",
+  "tags": [
+    "dark",
+    "light",
+    "gradient",
+    "bold",
+    "premium",
+    "modern"
+  ],
+  "created_at": "2026-03-14T15:16:12.576666+00:00"
+}
