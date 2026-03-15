@@ -126,7 +126,90 @@
     "templates": {
       "count": 181,
       "index_path": "data/templates/index.json"
+    },
+    "johnkoba_portfolio": {
+      "count": 48,
+      "index_path": "data/d1000_knowledge/johnkoba_portfolio/johnkoba_knowledge.json",
+      "type": "motion_graphics_masterclass",
+      "creator": "존코바 (J.KOBA) x CLASS101",
+      "coverage": {
+        "chapters": 8,
+        "client_works": 2,
+        "design_principles": 10,
+        "ae_projects": 28,
+        "pdfs": 2,
+        "images": 11
+      }
+    },
+    "parksoyoung_motiongraphic": {
+      "count": 43,
+      "index_path": "data/d1000_knowledge/parksoyoung_motiongraphic/parksoyoung_knowledge.json",
+      "type": "motion_graphics_course",
+      "creator": "박소영 (Soyoung Park)",
+      "coverage": {
+        "chapters": 7,
+        "design_principles": 8,
+        "camera_language_system": true,
+        "shortcut_cheatsheets": 3,
+        "storyboard_templates": 4,
+        "ae_projects": 14,
+        "ai_files": 18,
+        "sketches": 19,
+        "resource_guide": true
+      }
+    },
+    "advanced_motiongraphic": {
+      "count": 36,
+      "index_path": "data/d1000_knowledge/advanced_motiongraphic/advanced_motiongraphic_knowledge.json",
+      "type": "advanced_motion_graphics_course",
+      "creator": "존코바 (J.KOBA)",
+      "coverage": {
+        "core_principles": 6,
+        "chapters": 7,
+        "design_principles": 8,
+        "ae_projects": 14,
+        "textures": 2,
+        "style_frames": 2,
+        "spatial_depth_images": 4,
+        "look_at_expression": true,
+        "run_cycle_reference": true,
+        "before_after_critiques": 2
+      }
+    },
+    "johnkoba_beginner": {
+      "count": 55,
+      "index_path": "data/d1000_knowledge/johnkoba_beginner/johnkoba_beginner_knowledge.json",
+      "type": "beginner_motion_graphics_course",
+      "creator": "존코바 (J.KOBA)",
+      "coverage": {
+        "chapters": 6,
+        "design_principles": 7,
+        "ae_shortcuts_infographic": 2,
+        "storyboard_system": true,
+        "self_diagnostic_test": true,
+        "font_library": 33,
+        "slide_sketches": 12,
+        "pdfs": 4,
+        "images": 6
+      }
+    },
+    "branding_automation": {
+      "count": 52,
+      "index_path": "data/d1000_knowledge/branding_automation/branding_automation_knowledge.json",
+      "type": "branding_entrepreneurship_masterclass",
+      "creator": "낼나 (NalNa) / 김예샘",
+      "coverage": {
+        "chapters": 5,
+        "design_principles": 7,
+        "key_frameworks": 6,
+        "startup_idea_types": 6,
+        "revenue_strategies": 7,
+        "video_frames": 39,
+        "pdf_renders": 10,
+        "pdf_ebook_pages": 26,
+        "docx_ideation": 1
+      }
     }
   },
-  "total_assets": 779
+  "total_assets": 1013
 }

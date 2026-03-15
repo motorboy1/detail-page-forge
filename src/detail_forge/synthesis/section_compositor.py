@@ -171,7 +171,8 @@ def _build_slot_data(copy: SectionCopy, slot_mapping: SlotMapping) -> dict[str, 
 
 def _split_body(body: str, n: int) -> list[str]:
     """Split body text into n parts by sentences."""
-    parts = [s.strip() for s in re.split(r"[.。!]\s*", body) if len(s.strip()) > 3]
+    # Split on sentence-ending punctuation but NOT decimal points (e.g. "13.5kg")
+    parts = [s.strip() for s in re.split(r"(?<!\d)[.。!]\s*", body) if len(s.strip()) > 3]
     if not parts:
         return [body] * n
     while len(parts) < n:

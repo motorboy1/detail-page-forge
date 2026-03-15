@@ -50,6 +50,13 @@ def _init_session_state():
         "copy_sections": [],
         "generation_result": None,
         "preview_device": "desktop",
+        # Technique Engine
+        "use_technique_engine": False,
+        "technique_category": None,
+        "technique_style_keywords": [],
+        "technique_workflow_id": None,
+        "technique_preview": None,
+        "technique_matched_templates": None,
         # Phase 4: Export
         "quality_scores": None,
     }
@@ -79,10 +86,13 @@ def _load_core():
     from detail_forge.output.quality_gate import QualityGate
     from detail_forge.output.web_renderer import WebRenderer
     from detail_forge.synthesis.one_click_generator import OneClickGenerator
+    from detail_forge.technique_engine.engine import TechniqueEngine
+    from detail_forge.technique_engine.renderer import TechniqueRenderer
     from detail_forge.templates.search import TemplateSearcher
     from detail_forge.templates.store import TemplateStore
     store = TemplateStore()
     lecture_kb = LectureKnowledge()
+    technique_engine = TechniqueEngine()
     return {
         "store": store,
         "searcher": TemplateSearcher(store),
@@ -92,6 +102,8 @@ def _load_core():
         "naver_renderer": NaverRenderer(),
         "quality_gate": QualityGate(),
         "export_manager": ExportManager(),
+        "technique_engine": technique_engine,
+        "technique_renderer": TechniqueRenderer(),
         "ProductInfo": ProductInfo,
         "SectionCopy": SectionCopy,
         "DesignTokenSet": DesignTokenSet,
@@ -145,7 +157,12 @@ def _render_sidebar():
             st.caption("생성 완료")
 
         st.divider()
-        st.caption("D1000 원리 기반 엔진")
+        if st.session_state.use_technique_engine:
+            st.caption("기법 엔진 활성")
+            if st.session_state.technique_workflow_id:
+                st.caption(f"워크플로우: {st.session_state.technique_workflow_id}")
+        else:
+            st.caption("D1000 원리 기반 엔진")
         st.caption("Claude Sonnet 3.5")
 
         # ── Lecture Knowledge Browser ──────────────────
@@ -556,6 +573,214 @@ def _render_placeholder_gallery(selected_ids: set):
 # Phase 3: Design Studio
 # ──────────────────────────────────────────────────────────────────
 
+def _render_technique_engine_panel(c: dict):
+    """Render Technique Engine controls in Phase 3 left column."""
+    st.subheader("기법 엔진")
+
+    use_te = st.toggle(
+        "기법 엔진 활성화",
+        value=st.session_state.use_technique_engine,
+        help="68개 디자인 기법 → 28개 조합 패턴 → 10개 워크플로우로 자동 디자인 결정",
+    )
+    st.session_state.use_technique_engine = use_te
+
+    if not use_te:
+        st.caption("비활성: 수동 테마 프리셋으로 생성")
+        return
+
+    # ── Category selector ───────────────────────────
+    CATEGORY_LABELS = {
+        None: "자동 추론",
+        "electronics": "전자/가전",
+        "food": "식품",
+        "beauty": "뷰티/화장품",
+        "fashion": "패션/의류",
+        "health": "건강/헬스",
+        "lifestyle": "생활/리빙",
+        "luxury": "럭셔리/프리미엄",
+        "tech": "앱/SaaS/디지털",
+    }
+    category_options = list(CATEGORY_LABELS.keys())
+    selected_cat = st.selectbox(
+        "상품 카테고리",
+        category_options,
+        format_func=lambda x: CATEGORY_LABELS[x],
+        index=0,
+        help="자동 추론: 상품명/특징에서 카테고리를 추론합니다",
+    )
+    st.session_state.technique_category = selected_cat
+
+    # ── Style keywords ──────────────────────────────
+    STYLE_KW_OPTIONS = [
+        "프리미엄", "미니멀", "모던", "따뜻한", "트렌디",
+        "감성적", "시네마틱", "캐주얼", "전문적", "레트로",
+    ]
+    selected_kws = st.multiselect(
+        "스타일 키워드",
+        STYLE_KW_OPTIONS,
+        default=st.session_state.technique_style_keywords,
+        help="디자인 무드를 결정합니다. 복수 선택 가능",
+    )
+    st.session_state.technique_style_keywords = selected_kws
+
+    # ── Workflow selector ───────────────────────────
+    technique_engine = c["technique_engine"]
+    workflows = technique_engine.list_workflows()
+
+    WORKFLOW_LABELS = {None: "자동 선택 (카테고리+키워드 기반)"}
+    for wf in workflows:
+        WORKFLOW_LABELS[wf.id] = f"{wf.name}"
+
+    workflow_options = [None] + [wf.id for wf in workflows]
+    selected_wf = st.selectbox(
+        "워크플로우",
+        workflow_options,
+        format_func=lambda x: WORKFLOW_LABELS[x],
+        index=0,
+        help="자동 선택: 카테고리와 키워드에 가장 적합한 워크플로우를 자동 선택합니다",
+    )
+    st.session_state.technique_workflow_id = selected_wf
+
+    # ── Preview selected workflow ───────────────────
+    if st.button("기법 프리뷰", use_container_width=True):
+        _preview_technique_selection(c)
+
+    preview = st.session_state.technique_preview
+    if preview:
+        _render_technique_preview(preview)
+
+
+def _preview_technique_selection(c: dict):
+    """Run technique selection and store preview in session state."""
+    from detail_forge.copywriter.generator import ProductInfo
+    from detail_forge.technique_engine.template_matcher import TemplateMatcher
+
+    technique_engine = c["technique_engine"]
+    product = ProductInfo(
+        name=st.session_state.product_name,
+        features=st.session_state.product_features,
+        target_audience=st.session_state.product_target,
+        price_range=st.session_state.product_price,
+    )
+    result = technique_engine.select(
+        product=product,
+        category=st.session_state.technique_category,
+        style_keywords=st.session_state.technique_style_keywords,
+        workflow_id=st.session_state.technique_workflow_id,
+    )
+    st.session_state.technique_preview = result
+
+    # Auto-match templates
+    matcher = TemplateMatcher(c["store"])
+    match_result = matcher.match(
+        result=result,
+        category=st.session_state.technique_category,
+    )
+    st.session_state.technique_matched_templates = match_result
+
+    # Auto-populate selected templates
+    if match_result.template_ids:
+        st.session_state.selected_template_ids = match_result.template_ids
+
+
+def _render_technique_preview(result):
+    """Render the technique selection preview card."""
+    wf = result.workflow
+
+    # Workflow header
+    st.markdown(
+        f'<div style="background:rgba(0,104,201,0.12);border:1px solid rgba(0,104,201,0.3);'
+        f'border-radius:8px;padding:12px;margin:8px 0;">'
+        f'<div style="font-size:14px;font-weight:700;color:#64b5f6;margin-bottom:4px;">'
+        f'{wf.name}</div>'
+        f'<div style="font-size:11px;color:rgba(255,255,255,0.5);">{wf.name_en}</div>'
+        f'<div style="font-size:12px;color:rgba(255,255,255,0.7);margin-top:6px;">'
+        f'{wf.description}</div>'
+        f'</div>',
+        unsafe_allow_html=True,
+    )
+
+    # Mood flow
+    mood_tags = " ".join(
+        f'<span style="background:rgba(156,39,176,0.2);color:#ce93d8;padding:2px 6px;'
+        f'border-radius:10px;font-size:10px;margin:1px;">{m}</span>'
+        for m in result.mood_profile[:6]
+    )
+    st.markdown(f'<div style="margin:6px 0;">{mood_tags}</div>', unsafe_allow_html=True)
+
+    # Section breakdown
+    for st_item in result.section_techniques:
+        atom_badges = " ".join(
+            f'<span style="background:rgba(255,255,255,0.08);color:rgba(255,255,255,0.6);'
+            f'padding:1px 5px;border-radius:8px;font-size:9px;margin:1px;'
+            f'display:inline-block;">{a.name}</span>'
+            for a in st_item.atoms[:4]
+        )
+        extra = f" +{len(st_item.atoms) - 4}" if len(st_item.atoms) > 4 else ""
+
+        st.markdown(
+            f'<div style="border-left:3px solid rgba(0,104,201,0.5);padding:4px 8px;'
+            f'margin:4px 0;font-size:12px;">'
+            f'<div style="font-weight:600;color:rgba(255,255,255,0.8);">'
+            f'S{st_item.section_order}. {st_item.section_type}</div>'
+            f'<div style="color:rgba(255,255,255,0.5);font-size:11px;">'
+            f'{st_item.compound.name}</div>'
+            f'<div style="margin-top:3px;">{atom_badges}{extra}</div>'
+            f'</div>',
+            unsafe_allow_html=True,
+        )
+
+    # Stats
+    st.caption(
+        f"총 {len(result.all_atoms)}개 기법 | "
+        f"{len(result.section_techniques)}개 섹션 | "
+        f"스크롤: {wf.estimated_scroll_depth}"
+    )
+
+    if result.conflicts_resolved:
+        with st.expander(f"충돌 해결 ({len(result.conflicts_resolved)}건)"):
+            for cr in result.conflicts_resolved:
+                st.caption(f"- {cr}")
+
+    # ── Auto-matched templates ───────────────────────
+    match_result = st.session_state.get("technique_matched_templates")
+    if match_result and match_result.matched:
+        st.markdown(
+            '<div style="margin-top:10px;font-size:13px;font-weight:700;'
+            'color:#81c784;">자동 매칭된 템플릿</div>',
+            unsafe_allow_html=True,
+        )
+        for m in match_result.matched:
+            score_bar = int(min(m.score / 15 * 100, 100))
+            reasons_str = ", ".join(m.match_reasons[:3])
+            st.markdown(
+                f'<div style="border-left:3px solid rgba(129,199,132,0.5);padding:3px 8px;'
+                f'margin:3px 0;font-size:11px;">'
+                f'<div style="color:rgba(255,255,255,0.8);">'
+                f'S{m.section_order}. <code>{m.template.id}</code></div>'
+                f'<div style="display:flex;align-items:center;gap:6px;margin-top:2px;">'
+                f'<div style="flex:1;height:4px;background:rgba(255,255,255,0.1);'
+                f'border-radius:2px;overflow:hidden;">'
+                f'<div style="width:{score_bar}%;height:100%;background:#81c784;"></div>'
+                f'</div>'
+                f'<span style="color:rgba(255,255,255,0.5);font-size:10px;">'
+                f'{m.score:.1f}</span></div>'
+                f'<div style="color:rgba(255,255,255,0.4);font-size:10px;margin-top:1px;">'
+                f'{reasons_str}</div></div>',
+                unsafe_allow_html=True,
+            )
+
+        if match_result.unmatched_sections:
+            st.caption(
+                f"매칭 실패 섹션: {match_result.unmatched_sections}"
+            )
+
+        st.caption(
+            f"총 {len(match_result.matched)}개 템플릿 자동 선택됨 "
+            f"(Phase 2 갤러리에 자동 반영)"
+        )
+
+
 def render_phase3():
     st.header("🎨 Phase 3: 디자인 스튜디오")
     st.caption("스타일을 선택하고, 카피를 편집하고, 실시간으로 미리보기를 확인하세요.")
@@ -570,8 +795,15 @@ def render_phase3():
     left_col, right_col = st.columns([1, 2])
 
     with left_col:
+        # ── Technique Engine toggle ────────────────────
+        _render_technique_engine_panel(c)
+
+        st.divider()
+
         # ── Style preset selector ──────────────────────
         st.subheader("스타일 프리셋")
+        if st.session_state.use_technique_engine:
+            st.caption("기법 엔진 모드에서는 테마가 자동 결정됩니다. 수동 테마를 함께 사용할 수 있습니다.")
 
         recipes = theme_gen.list_recipes()
 
@@ -699,10 +931,53 @@ def render_phase3():
                 st.rerun()
 
 
+def _generate_technique_copy():
+    """Generate technique-aware copy and populate the copy editor."""
+    from detail_forge.copywriter.generator import ProductInfo, _technique_fallback_copy
+
+    technique_result = st.session_state.technique_preview
+    if not technique_result:
+        return
+
+    product = ProductInfo(
+        name=st.session_state.product_name,
+        features=st.session_state.product_features,
+        target_audience=st.session_state.product_target,
+        price_range=st.session_state.product_price,
+    )
+
+    copy_result = _technique_fallback_copy(product, technique_result)
+    st.session_state.copy_sections = [
+        {
+            "section_type": s.section_type,
+            "section_index": s.section_index,
+            "headline": s.headline,
+            "subheadline": s.subheadline,
+            "body": s.body,
+            "cta_text": s.cta_text,
+        }
+        for s in copy_result.sections
+    ]
+    st.rerun()
+
+
 def _render_copy_editor():
     """Editable copy fields for each section type."""
+    # Technique-aware auto-copy button
+    if st.session_state.use_technique_engine and st.session_state.technique_preview:
+        if st.button("기법 기반 카피 자동 생성", use_container_width=True, type="secondary"):
+            _generate_technique_copy()
+
     copy_sections = st.session_state.copy_sections or []
     section_types = ["hero", "features", "benefits", "specs", "testimonials", "cta"]
+
+    # If technique engine generated copy with different section types, use those
+    if st.session_state.use_technique_engine and copy_sections:
+        existing_types = [c["section_type"] for c in copy_sections]
+        extra_types = [t for t in existing_types if t not in section_types]
+        if extra_types:
+            section_types = existing_types
+
     copy_map = {c["section_type"]: c for c in copy_sections} if copy_sections else {}
 
     updated_copies = []
@@ -793,6 +1068,10 @@ def _run_generation(c: dict):
                 template_ids=template_ids,
                 theme=theme,
                 include_naver=True,
+                use_technique_engine=st.session_state.use_technique_engine,
+                category=st.session_state.technique_category,
+                style_keywords=st.session_state.technique_style_keywords or None,
+                workflow_id=st.session_state.technique_workflow_id,
             )
             st.session_state.generation_result = result
             if result.warnings:
@@ -1028,6 +1307,57 @@ def render_phase4():
                 st.markdown(f"**{k}**")
             with col_v:
                 st.markdown(str(v))
+
+        # Technique Engine result details
+        if result.technique_result:
+            st.divider()
+            st.markdown("**기법 엔진 결과**")
+            tr = result.technique_result
+            te_info = {
+                "워크플로우": f"{tr.workflow.name} ({tr.workflow.name_en})",
+                "적용 기법": f"{len(tr.all_atoms)}개",
+                "섹션 구조": f"{len(tr.section_techniques)}개 섹션",
+                "무드 프로파일": ", ".join(tr.mood_profile[:5]),
+                "스크롤 깊이": tr.workflow.estimated_scroll_depth,
+            }
+            for k, v in te_info.items():
+                col_k, col_v = st.columns([1, 2])
+                with col_k:
+                    st.markdown(f"**{k}**")
+                with col_v:
+                    st.markdown(str(v))
+
+            with st.expander("섹션별 기법 상세"):
+                for st_item in tr.section_techniques:
+                    atom_names = [a.name for a in st_item.atoms]
+                    st.markdown(
+                        f"**S{st_item.section_order}. {st_item.section_type}** — "
+                        f"{st_item.compound.name}"
+                    )
+                    st.caption(f"기법: {', '.join(atom_names)}")
+
+            if tr.conflicts_resolved:
+                with st.expander(f"충돌 해결 ({len(tr.conflicts_resolved)}건)"):
+                    for cr in tr.conflicts_resolved:
+                        st.caption(f"- {cr}")
+
+        if result.template_match:
+            st.divider()
+            st.markdown("**자동 매칭 템플릿**")
+            tm = result.template_match
+            for m in tm.matched:
+                reasons = ", ".join(m.match_reasons[:3])
+                st.caption(
+                    f"S{m.section_order}. `{m.template.id}` — "
+                    f"score: {m.score:.1f} ({reasons})"
+                )
+            if tm.unmatched_sections:
+                st.caption(f"매칭 실패: 섹션 {tm.unmatched_sections}")
+
+        if result.technique_render:
+            with st.expander("기법 CSS 토큰"):
+                for token in result.technique_render.tokens.tokens:
+                    st.caption(f"`{token.css_name}`: {token.css_value}")
 
     st.divider()
 

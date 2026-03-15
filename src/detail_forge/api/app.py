@@ -40,6 +40,28 @@ class ProductRequest(BaseModel):
     template_ids: list[str] = []
     theme_name: str = "classic_trust"
     include_naver: bool = True
+    # Technique Engine parameters
+    use_technique_engine: bool = False
+    category: str | None = None
+    style_keywords: list[str] = []
+    workflow_id: str | None = None
+
+
+class TechniqueResultSummary(BaseModel):
+    workflow_name: str
+    workflow_name_en: str
+    total_atoms: int
+    section_count: int
+    mood_profile: list[str]
+    sections: list[dict]
+    conflicts_resolved: list[str] = []
+
+
+class TemplateMatchSummary(BaseModel):
+    template_ids: list[str]
+    matched_count: int
+    unmatched_sections: list[int]
+    matches: list[dict]
 
 
 class GenerationResponse(BaseModel):
@@ -48,6 +70,8 @@ class GenerationResponse(BaseModel):
     quality_score: float
     generation_time_ms: int
     warnings: list[str] = []
+    technique_result: TechniqueResultSummary | None = None
+    template_match: TemplateMatchSummary | None = None
 
 
 class HealthResponse(BaseModel):
@@ -96,7 +120,53 @@ async def generate_page(request: ProductRequest) -> GenerationResponse:
             copy_sections=copy_sections,
             template_ids=request.template_ids,
             include_naver=request.include_naver,
+            use_technique_engine=request.use_technique_engine,
+            category=request.category,
+            style_keywords=request.style_keywords or None,
+            workflow_id=request.workflow_id,
         )
+
+        # Build technique result summary if available
+        technique_summary = None
+        if result.technique_result:
+            tr = result.technique_result
+            technique_summary = TechniqueResultSummary(
+                workflow_name=tr.workflow.name,
+                workflow_name_en=tr.workflow.name_en,
+                total_atoms=len(tr.all_atoms),
+                section_count=len(tr.section_techniques),
+                mood_profile=tr.mood_profile,
+                sections=[
+                    {
+                        "order": s.section_order,
+                        "type": s.section_type,
+                        "compound": s.compound.name,
+                        "atoms": [a.name for a in s.atoms],
+                    }
+                    for s in tr.section_techniques
+                ],
+                conflicts_resolved=tr.conflicts_resolved,
+            )
+
+        # Build template match summary if available
+        match_summary = None
+        if result.template_match:
+            tm = result.template_match
+            match_summary = TemplateMatchSummary(
+                template_ids=tm.template_ids,
+                matched_count=len(tm.matched),
+                unmatched_sections=tm.unmatched_sections,
+                matches=[
+                    {
+                        "template_id": m.template.id,
+                        "section_order": m.section_order,
+                        "section_type": m.section_type,
+                        "score": round(m.score, 2),
+                        "reasons": m.match_reasons,
+                    }
+                    for m in tm.matched
+                ],
+            )
 
         return GenerationResponse(
             web_html=result.web_html.html,
@@ -104,6 +174,8 @@ async def generate_page(request: ProductRequest) -> GenerationResponse:
             quality_score=result.quality.total_score,
             generation_time_ms=result.generation_time_ms,
             warnings=result.warnings,
+            technique_result=technique_summary,
+            template_match=match_summary,
         )
     except DetailForgeError:
         raise
@@ -118,6 +190,29 @@ async def list_themes() -> dict:
 
     gen = ThemeGenerator()
     return {"themes": gen.list_recipes()}
+
+
+@app.get("/api/v1/workflows")
+async def list_workflows() -> dict:
+    """List available technique engine workflows."""
+    from detail_forge.technique_engine.engine import TechniqueEngine
+
+    engine = TechniqueEngine()
+    workflows = engine.list_workflows()
+    return {
+        "workflows": [
+            {
+                "id": wf.id,
+                "name": wf.name,
+                "name_en": wf.name_en,
+                "description": wf.description,
+                "target_categories": wf.target_categories,
+                "section_count": len(wf.page_structure),
+                "scroll_depth": wf.estimated_scroll_depth,
+            }
+            for wf in workflows
+        ]
+    }
 
 
 @app.get("/api/v1/templates")

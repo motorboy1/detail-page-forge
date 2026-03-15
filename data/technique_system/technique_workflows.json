@@ -1,0 +1,515 @@
+{
+  "version": 1,
+  "generated_at": "2026-03-16",
+  "total_count": 10,
+  "workflows": [
+    {
+      "id": "workflow_storytelling_conversion",
+      "name": "스토리텔링 전환형",
+      "name_en": "Storytelling Conversion",
+      "description": "브랜드 스토리로 감정 공감 → 증거로 신뢰 → CTA로 전환. 1인 브랜드/소규모 브랜드에 최적",
+      "target_categories": ["lifestyle", "beauty", "food", "health"],
+      "target_audience": ["감성적 소비자", "브랜드 가치 중시", "SNS 유입"],
+      "page_structure": [
+        {
+          "section_order": 1,
+          "section_type": "hero",
+          "compound_id": "compound_cinematic_hero",
+          "role": "첫인상: 브랜드 세계관을 영화적으로 제시",
+          "height_vh": 100
+        },
+        {
+          "section_order": 2,
+          "section_type": "story",
+          "compound_id": "compound_storytelling_flow",
+          "role": "브랜드 탄생 스토리와 창업자 철학 전달",
+          "height_vh": 80
+        },
+        {
+          "section_order": 3,
+          "section_type": "lifestyle",
+          "compound_id": "compound_lifestyle_context",
+          "role": "제품이 실제 생활에서 사용되는 모습",
+          "height_vh": 60
+        },
+        {
+          "section_order": 4,
+          "section_type": "proof",
+          "compound_id": "compound_evidence_trust",
+          "role": "Before/After 또는 성분/효과 증거 제시",
+          "height_vh": 60
+        },
+        {
+          "section_order": 5,
+          "section_type": "testimonial",
+          "compound_id": "compound_social_proof",
+          "role": "고객 후기와 커뮤니티 증거",
+          "height_vh": 50
+        },
+        {
+          "section_order": 6,
+          "section_type": "cta",
+          "compound_id": "compound_cta_urgency",
+          "role": "감정적 연결 기반 구매 전환",
+          "height_vh": 40
+        }
+      ],
+      "foundation_compounds": ["compound_brand_identity", "compound_color_system"],
+      "mood_flow": ["cinematic", "authentic", "warm", "trustworthy", "urgent"],
+      "estimated_scroll_depth": "deep"
+    },
+    {
+      "id": "workflow_spec_authority",
+      "name": "스펙 중심 권위형",
+      "name_en": "Spec-First Authority",
+      "description": "기술 스펙과 성능으로 설득하는 구조. IT/전자기기/가전 제품에 최적",
+      "target_categories": ["electronics", "tech", "gadgets"],
+      "target_audience": ["스펙 비교 소비자", "기술 전문가", "가격 대비 성능 중시"],
+      "page_structure": [
+        {
+          "section_order": 1,
+          "section_type": "hero",
+          "compound_id": "compound_premium_product_showcase",
+          "role": "제품 단독 히어로: 드라마틱한 제품 이미지",
+          "height_vh": 100
+        },
+        {
+          "section_order": 2,
+          "section_type": "spec",
+          "compound_id": "compound_technical_authority",
+          "role": "핵심 기술 스펙 3~4개를 설계도 스타일로",
+          "height_vh": 70
+        },
+        {
+          "section_order": 3,
+          "section_type": "detail",
+          "compound_id": "compound_spec_detail",
+          "role": "세부 사양 클로즈업: 소재, 크기, 성능 데이터",
+          "height_vh": 60
+        },
+        {
+          "section_order": 4,
+          "section_type": "comparison",
+          "compound_id": "compound_evidence_trust",
+          "role": "경쟁 제품 대비 우위 증거",
+          "height_vh": 50
+        },
+        {
+          "section_order": 5,
+          "section_type": "cta",
+          "compound_id": "compound_cta_urgency",
+          "role": "스펙 요약 + 구매 전환",
+          "height_vh": 40
+        }
+      ],
+      "foundation_compounds": ["compound_color_system"],
+      "mood_flow": ["dramatic", "technical", "detailed", "evidence-based", "urgent"],
+      "estimated_scroll_depth": "medium"
+    },
+    {
+      "id": "workflow_emotional_branding",
+      "name": "감성 브랜딩형",
+      "name_en": "Emotional Branding",
+      "description": "감각과 분위기로 브랜드 세계를 구축. 패션/코스메틱/프리미엄 브랜드에 최적",
+      "target_categories": ["fashion", "beauty", "luxury"],
+      "target_audience": ["브랜드 감성 중시", "프리미엄 소비자", "트렌드세터"],
+      "page_structure": [
+        {
+          "section_order": 1,
+          "section_type": "hero",
+          "compound_id": "compound_minimal_elegant",
+          "role": "극도의 여백과 절제미로 럭셔리 첫인상",
+          "height_vh": 100
+        },
+        {
+          "section_order": 2,
+          "section_type": "atmosphere",
+          "compound_id": "compound_texture_richness",
+          "role": "텍스처와 색상으로 브랜드 감각 전달",
+          "height_vh": 70
+        },
+        {
+          "section_order": 3,
+          "section_type": "immersion",
+          "compound_id": "compound_depth_immersion",
+          "role": "깊이감 있는 제품 경험",
+          "height_vh": 80
+        },
+        {
+          "section_order": 4,
+          "section_type": "lifestyle",
+          "compound_id": "compound_lifestyle_context",
+          "role": "라이프스타일 속 제품 이미지",
+          "height_vh": 60
+        },
+        {
+          "section_order": 5,
+          "section_type": "cta",
+          "compound_id": "compound_cta_urgency",
+          "role": "감성적 CTA: 세련된 마무리",
+          "height_vh": 40
+        }
+      ],
+      "foundation_compounds": ["compound_brand_identity", "compound_color_system"],
+      "mood_flow": ["luxury", "tactile", "immersive", "aspirational", "elegant"],
+      "estimated_scroll_depth": "medium"
+    },
+    {
+      "id": "workflow_premium_showcase",
+      "name": "프리미엄 쇼케이스",
+      "name_en": "Premium Showcase",
+      "description": "단일 제품을 영화적으로 극대화. 고가 단일 제품/한정판에 최적",
+      "target_categories": ["luxury", "electronics", "fashion"],
+      "target_audience": ["프리미엄 소비자", "수집가", "품질 우선"],
+      "page_structure": [
+        {
+          "section_order": 1,
+          "section_type": "hero",
+          "compound_id": "compound_cinematic_hero",
+          "role": "풀스크린 시네마틱 제품 등장",
+          "height_vh": 100
+        },
+        {
+          "section_order": 2,
+          "section_type": "showcase",
+          "compound_id": "compound_premium_product_showcase",
+          "role": "스포트라이트 아래 제품 디테일",
+          "height_vh": 80
+        },
+        {
+          "section_order": 3,
+          "section_type": "depth",
+          "compound_id": "compound_depth_immersion",
+          "role": "3D/패럴랙스로 제품 몰입 경험",
+          "height_vh": 80
+        },
+        {
+          "section_order": 4,
+          "section_type": "detail",
+          "compound_id": "compound_spec_detail",
+          "role": "소재/공정/기술 상세",
+          "height_vh": 60
+        },
+        {
+          "section_order": 5,
+          "section_type": "gallery",
+          "compound_id": "compound_gallery_mosaic",
+          "role": "다각도 제품 갤러리",
+          "height_vh": 60
+        },
+        {
+          "section_order": 6,
+          "section_type": "cta",
+          "compound_id": "compound_cta_urgency",
+          "role": "한정판/프리미엄 CTA",
+          "height_vh": 40
+        }
+      ],
+      "foundation_compounds": ["compound_color_system"],
+      "mood_flow": ["cinematic", "dramatic", "immersive", "detailed", "rich", "urgent"],
+      "estimated_scroll_depth": "deep"
+    },
+    {
+      "id": "workflow_competitive_differentiation",
+      "name": "경쟁 차별화형",
+      "name_en": "Competitive Differentiation",
+      "description": "레드오션에서 보라색 소로 차별화. 경쟁 심한 카테고리에 최적",
+      "target_categories": ["food", "health", "beauty", "electronics"],
+      "target_audience": ["비교 쇼핑 소비자", "합리적 소비자", "검색 유입"],
+      "page_structure": [
+        {
+          "section_order": 1,
+          "section_type": "hero",
+          "compound_id": "compound_hero_differentiation",
+          "role": "보라색 소 훅: 3초 안에 차별점 각인",
+          "height_vh": 100
+        },
+        {
+          "section_order": 2,
+          "section_type": "feature",
+          "compound_id": "compound_dynamic_multi_product",
+          "role": "핵심 차별 피처 3~4개를 역동적으로",
+          "height_vh": 70
+        },
+        {
+          "section_order": 3,
+          "section_type": "proof",
+          "compound_id": "compound_evidence_trust",
+          "role": "Before/After 또는 비교 데이터로 증명",
+          "height_vh": 60
+        },
+        {
+          "section_order": 4,
+          "section_type": "testimonial",
+          "compound_id": "compound_social_proof",
+          "role": "실제 사용자 후기/인증",
+          "height_vh": 50
+        },
+        {
+          "section_order": 5,
+          "section_type": "cta",
+          "compound_id": "compound_cta_urgency",
+          "role": "긴급 전환: 한정 혜택/특가",
+          "height_vh": 40
+        }
+      ],
+      "foundation_compounds": ["compound_brand_identity"],
+      "mood_flow": ["distinctive", "dynamic", "evidence-based", "communal", "urgent"],
+      "estimated_scroll_depth": "medium"
+    },
+    {
+      "id": "workflow_crowdfunding",
+      "name": "크라우드펀딩형",
+      "name_en": "Crowdfunding Campaign",
+      "description": "와디즈/텀블벅 최적화. 스토리+증거+긴급성의 황금 조합",
+      "target_categories": ["tech", "lifestyle", "food", "fashion"],
+      "target_audience": ["얼리어답터", "가치 소비자", "크라우드펀딩 경험자"],
+      "page_structure": [
+        {
+          "section_order": 1,
+          "section_type": "hero",
+          "compound_id": "compound_hero_differentiation",
+          "role": "보라색 소: 왜 이 제품이 필요한지 즉시 각인",
+          "height_vh": 100
+        },
+        {
+          "section_order": 2,
+          "section_type": "conversion",
+          "compound_id": "compound_conversion_engine",
+          "role": "소울메이트 타겟 + 찐팬 전환 로직",
+          "height_vh": 70
+        },
+        {
+          "section_order": 3,
+          "section_type": "story",
+          "compound_id": "compound_storytelling_flow",
+          "role": "창업자 스토리와 제품 탄생 배경",
+          "height_vh": 80
+        },
+        {
+          "section_order": 4,
+          "section_type": "spec",
+          "compound_id": "compound_spec_detail",
+          "role": "제품 스펙과 리워드 구성",
+          "height_vh": 60
+        },
+        {
+          "section_order": 5,
+          "section_type": "proof",
+          "compound_id": "compound_evidence_trust",
+          "role": "프로토타입 검증/테스트 증거",
+          "height_vh": 50
+        },
+        {
+          "section_order": 6,
+          "section_type": "timeline",
+          "compound_id": "compound_product_evolution",
+          "role": "개발 타임라인/배송 일정",
+          "height_vh": 40
+        },
+        {
+          "section_order": 7,
+          "section_type": "cta",
+          "compound_id": "compound_cta_urgency",
+          "role": "얼리버드 긴급 CTA",
+          "height_vh": 40
+        }
+      ],
+      "foundation_compounds": ["compound_brand_identity", "compound_color_system"],
+      "mood_flow": ["distinctive", "persuasive", "authentic", "detailed", "trustworthy", "progressive", "urgent"],
+      "estimated_scroll_depth": "deep"
+    },
+    {
+      "id": "workflow_food_beauty_sensory",
+      "name": "식품/뷰티 감각형",
+      "name_en": "Food & Beauty Sensory",
+      "description": "오감을 자극하는 감각적 페이지. 식품/화장품/향수에 최적",
+      "target_categories": ["food", "beauty", "health"],
+      "target_audience": ["감각적 소비자", "성분 중시", "SNS 공유형"],
+      "page_structure": [
+        {
+          "section_order": 1,
+          "section_type": "hero",
+          "compound_id": "compound_food_beauty",
+          "role": "감각적 히어로: 물방울/텍스처/클로즈업",
+          "height_vh": 100
+        },
+        {
+          "section_order": 2,
+          "section_type": "feature",
+          "compound_id": "compound_dynamic_multi_product",
+          "role": "핵심 성분/원재료를 입체적으로 배치",
+          "height_vh": 70
+        },
+        {
+          "section_order": 3,
+          "section_type": "atmosphere",
+          "compound_id": "compound_texture_richness",
+          "role": "텍스처로 질감/향/촉감 시각화",
+          "height_vh": 60
+        },
+        {
+          "section_order": 4,
+          "section_type": "proof",
+          "compound_id": "compound_evidence_trust",
+          "role": "성분 분석/임상 테스트 결과",
+          "height_vh": 50
+        },
+        {
+          "section_order": 5,
+          "section_type": "testimonial",
+          "compound_id": "compound_social_proof",
+          "role": "실제 사용 후기/비포애프터",
+          "height_vh": 50
+        },
+        {
+          "section_order": 6,
+          "section_type": "cta",
+          "compound_id": "compound_cta_urgency",
+          "role": "감각적 마무리 + 구매 전환",
+          "height_vh": 40
+        }
+      ],
+      "foundation_compounds": ["compound_color_system"],
+      "mood_flow": ["sensory", "dynamic", "tactile", "trustworthy", "communal", "converting"],
+      "estimated_scroll_depth": "medium"
+    },
+    {
+      "id": "workflow_quick_conversion",
+      "name": "빠른 전환형",
+      "name_en": "Quick Conversion",
+      "description": "최소 스크롤로 빠른 전환. 타임세일/이벤트/단순 제품에 최적",
+      "target_categories": ["food", "health", "lifestyle"],
+      "target_audience": ["충동 구매", "할인 민감", "모바일 유입"],
+      "page_structure": [
+        {
+          "section_order": 1,
+          "section_type": "hero",
+          "compound_id": "compound_hero_differentiation",
+          "role": "임팩트 훅: 핵심 메시지 + 가격/혜택 즉시 노출",
+          "height_vh": 100
+        },
+        {
+          "section_order": 2,
+          "section_type": "proof",
+          "compound_id": "compound_evidence_trust",
+          "role": "핵심 증거 1~2개만 간결하게",
+          "height_vh": 40
+        },
+        {
+          "section_order": 3,
+          "section_type": "cta",
+          "compound_id": "compound_cta_urgency",
+          "role": "긴급 CTA: 카운트다운/한정수량",
+          "height_vh": 50
+        }
+      ],
+      "foundation_compounds": [],
+      "mood_flow": ["impactful", "evidence-based", "urgent"],
+      "estimated_scroll_depth": "shallow"
+    },
+    {
+      "id": "workflow_editorial_magazine",
+      "name": "매거진/에디토리얼형",
+      "name_en": "Editorial Magazine",
+      "description": "매거진 레이아웃의 아트 디렉션. 패션/아트/프리미엄 브랜드에 최적",
+      "target_categories": ["fashion", "luxury", "lifestyle"],
+      "target_audience": ["디자인 감각 높은", "패션 관심", "아트 소비자"],
+      "page_structure": [
+        {
+          "section_order": 1,
+          "section_type": "hero",
+          "compound_id": "compound_typography_forward",
+          "role": "타이포 중심 히어로: 이미지 없이 임팩트",
+          "height_vh": 100
+        },
+        {
+          "section_order": 2,
+          "section_type": "gallery",
+          "compound_id": "compound_gallery_mosaic",
+          "role": "에디토리얼 이미지 그리드",
+          "height_vh": 80
+        },
+        {
+          "section_order": 3,
+          "section_type": "scroll",
+          "compound_id": "compound_smooth_scroll_narrative",
+          "role": "시네마틱 스크롤 스토리텔링",
+          "height_vh": 80
+        },
+        {
+          "section_order": 4,
+          "section_type": "detail",
+          "compound_id": "compound_retro_modern",
+          "role": "레트로+모던 믹스 디테일 섹션",
+          "height_vh": 60
+        },
+        {
+          "section_order": 5,
+          "section_type": "cta",
+          "compound_id": "compound_cta_urgency",
+          "role": "에디토리얼 CTA: 최소한의 세련된 마무리",
+          "height_vh": 30
+        }
+      ],
+      "foundation_compounds": ["compound_brand_identity", "compound_color_system"],
+      "mood_flow": ["editorial", "rich", "cinematic", "retro", "elegant"],
+      "estimated_scroll_depth": "medium"
+    },
+    {
+      "id": "workflow_interactive_experience",
+      "name": "인터랙티브 체험형",
+      "name_en": "Interactive Experience",
+      "description": "인터랙티브 요소로 제품 체험. 앱/SaaS/디지털 제품에 최적",
+      "target_categories": ["tech", "electronics", "lifestyle"],
+      "target_audience": ["디지털 네이티브", "체험 중시", "UX 감각 높은"],
+      "page_structure": [
+        {
+          "section_order": 1,
+          "section_type": "hero",
+          "compound_id": "compound_depth_immersion",
+          "role": "3D/패럴랙스 몰입형 히어로",
+          "height_vh": 100
+        },
+        {
+          "section_order": 2,
+          "section_type": "feature",
+          "compound_id": "compound_interactive_cards",
+          "role": "호버 반응형 피처 카드 그리드",
+          "height_vh": 70
+        },
+        {
+          "section_order": 3,
+          "section_type": "scroll",
+          "compound_id": "compound_smooth_scroll_narrative",
+          "role": "스크롤 기반 제품 워크플로우 설명",
+          "height_vh": 80
+        },
+        {
+          "section_order": 4,
+          "section_type": "interaction",
+          "compound_id": "compound_micro_interaction",
+          "role": "마이크로 인터랙션 데모",
+          "height_vh": 60
+        },
+        {
+          "section_order": 5,
+          "section_type": "spec",
+          "compound_id": "compound_technical_authority",
+          "role": "기술 스택/API/성능 데이터",
+          "height_vh": 50
+        },
+        {
+          "section_order": 6,
+          "section_type": "cta",
+          "compound_id": "compound_cta_urgency",
+          "role": "무료 체험/다운로드 CTA",
+          "height_vh": 40
+        }
+      ],
+      "foundation_compounds": ["compound_color_system"],
+      "mood_flow": ["immersive", "interactive", "cinematic", "polished", "technical", "converting"],
+      "estimated_scroll_depth": "deep"
+    }
+  ]
+}
